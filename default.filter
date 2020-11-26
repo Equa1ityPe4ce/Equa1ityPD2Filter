@@ -7,7 +7,7 @@
 ItemDisplay[CLVL>19 CLVL<40 GOLD<20]:
 ItemDisplay[CLVL>39 CLVL<60 GOLD<50]:
 ItemDisplay[CLVL>59 CLVL<80 GOLD<1000]:
-ItemDisplay[CLVL>79 GOLD<5000]: %GOLD%-= Gold =-
+ItemDisplay[CLVL>79 GOLD<5000]:
 
 //Show me that item is etheral
 ItemDisplay[ETH UNI]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%%NAME%%CONTINUE%
