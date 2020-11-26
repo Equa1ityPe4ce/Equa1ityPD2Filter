@@ -1,4 +1,4 @@
-# Equa1ityPD2Filter
+# Equa1ity's PD2 Filter
 Loot Filter For Project Diablo 2
 
 NOTE:
