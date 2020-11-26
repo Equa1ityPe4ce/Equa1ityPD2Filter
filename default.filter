@@ -104,7 +104,7 @@ ItemDisplay[RUNE>25]:%BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PU
 
 //All Charms
 ItemDisplay[cm2 MAG !ID]: %TAN%*%BLUE% %NAME% %TAN%*
-ItemDisplay[cm1 OR cm3 MAG !ID]: %DOT-9B%%PURPLE%-%WHITE%=   %NAME%   %WHITE%=%PURPLE%-
+ItemDisplay[cm1 OR cm3 MAG !ID]: %DOT-9B%%PURPLE%-%WHITE%=   %BLUE%%NAME%   %WHITE%=%PURPLE%-
 ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %PX-68%%NAME%
 
 //Good Charms
