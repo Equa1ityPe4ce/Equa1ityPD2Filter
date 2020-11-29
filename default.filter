@@ -1,5 +1,5 @@
 /**
-* Equa1ity's  Hodge Podge L00t Filte12 V1.2.1
+* Equa1ity's  Hodge Podge L00t Filte12 V1.2.3
 * Used Kryszard's 1.4.1 as a base 90% of credit goes There
 * Pasted parts of Sawyers and Wolf's togeather to get the more distinc Item pieces to edit they split 9% more of the credit
 * and 1% goes to me for making it the way I wanted to
@@ -236,10 +236,10 @@ ItemDisplay[cm3 TABSK49>0]: %PURPLE%Shadow Disciplines %TAN%Skiller
 ItemDisplay[cm3 TABSK50>0]: %PURPLE%Martial Arts %TAN%Skiller
 
 //Highlight Good Magic items
-ItemDisplay[jew MAG !ID]: %BORDER-68%%TAN%-%WHITE%=%NL%%BLUE%%NAME%%WHITE%
+ItemDisplay[jew MAG !ID]: %BORDER-68%%TAN%-%WHITE%=%BLUE%%NAME%%WHITE%%TAN%-%WHITE%=%NL%
 
 //Highlight Good Rare items
-ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %BORDER-68%%WHITE%-%YELLOW%=%WHITE%-%YELLOW%=%NL%%YELLOW%%NAME%
+ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %BORDER-68%%WHITE%-%YELLOW%=%%NAME%%WHITE%-%YELLOW%=%NL%
 
 //Rainbow Facet
 ItemDisplay[jew UNI !ID]: %BORDER-68%%RED%r%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w     %GOLD%%NAME%%PURPLE%     r%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w%NL%%GREEN%pick me up
@@ -597,8 +597,8 @@ ItemDisplay[UNI !ID 7gw]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED
 //ItemDisplay[SET !ID tbl]: %DOT-62%%GREEN%*%GREEN% Iratha/Infernal Heavy Belt
 //ItemDisplay[SET !ID tgl]: %DOT-62%%GREEN%*%GREEN% Iratha/Arctic Light Gauntlets
 //ItemDisplay[SET !ID vbt]: %DOT-62%%GREEN%*%GREEN% Sander/Cow King Heavy Boots
-ItemDisplay[SET !ID amu]: %DOT-62%%GREEN% **SET** %TAN%AMULET
-ItemDisplay[SET !ID rin]: %DOT-62%%GREEN% **SET** %TAN%RING
+ItemDisplay[SET !ID amu]: %DOT-62% %GREEN%AMULET%NL%%DARK_GREEN% **SET**
+ItemDisplay[SET !ID rin]: %DOT-62% %GREEN%RING%NL%%DARK_GREEN% **SET**
 
 //- ALDUR'S ---------------------------
 ItemDisplay[SET !ID xtb]: %DOT-62%%GREEN%*%GREEN% Aldur's Boots
@@ -622,8 +622,8 @@ ItemDisplay[SET !ID swb]: %GREEN% Arctic Bow
 
 //- BERSERKER'S -----------------------
 ItemDisplay[SET !ID 2ax]: %GREEN% Berserker's Axe
-ItemDisplay[SET !ID spl]: %DOT-62%%GREEN%*%GREEN% Berserker's Mail
-ItemDisplay[SET !ID hlm]: %DOT-62%%GREEN%*%GREEN% Berserker's Helm
+ItemDisplay[SET !ID spl]: %GREEN%*%GREEN% Berserker's Mail
+ItemDisplay[SET !ID hlm]: %GREEN%*%GREEN% Berserker's Helm
 
 //- BUL-KATHOS' -----------------------
 ItemDisplay[SET !ID 7gd]: %DOT-62%%GREEN%*%GREEN% Bul-Kathos' Blade
