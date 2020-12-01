@@ -764,7 +764,7 @@ ItemDisplay[SET !ID ful]: %GREEN% Tancred's Mail
 ItemDisplay[SET !ID umc]: %%GREEN% Disciple Belt
 ItemDisplay[SET !ID uui]: %%GREEN% Disciple Armor
 ItemDisplay[SET !ID ulg]: %DOT-62%%GREEN%*%GREEN% Laying of Hands Bramble Mitts
-ItemDisplay[SET !ID xlb]: %DOT-62%%GREEN%*%GREEN% Disciple Boots %RED* HAS CBF
+ItemDisplay[SET !ID xlb]: %DOT-62%%GREEN%*%GREEN% Disciple Boots %RED% has cbf
 //Telling of Beads Amulet, in "Multi" at the top of the sets section
 
 //- TRANG-OUL'S -----------------------
