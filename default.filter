@@ -1,8 +1,8 @@
 /**
-* Equa1ity's  Hodge Podge L00t Filte12 V1.3.1
+* Equa1ity's  Hodge Podge L00t Filte12 V1.3.2
 * Used Kryszard's 1.4.1 as a base 90% of credit goes There
 * Pasted parts of Sawyers and Wolf's togeather to get the more distinc Item pieces to edit they split 9% more of the credit
-* and 1% goes to xAssist for QA
+* and 1% goes to xAssist for QA Awesome feed back
 */GOLDld
 ItemDisplay[CLVL>19 CLVL<40 GOLD<20]:
 ItemDisplay[CLVL>39 CLVL<60 GOLD<50]:
