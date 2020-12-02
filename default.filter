@@ -1,8 +1,8 @@
 /**
-* Equa1ity's  Hodge Podge L00t Filte12 V1.3
+* Equa1ity's  Hodge Podge L00t Filte12 V1.3.2
 * Used Kryszard's 1.4.1 as a base 90% of credit goes There
 * Pasted parts of Sawyers and Wolf's togeather to get the more distinc Item pieces to edit they split 9% more of the credit
-* and 1% goes to xAssist for QA
+* and 1% goes to xAssist for QA Awesome feed back
 */GOLDld
 ItemDisplay[CLVL>19 CLVL<40 GOLD<20]:
 ItemDisplay[CLVL>39 CLVL<60 GOLD<50]:
@@ -1235,7 +1235,18 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ELT BAR SK154>2]: %GRAY%%NAME%%ORANGE% (+3
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (ba4 OR ba5 OR ba9 OR baa OR bae OR baf) SK154>2]: %GRAY%%NAME%%ORANGE% (+3 WC, Delirium/Dream)%MAP-1E%%PX-00%// Barbarian helmets, elite, non-magic, 3s, wings only, +3 War Cry
 
 //- PALADIN ---------------------------
-//- Resists
+//- Sacred Targe
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 pab RES>30]: %NAME%%MAP-20%%PX-00%// Sacred Rondache, resists, 0s
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 pab RES>30]: %GRAY%%NAME%%ORANGE%(Phoenix/Spirit)%MAP-1E%%PX-00%// Sacred Rondache, resists, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=0 pab ED>9 RES>30]: %NAME%%MAP-20%%PX-00%// Sacred Rondache, resists, 0s, superior
+ItemDisplay[NMAG SUP !RW !ETH SOCK=2 pab ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Rhyme/Splendor)%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, 2s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=3 pab ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Dragon/Dream/Sanctuary)%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, 3s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 pab ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Phoenix/Spirit)%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, 4s
+
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 pac RES>30]: %GRAY%%NAME%%MAP-1E%%PX-00%// Sacred Rondache, resists, eth, 0s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 pac RES>30]: %GRAY%%NAME%%ORANGE%(Exile)%MAP-1E%%PX-00%// Sacred Rondache, resists, eth, 4s
+ItemDisplay[NMAG SUP !RW ETH SOCK=0 pac ED>9 RES>30]: %GRAY%%NAME%%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, eth, 0s
+ItemDisplay[NMAG SUP !RW ETH SOCK=4 pac ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Exile)%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, eth, 4s
 
 //- Sacred Rondache
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 pac RES>30]: %NAME%%MAP-20%%PX-00%// Sacred Rondache, resists, 0s
