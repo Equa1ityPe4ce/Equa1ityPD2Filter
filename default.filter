@@ -918,146 +918,103 @@ ItemDisplay[NMAG !INF DIN ED>64]: %NAME% %ORANGE%(65 Damage)%CONTINUE%
 //- RESIST NAME TAG -------------------
 //35
 //White
-ItemDisplay[NMAG !ETH !INF DIN RES=35]: %DOT-62%%NAME%%ORANGE%35
-ItemDisplay[NMAG !ETH !INF DIN RES=35]: %DOT-62%%NAME%%ORANGE%35
-
-//Soc
-ItemDisplay[NMAG !ETH !INF DIN RES=35 SOCK>2]: %DOT-62%%NAME%%ORANGE%35
-ItemDisplay[NMAG !ETH !INF DIN RES=35]: %DOT-62%%NAME%%ORANGE%35
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=35]: %DOT-62%%NAME%%ORANGE%35
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=35 SOCK>2]: %DOT-62%%NAME%%ORANGE%35
 
 //Eth
-ItemDisplay[NMAG ETH !INF DIN RES=35]: %NAME%%ORANGE%35
-ItemDisplay[NMAG ETH !INF DIN RES=35 SOCK>2]: %DOT-62%%NAME%%ORANGE%35
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=35]: %DOT-62%%NAME%%ORANGE%35
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=35 SOCK>2]: %DOT-62%%NAME%%ORANGE%35
 
 //36
 //White
-ItemDisplay[NMAG !ETH !INF DIN RES=36]: %DOT-62%%NAME%%ORANGE%36
-ItemDisplay[NMAG !ETH !INF DIN RES=36]: %DOT-62%%NAME%%ORANGE%36
-
-//Soc
-ItemDisplay[NMAG !ETH !INF DIN RES=36 SOCK>2]: %DOT-62%%NAME%%ORANGE%36
-ItemDisplay[NMAG !ETH !INF DIN RES=36]: %DOT-62%%NAME%%ORANGE%36
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=36]: %DOT-62%%NAME%%ORANGE%36
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=36 SOCK>2]: %DOT-62%%NAME%%ORANGE%36
 
 //Eth
-ItemDisplay[NMAG ETH !INF DIN RES=36]: %NAME%%ORANGE%36
-ItemDisplay[NMAG ETH !INF DIN RES=36 SOCK>2]: %DOT-62%%NAME%%ORANGE%36
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=36]: %DOT-62%%NAME%%ORANGE%36
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=36 SOCK>2]: %DOT-62%%NAME%%ORANGE%36
 
 //37
 //White
-ItemDisplay[NMAG !ETH !INF DIN RES=37]: %DOT-62%%NAME%%ORANGE%37
-ItemDisplay[NMAG !ETH !INF DIN RES=37]: %DOT-62%%NAME%%ORANGE%37
-
-//Soc
-ItemDisplay[NMAG !ETH !INF DIN RES=37 SOCK>2]: %DOT-62%%NAME%%ORANGE%37
-ItemDisplay[NMAG !ETH !INF DIN RES=37]: %DOT-62%%NAME%%ORANGE%37
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=37]: %DOT-62%%NAME%%ORANGE%37
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=37 SOCK>2]: %DOT-62%%NAME%%ORANGE%37
 
 //Eth
-ItemDisplay[NMAG ETH !INF DIN RES=37]: %NAME%%ORANGE%37
-ItemDisplay[NMAG ETH !INF DIN RES=37 SOCK>2]: %DOT-62%%NAME%%ORANGE%37
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=37]: %DOT-62%%NAME%%ORANGE%37
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=37 SOCK>2]: %DOT-62%%NAME%%ORANGE%37
 
 //38
 //White
-ItemDisplay[NMAG !ETH !INF DIN RES=38]: %DOT-62%%NAME%%ORANGE%38
-ItemDisplay[NMAG !ETH !INF DIN RES=38]: %DOT-62%%NAME%%ORANGE%38
-
-//Soc
-ItemDisplay[NMAG !ETH !INF DIN RES=38 SOCK>2]: %DOT-62%%NAME%%ORANGE%38
-ItemDisplay[NMAG !ETH !INF DIN RES=38]: %DOT-62%%NAME%%ORANGE%38
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=38]: %DOT-62%%NAME%%ORANGE%38
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=38 SOCK>2]: %DOT-62%%NAME%%ORANGE%38
 
 //Eth
-ItemDisplay[NMAG ETH !INF DIN RES=38]: %NAME%%ORANGE%38
-ItemDisplay[NMAG ETH !INF DIN RES=38 SOCK>2]: %DOT-62%%NAME%%ORANGE%38
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=38]: %DOT-62%%NAME%%ORANGE%38
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=38 SOCK>2]: %DOT-62%%NAME%%ORANGE%38
 
 //39
 //White
-ItemDisplay[NMAG !ETH !INF DIN RES=39]: %DOT-62%%NAME%%ORANGE%39
-ItemDisplay[NMAG !ETH !INF DIN RES=39]: %DOT-62%%NAME%%ORANGE%39
-
-//Soc
-ItemDisplay[NMAG !ETH !INF DIN RES=39 SOCK>2]: %DOT-62%%NAME%%ORANGE%39
-ItemDisplay[NMAG !ETH !INF DIN RES=39]: %DOT-62%%NAME%%ORANGE%39
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=39]: %DOT-62%%NAME%%ORANGE%39
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=39 SOCK>2]: %DOT-62%%NAME%%ORANGE%39
 
 //Eth
-ItemDisplay[NMAG ETH !INF DIN RES=39]: %NAME%%ORANGE%39
-ItemDisplay[NMAG ETH !INF DIN RES=39 SOCK>2]: %DOT-62%%NAME%%ORANGE%39
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=39]: %DOT-62%%NAME%%ORANGE%39
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=39 SOCK>2]: %DOT-62%%NAME%%ORANGE%39
 
 //40
 //White
-ItemDisplay[NMAG !ETH !INF DIN RES=40]: %DOT-62%%NAME%%ORANGE%40
-ItemDisplay[NMAG !ETH !INF DIN RES=40]: %DOT-62%%NAME%%ORANGE%40
-
-//Soc
-ItemDisplay[NMAG !ETH !INF DIN RES=40 SOCK>2]: %DOT-62%%NAME%%ORANGE%40
-ItemDisplay[NMAG !ETH !INF DIN RES=40]: %DOT-62%%NAME%%ORANGE%40
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=40]: %DOT-62%%NAME%%ORANGE%40
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=40 SOCK>2]: %DOT-62%%NAME%%ORANGE%40
 
 //Eth
-ItemDisplay[NMAG ETH !INF DIN RES=40]: %NAME%%ORANGE%40
-ItemDisplay[NMAG ETH !INF DIN RES=40 SOCK>2]: %DOT-62%%NAME%%ORANGE%40
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=40]: %DOT-62%%NAME%%ORANGE%40
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=40 SOCK>2]: %DOT-62%%NAME%%ORANGE%40
 
 //41
 //White
-ItemDisplay[NMAG !ETH !INF DIN RES=41]: %DOT-62%%NAME%%ORANGE%41
-ItemDisplay[NMAG !ETH !INF DIN RES=41]: %DOT-62%%NAME%%ORANGE%41
-
-//Soc
-ItemDisplay[NMAG !ETH !INF DIN RES=41 SOCK>2]: %DOT-62%%NAME%%ORANGE%41
-ItemDisplay[NMAG !ETH !INF DIN RES=41]: %DOT-62%%NAME%%ORANGE%41
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=41]: %DOT-62%%NAME%%ORANGE%41
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=41 SOCK>2]: %DOT-62%%NAME%%ORANGE%41
 
 //Eth
-ItemDisplay[NMAG ETH !INF DIN RES=41]: %NAME%%ORANGE%41
-ItemDisplay[NMAG ETH !INF DIN RES=41 SOCK>2]: %DOT-62%%NAME%%ORANGE%41
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=41]: %DOT-62%%NAME%%ORANGE%41
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=41 SOCK>2]: %DOT-62%%NAME%%ORANGE%41
 
 //42
 //White
-ItemDisplay[NMAG !ETH !INF DIN RES=42]: %DOT-62%%NAME%%ORANGE%42
-ItemDisplay[NMAG !ETH !INF DIN RES=42]: %DOT-62%%NAME%%ORANGE%42
-
-//Soc
-ItemDisplay[NMAG !ETH !INF DIN RES=42 SOCK>2]: %DOT-62%%NAME%%ORANGE%42
-ItemDisplay[NMAG !ETH !INF DIN RES=42]: %DOT-62%%NAME%%ORANGE%42
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=42]: %DOT-62%%NAME%%ORANGE%42
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=42 SOCK>2]: %DOT-62%%NAME%%ORANGE%42
 
 //Eth
-ItemDisplay[NMAG ETH !INF DIN RES=42]: %NAME%%ORANGE%42
-ItemDisplay[NMAG ETH !INF DIN RES=42 SOCK>2]: %DOT-62%%NAME%%ORANGE%42
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=42]: %DOT-62%%NAME%%ORANGE%42
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=42 SOCK>2]: %DOT-62%%NAME%%ORANGE%42
 
 //43
 //White
-ItemDisplay[NMAG !ETH !INF DIN RES=43]: %DOT-62%%NAME%%ORANGE%43
-ItemDisplay[NMAG !ETH !INF DIN RES=43]: %DOT-62%%NAME%%ORANGE%43
-
-//Soc
-ItemDisplay[NMAG !ETH !INF DIN RES=43 SOCK>2]: %DOT-62%%NAME%%ORANGE%43
-ItemDisplay[NMAG !ETH !INF DIN RES=43]: %DOT-62%%NAME%%ORANGE%43
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=43]: %DOT-62%%NAME%%ORANGE%43
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=43 SOCK>2]: %DOT-62%%NAME%%ORANGE%43
 
 //Eth
-ItemDisplay[NMAG ETH !INF DIN RES=43]: %NAME%%ORANGE%43
-ItemDisplay[NMAG ETH !INF DIN RES=43 SOCK>2]: %DOT-62%%NAME%%ORANGE%43
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=43]: %DOT-62%%NAME%%ORANGE%43
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=43 SOCK>2]: %DOT-62%%NAME%%ORANGE%43
 
 //44
 //White
-ItemDisplay[NMAG !ETH !INF DIN RES=44]: %DOT-62%%NAME%%ORANGE%44
-ItemDisplay[NMAG !ETH !INF DIN RES=44]: %DOT-62%%NAME%%ORANGE%44
-
-//Soc
-ItemDisplay[NMAG !ETH !INF DIN RES=44 SOCK>2]: %DOT-62%%NAME%%ORANGE%44
-ItemDisplay[NMAG !ETH !INF DIN RES=44]: %DOT-62%%NAME%%ORANGE%44
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=44]: %DOT-62%%NAME%%ORANGE%44
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=44 SOCK>2]: %DOT-62%%NAME%%ORANGE%44
 
 //Eth
-ItemDisplay[NMAG ETH !INF DIN RES=44]: %NAME%%ORANGE%44
-ItemDisplay[NMAG ETH !INF DIN RES=44 SOCK>2]: %DOT-62%%NAME%%ORANGE%44
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=44]: %DOT-62%%NAME%%ORANGE%44
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=44 SOCK>2]: %DOT-62%%NAME%%ORANGE%44
 
 //45
 //White
-ItemDisplay[NMAG !ETH !INF DIN RES=45]: %DOT-62%%NAME%%ORANGE%45
-ItemDisplay[NMAG !ETH !INF DIN RES=45]: %DOT-62%%NAME%%ORANGE%45
-
-//Soc
-ItemDisplay[NMAG !ETH !INF DIN RES=45 SOCK>2]: %DOT-62%%NAME%%ORANGE%45
-ItemDisplay[NMAG !ETH !INF DIN RES=45]: %DOT-62%%NAME%%ORANGE%45
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=44]: %DOT-62%%NAME%%ORANGE%45
+ItemDisplay[NMAG !ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=44 SOCK>2]: %DOT-62%%NAME%%ORANGE%45
 
 //Eth
-ItemDisplay[NMAG ETH !INF DIN RES=45]: %NAME%%ORANGE%45
-ItemDisplay[NMAG ETH !INF DIN RES=45 SOCK>2]: %DOT-62%%NAME%%ORANGE%45
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=44]: %DOT-62%%NAME%%ORANGE%45
+ItemDisplay[NMAG ETH !INF (pab OR pac OR pad OR pae OR paf OR paa) RES=44 SOCK>2]: %DOT-62%%NAME%%ORANGE%45
+
 
 //Sorc ES Staffs
 ItemDisplay[NMAG !INF !RW SOCK=0 (lst OR cst OR bst OR wst OR 8ls OR 8cs OR 8bs OR 8ws OR 6ls OR  6cs OR 6bs OR 6ws) SK58>2]: %NAME%%DARK_GREEN%(%ORANGE%ES%DARK_GREEN%)
