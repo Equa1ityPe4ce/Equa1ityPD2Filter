@@ -1,8 +1,8 @@
 /**
-* Equa1ity's  Hodge Podge L00t Filte12 V1.2.3
+* Equa1ity's  Hodge Podge L00t Filte12 V1.3
 * Used Kryszard's 1.4.1 as a base 90% of credit goes There
 * Pasted parts of Sawyers and Wolf's togeather to get the more distinc Item pieces to edit they split 9% more of the credit
-* and 1% goes to me for making it the way I wanted to
+* and 1% goes to xAssist for QA
 */GOLDld
 ItemDisplay[CLVL>19 CLVL<40 GOLD<20]:
 ItemDisplay[CLVL>39 CLVL<60 GOLD<50]:
@@ -804,9 +804,12 @@ ItemDisplay[(xlg OR ulg) MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHI
 ItemDisplay[(uvc OR zvb) MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ith %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Belt %WHITE%Craft Recipe:}
 ItemDisplay[(umg OR xmg) MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHITE%+ Perf %BLUE%O %WHITE%+ %ORANGE%Ort %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%HitPower Gloves %WHITE%Craft Recipe:}
 ItemDisplay[uit MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHITE%+ Perf %GREEN%O %WHITE%+ %ORANGE%Nef %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Safety Shield %WHITE%Craft Recipe:}
-ItemDisplay[amu MAG]: %NAME%{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
-ItemDisplay[rin MAG]: %NAME%{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Blood Ring %WHITE%Craft Recipe:}
-
+ItemDisplay[amu MAG ILVL<84]: %NAME%%ORANGE%[%GRAY%iLv%ILVL%%ORANGE%]{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
+ItemDisplay[amu MAG ILVL>84 ILVL<90]: %NAME%%ORANGE%[iLv%ILVL%]{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
+ItemDisplay[amu MAG ILVL>90]: %NAME%%ORANGE%[%RED%iLv%ILVL%%ORANGE%]{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
+ItemDisplay[rin MAG ILVL<84]: %NAME%%ORANGE%[%GRAY%iLv%ILVL%%ORANGE%]{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
+ItemDisplay[rin MAG ILVL>84 ILVL<90]: %NAME%%ORANGE%[iLv%ILVL%]{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
+ItemDisplay[rin MAG ILVL>90]: %NAME%%ORANGE%[%RED%iLv%ILVL%%ORANGE%]{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
 
 //Class items
 ItemDisplay[(SOR OR STAFF OR WAND OR SCEPTER OR DRU OR BAR OR NEC OR SIN) NMAG CLVL<41]: %NAME% %GRAY%(%TAN%$%WHITE%%PRICE%%GRAY%)
@@ -921,6 +924,11 @@ ItemDisplay[NMAG !INF DIN (RES>29 AND RES<35)]: %NAME% %ORANGE%(30+ Resists)%CON
 ItemDisplay[NMAG !INF DIN (RES>34 AND RES<40)]: %NAME% %ORANGE%(35+ Resists)%CONTINUE%
 ItemDisplay[NMAG !INF DIN (RES>39 AND RES<45)]: %NAME%%MAP-20%%PX-00% %ORANGE%(40+ Resists)%CONTINUE%
 ItemDisplay[NMAG !INF DIN RES>44]: %NAME%%MAP-20%%PX-00% %ORANGE%(45 Resists)%CONTINUE%
+
+//Sorc ES Staffs
+ItemDisplay[NMAG !INF !RW SOCK=0 (lst OR cst OR bst OR wst OR 8ls OR 8cs OR 8bs OR 8ws OR 6ls OR  6cs OR 6bs OR 6ws) SK58>2]: %NAME%%DARK_GREEN%(%ORANGE%ES%DARK_GREEN%)
+ItemDisplay[NMAG !INF !RW SOCK=4 (sst OR lst OR cst OR bst OR wst OR 8ss OR 8ls OR 8cs OR 8bs OR 8ws OR 6ss OR 6ls OR  6cs OR 6bs OR 6ws) SK58>2]: %DOT-62%%NAME%%DARK_GREEN%(%ORANGE%ES%DARK_GREEN%)
+ItemDisplay[NMAG !INF !RW SOCK=5 6ws SK58>2]: %DOT-62%%NAME%%RED%xAssist's CTA BASE / ES staff
 
 //- AMAZON ----------------------------
 //- Matriarchal Bow
@@ -1959,6 +1967,12 @@ ItemDisplay[fed]: %DOT-62%%ORANGE%*%NAME%{%TAN%Essence %WHITE%from: %DARK_GREEN%
 ItemDisplay[pk1]: %BORDER-62%%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-
 ItemDisplay[pk2]: %BORDER-62%%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-
 ItemDisplay[pk3]: %BORDER-62%%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-
+
+//Organs
+ItemDisplay[(dhn OR bey OR mbr)]: %BORDER-62%%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-
+
+//Tokens
+ItemDisplay[toa]: %BORDER-62%%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-
 
 //Runes Note
 ItemDisplay[RUNE>0]: %NAME%{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}%CONTINUE%
