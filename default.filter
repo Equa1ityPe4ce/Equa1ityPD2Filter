@@ -1,5 +1,5 @@
 /**
-* Equa1ity's  Hodge Podge L00t Filte12 V1.3.2
+* Equa1ity's  Hodge Podge L00t Filte12 V1.3.3
 * Used Kryszard's 1.4.1 as a base 90% of credit goes There
 * Pasted parts of Sawyers and Wolf's togeather to get the more distinc Item pieces to edit they split 9% more of the credit
 * and 1% goes to xAssist for QA Awesome feed back
@@ -456,7 +456,7 @@ ItemDisplay[UNI !ID 8rx]: %DOT-62%%GOLD% Demon Machine Chu-Ko-Nu
 ItemDisplay[UNI !ID 6hx]: %DOT-62%%GOLD% Hellrack Colossus Crossbow
 ItemDisplay[UNI !ID 6rx]: %DOT-62%%GOLD% Gut Siphon Demon Crossbow
 ItemDisplay[UNI !ID dgr]: %DOT-62%%GOLD% Gull Dagger
-ItemDisplay[UNI !ID dir]: %DOT-62%%GOLD% ler // The Diggler Dirk
+ItemDisplay[UNI !ID dir]: %DOT-62%%GOLD% Diggler // The Diggler Dirk
 ItemDisplay[UNI !ID kri]: %DOT-62%%GOLD% The Jade Tan Do Kris
 ItemDisplay[UNI !ID bld]: %DOT-62%%GOLD% Spectral Shard Blade
 ItemDisplay[UNI !ID 9dg]: %DOT-62%%GOLD% Spineripper Poignard
@@ -916,14 +916,148 @@ ItemDisplay[NMAG !INF DIN (ED>59 AND ED<65)]: %NAME% %ORANGE%(60+ Damage)%CONTIN
 ItemDisplay[NMAG !INF DIN ED>64]: %NAME% %ORANGE%(65 Damage)%CONTINUE%
 
 //- RESIST NAME TAG -------------------
-ItemDisplay[NMAG !INF DIN (RES>9 AND RES<15)]: %NAME% %ORANGE%(10+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN (RES>14 AND RES<20)]: %NAME% %ORANGE%(15+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN (RES>19 AND RES<25)]: %NAME% %ORANGE%(20+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN (RES>24 AND RES<30)]: %NAME% %ORANGE%(25+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN (RES>29 AND RES<35)]: %NAME% %ORANGE%(30+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN (RES>34 AND RES<40)]: %NAME% %ORANGE%(35+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN (RES>39 AND RES<45)]: %NAME%%MAP-20%%PX-00% %ORANGE%(40+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN RES>44]: %NAME%%MAP-20%%PX-00% %ORANGE%(45 Resists)%CONTINUE%
+//35
+//White
+ItemDisplay[NMAG !ETH !INF DIN RES=35]: %DOT-62%%NAME%%ORANGE%35
+ItemDisplay[NMAG !ETH !INF DIN RES=35]: %DOT-62%%NAME%%ORANGE%35
+
+//Soc
+ItemDisplay[NMAG !ETH !INF DIN RES=35 SOCK>2]: %DOT-62%%NAME%%ORANGE%35
+ItemDisplay[NMAG !ETH !INF DIN RES=35]: %DOT-62%%NAME%%ORANGE%35
+
+//Eth
+ItemDisplay[NMAG ETH !INF DIN RES=35]: %NAME%%ORANGE%35
+ItemDisplay[NMAG ETH !INF DIN RES=35 SOCK>2]: %DOT-62%%NAME%%ORANGE%35
+
+//36
+//White
+ItemDisplay[NMAG !ETH !INF DIN RES=36]: %DOT-62%%NAME%%ORANGE%36
+ItemDisplay[NMAG !ETH !INF DIN RES=36]: %DOT-62%%NAME%%ORANGE%36
+
+//Soc
+ItemDisplay[NMAG !ETH !INF DIN RES=36 SOCK>2]: %DOT-62%%NAME%%ORANGE%36
+ItemDisplay[NMAG !ETH !INF DIN RES=36]: %DOT-62%%NAME%%ORANGE%36
+
+//Eth
+ItemDisplay[NMAG ETH !INF DIN RES=36]: %NAME%%ORANGE%36
+ItemDisplay[NMAG ETH !INF DIN RES=36 SOCK>2]: %DOT-62%%NAME%%ORANGE%36
+
+//37
+//White
+ItemDisplay[NMAG !ETH !INF DIN RES=37]: %DOT-62%%NAME%%ORANGE%37
+ItemDisplay[NMAG !ETH !INF DIN RES=37]: %DOT-62%%NAME%%ORANGE%37
+
+//Soc
+ItemDisplay[NMAG !ETH !INF DIN RES=37 SOCK>2]: %DOT-62%%NAME%%ORANGE%37
+ItemDisplay[NMAG !ETH !INF DIN RES=37]: %DOT-62%%NAME%%ORANGE%37
+
+//Eth
+ItemDisplay[NMAG ETH !INF DIN RES=37]: %NAME%%ORANGE%37
+ItemDisplay[NMAG ETH !INF DIN RES=37 SOCK>2]: %DOT-62%%NAME%%ORANGE%37
+
+//38
+//White
+ItemDisplay[NMAG !ETH !INF DIN RES=38]: %DOT-62%%NAME%%ORANGE%38
+ItemDisplay[NMAG !ETH !INF DIN RES=38]: %DOT-62%%NAME%%ORANGE%38
+
+//Soc
+ItemDisplay[NMAG !ETH !INF DIN RES=38 SOCK>2]: %DOT-62%%NAME%%ORANGE%38
+ItemDisplay[NMAG !ETH !INF DIN RES=38]: %DOT-62%%NAME%%ORANGE%38
+
+//Eth
+ItemDisplay[NMAG ETH !INF DIN RES=38]: %NAME%%ORANGE%38
+ItemDisplay[NMAG ETH !INF DIN RES=38 SOCK>2]: %DOT-62%%NAME%%ORANGE%38
+
+//39
+//White
+ItemDisplay[NMAG !ETH !INF DIN RES=39]: %DOT-62%%NAME%%ORANGE%39
+ItemDisplay[NMAG !ETH !INF DIN RES=39]: %DOT-62%%NAME%%ORANGE%39
+
+//Soc
+ItemDisplay[NMAG !ETH !INF DIN RES=39 SOCK>2]: %DOT-62%%NAME%%ORANGE%39
+ItemDisplay[NMAG !ETH !INF DIN RES=39]: %DOT-62%%NAME%%ORANGE%39
+
+//Eth
+ItemDisplay[NMAG ETH !INF DIN RES=39]: %NAME%%ORANGE%39
+ItemDisplay[NMAG ETH !INF DIN RES=39 SOCK>2]: %DOT-62%%NAME%%ORANGE%39
+
+//40
+//White
+ItemDisplay[NMAG !ETH !INF DIN RES=40]: %DOT-62%%NAME%%ORANGE%40
+ItemDisplay[NMAG !ETH !INF DIN RES=40]: %DOT-62%%NAME%%ORANGE%40
+
+//Soc
+ItemDisplay[NMAG !ETH !INF DIN RES=40 SOCK>2]: %DOT-62%%NAME%%ORANGE%40
+ItemDisplay[NMAG !ETH !INF DIN RES=40]: %DOT-62%%NAME%%ORANGE%40
+
+//Eth
+ItemDisplay[NMAG ETH !INF DIN RES=40]: %NAME%%ORANGE%40
+ItemDisplay[NMAG ETH !INF DIN RES=40 SOCK>2]: %DOT-62%%NAME%%ORANGE%40
+
+//41
+//White
+ItemDisplay[NMAG !ETH !INF DIN RES=41]: %DOT-62%%NAME%%ORANGE%41
+ItemDisplay[NMAG !ETH !INF DIN RES=41]: %DOT-62%%NAME%%ORANGE%41
+
+//Soc
+ItemDisplay[NMAG !ETH !INF DIN RES=41 SOCK>2]: %DOT-62%%NAME%%ORANGE%41
+ItemDisplay[NMAG !ETH !INF DIN RES=41]: %DOT-62%%NAME%%ORANGE%41
+
+//Eth
+ItemDisplay[NMAG ETH !INF DIN RES=41]: %NAME%%ORANGE%41
+ItemDisplay[NMAG ETH !INF DIN RES=41 SOCK>2]: %DOT-62%%NAME%%ORANGE%41
+
+//42
+//White
+ItemDisplay[NMAG !ETH !INF DIN RES=42]: %DOT-62%%NAME%%ORANGE%42
+ItemDisplay[NMAG !ETH !INF DIN RES=42]: %DOT-62%%NAME%%ORANGE%42
+
+//Soc
+ItemDisplay[NMAG !ETH !INF DIN RES=42 SOCK>2]: %DOT-62%%NAME%%ORANGE%42
+ItemDisplay[NMAG !ETH !INF DIN RES=42]: %DOT-62%%NAME%%ORANGE%42
+
+//Eth
+ItemDisplay[NMAG ETH !INF DIN RES=42]: %NAME%%ORANGE%42
+ItemDisplay[NMAG ETH !INF DIN RES=42 SOCK>2]: %DOT-62%%NAME%%ORANGE%42
+
+//43
+//White
+ItemDisplay[NMAG !ETH !INF DIN RES=43]: %DOT-62%%NAME%%ORANGE%43
+ItemDisplay[NMAG !ETH !INF DIN RES=43]: %DOT-62%%NAME%%ORANGE%43
+
+//Soc
+ItemDisplay[NMAG !ETH !INF DIN RES=43 SOCK>2]: %DOT-62%%NAME%%ORANGE%43
+ItemDisplay[NMAG !ETH !INF DIN RES=43]: %DOT-62%%NAME%%ORANGE%43
+
+//Eth
+ItemDisplay[NMAG ETH !INF DIN RES=43]: %NAME%%ORANGE%43
+ItemDisplay[NMAG ETH !INF DIN RES=43 SOCK>2]: %DOT-62%%NAME%%ORANGE%43
+
+//44
+//White
+ItemDisplay[NMAG !ETH !INF DIN RES=44]: %DOT-62%%NAME%%ORANGE%44
+ItemDisplay[NMAG !ETH !INF DIN RES=44]: %DOT-62%%NAME%%ORANGE%44
+
+//Soc
+ItemDisplay[NMAG !ETH !INF DIN RES=44 SOCK>2]: %DOT-62%%NAME%%ORANGE%44
+ItemDisplay[NMAG !ETH !INF DIN RES=44]: %DOT-62%%NAME%%ORANGE%44
+
+//Eth
+ItemDisplay[NMAG ETH !INF DIN RES=44]: %NAME%%ORANGE%44
+ItemDisplay[NMAG ETH !INF DIN RES=44 SOCK>2]: %DOT-62%%NAME%%ORANGE%44
+
+//45
+//White
+ItemDisplay[NMAG !ETH !INF DIN RES=45]: %DOT-62%%NAME%%ORANGE%45
+ItemDisplay[NMAG !ETH !INF DIN RES=45]: %DOT-62%%NAME%%ORANGE%45
+
+//Soc
+ItemDisplay[NMAG !ETH !INF DIN RES=45 SOCK>2]: %DOT-62%%NAME%%ORANGE%45
+ItemDisplay[NMAG !ETH !INF DIN RES=45]: %DOT-62%%NAME%%ORANGE%45
+
+//Eth
+ItemDisplay[NMAG ETH !INF DIN RES=45]: %NAME%%ORANGE%45
+ItemDisplay[NMAG ETH !INF DIN RES=45 SOCK>2]: %DOT-62%%NAME%%ORANGE%45
 
 //Sorc ES Staffs
 ItemDisplay[NMAG !INF !RW SOCK=0 (lst OR cst OR bst OR wst OR 8ls OR 8cs OR 8bs OR 8ws OR 6ls OR  6cs OR 6bs OR 6ws) SK58>2]: %NAME%%DARK_GREEN%(%ORANGE%ES%DARK_GREEN%)
@@ -1233,44 +1367,6 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=3 NORM BAR SK154>2]: %GRAY%%NAME%%ORANGE% (+
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 EXC BAR SK154>2]: %GRAY%%NAME%%ORANGE% (+3 WC, Delirium/Dream)%MAP-1E%%PX-00%// Barbarian helmets, exceptional, non-magic, 3s, +3 War Cry
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ELT BAR SK154>2]: %GRAY%%NAME%%ORANGE% (+3 WC, Delirium/Dream)%MAP-1E%%PX-00%// Barbarian helmets, elite, non-magic, 3s, +3 War Cry
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (ba4 OR ba5 OR ba9 OR baa OR bae OR baf) SK154>2]: %GRAY%%NAME%%ORANGE% (+3 WC, Delirium/Dream)%MAP-1E%%PX-00%// Barbarian helmets, elite, non-magic, 3s, wings only, +3 War Cry
-
-//- PALADIN ---------------------------
-//- Sacred Targe
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 pab RES>30]: %NAME%%MAP-20%%PX-00%// Sacred Rondache, resists, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 pab RES>30]: %GRAY%%NAME%%ORANGE%(Phoenix/Spirit)%MAP-1E%%PX-00%// Sacred Rondache, resists, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=0 pab ED>9 RES>30]: %NAME%%MAP-20%%PX-00%// Sacred Rondache, resists, 0s, superior
-ItemDisplay[NMAG SUP !RW !ETH SOCK=2 pab ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Rhyme/Splendor)%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, 2s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=3 pab ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Dragon/Dream/Sanctuary)%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, 3s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 pab ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Phoenix/Spirit)%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, 4s
-
-ItemDisplay[NMAG !INF !RW ETH SOCK=0 pac RES>30]: %GRAY%%NAME%%MAP-1E%%PX-00%// Sacred Rondache, resists, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 pac RES>30]: %GRAY%%NAME%%ORANGE%(Exile)%MAP-1E%%PX-00%// Sacred Rondache, resists, eth, 4s
-ItemDisplay[NMAG SUP !RW ETH SOCK=0 pac ED>9 RES>30]: %GRAY%%NAME%%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, eth, 0s
-ItemDisplay[NMAG SUP !RW ETH SOCK=4 pac ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Exile)%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, eth, 4s
-
-//- Sacred Rondache
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 pac RES>30]: %NAME%%MAP-20%%PX-00%// Sacred Rondache, resists, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 pac RES>30]: %GRAY%%NAME%%ORANGE%(Phoenix/Spirit)%MAP-1E%%PX-00%// Sacred Rondache, resists, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=0 pac ED>9 RES>30]: %NAME%%MAP-20%%PX-00%// Sacred Rondache, resists, 0s, superior
-ItemDisplay[NMAG SUP !RW !ETH SOCK=2 pac ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Rhyme/Splendor)%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, 2s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=3 pac ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Dragon/Dream/Sanctuary)%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, 3s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 pac ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Phoenix/Spirit)%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, 4s
-
-ItemDisplay[NMAG !INF !RW ETH SOCK=0 pac RES>30]: %GRAY%%NAME%%MAP-1E%%PX-00%// Sacred Rondache, resists, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 pac RES>30]: %GRAY%%NAME%%ORANGE%(Exile)%MAP-1E%%PX-00%// Sacred Rondache, resists, eth, 4s
-ItemDisplay[NMAG SUP !RW ETH SOCK=0 pac ED>9 RES>30]: %GRAY%%NAME%%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, eth, 0s
-ItemDisplay[NMAG SUP !RW ETH SOCK=4 pac ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Exile)%MAP-1E%%PX-00%// Sacred Rondache, resists, superior, eth, 4s
-
-//- Vortex Shield
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 paf RES>30]: %NAME%%MAP-20%%PX-00%// Vortex Shield, resists, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 paf RES>30]: %GRAY%%NAME%%ORANGE%(Phoenix/Spirit)%MAP-1E%%PX-00%// Vortex Shield, resists, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=0 paf ED>9 RES>30]: %NAME%%MAP-20%%PX-00%// Vortex Shield, resists, 0s, superior
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 paf ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Phoenix/Spirit)%MAP-1E%%PX-00%// Vortex Shield, resists, superior, 4s
-
-ItemDisplay[NMAG !INF !RW ETH SOCK=0 paf RES>30]: %GRAY%%NAME%%MAP-1E%%PX-00%// Vortex Shield, resists, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 paf RES>30]: %GRAY%%NAME%%ORANGE%(Exile)%MAP-1E%%PX-00%// Vortex Shield, resists, eth, 4s
-ItemDisplay[NMAG SUP !RW ETH SOCK=0 paf ED>9 RES>30]: %GRAY%%NAME%%MAP-1E%%PX-00%// Vortex Shield, resists, superior, eth, 0s
-ItemDisplay[NMAG SUP !RW ETH SOCK=4 paf ED>9 RES>30]: %GRAY%%NAME%%ORANGE%(Exile)%MAP-1E%%PX-00%// Vortex Shield, resists, superior, eth, 4s
 
 //- DRUID -----------------------------
 //- Fissure
@@ -1957,7 +2053,7 @@ ItemDisplay[(WAND OR SOR) NMAG (!ETH AND !INF) PRICE>18999]: %NAME% %GRAY%(%TAN%
 ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>0]: %NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
 
 //Project Diablo 2 items
-ItemDisplay[wss]: %MAP-4A%%NAME% %ORANGE%*{%TAN%Note%WHITE%: Use it to %RED%Corrupt %WHITE%an Item}%CONTINUE%
+ItemDisplay[wss]: %MAP-4A%%NAME% %NL%%ORANGE%*{%TAN%Note%WHITE%: Use it to %RED%Corrupt %WHITE%an Item}%CONTINUE%
 ItemDisplay[imra]: %NAME% %ORANGE%*{%WHITE%This Item + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Imbue White to %YELLOW%Rare %WHITE%Map:}%CONTINUE%
 ItemDisplay[rera]: %NAME% %ORANGE%*{%WHITE%This Item + Perf Gem + %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Reroll %YELLOW%Rare %WHITE%Map:}%CONTINUE%
 ItemDisplay[upma]: %NAME% %ORANGE%*{%WHITE%This Item + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Upg %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE% Map:}%CONTINUE%
@@ -1966,7 +2062,7 @@ ItemDisplay[scou]: %NAME% %ORANGE%*{%WHITE%This Item + %ORANGE%Hel%NL%%TAN%Note%
 ItemDisplay[lbox]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%** %RED% PUZZLEBOX  %ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18) MAG]: %MAP-7F%%NAME% %GREEN%*{%WHITE%To Modify Maps visit Anya%NL%%TAN%Note%WHITE%: Reroll = Mix with 3x Perf %GRAY%O}
 ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18]: %MAP-7F%%NAME% %GREEN%*{%TAN%Note%WHITE%: To Modify Maps visit Anya}
-ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME% %ORANGE%*%CONTINUE%
+ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %BORDER-62%%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-
 
 //Essences
 ItemDisplay[tes]: %DOT-62%%ORANGE%*%NAME%{%TAN%Essence %WHITE%from: %BLUE%Andariel %WHITE%or %BLUE%Duriel}%CONTINUE%
