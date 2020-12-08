@@ -379,7 +379,7 @@ ItemDisplay[UNI !ID xhm]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED
 ItemDisplay[UNI !ID xsk]: %DOT-62%%GOLD% Blackhorn's Face Death Mask
 ItemDisplay[UNI !ID xrn]: %DOT-62%%GOLD% Crown of Thieves Grand Crown
 ItemDisplay[UNI !ID xh9]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Vampire Gaze %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
-ItemDisplay[UNI !ID uap]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Harlequin Crest Shako %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
+ItemDisplay[UNI !ID uap]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Harlequin Crest %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID ulm]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Steel Shade %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID uhm]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Spired Helm %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID usk]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Andariel's Visage %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
@@ -453,7 +453,7 @@ ItemDisplay[UNI !ID 8sw]: %DOT-62%%GOLD% Magewrath Rune Bow
 ItemDisplay[UNI !ID 8lw]: %DOT-62%%GOLD% Goldstrike Arch Gothic Bow
 ItemDisplay[UNI !ID 6l7]: %DOT-62%%GOLD% Eaglehorn Crusader Bow
 ItemDisplay[UNI !ID 6sw]: %DOT-62%%GOLD% Widowmaker Ward Bow
-ItemDisplay[UNI !ID 6lw]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Windforce Hydra Bow %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
+ItemDisplay[UNI !ID 6lw]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Windforce %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID lxb]: %DOT-62%%GOLD% Leadcrow Light Crossbow
 ItemDisplay[UNI !ID mxb]: %DOT-62%%GOLD% Ichorsting Crossbow
 ItemDisplay[UNI !ID hxb]: %DOT-62%%GOLD% Hellcast Heavy Crossbow
@@ -473,7 +473,7 @@ ItemDisplay[UNI !ID 9di]: %DOT-62%%GOLD% Heart Carver Rondel
 ItemDisplay[UNI !ID 9kr]: %DOT-62%%GOLD% Blackbog's Sharp Cinquedeas
 ItemDisplay[UNI !ID 9bl]: %DOT-62%%GOLD% Stormspike Stiletto
 ItemDisplay[UNI !ID 7dg]: %DOT-62%%GOLD% Wizardspike Bone Knife
-ItemDisplay[UNI !ID 7kr]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Fleshripper Fanged Knife %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
+ItemDisplay[UNI !ID 7kr]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Fleshripper %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID 7bl]: %DOT-62%%GOLD% Ghostflame Legend Spike
 ItemDisplay[UNI !ID 7s7]: %DOT-62%%GOLD% Demon's Arch Balrog Spear
 ItemDisplay[UNI !ID 7gl]: %DOT-62%%GOLD% Wraith Flight Ghost Glaive
@@ -517,14 +517,14 @@ ItemDisplay[UNI !ID 9wc]: %DOT-62%%GOLD% Grim's Burning Dead Grim Scythe
 ItemDisplay[UNI !ID 7o7]: %DOT-62%%GOLD% Bonehew Ogre Axe
 ItemDisplay[UNI !ID 7s8]: %DOT-62%%GOLD% The Reaper's Toll Thresher
 ItemDisplay[UNI !ETH !ID 7pa]: %DOT-62%%GOLD% Tomb Reaver Cryptic Axe
-ItemDisplay[UNI ETH !ID 7pa]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Tomb Reaver Cryptic Axe %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
+ItemDisplay[UNI ETH !ID 7pa]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Tomb Reaver %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID 7wc]: %DOT-62%%GOLD% Stormspire Giant Thresher
 ItemDisplay[UNI !ID scp]: %DOT-62%%GOLD% Knell Striker Scepter
 ItemDisplay[UNI !ID gsc]: %DOT-62%%GOLD% Rusthandle Grand Scepter
 ItemDisplay[UNI !ID wsp]: %DOT-62%%GOLD% Stormeye War Scepter
 ItemDisplay[UNI !ID 9sc]: %DOT-62%%GOLD% Zakarum's Hand Rune Scepter
 ItemDisplay[UNI !ID 9qs]: %DOT-62%%GOLD% The Fetid Sprinkler Holy Water Sprinkler
-ItemDisplay[UNI !ID 9ws]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Hand of Blessed Light Divine Scepter %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
+ItemDisplay[UNI !ID 9ws]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Hand of Blessed Light %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID 7sc]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Mighty Scepter %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID 7ws]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% Astreon's %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID spr]: %DOT-62%%GOLD% The Dragon Chang Spear
@@ -540,7 +540,7 @@ ItemDisplay[UNI !ID 9p9]: %DOT-62%%GOLD% Spire of Honor Lance
 ItemDisplay[UNI !ID 7sr]: %DOT-62%%GOLD% Arioc's Needle Hyperion Spear
 ItemDisplay[UNI !ID 7br]: %DOT-62%%GOLD% Viperfork Mancatcher
 ItemDisplay[UNI !ETH !ID 7p7]: %DOT-62%%GOLD% Steel Pillar War Pike
-ItemDisplay[UNI ETH !ID 7p7]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% %PURPLE%ETH%GOLD% Steel Pillar War Pike %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
+ItemDisplay[UNI ETH !ID 7p7]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% %PURPLE%ETH%GOLD% Steel Pillar %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID sst]: %DOT-62%%GOLD% Bane Ash Short Staff
 ItemDisplay[UNI !ID lst]: %DOT-62%%GOLD% Serpent Lord Long Staff
 ItemDisplay[UNI !ID cst]: %DOT-62%%GOLD% Spire of Lazarus Gnarled Staff
@@ -693,7 +693,7 @@ ItemDisplay[SET !ID xrn]: %GREEN% Hwanin's Crown
 ItemDisplay[SET !ID zhb]: %DOT-62%%GREEN%*%GREEN% Immortal King's Belt
 ItemDisplay[SET !ID xhg]: %DOT-62%%GREEN%*%GREEN% Immortal King's Gauntlets
 ItemDisplay[SET !ID xhb]: %DOT-62%%GREEN%*%GREEN% Immortal King's Boots
-ItemDisplay[SET !ID uar]: %BORDER-62%%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%NL%%ORANGE%**%NL%%GREEN% Immortal King's Soul Cage Sacred Armor %NL%%ORANGE%**%NL%%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-
+ItemDisplay[SET !ID uar]: %BORDER-62%%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%NL%%ORANGE%**%NL%%GREEN% Immortal King's Armor %NL%%ORANGE%**%NL%%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-
 ItemDisplay[SET !ID 7m7]: %DOT-62%%GREEN%*%GREEN% Immortal King's Maul
 ItemDisplay[SET !ID ba5]: %DOT-62%%GREEN%*%GREEN% Immortal King's Helm
 
@@ -731,7 +731,7 @@ ItemDisplay[SET !ID ult]: %GREEN% Naj's Plate
 ItemDisplay[SET !ID 6cs]: %DOT-62%%GREEN%*%GREEN% Naj's Staff %RED%tele stick
 
 //- NATALYA'S -------------------------
-ItemDisplay[SET !ID 7qr]: %BORDER-62%%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%NL%%ORANGE%**%NL%%GREEN%  Natalya's Mark Scissors Suwayyah  %NL%%ORANGE%**%NL%%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-
+ItemDisplay[SET !ID 7qr]: %BORDER-62%%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%NL%%ORANGE%**%NL%%GREEN%  Natalya's Mark  %NL%%ORANGE%**%NL%%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-
 ItemDisplay[SET !ID ucl]: %DOT-62%%GREEN%*%GREEN%  Natalya's Mail
 ItemDisplay[SET !ID xmb]: %DOT-62%%GREEN%*%GREEN%  Natalya's Boots
 ItemDisplay[SET !ID xh9]: %DOT-62%%GREEN%*%GREEN%  Natalya's Helm
@@ -761,7 +761,7 @@ ItemDisplay[SET !ID hbl]: %GREEN% Sigon's Belt
 
 //- TAL RASHA'S -----------------------
 ItemDisplay[SET !ID zmb]: %DOT-62%%GREEN%*%GREEN% Tal Belt
-ItemDisplay[SET !ID uth]: %BORDER-62%%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%NL%%ORANGE%**%NL%%GREEN%  Tal Rasha's Guardianship Lacquered Plate  %NL%%ORANGE%**%NL%%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-
+ItemDisplay[SET !ID uth]: %BORDER-62%%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%NL%%ORANGE%**%NL%%GREEN%  Tal's ARMOR  %NL%%ORANGE%**%NL%%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-%RED%=%BLUE%-
 ItemDisplay[SET !ID xsk]: %GREEN% Tal Mask
 ItemDisplay[SET !ID oba]: %DOT-62%%GREEN%*%GREEN% Tal Wand
 //Tal Rasha's Amulet, in "Multi" at the top of the sets section
