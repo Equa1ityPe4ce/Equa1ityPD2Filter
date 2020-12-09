@@ -856,7 +856,7 @@ ItemDisplay[NMAG !INF !RW SOCK=4 (sst OR lst OR cst OR bst OR wst OR 8ss OR 8ls 
 ItemDisplay[NMAG SUP !RW (amb OR amc) ED>9 SOCK=3 TABSK0>2]: %NAME%%DARK_GREEN%Melody{%ORANGE%Melody %Dark_GREEN%Shael • Ko • Nef}
 
 //-=-= Steel 2 Socket Swords/Axes/Maces Tir • El Required Level: 13
-ItemDisplay[NMAG !RW (WP1 OR WP2 OR WP3) SOCK=2 CLVL<50]: %NAME%%DARK_GREEN%Steel{%ORANGE%Steel %DARK_GREEN%Tir El}
+ItemDisplay[NMAG !RW (WP1 OR WP2) SOCK=2 CLVL<50]: %NAME%%DARK_GREEN%Steel{%ORANGE%Steel %DARK_GREEN%Tir El}
 
 //-=-= Stealth 2 Socket Armor Tal • Eth Required Level: 17
 ItemDisplay[NMAG !RW (stu OR brs OR ltp OR xtp OR xrs) SOCK=2 CLVL<30]: %NAME%%DARK_GREEN%Stealth {%ORANGE%Stealth %DARK_GREEN%Tal Eth}
@@ -893,7 +893,7 @@ ItemDisplay[NMAG WP9 !RW (NORM OR EXC) SOCK=3 CLVL<50]: %NAME%%DARK_GREEN%Edge{%
 ItemDisplay[NMAG EQ1 !RW (NORM OR EXC) SOCK=3 CLVL<30]: %NAME%%DARK_GREEN%Lore{%ORANGE%Edge %DARK_GREEN%Ort Sol}
 
 //-=-= Spirit 4 Socket Swords/Shields Tal • Thul • Ort • Amn Required Level: 25
-ItemDisplay[NMAG !INF WP3 !RW SOCK=4 CLVL<50]: %NAME%%DARK_GREEN%Spirit{%ORANGE%Spirit %DARK_GREEN%Tal Thul Ort Amn}
+ItemDisplay[NMAG !INF (crs OR lsd OR bsd) !RW SOCK=4 CLVL<50]: %NAME%%DARK_GREEN%Spirit{%ORANGE%Spirit %DARK_GREEN%Tal Thul Ort Amn}
 ItemDisplay[NMAG !INF !RW SOCK=0 (ILVL>25 AND ILVL<41) CLVL<70 crs]: %NAME%%DARK_GREEN%Spirit(Larzuk for 4soc)
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 CLVL<70 (bsd OR lsd)]: %NAME%%DARK_GREEN%Spirit(Larzuk for 4soc)
 
