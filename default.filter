@@ -254,7 +254,7 @@ ItemDisplay[EQ7 MAG !ID ILVL>89]: %BORDER-68%%TAN%-%BLUE%= %NAME% %BLUE%=%TAN%-%
 //Rainbow Facet
 ItemDisplay[jew UNI !ID]: %BORDER-68%%RED%r%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w     %GOLD%%NAME%%PURPLE%     r%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w%NL%%GREEN%pick me up
 // Uneek
-ItemDisplay[UNI !ID amu]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% AMULET AMULET AMULET %NL% AMULET AMULET %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
+ItemDisplay[UNI !ID amu]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% AMULET AMULET AMULET %ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID cm1]: %DOT-62%%ORANGE%*%ORANGE% Annihilus // Annihilus Small Charm
 ItemDisplay[UNI !ID cm2]: %DOT-62%%ORANGE%*%ORANGE% Hellfire Torch // Hellfire Torch Large Charm
 ItemDisplay[UNI !ID cm3]: %DOT-62%%GOLD% Gheed's Fortune Grand Charm
