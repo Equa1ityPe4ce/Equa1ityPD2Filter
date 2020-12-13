@@ -2,7 +2,7 @@
 Equa1ity's Loud l00t Fi1ter  V1.5.3
 * Used Kryszard's 1.4.1 as a base. 80% of credit goes there for giving me a platform to learn on and also the dank filters on pod and pd2
 * Pasted parts of Sawyers and Wolf's togeather to get the more distinct Item pieces to edit they split 10% more of the credit, also learned alot from them and 
-* they are way way way less lazy then i am. 10% goes to and Greed for QA. Awesome feed back
+* they are way way way less lazy then i am. 10% goes to xAssist and Tor's Bath House For QA. Awesome feed back
 """
 //GOLD
 ItemDisplay[CLVL>19 CLVL<40 GOLD<20]:
@@ -11,7 +11,7 @@ ItemDisplay[CLVL>59 CLVL<80 GOLD<1000]:
 ItemDisplay[CLVL>79 GOLD<5000]:
 
 //Show me that item is etheral
-ItemDisplay[ETH UNI]:%NAME% ETH%CONTINUE%
+ItemDisplay[ETH UNI]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%CONTINUE%
 ItemDisplay[ETH RARE]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%CONTINUE%
 ItemDisplay[ETH MAG]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%CONTINUE%
 ItemDisplay[ETH NMAG]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%CONTINUE%
