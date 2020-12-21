@@ -11,7 +11,7 @@ I'm still new to this so feed back is welcome
 * and 10% goes to xAssist and Tor's Bath House For QA. Awesome feed back
 
 
-_*Change Log*_ \n
+_*Change Log*_ /n
 12/21/2020: v1.5.5
 - Removed notifications for Full Juvs and Amethysts
 - fix for pal shields
