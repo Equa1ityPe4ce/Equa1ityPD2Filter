@@ -336,7 +336,8 @@ ItemDisplay[UNI !ID zvb]: %DOT-62%%GOLD% Razortail %NAME%
 ItemDisplay[UNI !ID zmb]: %GOLD% Gloom's Trap %NAME%
 ItemDisplay[UNI !ID ztb]: %GOLD% Snowclash %NAME%
 ItemDisplay[UNI !ID zhb]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% %NAME% %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
-ItemDisplay[UNI !ID ulc]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% %NAME% %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
+ItemDisplay[UNI !ETH !ID ulc]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% %NAME% %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
+ItemDisplay[UNI ETH !ID ulc]: %BORDER-62%%RED%Rng %PURPLE%Hates %GREEN%You%NL% %NAME%
 ItemDisplay[UNI !ID uvc]: %DOT-62%%GOLD% Nosferatu's Coil %NAME%
 ItemDisplay[UNI !ID umc]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% %NAME% %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID lbt]: %GOLD% Hotspur %NAME%
@@ -383,7 +384,7 @@ ItemDisplay[UNI !ID xsk]: %DOT-62%%GOLD% Blackhorn's Face %NAME%
 ItemDisplay[UNI !ID xrn]: %DOT-62%%GOLD% Crown of Thieves %NAME%
 ItemDisplay[UNI !ID xh9]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% %NAME% %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ETH !ID uap]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% %NAME% %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
-ItemDisplay[UNI ETH !ID uap]: %BORDER-62%%RED% how about and F for an eth shako  %NL%%GOLD%Harlequin Crest
+ItemDisplay[UNI ETH !ID uap]: %BORDER-62%%RED%Rng %PURPLE%Hates %GREEN%You%NL% %NAME%
 ItemDisplay[UNI !ID ulm]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% %NAME% %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID uhm]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% %NAME% %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ID usk]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% %NAME% %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
@@ -452,7 +453,7 @@ ItemDisplay[UNI !ID 8hb]: %GOLD% Riphook %NAME%
 ItemDisplay[UNI !ID 8lb]: %DOT-62%%GOLD% Kuko Shakaku %NAME%
 ItemDisplay[UNI !ID 8cb]: %GOLD% Endlesshail %NAME%
 ItemDisplay[UNI !ID 8s8]: %DOT-62%%GOLD% Whichwild String %NAME%
-ItemDisplay[UNI !ID 8l8]: %GOLD% Cliffkiller Large %NAME%
+ItemDisplay[UNI !ID 8l8]: %GOLD% Cliffkiller %NAME%
 ItemDisplay[UNI !ID 8sw]: %GOLD% Magewrath %NAME%
 ItemDisplay[UNI !ID 8lw]: %DOT-62%%GOLD% Goldstrike Arch %NAME%
 ItemDisplay[UNI !ID 6l7]: %DOT-62%%GOLD% Eaglehorn %NAME%
@@ -518,7 +519,7 @@ ItemDisplay[UNI !ID 9s8]: %GOLD% Athena's Wrath %NAME%
 ItemDisplay[UNI !ID 9pa]: %GOLD% Pierre Tombale Couant %NAME%
 ItemDisplay[UNI !ID 9h9]: %GOLD% Husoldal Evo %NAME%
 ItemDisplay[UNI !ID 9wc]: %GOLD% Grim's Burning Dead %NAME%
-ItemDisplay[UNI !ID 7o7]: %GOLD% Bonehew Ogre Axe%NAME%
+ItemDisplay[UNI !ID 7o7]: %GOLD% Bonehew %NAME%
 ItemDisplay[UNI !ETH !ID 7s8]: %DOT-62%%GOLD% The Reaper's Toll %NAME%
 ItemDisplay[UNI ETH !ID 7s8]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%**%NL%%GOLD% %NAME% %NL%%ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 ItemDisplay[UNI !ETH !ID 7pa]: %DOT-62%%GOLD% Tomb Reaver %NAME%
@@ -835,62 +836,62 @@ ItemDisplay[wsp OR 9ws OR 7ws OR am5 OR ama OR amf (MAG OR RARE) !ID]: %NAME%
 // ☼§☼§ RUNE WORD BASES §☼§☼0
 
 //-=-= Pattern 3 Socket Claws Tal • Ort • Tir Required Level: 21
-ItemDisplay[NMAG !INF CL5 (NORM OR EXC) SOCK=3 CLVL<50]: %NAME%%DARK_GREEN%Pattern{%ORANGE%Pattern Claw: %DARK_GREEN%Tal Ort Tir}
+ItemDisplay[NMAG !INF CL5 (NORM OR EXC) SOCK=3 CLVL<50]: %NAME%%DARK_GREEN%Pattern{%ORANGE%Pattern Claw: %DARK_GREEN%Tal Ort Tir}%CONTINUE%
 
 //-=-= Plague 3 Socket Weapons Cham • Fal • Um Required Level: 67
-ItemDisplay[NMAG !INF !RW CL5 (NORM OR EXC OR ELT) (SOCK=3 OR SOCK=0) (SK253>2 AND SK273>2)]: %NAME%%DARK_GREEN%Mind Blast Plague{%ORANGE%Plague Claw: %DARK_GREEN%Cham Fal Um}
-ItemDisplay[NMAG !INF !RW CL5 (NORM OR EXC OR ELT) (SOCK=3 OR SOCK=0) (SK262>2 AND SK272>2)]: %NAME%%DARK_GREEN%PFire Trap Plague{%ORANGE%Plague Claw: %DARK_GREEN%Cham Fal Um}
-ItemDisplay[NMAG !INF !RW CL5 (NORM OR EXC OR ELT) (SOCK=3 OR SOCK=0) SK277>2]: %NAME%%DARK_GREEN%Blade Shield Plague Base{%ORANGE%Plague Claw: %DARK_GREEN%Cham Fal Um}
-ItemDisplay[NMAG !INF !RW CL5 (NORM OR EXC OR ELT) (SOCK=3 OR SOCK=0) (SK276>2 AND SK261>2)]: %NAME%%DARK_GREEN%Death Sentry Plague{%ORANGE%Plague Claw: %DARK_GREEN%Cham Fal Um}
+ItemDisplay[NMAG !INF !RW CL5 (NORM OR EXC OR ELT) (SOCK=3 OR SOCK=0) (SK253>2 AND SK273>2)]: %NAME%%DARK_GREEN%Mind Blast Plague{%ORANGE%Plague Claw: %DARK_GREEN%Cham Fal Um}%CONTINUE%
+ItemDisplay[NMAG !INF !RW CL5 (NORM OR EXC OR ELT) (SOCK=3 OR SOCK=0) (SK262>2 AND SK272>2)]: %NAME%%DARK_GREEN%PFire Trap Plague{%ORANGE%Plague Claw: %DARK_GREEN%Cham Fal Um}%CONTINUE%
+ItemDisplay[NMAG !INF !RW CL5 (NORM OR EXC OR ELT) (SOCK=3 OR SOCK=0) SK277>2]: %NAME%%DARK_GREEN%Blade Shield Plague Base{%ORANGE%Plague Claw: %DARK_GREEN%Cham Fal Um}%CONTINUE%
+ItemDisplay[NMAG !INF !RW CL5 (NORM OR EXC OR ELT) (SOCK=3 OR SOCK=0) (SK276>2 AND SK261>2)]: %NAME%%DARK_GREEN%Death Sentry Plague{%ORANGE%Plague Claw: %DARK_GREEN%Cham Fal Um}%CONTINUE%
 
 //-=-= Black 3 Socket Clubs/Hammers/Maces Thul • Io • Nef Required Level: 35
-ItemDisplay[NMAG SUP !RW !ETH WP2 ELT ED>9 SOCK=3]: %NAME%%DARK_GREEN%Black{%ORANGE%Black 3 Socket Clubs/Hammers/Maces %DARK_GREEN%Thul Io Nef}
+ItemDisplay[NMAG SUP !RW !ETH WP2 ELT ED>9 SOCK=3]: %NAME%%DARK_GREEN%Black{%ORANGE%Black 3 Socket Clubs/Hammers/Maces %DARK_GREEN%Thul Io Nef}%CONTINUE%
 
 //-=-= Memory 4 Socket Staves Lum • Io • Sol • Eth Required Level: 37
-ItemDisplay[NMAG !UNI !INF !RW SOCK=0 (lst OR cst OR bst OR wst OR 8ls OR 8cs OR 8bs OR 8ws OR 6ls OR  6cs OR 6bs OR 6ws) SK58>2]: %NAME%%DARK_GREEN%Memory{%ORANGE%Memory%DARK_GREEN%Lum Io Sol Eth}
-ItemDisplay[NMAG !UNI !INF !RW SOCK=4 (sst OR lst OR cst OR bst OR wst OR 8ss OR 8ls OR 8cs OR 8bs OR 8ws OR 6ss OR 6ls OR  6cs OR 6bs OR 6ws) SK58>2]: %DOT-62%%NAME%%DARK_GREEN%Memory{%ORANGE%Memory%DARK_GREEN%Lum Io Sol Eth}
+ItemDisplay[NMAG !UNI !INF !RW SOCK=0 (lst OR cst OR bst OR wst OR 8ls OR 8cs OR 8bs OR 8ws OR 6ls OR  6cs OR 6bs OR 6ws) SK58>2]: %NAME%%DARK_GREEN%Memory{%ORANGE%Memory%DARK_GREEN%Lum Io Sol Eth}%CONTINUE%
+ItemDisplay[NMAG !UNI !INF !RW SOCK=4 (sst OR lst OR cst OR bst OR wst OR 8ss OR 8ls OR 8cs OR 8bs OR 8ws OR 6ss OR 6ls OR  6cs OR 6bs OR 6ws) SK58>2]: %DOT-62%%NAME%%DARK_GREEN%Memory{%ORANGE%Memory%DARK_GREEN%Lum Io Sol Eth}%CONTINUE%
 
 //-=-= Melody 3 Socket Missile Weapons Shael • Ko • Nef Required Level: 39
-ItemDisplay[NMAG SUP !RW (amb OR amc) ED>9 SOCK=3 TABSK0>2]: %NAME%%DARK_GREEN%Melody{%ORANGE%Melody %Dark_GREEN%Shael • Ko • Nef}
+ItemDisplay[NMAG SUP !RW (amb OR amc) ED>9 SOCK=3 TABSK0>2]: %NAME%%DARK_GREEN%Melody{%ORANGE%Melody %Dark_GREEN%Shael • Ko • Nef}%CONTINUE%
 
 //-=-= Stealth 2 Socket Armor Tal • Eth Required Level: 17
-ItemDisplay[NMAG !RW (stu OR brs OR ltp OR xtp OR xrs) SOCK=2 CLVL<30]: %NAME%%DARK_GREEN%Stealth {%ORANGE%Stealth %DARK_GREEN%Tal Eth}
-ItemDisplay[NMAG !RW (stu OR brs OR ltp OR xtp OR xrs) SOCK=2 (CLVL<80 CLVL>29) ED>9]: %NAME%%DARK_GREEN%Stealth {%ORANGE%Stealth %DARK_GREEN%Tal Eth}
+ItemDisplay[NMAG !RW (stu OR brs OR ltp OR xtp OR xrs) SOCK=2 CLVL<30]: %NAME%%DARK_GREEN%Stealth {%ORANGE%Stealth %DARK_GREEN%Tal Eth}%CONTINUE%
+ItemDisplay[NMAG !RW (stu OR brs OR ltp OR xtp OR xrs) SOCK=2 (CLVL<80 CLVL>29) ED>9]: %NAME%%DARK_GREEN%Stealth {%ORANGE%Stealth %DARK_GREEN%Tal Eth}%CONTINUE%
 
 //-=-= Venom 3 Socket Weapons Tal • Dol • Mal Required Level: 49
-ItemDisplay[NMAG !RW !ETH WP4 CLVL<80 SOCK=3]: %NAME%%DARK_GREEN%Venom{%ORANGE%Venom %DARK_GREEN%Tal Dol Mal}
+ItemDisplay[NMAG !RW !ETH WP4 CLVL<80 SOCK=3]: %NAME%%DARK_GREEN%Venom{%ORANGE%Venom %DARK_GREEN%Tal Dol Mal}%CONTINUE%
 
 //-=-= White 2 Socket Wands Dol • Io Required Level: 35
-ItemDisplay[NMAG !RW !INF WP11 (NORM OR EXC OR ELT) SOCK=2 (SK67>2 AND SK84>2)]: %NAME%%DARK_GREEN%Perfect White Base{%ORANGE%White%DARK_GREEN%Dol Io}
-ItemDisplay[NMAG !RW !INF WP11 (NORM OR EXC OR ELT) SOCK=2 (SK93>2 AND SK84>2)]: %NAME%%DARK_GREEN%Perfect White Base{%ORANGE%White%DARK_GREEN%Dol Io}
-ItemDisplay[NMAG !RW !INF WP11 (NORM OR EXC OR ELT) SOCK=2 (SK83>2 AND SK92>2)]: %NAME%%DARK_GREEN%Perfect White Base{%ORANGE%White%DARK_GREEN%Dol Io}
+ItemDisplay[NMAG !RW !INF WP11 (NORM OR EXC OR ELT) SOCK=2 (SK67>2 AND SK84>2)]: %NAME%%DARK_GREEN%Perfect White Base{%ORANGE%White%DARK_GREEN%Dol Io}%CONTINUE%
+ItemDisplay[NMAG !RW !INF WP11 (NORM OR EXC OR ELT) SOCK=2 (SK93>2 AND SK84>2)]: %NAME%%DARK_GREEN%Perfect White Base{%ORANGE%White%DARK_GREEN%Dol Io}%CONTINUE%
+ItemDisplay[NMAG !RW !INF WP11 (NORM OR EXC OR ELT) SOCK=2 (SK83>2 AND SK92>2)]: %NAME%%DARK_GREEN%Perfect White Base{%ORANGE%White%DARK_GREEN%Dol Io}%CONTINUE%
 
 //-=-= Zephyr 2 Socket Missile Weapons Ort • Eth Required Level: 21
-ItemDisplay[NMAG WP9 !RW (NORM OR EXC) SOCK=2 CLVL<30]: %NAME%%DARK_GREEN%Zephyr{%ORANGE%Zephyr %DARK_GREEN%Ort Eth}
+ItemDisplay[NMAG WP9 !RW (NORM OR EXC) SOCK=2 CLVL<30]: %NAME%%DARK_GREEN%Zephyr{%ORANGE%Zephyr %DARK_GREEN%Ort Eth}%CONTINUE%
 
 //-=-= Call to Arms 5 Socket Weapons Amn • Ral • Mal • Ist • Ohm Required Level: 57
 ItemDisplay[NMAG !RW (crs OR fla) SOCK=5]: %NAME%%DARK_GREEN%CTA{%ORANGE%CTA %DARK_GREEN%Amn Ral Mal Ist Ohm}%CONTINUE%
-ItemDisplay[NMAG !RW !INF !RW SOCK=5 6ws SK58>2]: %DOT-62%%NAME%%RED%xAssist's CTA BASE{%ORANGE%CTA %DARK_GREEN%Amn Ral Mal Ist Ohm}
+ItemDisplay[NMAG !RW !INF !RW SOCK=5 6ws SK58>2]: %DOT-62%%NAME%%RED%xAssist's CTA BASE{%ORANGE%CTA %DARK_GREEN%Amn Ral Mal Ist Ohm}%CONTINUE%
 
 //-=-= Chaos 3 Socket Claws Fal • Ohm • Um Required Level: 57
-ItemDisplay[NMAG ETH !RW SUP CL5 ELT SOCK=3 ED>9]: %NAME%%DARK_GREEN%Chaos{%ORANGE%Pattern Claw: %DARK_GREEN%Fal Ohm Um}
+ItemDisplay[NMAG ETH !RW SUP CL5 ELT SOCK=3 ED>9]: %NAME%%DARK_GREEN%Chaos{%ORANGE%Pattern Claw: %DARK_GREEN%Fal Ohm Um}%CONTINUE%
 
 //-=-= Harmony 4 Socket Missile Weapons Tir • Ith • Sol • Ko Required Level: 39
-ItemDisplay[NMAG (6hb OR 6cb OR 6s7) !RW SUP ELT SOCK=4 ED>5]: %NAME%%DARK_GREEN%Harmony{%ORANGE%Harmony %DARK_GREEN%Tir Ith Sol Ko%NL%%DARK_GREEN%Faith %ORANGE% Ohm Jah Lem Eld}
+ItemDisplay[NMAG (6hb OR 6cb OR 6s7) !RW SUP ELT SOCK=4 ED>5]: %NAME%%DARK_GREEN%Harmony or Merc Faith{%ORANGE%Harmony %DARK_GREEN%Tir Ith Sol Ko%NL%%DARK_GREEN%Faith %ORANGE% Ohm Jah Lem Eld}%CONTINUE%
 
 //-=-= Heart of the Oak  Socket Staves/Maces Ko • Vex • Pul • Thul Required Level: 55
-ItemDisplay[NMAG fla !RW SOCK=4]: %NAME%%DARK_GREEN%HOTO{%ORANGE%HOTO %DARK_GREEN%Ko Vex Pul Thul}
+ItemDisplay[NMAG fla !RW SOCK=4]: %NAME%%DARK_GREEN%HOTO{%ORANGE%HOTO %DARK_GREEN%Ko Vex Pul Thul}%CONTINUE%
 
 //-=-= Edge 3 Socket Missile Weapons Tir • Tal • Amn Required Level: 25
-ItemDisplay[NMAG WP9 !RW (NORM OR EXC) SOCK=3 CLVL<30]: %NAME%%DARK_GREEN%Edge{%ORANGE%Edge %DARK_GREEN%Tir Tal Amn}
+ItemDisplay[NMAG WP9 !RW (NORM OR EXC) SOCK=3 CLVL<40]: %NAME%%DARK_GREEN%Edge{%ORANGE%Edge %DARK_GREEN%Tir Tal Amn}%CONTINUE%
 
 //-=-= LORE 2Soc Helms Ort Sol
-ItemDisplay[NMAG EQ1 !RW (NORM OR EXC) SOCK=2 CLVL<40]: %NAME%%DARK_GREEN%Lore{%ORANGE%Lore %DARK_GREEN%Ort Sol}
+ItemDisplay[NMAG EQ1 !RW (NORM OR EXC) SOCK=2 CLVL<40]: %NAME%%DARK_GREEN%Lore{%ORANGE%Lore %DARK_GREEN%Ort Sol}%CONTINUE%
 
 //-=-= Spirit 4 Socket Swords/Shields Tal • Thul • Ort • Amn Required Level: 25
-ItemDisplay[NMAG !INF (crs OR lsd OR bsd) !RW SOCK=4 CLVL<50]: %NAME%%DARK_GREEN%Spirit{%ORANGE%Spirit %DARK_GREEN%Tal Thul Ort Amn}
-ItemDisplay[NMAG !INF !RW SOCK=0 (ILVL>25 AND ILVL<41) CLVL<70 crs]: %NAME%%DARK_GREEN%Spirit(Larzuk for 4soc)
-ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 CLVL<70 (bsd OR lsd)]: %NAME%%DARK_GREEN%Spirit(Larzuk for 4soc)
+ItemDisplay[NMAG !INF (crs OR lsd OR bsd) !RW SOCK=4]: %NAME%%DARK_GREEN%Spirit{%ORANGE%Spirit %DARK_GREEN%Tal Thul Ort Amn}%CONTINUE%
+ItemDisplay[NMAG !INF !RW SOCK=0 (ILVL>25 AND ILVL<41) CLVL<70 crs]: %NAME%%DARK_GREEN%Spirit(Larzuk for 4soc)%CONTINUE%
+ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 CLVL<70 (bsd OR lsd)]: %NAME%%DARK_GREEN%Spirit(Larzuk for 4soc)%CONTINUE%
 
 //☼§☼§ BASES §☼§☼
 //- ENHANCED DAMAGE/DEFENSE NAME TAG --
@@ -920,12 +921,15 @@ ItemDisplay[NMAG ARMOR !RW SUP ED=15]: %NAME% %ORANGE%(15% ED)%CONTINUE%
 
 //Any version
 ItemDisplay[(7p7 OR 7s8 OR 7pa OR 7wc OR 7gd OR 7gm OR 7wh OR 7gi OR 7ga OR 7wa) ETH !INF]: %NAME%
+ItemDisplay[ELT EQ2 !INF (SOCK=0 OR SOCK>2)]:%NAME%
+ItemDisplay[NMAG uit !RW !INF (SOCK=0 OR SOCK>2)]:%NAME%%CONTINUE%
 
 //Superior notifications
 ItemDisplay[NMAG EQ2 !RW ELT SUP (SOCK=0 OR SOCK>2) ED>9]: %DOT-62%%NAME%
 ItemDisplay[NMAG WEAPON !RW ELT SUP (SOCK=0 OR SOCK>2) (ED>5 AND ED<10)]: %DOT-62%%NAME% 
 ItemDisplay[NMAG WEAPON !RW ELT SUP (SOCK=0 OR SOCK>2) ED>10]: %DOT-62%%NAME%%CONTINUE%
-ItemDisplay[NMAG uit !RW ELT SUP (SOCK=0 OR SOCK>2) ED>5]: %DOT-62%%NAME%
+ItemDisplay[NMAG uit !RW ELT SUP (SOCK=0 OR SOCK>2) (ED>0 AND ED<10)]: %DOT-62%%NAME%%CONTINUE%
+ItemDisplay[NMAG uit !RW ELT SUP (SOCK=0 OR SOCK>2) SUP ED>10]: %BORDER-62%%ORANGE%##%BLUE%##%NL% %NAME% %NL% %BLUE%##%ORANGE%##
 ItemDisplay[NMAG  (usk OR uh9 OR uhm OR urn)!RW SUP (SCOK=0 OR SOCK=3) ED>5]: %DOT-62%%NAME%
 
 //Base Displays
@@ -1066,7 +1070,7 @@ ItemDisplay[!NMAG CL4 !RW !INF SK84=3 (SK67>1 OR SK93>1) (SOCK=0 OR SOCK>1)]: %N
 
 ItemDisplay[NMAG !INF !RW SOCK=4 CLVL<70 (6cs OR 6bs OR 8cs OR 8bs)]: %NAME%%ORANGE% (Insight)// Insight staff
 
-//- Socketed bases unsorted
+//Lower Level Filtering
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 DIFF=0 HELM]: %GRAY%%NAME%
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 DIFF=0 CHEST]: %GRAY%%NAME%
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 DIFF=0 SHIELD]: %GRAY%%NAME%
@@ -1138,6 +1142,7 @@ ItemDisplay[(t17 OR t18) !ID MAG]:%MAP-9B%%NAME% %NL%%DARK_GREEN%-%TAN%= %GRAY%i
 ItemDisplay[(t17 OR t18) !ID RARE]:%MAP-9B%%NAME% %NL%%DARK_GREEN%-%TAN%= %GRAY%iLv[%TAN%%ILVL%%GRAY%] %TAN%=%DARK_GREEN%-
 ItemDisplay[t16]: %NAME%
 
+//D Clone
 ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %BORDER-62%%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-
 
 //Essences
