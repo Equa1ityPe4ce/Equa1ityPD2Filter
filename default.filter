@@ -24,6 +24,7 @@ Index
 9. UNIQUES
 10. SETS
 11. BASES
+12. Runewords and Util's II
 """
 
 """
@@ -46,34 +47,35 @@ ItemDisplay[ETH NMAG]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%CONTINUE%
 ItemDisplay[SOCK>0]:%NAME%%TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
 
 // Price
-ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]:%NAME% %GRAY%(%DARK_GREEN%%PRICE%%GRAY%)%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]:%NAME% %GRAY%(%GOLD%%PRICE%%GRAY%)%CONTINUE%
 
 //Potions
-ItemDisplay[rvl]:%WHITE%r%PURPLE%R%NL%%PURPLE%R%WHITE%r
-ItemDisplay[rvs CLVL>9]:%PURPLE%r35
+ItemDisplay[rvl]:%PURPLE%R%WHITE%r%NL%%WHITE%7%PURPLE%5
+ItemDisplay[rvs CLVL<91]:%PURPLE%r%WHITE%35
+ItemDisplay[rvs CLVL>90]:
 ItemDisplay[hp5]: %RED%O
 ItemDisplay[mp5]: %BLUE%O
-ItemDisplay[hp1 DIFF=0]:%RED%O%WHITE%minor
-ItemDisplay[hp2 DIFF=0]:%RED%O%WHITE%light
-ItemDisplay[hp3 DIFF=0]:%RED%O%WHITE%healing
-ItemDisplay[hp4 DIFF<2]:%RED%O%WHITE%great
-ItemDisplay[mp1 DIFF=0]:%BLUE%O%WHITE%minor
-ItemDisplay[mp2 DIFF=0]:%BLUE%O%WHITE%light
-ItemDisplay[mp3 DIFF=0]:%BLUE%O%WHITE%mana
-ItemDisplay[mp4 DIFF<2]:%BLUE%O%WHITE%great
+ItemDisplay[hp1 DIFF=0]:%RED%o
+ItemDisplay[hp2 DIFF=0]:%RED%o
+ItemDisplay[hp3 DIFF=0]:%RED%o
+ItemDisplay[hp4 DIFF<2]:%RED%o
+ItemDisplay[mp1 DIFF=0]:%BLUE%o
+ItemDisplay[mp2 DIFF=0]:%BLUE%o
+ItemDisplay[mp3 DIFF=0]:%BLUE%o
+ItemDisplay[mp4 DIFF<2]:%BLUE%o
 ItemDisplay[(hp1 OR hp2 OR hp3 OR mp1 OR mp2 OR mp3) DIFF>0]:
 ItemDisplay[(hp4 OR mp4) DIFF>1]:
 
 //Throw Potions
-ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>10]:
 
 //Utilites
 ItemDisplay[tbk]:%WHITE%T%BLUE%P%DARK_GREEN%Tome
 ItemDisplay[ibk]:%WHITE%I%RED%D%DARK_GREEN%Tome
-ItemDisplay[tsc CLVL<31]:%WHITE%T%BLUE%P
-ItemDisplay[isc CLVL<31]:%WHITE%I%RED%D
+ItemDisplay[tsc CLVL<31]:%WHITE%T%BLUE%p
+ItemDisplay[isc CLVL<31]:%WHITE%I%RED%d
 ItemDisplay[vps CLVL<10]:%DARK_GREEN%Stanima
-ItemDisplay[wms CLVL<31]:%YELLOW%Thawing
+ItemDisplay[wms CLVL<41]:%YELLOW%Thawing
 ItemDisplay[(tsc OR isc OR vps OR wms) CLVL>30]:
 ItemDisplay[yps]:%DARK_GREEN%O%GRAY%ant
 ItemDisplay[key]:
@@ -83,58 +85,52 @@ ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
 
 // White Items
 ItemDisplay[(ARMOR OR WEAPON) NMAG  SOCK=1 (NORM OR EXC OR ELT) !leg CLVL>15]:
-ItemDisplay[(ARMOR OR WEAPON) NMAG  SOCK=0 (NORM OR EXC) !leg CLVL>5]:%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) NMAG  SOCK=0 (NORM OR EXC) !xtp !leg CLVL>5]:
 ItemDisplay[(ARMOR OR WEAPON) NMAG  SOCK=0 (NORM OR EXC) !leg CLVL<6]:%NAME% 
 
 //Gems
+//Gems
 //fix for flaweless and perfects for some reason it need that fix?
-ItemDisplay[gzv]: %DARK_GREEN%Flawless%GRAY%[%PURPLE% O %GRAY%]%CONTINUE%
-ItemDisplay[glw]: %DARK_GREEN%Flawless%GRAY%[%WHITE% O %GRAY%]%CONTINUE%
-ItemDisplay[glg]: %DARK_GREEN%Flawless%GRAY%[%GREEN% O %GRAY%]%CONTINUE%
-ItemDisplay[glr]: %DARK_GREEN%Flawless%GRAY%[%RED% O %GRAY%]%CONTINUE%
-ItemDisplay[glb]: %DARK_GREEN%Flawless%GRAY%[%BLUE% O %GRAY%]%CONTINUE%
-ItemDisplay[gly]: %DARK_GREEN%Flawless%GRAY%[%YELLOW% O %GRAY%]%CONTINUE%%
-ItemDisplay[skl]: %DARK_GREEN%Flawless%GRAY%[%ORANGE% O %GRAY%]%CONTINUE%
-ItemDisplay[gzv OR glw OR glg OR glr OR glb OR gly OR skl]:%NAME%{%TAN%To Up:%WHITE% Cube 3 with a Key}
+ItemDisplay[gzv]: %DARK_GREEN%Gem %GRAY%[%PURPLE% O %GRAY%]%CONTINUE%
+ItemDisplay[glw]: %DARK_GREEN%Gem%GRAY%[%WHITE% O %GRAY%]%CONTINUE%
+ItemDisplay[glg]: %DARK_GREEN%Gem%GRAY%[%GREEN% O %GRAY%]%CONTINUE%
+ItemDisplay[glr]: %DARK_GREEN%Gem%GRAY%[%RED% O %GRAY%]%CONTINUE%
+ItemDisplay[glb]: %DARK_GREEN%Gem%GRAY%[%BLUE% O %GRAY%]%CONTINUE%
+ItemDisplay[gly]: %DARK_GREEN%Gem%GRAY%[%YELLOW% O %GRAY%]%CONTINUE%
+ItemDisplay[skl]: %DARK_GREEN%Gem%GRAY%[%ORANGE% O %GRAY%]%CONTINUE%
+ItemDisplay[gzv OR glw OR glg OR glr OR glb OR gly OR skl]:%NAME%{%TAN%To Up:%WHITE% Cube 3 with a Key}%CONTINUE%
 ItemDisplay[gpv]: %DARK_GREEN%Perfect%GRAY%[%PURPLE% O %GRAY%]%CONTINUE%
 ItemDisplay[gpw]: %DARK_GREEN%Perfect%GRAY%[%WHITE% O %GRAY%]%CONTINUE%
 ItemDisplay[gpg]: %DARK_GREEN%Perfect%GRAY%[%GREEN% O %GRAY%]%CONTINUE%
 ItemDisplay[gpr]: %DARK_GREEN%Perfect%GRAY%[%RED% O %GRAY%]%CONTINUE%
 ItemDisplay[gpb]: %DARK_GREEN%Perfect%GRAY%[%BLUE% O %GRAY%]%CONTINUE%
-ItemDisplay[gpy]: %DARK_GREEN%Perfect%GRAY%[%YELLOW% O %GRAY%]%CONTINUE%%
+ItemDisplay[gpy]: %DARK_GREEN%Perfect%GRAY%[%YELLOW% O %GRAY%]%CONTINUE%
 ItemDisplay[skz]: %DARK_GREEN%Perfect%GRAY%[%ORANGE% O %GRAY%]%CONTINUE%
 
+//hiding low ones
+ItemDisplay[GEM<3 DIFF>0]:
+ItemDisplay[GEM<4 DIFF>1]:
 //amethysts
 ItemDisplay[GEMTYPE=1 GEM<4]: %NAME% %ORANGE%[%PURPLE%*%ORANGE%]
-ItemDisplay[GEMTYPE=1 GEM>3]: %NAME% %ORANGE%[%PURPLE%O%ORANGE%]%CONTINUE%
+ItemDisplay[GEMTYPE=1 GEM>3]: %DARK_GREEN%gem%GRAY%[%PURPLE% O %GRAY%]%CONTINUE%
 //diamonds
 ItemDisplay[GEMTYPE=2 GEM<4]: %NAME% %ORANGE%[%WHITE%*%ORANGE%]
-ItemDisplay[GEMTYPE=2 GEM>3]: %NAME% %ORANGE%[%WHITE%O%ORANGE%]%CONTINUE%
+ItemDisplay[GEMTYPE=2 GEM>3]: %DARK_GREEN%gem%GRAY%[%WHITE% O %GRAY%]%CONTINUE%
 //emeralds
 ItemDisplay[GEMTYPE=3 GEM<4]: %NAME% %ORANGE%[%GREEN%*%ORANGE%]
-ItemDisplay[GEMTYPE=3 GEM>3]: %NAME% %ORANGE%[%GREEN%O%ORANGE%]%CONTINUE%
+ItemDisplay[GEMTYPE=3 GEM>3]: %DARK_GREEN%gem%GRAY%[%GREEN% O %GRAY%]%CONTINUE%
 //rubys
 ItemDisplay[GEMTYPE=4 GEM<4]: %NAME% %ORANGE%[%RED%*%ORANGE%]
-ItemDisplay[GEMTYPE=4 GEM>3]: %NAME% %ORANGE%[%RED%O%ORANGE%]%CONTINUE%
+ItemDisplay[GEMTYPE=4 GEM>3]: %DARK_GREEN%gem%GRAY%[%RED% O %GRAY%]%CONTINUE%
 //sapphires
 ItemDisplay[GEMTYPE=5 GEM<4]: %NAME% %ORANGE%[%BLUE%*%ORANGE%]
-ItemDisplay[GEMTYPE=5 GEM>3]: %NAME% %ORANGE%[%BLUE%O%ORANGE%]%CONTINUE%
+ItemDisplay[GEMTYPE=5 GEM>3]: %DARK_GREEN%gem%GRAY%[%BLUE% O %GRAY%]%CONTINUE%
 //topazes
 ItemDisplay[GEMTYPE=6 GEM<4]: %NAME% %ORANGE%[%YELLOW%*%ORANGE%]
-ItemDisplay[GEMTYPE=6 GEM>3]: %NAME% %ORANGE%[%YELLOW%O%ORANGE%]%CONTINUE%
+ItemDisplay[GEMTYPE=6 GEM>3]: %DARK_GREEN%gem%GRAY%[%YELLOW% O %GRAY%]%CONTINUE%
 //skulls
 ItemDisplay[GEMTYPE=7 GEM<4]: %NAME% %ORANGE%[%GRAY%*%ORANGE%]
-ItemDisplay[GEMTYPE=7 GEM>3]: %NAME% %ORANGE%[%GRAY%O%ORANGE%]%CONTINUE%
-
-//Hide Low Gems
-ItemDisplay[GEM=1 CLVL<21]:%NAME%%CONTINUE%
-ItemDisplay[GEM=1 CLVL>20]:
-ItemDisplay[GEM=2 CLVL<31]:%NAME%%CONTINUE%
-ItemDisplay[GEM=2 CLVL>30]:
-ItemDisplay[GEM=3 CLVL<31]:%NAME%%CONTINUE%
-ItemDisplay[GEM=3 CLVL>30]:
-ItemDisplay[GEM=4 CLVL<31]:%NAME%%CONTINUE%
-ItemDisplay[GEM=4 CLVL>30]:
+ItemDisplay[GEMTYPE=7 GEM>3]: %DARK_GREEN%gem%GRAY%[%ORANGE% O %GRAY%]%CONTINUE%
 
 """
 Index(2)
@@ -184,12 +180,12 @@ Index(4)
 RUNES
 """
 //Runes
-ItemDisplay[RUNE=8]:%DOT-62%%ORANGE%%RUNENAME%{%TAN%Repair Armor:%WHITE% Cube This and Armor (%DARK_GREEN%Helm, Chest, Shield, Boots, Gloves, Belt%WHITE%)}
+ItemDisplay[RUNE=8]:%DOT-62%%ORANGE%%RUNENAME%{%TAN%Repair Armor:%WHITE% Cube This and Armor}
 ItemDisplay[RUNE=9]:%DOT-62%%ORANGE%%RUNENAME%{%TAN%Repair Weapon:%WHITE% Cube This and Weapon}
-ItemDisplay[RUNE<16 OR RUNE=16 OR RUNE=17]:%ORANGE%%RUNENAME% %DARK_GREEN%[%GRAY%%RUNENUM%%DARK_GREEN%]
-ItemDisplay[RUNE=18 OR RUNE=19]:%DOT-62%%ORANGE%%RUNENAME% %DARK_GREEN%[%GRAY%%RUNENUM%%DARK_GREEN%]
-ItemDisplay[RUNE>19 AND RUNE<26]:%BORDER-62%%PURPLE%#%RED%#%PURPLE%#%NL%%ORANGE%** %TAN%%RUNENAME% %RUNENAME% %RUNENAME% %ORANGE%**%NL% %GRAY%[%RED%%RUNENUM%%GRAY%]%NL%%RED%#%PURPLE%#%RED%#
-ItemDisplay[RUNE>25]:%BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%** %GREEN%%RUNENAME% %RUNENAME% %RUNENAME% %ORANGE%**%NL%%GRAY%[%GREEN%%RUNENUM%%GRAY%]%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
+ItemDisplay[RUNE<16 OR RUNE=16 OR RUNE=17]:%ORANGE%%RUNENAME% %DARK_GREEN%[%GRAY%%RUNENUM%%DARK_GREEN%]%CONTINUE%
+ItemDisplay[RUNE=18 OR RUNE=19]:%DOT-62%%ORANGE%%RUNENAME% %DARK_GREEN%[%GRAY%%RUNENUM%%DARK_GREEN%]%CONTINUE%
+ItemDisplay[RUNE>19 AND RUNE<26]:%BORDER-62%%PURPLE%#%RED%#%PURPLE%#%NL%%ORANGE%** %TAN%%RUNENAME% %RUNENAME% %RUNENAME%%GRAY%x%DARK_GREEN%%QTY% %ORANGE%**%NL% %GRAY%[%RED%%RUNENUM%%GRAY%]%NL%%RED%#%PURPLE%#%RED%#
+ItemDisplay[RUNE>25]:%BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%** %GREEN%%RUNENAME% %RUNENAME% %RUNENAME%%GRAY%x%DARK_GREEN%%QTY% %ORANGE%**%NL%%GRAY%[%GREEN%%RUNENUM%%GRAY%]%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 
 """
 Index(5)
@@ -1059,84 +1055,6 @@ ItemDisplay[NMAG ELT STAFF ETH !RW ED>5 SOCK=4 (6cs OR 6bs OR 8cs OR 8bs)]: %NAM
 //Barb
 ItemDisplay[NMAG !RW !INF CL2 SK149=3 !SOCK=1]:%NAME%3BO %CONTINUE%
 
-"""
-RUNEWORDS
-"""
-// NORMAL ITEMS
-//Weapons
-ItemDisplay[NMAG NORM WEAPON SOCK=0]:%CONTINUE%
-ItemDisplay[NMAG NORM WEAPON SOCK=1]:%CONTINUE%
-ItemDisplay[NMAG NORM WEAPON SOCK=2 CLVL<31]:%NAME%%CONTINUE%
-ItemDisplay[NMAG NORM WEAPON SOCK=3 CLVL<31]:%NAME%%CONTINUE%
-ItemDisplay[NMAG NORM WEAPON SOCK>3 CLVL<41]:%NAME%%CONTINUE%
-
-//spirit
-ItemDisplay[NMAG !RW !INF (crs OR lsd OR bsd) !RW SOCK=4 CLVL<76]: %NAME%%GRAY%[%DARK_GREEN%Spirit%GRAY%]{%DARK_GREEN% Spirit Sword:%GRAY%1 skill, 25-35%FCR 25%FHR 11-22Vit, 59-82Mana, 3-8Mag Sorb%NL% %ORANGE% Tal Thul Ort Amn}%CONTINUE%
-ItemDisplay[NMAG !RW !INF !RW SOCK=0 (ILVL>25 AND ILVL<41) CLVL<70 crs]: %NAME%%DARK_GREEN%Spirit(Larzuk for 4soc)%CONTINUE%
-ItemDisplay[NMAG !RW !INF !RW SOCK=0 ILVL>25 CLVL<70 (bsd OR lsd)]: %NAME%%DARK_GREEN%Spirit(Larzuk for 4soc)%CONTINUE%
-
-//cta
-ItemDisplay[NMAG NORM !RW !INF (fla OR crs OR 2ax) SOCK=5]: %NAME%%GRAY%[%DARK_GREEN%CTA%GRAY%]{%DARK_GREEN% Call To Arms:%GRAY%1 skill, 1-6 battle order, 1-4 battle cry, 2-6 battle command%NL% %ORANGE% Amn Ral Mal Ist Ohm}%CONTINUE%
-
-//lore
-ItemDisplay[NMAG !RW !INF NORM HELM SOCK=2 CLVL<31]: %NAME%%GRAY%[%DARK_GREEN%Lore%GRAY%]{%DARK_GREEN% Lore Helms:%GRAY%+1 Skill, 5-10 Ene, 1MAK%NL% %ORANGE% Ort Sol}%CONTINUE%
-ItemDisplay[NMAG !RW !INF (xh9 OR CIRC OR xap) SOCK=2 (CLVL>30 AND CLVL<60)]: %NAME%%GRAY%[%DARK_GREEN%Lore%GRAY%]{%DARK_GREEN% Lore Helms:%GRAY%+1 Skill, 5-10 Ene, 1MAK%NL% %ORANGE% Ort Sol}%CONTINUE%
-ItemDisplay[NMAG !RW !INF CL1 (SK240>0 AND SK245=3) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%Nado With Twister Lore%GRAY%]{%DARK_GREEN% Lore Helms:%GRAY%+1 Skill, 5-10 Ene, 1MAK%NL% %ORANGE% Ort Sol}%CONTINUE%
-ItemDisplay[NMAG !RW !INF CL2 !UNI !RW !INF SK149=3 SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3Bo Lore%GRAY%]{%DARK_GREEN% Lore Helms:%GRAY%+1 Skill, 5-10 Ene, 1MAK%NL% %ORANGE% Ort Sol}%CONTINUE%
-
-//pattern
-ItemDisplay[NMAG NORM !RW !INF CL5 (NORM OR EXC) SOCK=3 CLVL<41]: %NAME%%GRAY%[%DARK_GREEN%pattern%GRAY%]{%DARK_GREEN% Pattern Claws:%GRAY%10%AR, 40-80ED, 15@, 6Str, 6Dex, 30%FBR, 2Mak%NL% %ORANGE% Tal Ort Tir}%CONTINUE%
-
-//leaf
-ItemDisplay[NMAG NORM !RW STAFF SOCK=2 CLVL<31]: %NAME%%GRAY%[%DARK_GREEN%leaf%GRAY%]{%DARK_GREEN% Leaf Staff:%GRAY%+2 Fire Skill Any Class, 2MAK, Defence Per Lvl, Soso Skills - 3FireBolt, 3Inferno, 3Warmth%NL% %ORANGE% Tir Ral}%CONTINUE%
-ItemDisplay[NMAG !RW STAFF SOCK=2 SK383=3 CLVL<61]: %NAME%%GRAY%[%DARK_GREEN%3skill leaf%GRAY%]{%DARK_GREEN% Leaf Staff:%GRAY%+2 Fire Skill Any Class, 2MAK, Defence Per Lvl, Soso Skills - 3FireBolt, 3Inferno, 3Warmth%NL% %ORANGE% Tir Ral}%CONTINUE%
-ItemDisplay[NMAG !RW STAFF SOCK=2 SK47=3 CLVL<61]: %NAME%%GRAY%[%DARK_GREEN%3skill leaf%GRAY%]{%DARK_GREEN% Leaf Staff:%GRAY%+2 Fire Skill Any Class, 2MAK, Defence Per Lvl, Soso Skills - 3FireBolt, 3Inferno, 3Warmth%NL% %ORANGE% Tir Ral}%CONTINUE%
-ItemDisplay[NMAG !RW STAFF SOCK=2 SK37=3 CLVL<61]: %NAME%%GRAY%[%DARK_GREEN%3skill leaf%GRAY%]{%DARK_GREEN% Leaf Staff:%GRAY%+2 Fire Skill Any Class, 2MAK, Defence Per Lvl, Soso Skills - 3FireBolt, 3Inferno, 3Warmth%NL% %ORANGE% Tir Ral}%CONTINUE%
-
-//malice
-ItemDisplay[NMAG NORM !RW !INF (SWORD OR AXE OR MACE OR SCEPTER OR) SOCK=3 CLVL<31]: %NAME%%GRAY%[%DARK_GREEN%malice%GRAY%]{%DARK_GREEN% Malice Melee:%GRAY%33ED, 9max, 100%OW, -25%Targ Def, -100Defence per Hit, ** Drain Life -5 ** 2Life Gained On Hit%NL% %ORANGE% Ith El Eth}%CONTINUE%
-
-//steel (tir El) Swords
-ItemDisplay[NMAG NORM !RW !INF (SWORD OR AXE) SOCK=2 CLVL<21]: %NAME%%GRAY%[%DARK_GREEN%steel%GRAY%]{%DARK_GREEN% Steel Swords, Axes, Maces:%GRAY%25IAS,20ED,3MinandMax DMG, 50% OW 2MAK%NL% %ORANGE% Tir El}%CONTINUE%
-
-//strength amn tir (all meelee)
-ItemDisplay[NMAG NORM !RW !INF (WP1 OR WP2 OR WP3 OR WP13 OR CL5) SOCK=2 (CLVL<41 AND CLVL>20]: %NAME%%GRAY%[%DARK_GREEN%Strength%GRAY%]{%DARK_GREEN%Strength Any Melee:%GRAY%65-95ED, 25%CB, 7%LL, 2MAK, 20Str, 10Vit %NL% %ORANGE% Amn Tir}%CONTINUE%
-
-//Zephyr
-ItemDisplay[NMAG NORM !RW !INF BOW SOCK=2 CLVL<31]: %NAME%%GRAY%[%DARK_GREEN%Zephyr%GRAY%]{%DARK_GREEN% Zephyr Bow and Xbow:%GRAY%33-66ED, 25%IAS, 25%FRW, -25%Targ Defence%NL% %ORANGE% Ort Eth}%CONTINUE%
-
-//Edge
-
-//Armor
-ItemDisplay[NMAG NORM ARMOR SOCK=0]:%CONTINUE%
-ItemDisplay[NMAG NORM ARMOR SOCK=1]:%CONTINUE%
-ItemDisplay[NMAG NORM ARMOR SOCK=2 CLVL<31]:%NAME%%CONTINUE%
-ItemDisplay[NMAG NORM ARMOR SOCK=3 CLVL<31]:%NAME%%CONTINUE%
-ItemDisplay[NMAG NORM ARMOR SOCK>3 CLVL<41]:%NAME%%CONTINUE%
-
-//stealth
-ItemDisplay[NMAG !RW !INF (brs OR ltp OR stu) SOCK=2 CLVL<31]: %NAME%%GRAY%[%DARK_GREEN%Stealth%GRAY%]{%DARK_GREEN% Stealth Chest:%GRAY%10FRW, 10%FCR, 10%FHR, 15%Man Regen%NL% %ORANGE% Tal Eth}%CONTINUE%
-
-//Nadir
-ItemDisplay[NMAG !RW !INF HELM SOCK=2 CLVL<26]: %NAME%%GRAY%[%DARK_GREEN%Nadir%GRAY%]{%DARK_GREEN% Nadir Helm:%GRAY%50%Def, +10Def, 30def vs range, 3-5Mak, 5Str%NL% %ORANGE% Nef Tir}%CONTINUE%
-
-//Radience
-ItemDisplay[NMAG !RW !INF HELM SOCK=3 CLVL<41]: %NAME%%GRAY%[%DARK_GREEN%Radience%GRAY%]{%DARK_GREEN% Raidence Helm:%GRAY%20-40%Enhanced DMG, 75%Def, 30def vs range, 10Ene, 10Vit%NL% %ORANGE% Nef Sol Ith}%CONTINUE%
-
-//Rhyme
-ItemDisplay[NMAG !RW !INF HELM SOCK=2 CLVL<26]: %NAME%%GRAY%[%DARK_GREEN%Rhyme%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}%CONTINUE%
-ItemDisplay[NMAG !RW !INF CL3 RES>25 SOCK=2 CLVL<70]: %NAME%%GRAY%[%DARK_GREEN%25+Res Paladin Rhyme%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}%CONTINUE%
-ItemDisplay[NMAG !RW !INF CL4 SOCK=2 CLVL<26]: %NAME%%GRAY%[%DARK_GREEN%Rhyme%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}%CONTINUE%
-
-//Necro Stuff
-ItemDisplay[NMAG !RW !INF SK73=3 (SK83>1 OR SK92>1) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3Pdagg With Synergy Rhyme%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}%CONTINUE%
-ItemDisplay[NMAG !RW !INF SK83=3 (SK73>1 OR SK92>1) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3Desc With Synergy Rhyme Or Splendor%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}%CONTINUE%
-ItemDisplay[NMAG !RW !INF SK92=3 (SK83>1 OR SK73>1) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3PNova With Synergy Rhyme Or Splendor%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}%CONTINUE%
-ItemDisplay[NMAG !RW !INF SK84=3 (SK67>1 OR SK93>1) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3BoneSpear With Synergy Rhyme Or Splendor%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth %NL%%DARK_GREEN% Splendor Shield:%GRAY%+1 Skill, 20-35%FCR 20%FBR 60-100%Def, 10Ene, 15%manaRegen, 15-30%MF%NL% %ORANGE%Eth Lum}%CONTINUE%
-
-// EXCEPTIONAL ITEMS
-//Weapons
-
 //Dimensional Blade 
 ItemDisplay[NMAG !INF !RW ETH 9cr SOCK>2]: %NAME%
 
@@ -1293,7 +1211,7 @@ ItemDisplay[NMAG !INF (usk OR uh9) SOCK=3 ED>9]:%DOT-20%%NAME% %NL%%ORANGE%-%DAR
 //Dusk Shroud
 ItemDisplay[NMAG !INF uui DEF<441]:
 ItemDisplay[NMAG !INF uui !SUP DEF>440 (SOCK=0 OR SOCK>2)]: %NAME%
-ItemDisplay[NMAG !INF uui !SUP ED>0 (SOCK=0 OR SOCK>2)]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
+ItemDisplay[NMAG !INF uui ED>0 (SOCK=0 OR SOCK>2)]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 
 //Wyrmhide
 ItemDisplay[NMAG !INF uea DEF<451]:
@@ -1374,76 +1292,63 @@ ItemDisplay[NMAG !INF uit ED>0 (SOCK=0 OR SOCK>2)]: %DOT-20%%NAME% %NL%%ORANGE%-
 RUNEWORDS
 """
 // NORMAL ITEMS
-//Weapons
-ItemDisplay[NMAG NORM WEAPON SOCK=0]:%CONTINUE%
-ItemDisplay[NMAG NORM WEAPON SOCK=1]:%CONTINUE%
-ItemDisplay[NMAG NORM WEAPON SOCK=2 CLVL<31]:%NAME%%CONTINUE%
-ItemDisplay[NMAG NORM WEAPON SOCK=3 CLVL<31]:%NAME%%CONTINUE%
-ItemDisplay[NMAG NORM WEAPON SOCK>3 CLVL<41]:%NAME%%CONTINUE%
-
 //spirit
-ItemDisplay[NMAG !RW !INF (crs OR lsd OR bsd) !RW SOCK=4 CLVL<76]: %NAME%%GRAY%[%DARK_GREEN%Spirit%GRAY%]{%DARK_GREEN% Spirit Sword:%GRAY%1 skill, 25-35%FCR 25%FHR 11-22Vit, 59-82Mana, 3-8Mag Sorb%NL% %ORANGE% Tal Thul Ort Amn}%CONTINUE%
-ItemDisplay[NMAG !RW !INF !RW SOCK=0 (ILVL>25 AND ILVL<41) CLVL<70 crs]: %NAME%%DARK_GREEN%Spirit(Larzuk for 4soc)%CONTINUE%
-ItemDisplay[NMAG !RW !INF !RW SOCK=0 ILVL>25 CLVL<70 (bsd OR lsd)]: %NAME%%DARK_GREEN%Spirit(Larzuk for 4soc)%CONTINUE%
+ItemDisplay[NMAG !RW !INF (crs OR lsd OR bsd) !RW SOCK=4 CLVL<76]: %NAME%%GRAY%{%DARK_GREEN% Spirit Sword:%GRAY%1 skill, 25-35%FCR 25%FHR 11-22Vit, 59-82Mana, 3-8Mag Sorb%NL% %ORANGE% Tal Thul Ort Amn}
+ItemDisplay[NMAG !RW !INF !RW SOCK=0 (ILVL>25 AND ILVL<41) CLVL<70 crs]: %NAME%%DARK_GREEN%Spirit(Larzuk for 4soc)
+ItemDisplay[NMAG !RW !INF !RW SOCK=0 ILVL>25 CLVL<70 (bsd OR lsd)]: %NAME%%DARK_GREEN%Spirit(Larzuk for 4soc)
 
 //cta
-ItemDisplay[NMAG NORM !RW !INF (fla OR crs OR 2ax) SOCK=5]: %NAME%%GRAY%[%DARK_GREEN%CTA%GRAY%]{%DARK_GREEN% Call To Arms:%GRAY%1 skill, 1-6 battle order, 1-4 battle cry, 2-6 battle command%NL% %ORANGE% Amn Ral Mal Ist Ohm}%CONTINUE%
+ItemDisplay[NMAG NORM !RW !INF (fla OR crs OR 2ax) SOCK=5]: %NAME%%GRAY%[%DARK_GREEN%CTA%GRAY%]{%DARK_GREEN% Call To Arms:%GRAY%1 skill, 1-6 battle order, 1-4 battle cry, 2-6 battle command%NL% %ORANGE% Amn Ral Mal Ist Ohm}
 
 //lore
-ItemDisplay[NMAG !RW !INF NORM HELM SOCK=2 CLVL<31]: %NAME%%GRAY%[%DARK_GREEN%Lore%GRAY%]{%DARK_GREEN% Lore Helms:%GRAY%+1 Skill, 5-10 Ene, 1MAK%NL% %ORANGE% Ort Sol}%CONTINUE%
-ItemDisplay[NMAG !RW !INF (xh9 OR CIRC OR xap) SOCK=2 (CLVL>30 AND CLVL<60)]: %NAME%%GRAY%[%DARK_GREEN%Lore%GRAY%]{%DARK_GREEN% Lore Helms:%GRAY%+1 Skill, 5-10 Ene, 1MAK%NL% %ORANGE% Ort Sol}%CONTINUE%
-ItemDisplay[NMAG !RW !INF CL1 (SK240>0 AND SK245=3) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%Nado With Twister Lore%GRAY%]{%DARK_GREEN% Lore Helms:%GRAY%+1 Skill, 5-10 Ene, 1MAK%NL% %ORANGE% Ort Sol}%CONTINUE%
-ItemDisplay[NMAG !RW !INF CL2 !UNI !RW !INF SK149=3 SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3Bo Lore%GRAY%]{%DARK_GREEN% Lore Helms:%GRAY%+1 Skill, 5-10 Ene, 1MAK%NL% %ORANGE% Ort Sol}%CONTINUE%
+ItemDisplay[NMAG !RW !INF NORM HELM SOCK=2 CLVL<31]: %NAME%{%DARK_GREEN% Lore Helms:%GRAY%+1 Skill, 5-10 Ene, 1MAK%NL% %ORANGE% Ort Sol}
+ItemDisplay[NMAG !RW !INF (xh9 OR CIRC OR xap) SOCK=2 (CLVL>30 AND CLVL<60)]: %NAME%%GRAY%[%DARK_GREEN%Lore%GRAY%]{%DARK_GREEN% Lore Helms:%GRAY%+1 Skill, 5-10 Ene, 1MAK%NL% %ORANGE% Ort Sol}
+ItemDisplay[NMAG !RW !INF CL1 (SK240>0 AND SK245=3) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%Nado With Twister Lore%GRAY%]{%DARK_GREEN% Lore Helms:%GRAY%+1 Skill, 5-10 Ene, 1MAK%NL% %ORANGE% Ort Sol}
+ItemDisplay[NMAG !RW !INF CL2 !UNI !RW !INF SK149=3 SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3Bo Lore%GRAY%]{%DARK_GREEN% Lore Helms:%GRAY%+1 Skill, 5-10 Ene, 1MAK%NL% %ORANGE% Ort Sol}
 
 //pattern
-ItemDisplay[NMAG NORM !RW !INF CL5 (NORM OR EXC) SOCK=3 CLVL<41]: %NAME%%GRAY%[%DARK_GREEN%pattern%GRAY%]{%DARK_GREEN% Pattern Claws:%GRAY%10%AR, 40-80ED, 15@, 6Str, 6Dex, 30%FBR, 2Mak%NL% %ORANGE% Tal Ort Tir}%CONTINUE%
+ItemDisplay[NMAG NORM !RW !INF CL5 (NORM OR EXC) SOCK=3 CLVL<41]: %NAME%%GRAY%[%DARK_GREEN%pattern%GRAY%]{%DARK_GREEN% Pattern Claws:%GRAY%10%AR, 40-80ED, 15@, 6Str, 6Dex, 30%FBR, 2Mak%NL% %ORANGE% Tal Ort Tir}
 
 //leaf
-ItemDisplay[NMAG NORM !RW STAFF SOCK=2 CLVL<31]: %NAME%%GRAY%[%DARK_GREEN%leaf%GRAY%]{%DARK_GREEN% Leaf Staff:%GRAY%+2 Fire Skill Any Class, 2MAK, Defence Per Lvl, Soso Skills - 3FireBolt, 3Inferno, 3Warmth%NL% %ORANGE% Tir Ral}%CONTINUE%
-ItemDisplay[NMAG !RW STAFF SOCK=2 SK383=3 CLVL<61]: %NAME%%GRAY%[%DARK_GREEN%3skill leaf%GRAY%]{%DARK_GREEN% Leaf Staff:%GRAY%+2 Fire Skill Any Class, 2MAK, Defence Per Lvl, Soso Skills - 3FireBolt, 3Inferno, 3Warmth%NL% %ORANGE% Tir Ral}%CONTINUE%
-ItemDisplay[NMAG !RW STAFF SOCK=2 SK47=3 CLVL<61]: %NAME%%GRAY%[%DARK_GREEN%3skill leaf%GRAY%]{%DARK_GREEN% Leaf Staff:%GRAY%+2 Fire Skill Any Class, 2MAK, Defence Per Lvl, Soso Skills - 3FireBolt, 3Inferno, 3Warmth%NL% %ORANGE% Tir Ral}%CONTINUE%
-ItemDisplay[NMAG !RW STAFF SOCK=2 SK37=3 CLVL<61]: %NAME%%GRAY%[%DARK_GREEN%3skill leaf%GRAY%]{%DARK_GREEN% Leaf Staff:%GRAY%+2 Fire Skill Any Class, 2MAK, Defence Per Lvl, Soso Skills - 3FireBolt, 3Inferno, 3Warmth%NL% %ORANGE% Tir Ral}%CONTINUE%
+ItemDisplay[NMAG NORM !RW STAFF SOCK=2 CLVL<31]: %NAME%%GRAY%{%DARK_GREEN% Leaf Staff:%GRAY%+2 Fire Skill Any Class, 2MAK, Defence Per Lvl, Soso Skills - 3FireBolt, 3Inferno, 3Warmth%NL% %ORANGE% Tir Ral}
+ItemDisplay[NMAG !RW STAFF SOCK=2 SK383=3 CLVL<61]: %NAME%%GRAY%[%DARK_GREEN%3skill leaf%GRAY%]{%DARK_GREEN% Leaf Staff:%GRAY%+2 Fire Skill Any Class, 2MAK, Defence Per Lvl, Soso Skills - 3FireBolt, 3Inferno, 3Warmth%NL% %ORANGE% Tir Ral}
+ItemDisplay[NMAG !RW STAFF SOCK=2 SK47=3 CLVL<61]: %NAME%%GRAY%[%DARK_GREEN%3skill leaf%GRAY%]{%DARK_GREEN% Leaf Staff:%GRAY%+2 Fire Skill Any Class, 2MAK, Defence Per Lvl, Soso Skills - 3FireBolt, 3Inferno, 3Warmth%NL% %ORANGE% Tir Ral}
+ItemDisplay[NMAG !RW STAFF SOCK=2 SK37=3 CLVL<61]: %NAME%%GRAY%[%DARK_GREEN%3skill leaf%GRAY%]{%DARK_GREEN% Leaf Staff:%GRAY%+2 Fire Skill Any Class, 2MAK, Defence Per Lvl, Soso Skills - 3FireBolt, 3Inferno, 3Warmth%NL% %ORANGE% Tir Ral}
 
 //malice
-ItemDisplay[NMAG NORM !RW !INF (SWORD OR AXE OR MACE OR SCEPTER OR) SOCK=3 CLVL<31]: %NAME%%GRAY%[%DARK_GREEN%malice%GRAY%]{%DARK_GREEN% Malice Melee:%GRAY%33ED, 9max, 100%OW, -25%Targ Def, -100Defence per Hit, ** Drain Life -5 ** 2Life Gained On Hit%NL% %ORANGE% Ith El Eth}%CONTINUE%
+ItemDisplay[NMAG NORM !RW !INF (SWORD OR AXE OR MACE OR SCEPTER OR) SOCK=3 CLVL<31]: %NAME%%GRAY%[%DARK_GREEN%malice%GRAY%]{%DARK_GREEN% Malice Melee:%GRAY%33ED, 9max, 100%OW, -25%Targ Def, -100Defence per Hit, ** Drain Life -5 ** 2Life Gained On Hit%NL% %ORANGE% Ith El Eth}
 
 //steel (tir El) Swords
-ItemDisplay[NMAG NORM !RW !INF (SWORD OR AXE) SOCK=2 CLVL<21]: %NAME%%GRAY%[%DARK_GREEN%steel%GRAY%]{%DARK_GREEN% Steel Swords, Axes, Maces:%GRAY%25IAS,20ED,3MinandMax DMG, 50% OW 2MAK%NL% %ORANGE% Tir El}%CONTINUE%
+ItemDisplay[NMAG NORM !RW !INF (SWORD OR AXE) SOCK=2 CLVL<21]: %NAME%%GRAY%{%DARK_GREEN% Steel Swords, Axes, Maces:%GRAY%25IAS,20ED,3MinandMax DMG, 50% OW 2MAK%NL% %ORANGE% Tir El %NL% %DARK_GREEN%Strength Any Melee:%GRAY%65-95ED, 25%CB, 7%LL, 2MAK, 20Str, 10Vit %NL% %ORANGE% Amn Tir}
 
 //strength amn tir (all meelee)
-ItemDisplay[NMAG NORM !RW !INF (WP1 OR WP2 OR WP3 OR WP13 OR CL5) SOCK=2 (CLVL<41 AND CLVL>20]: %NAME%%GRAY%[%DARK_GREEN%Strength%GRAY%]{%DARK_GREEN%Strength Any Melee:%GRAY%65-95ED, 25%CB, 7%LL, 2MAK, 20Str, 10Vit %NL% %ORANGE% Amn Tir}%CONTINUE%
+ItemDisplay[NMAG NORM !RW !INF (WP1 OR WP2 OR WP3 OR WP13 OR CL5) SOCK=2 (CLVL<41 AND CLVL>20]: %NAME%%GRAY%{%DARK_GREEN% Steel Swords, Axes, Maces:%GRAY%25IAS,20ED,3MinandMax DMG, 50% OW 2MAK%NL% %ORANGE% Tir El %NL%%DARK_GREEN%Strength Any Melee:%GRAY%65-95ED, 25%CB, 7%LL, 2MAK, 20Str, 10Vit %NL% %ORANGE% Amn Tir}
 
 //Zephyr
-ItemDisplay[NMAG NORM !RW !INF BOW SOCK=2 CLVL<31]: %NAME%%GRAY%[%DARK_GREEN%Zephyr%GRAY%]{%DARK_GREEN% Zephyr Bow and Xbow:%GRAY%33-66ED, 25%IAS, 25%FRW, -25%Targ Defence%NL% %ORANGE% Ort Eth}%CONTINUE%
+ItemDisplay[NMAG NORM !RW !INF BOW SOCK=2 (CLVL>15 AND CLVL<36]: %NAME%%GRAY%{%DARK_GREEN% Zephyr Bow and Xbow:%GRAY%33-66ED, 25%IAS, 25%FRW, -25%Targ Defence%NL% %ORANGE% Ort Eth}
 
 //Edge
 
 //Armor
-ItemDisplay[NMAG NORM ARMOR SOCK=0]:%CONTINUE%
-ItemDisplay[NMAG NORM ARMOR SOCK=1]:%CONTINUE%
-ItemDisplay[NMAG NORM ARMOR SOCK=2 CLVL<31]:%NAME%%CONTINUE%
-ItemDisplay[NMAG NORM ARMOR SOCK=3 CLVL<31]:%NAME%%CONTINUE%
-ItemDisplay[NMAG NORM ARMOR SOCK>3 CLVL<41]:%NAME%%CONTINUE%
-
 //stealth
-ItemDisplay[NMAG !RW !INF (brs OR ltp OR stu) SOCK=2 CLVL<31]: %NAME%%GRAY%[%DARK_GREEN%Stealth%GRAY%]{%DARK_GREEN% Stealth Chest:%GRAY%10FRW, 10%FCR, 10%FHR, 15%Man Regen%NL% %ORANGE% Tal Eth}%CONTINUE%
+ItemDisplay[NMAG !RW !INF (brs OR ltp OR stu) SOCK=2 CLVL<31]: %NAME%%GRAY%{%DARK_GREEN% Stealth Chest:%GRAY%10FRW, 10%FCR, 10%FHR, 15%Man Regen%NL% %ORANGE% Tal Eth}
 
 //Nadir
-ItemDisplay[NMAG !RW !INF HELM SOCK=2 CLVL<26]: %NAME%%GRAY%[%DARK_GREEN%Nadir%GRAY%]{%DARK_GREEN% Nadir Helm:%GRAY%50%Def, +10Def, 30def vs range, 3-5Mak, 5Str%NL% %ORANGE% Nef Tir}%CONTINUE%
+ItemDisplay[NMAG !RW !INF HELM SOCK=2 CLVL<26]: %NAME%%GRAY%{%DARK_GREEN% Lore Helms:%GRAY%+1 Skill, 5-10 Ene, 1MAK%NL% %ORANGE% Ort Sol %NL% Nadir Helm:%GRAY%50%Def, +10Def, 30def vs range, 3-5Mak, 5Str%NL% %ORANGE% Nef Tir}
 
 //Radience
-ItemDisplay[NMAG !RW !INF HELM SOCK=3 CLVL<41]: %NAME%%GRAY%[%DARK_GREEN%Radience%GRAY%]{%DARK_GREEN% Raidence Helm:%GRAY%20-40%Enhanced DMG, 75%Def, 30def vs range, 10Ene, 10Vit%NL% %ORANGE% Nef Sol Ith}%CONTINUE%
+ItemDisplay[NMAG !RW !INF HELM SOCK=3 CLVL<41]: %NAME%%GRAY%[%DARK_GREEN%Radience%GRAY%]{%DARK_GREEN% Raidence Helm:%GRAY%20-40%Enhanced DMG, 75%Def, 30def vs range, 10Ene, 10Vit%NL% %ORANGE% Nef Sol Ith}
 
 //Rhyme
-ItemDisplay[NMAG !RW !INF HELM SOCK=2 CLVL<26]: %NAME%%GRAY%[%DARK_GREEN%Rhyme%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}%CONTINUE%
-ItemDisplay[NMAG !RW !INF CL3 RES>25 SOCK=2 CLVL<70]: %NAME%%GRAY%[%DARK_GREEN%25+Res Paladin Rhyme%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}%CONTINUE%
-ItemDisplay[NMAG !RW !INF CL4 SOCK=2 CLVL<26]: %NAME%%GRAY%[%DARK_GREEN%Rhyme%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}%CONTINUE%
+ItemDisplay[NMAG !RW !INF HELM SOCK=2 CLVL<26]: %NAME%%GRAY%{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}
+ItemDisplay[NMAG !RW !INF CL3 RES>25 SOCK=2 CLVL<70]: %NAME%%GRAY%[%DARK_GREEN%25+Res Paladin Rhyme%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}
+ItemDisplay[NMAG !RW !INF CL4 SOCK=2 CLVL<26]: %NAME%%GRAY%{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}
 
 //Necro Stuff
-ItemDisplay[NMAG !RW !INF SK73=3 (SK83>1 OR SK92>1) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3Pdagg With Synergy Rhyme%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}%CONTINUE%
-ItemDisplay[NMAG !RW !INF SK83=3 (SK73>1 OR SK92>1) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3Desc With Synergy Rhyme Or Splendor%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}%CONTINUE%
-ItemDisplay[NMAG !RW !INF SK92=3 (SK83>1 OR SK73>1) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3PNova With Synergy Rhyme Or Splendor%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}%CONTINUE%
-ItemDisplay[NMAG !RW !INF SK84=3 (SK67>1 OR SK93>1) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3BoneSpear With Synergy Rhyme Or Splendor%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth %NL%%DARK_GREEN% Splendor Shield:%GRAY%+1 Skill, 20-35%FCR 20%FBR 60-100%Def, 10Ene, 15%manaRegen, 15-30%MF%NL% %ORANGE%Eth Lum}%CONTINUE%
+ItemDisplay[NMAG !RW !INF SK73=3 (SK83>1 OR SK92>1) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3Pdagg With Synergy Rhyme%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}
+ItemDisplay[NMAG !RW !INF SK83=3 (SK73>1 OR SK92>1) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3Desc With Synergy Rhyme Or Splendor%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}
+ItemDisplay[NMAG !RW !INF SK92=3 (SK83>1 OR SK73>1) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3PNova With Synergy Rhyme Or Splendor%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth}
+ItemDisplay[NMAG !RW !INF SK84=3 (SK67>1 OR SK93>1) SOCK=2]: %NAME%%GRAY%[%DARK_GREEN%3BoneSpear With Synergy Rhyme Or Splendor%GRAY%]{%DARK_GREEN% Rhyme Shield:%GRAY%20%ICB, 40%FBR, 25@, CBF, 15%manaRegen, 25%MF %NL% %ORANGE% Shael Eth %NL%%DARK_GREEN% Splendor Shield:%GRAY%+1 Skill, 20-35%FCR 20%FBR 60-100%Def, 10Ene, 15%manaRegen, 15-30%MF%NL% %ORANGE%Eth Lum}
 
 """
 NEW LADDER RUNE WORDS
@@ -1464,8 +1369,8 @@ NEW LADDER RUNE WORDS
 
 // Kingslayer
 
-//Show me quantitiy of all stackables
-ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>0]: %NAME% %GRAY%x%DARK_GREEN%%QTY%%CONTINUE%
+//Show me quantitiy
+ItemDisplay[(!ARMOR OR !WEAPON OR !tbk OR !ibk) QTY>0]: %NAME% %GRAY%x%DARK_GREEN%%QTY%%CONTINUE%
 
 //Always show me those items
 ItemDisplay[SET OR CRAFT]: %NAME%
