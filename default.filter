@@ -396,11 +396,11 @@ ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Or+ %ORANGE%Am
 ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Fa+ %ORANGE%Um %BLUE%O}
 ItemDisplay[ARMOR !rin !amu NORM UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Tal %ORANGE%Shael O}
 ItemDisplay[ARMOR !rin !amu EXC UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Lem O}
-ItemDisplay[WEAPON NORM UNI ID]: %NAME%%TAN%To Upgrade: %ORANGE%Ral %ORANGE%Sol %GREEN%O}
+ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral %ORANGE%Sol %GREEN%O}
 ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Lum %ORANGE%Pul %GREEN%O}
 ItemDisplay[ARMOR !rin !amu NORM SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Tal %ORANGE%Shael %WHITE%O}
 ItemDisplay[ARMOR !rin !amu EXC SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Lem %WHITE%O}
-ItemDisplay[WEAPON NORM SET ID]: %NAME%%TAN%To Upgrade: %ORANGE%Ra+ %ORANGE%Sol %GREEN%O}
+ItemDisplay[WEAPON NORM SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral + %ORANGE%Sol %GREEN%O}
 ItemDisplay[WEAPON EXC SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Lum %ORANGE%Pul %GREEN%O}
 
 //socketing
@@ -1099,32 +1099,36 @@ ItemDisplay[NMAG !INF !RW 7kr (SOCK=0 OR SOCK>2) ED>9]: %DOT-20%%NAME%Venom %NL%
 
 //Stygian Pike
 ItemDisplay[NMAG !INF 7tr !RW (SUP OR !SUP) ETH SOCK=0]: %DOT-20%%NAME%(4sock At larzuk)
+ItemDisplay[NMAG !INF 7tr !RW (SUP OR !SUP) ETH SOCK>2]: %DOT-20%%NAME%
 
 //Mancatcher
-ItemDisplay[NMAG !INF !RW 7br ETH SOCK=4]: %DOT-20%%NAME%(4sock ETH pole)%
+ItemDisplay[NMAG !INF !RW 7br ETH SOCK=3]: %NAME%
+ItemDisplay[NMAG !INF !RW 7br ETH SOCK=4]: %DOT-20%%NAME%(4sock ETH pole)
 ItemDisplay[NMAG !INF !RW 7br ETH ED>5 (SOCK=0 OR SOCK>3)]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 
 //Ghost Spear
+ItemDisplay[NMAG !INF !RW 7st ETH SOCK=3]: %NAME%
 ItemDisplay[NMAG !INF !RW 7st ETH SOCK=4]: %DOT-20%%NAME%(4sock ETH pole)
 ItemDisplay[NMAG !INF !RW 7st ETH ED>5 (SOCK=0 OR SOCK>3)]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 
 //WarPike
+ItemDisplay[NMAG !INF !RW 7p7 ETH SOCK=3]: %NAME%
 ItemDisplay[NMAG !INF !RW 7p7 ED>0]: %NAME%
 ItemDisplay[NMAG !INF !RW 7p7 ETH (SOCK=0 OR SOCK>3)]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 ItemDisplay[NMAG !INF !RW 7p7 ETH ED>5 (SOCK=0 OR SOCK>3)]:%DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 
 //Thresher
-ItemDisplay[NMAG !INF !RW 7s8 ETH (SOCK=0 OR SOCK>3)]: %NAME%
+ItemDisplay[NMAG !INF !RW 7s8 ETH (SOCK=0 OR SOCK>2)]: %NAME%
 ItemDisplay[NMAG !INF !RW 7s8 ETH ED>5 SOCK=0]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 ItemDisplay[NMAG !INF !RW 7s8 ETH ED>5 SOCK=4]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 
 //Cryptic Axe
-ItemDisplay[NMAG !INF !RW 7pa ETH (SOCK=0 OR SOCK>3)]: %NAME%
+ItemDisplay[NMAG !INF !RW 7pa ETH (SOCK=0 OR SOCK>2)]: %NAME%
 ItemDisplay[NMAG !INF !RW 7pa ETH ED>5 SOCK=0]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 ItemDisplay[NMAG !INF !RW 7pa ETH ED>5 SOCK=4]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 
 // GPA
-ItemDisplay[NMAG !INF !RW 7h7 ETH (SOCK=0 OR SOCK>3)]: %NAME%
+ItemDisplay[NMAG !INF !RW 7h7 ETH (SOCK=0 OR SOCK>2)]: %NAME%
 ItemDisplay[NMAG !INF !RW 7h7 ETH ED>5 SOCK=0]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 ItemDisplay[NMAG !INF !RW 7h7 ETH ED>5 SOCK=4]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 
