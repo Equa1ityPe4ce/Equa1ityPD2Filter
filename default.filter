@@ -1382,7 +1382,7 @@ ItemDisplay[NMAG !RW !INF (NEC OR WAND) SK367=3 ]: %NAME%%PURPLE%3BWarp%CONTINUE
 ItemDisplay[NMAG !RW !INF NEC (SOCK=0 OR SOCK=2)]:%NAME%{%DARK_GREEN% Rhyme %ORANGE% Shael Eth %NL%%DARK_GREEN% Splendor %ORANGE%Eth Lum}
 
 //Show me quantitiy
-ItemDisplay[(!ARMOR OR !WEAPON OR !tbk OR !ibk) QTY>0]: %NAME% %GRAY%x%DARK_GREEN%%QTY%%CONTINUE%
+ItemDisplay[(!ARMOR OR !WEAPON OR !THROWING OR !aqv OR !cqv OR !tbk OR !ibk) QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%%CONTINUE%
 
 //Always show me those items
 ItemDisplay[SET OR CRAFT]: %NAME%
