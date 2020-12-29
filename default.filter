@@ -144,7 +144,7 @@ Index(2)
 PD2 ITEMS
 """
 //Project Diablo 2 items
-ItemDisplay[wss]: %DOT-20%%ORANGE% * %PURPLE%Shard%ORANGE% * %NL%%PURPLE%ShardWorldStone{%TAN%Cube%WHITE%: This And An Item}%CONTINUE%
+ItemDisplay[wss]: %DOT-20%%PURPLE%SharD%NL%%ORANGE% * %PURPLE%WorldStone%ORANGE% * {%TAN%Cube%WHITE%: This And An Item}%CONTINUE%
 ItemDisplay[imra]: %NAME% %ORANGE%*{%WHITE%This Item + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Imbue White to %YELLOW%Rare %WHITE%Map:}%CONTINUE%
 ItemDisplay[rera]: %NAME% %ORANGE%*{%WHITE%This Item + Perf Gem + %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Reroll %YELLOW%Rare %WHITE%Map:}%CONTINUE%
 ItemDisplay[upma]: %NAME% %ORANGE%*{%WHITE%This Item + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Upg %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE% Map:}%CONTINUE%
@@ -1400,7 +1400,7 @@ ItemDisplay[NMAG !RW !INF !UNI SK381=3 ]: %NAME%%PURPLE%3DPact%CONTINUE%
 ItemDisplay[NMAG !RW !INF !UNI SK76=3 ]: %NAME%%DARK_GREEN%3Maiden%CONTINUE%
 ItemDisplay[NMAG !RW !INF !UNI SK95=3 ]: %NAME%%PURPLE%3Revive%CONTINUE%
 ItemDisplay[NMAG !RW !INF !UNI SK367=3 ]: %NAME%%PURPLE%3BWarp%CONTINUE%
-ItemDisplay[NMAG !RW !INF NEC (SOCK=0 OR SOCK=2)]:%NAME%{%DARK_GREEN% Rhyme %ORANGE% Shael Eth %NL%%DARK_GREEN% Splendor %ORANGE%Eth Lum}
+ItemDisplay[NMAG !RW !INF NEC SOCK=2]:%NAME%{%DARK_GREEN% Rhyme %ORANGE% Shael Eth %NL%%DARK_GREEN% Splendor %ORANGE%Eth Lum}
 
 //Pal stuff
 ItemDisplay[NMAG !RW !INF SCEPTER SK101=3 !UNI (SOCK=0 OR SOCK=3)]: %NAME%%DARK_GREEN%3HolBolt%CONTINUE%
@@ -1409,7 +1409,7 @@ ItemDisplay[NMAG !RW !INF SCEPTER SK371=3 !UNI (SOCK=0 OR SOCK=3)]: %NAME%%DARK_
 ItemDisplay[NMAG !RW !INF SCEPTER SK364=3 !UNI (SOCK=0 OR SOCK=3)]: %NAME%%DARK_GREEN%3HolNova%CONTINUE%
 
 //Show me quantitiy
-ItemDisplay[(!ARMOR OR !WEAPON OR !THROWING OR !aqv OR !cqv OR !tbk OR !ibk) QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%%CONTINUE%
+ItemDisplay[(!ARMOR OR !WEAPON OR !THROWING !JAV !SPEAR OR !aqv OR !cqv OR !tbk OR !ibk) QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%%CONTINUE%
 
 //Always show me those items
 ItemDisplay[SET OR CRAFT]: %NAME%
@@ -1429,3 +1429,4 @@ ItemDisplay[(CHEST OR HELM OR SHIELD) OR (WEAPON AND !THROWING) (EXC OR ELT) NMA
 //HIDE EVERYTHING ELSE part 2
 ItemDisplay[(ARMOR OR WEAPON) INF]: 
 ItemDisplay[(ARMOR OR WEAPON) !leg CLVL>18]:
+ItemDisplay[MAG (WP1 OR WP2 OR WP3 OR WP13 OR CL5) ETH]: %NAME%
