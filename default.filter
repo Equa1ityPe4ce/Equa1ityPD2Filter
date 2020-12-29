@@ -1409,7 +1409,7 @@ ItemDisplay[NMAG !RW !INF SCEPTER SK371=3 !UNI (SOCK=0 OR SOCK=3)]: %NAME%%DARK_
 ItemDisplay[NMAG !RW !INF SCEPTER SK364=3 !UNI (SOCK=0 OR SOCK=3)]: %NAME%%DARK_GREEN%3HolNova%CONTINUE%
 
 //Show me quantitiy
-ItemDisplay[(!ARMOR OR !WEAPON OR !THROWING !JAV !SPEAR OR !aqv OR !cqv OR !tbk OR !ibk) QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%%CONTINUE%
+ItemDisplay[(!ARMOR OR !WEAPON OR !THROWING !JAV !SPEAR OR !aqv OR !cqv OR !tbk OR !ibk) !MAG !RARE !UNI QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%%CONTINUE%
 
 //Always show me those items
 ItemDisplay[SET OR CRAFT]: %NAME%
