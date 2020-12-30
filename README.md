@@ -4,7 +4,7 @@ Loot Filter For Project Diablo 2
 NOTE:
 TO Apply Filter Drop file in ProjectDiablo2 Folder inside the d2 folder. and thats it!
 I'm still new to this so feed back is welcome
-UPDATED PUSHED MONDAYS!!!!!
+UPDATES PUSHED MONDAYS USA Afternoons!!!!!
 
 * Equa1ity's Filte12
 
