@@ -1,6 +1,6 @@
 """
 V2.0
-Equa1ity's Lewt Filter.  Thanks to The D2 Modding Community (Gamers, Developers, Content Creators and Anyone Involved in keeping it alive) 
+Tor's Bath House Filter.  Thanks to The D2 Modding Community (Gamers, Developers, Content Creators and Anyone Involved in keeping it alive) 
 with out other people showing passion for this game I love. I wouldn't get to keep playing it
 Shout Out To:
 1. Mitch, Dave and Figgy(OG's)
@@ -54,11 +54,11 @@ ItemDisplay[SOCK>0]:%NAME%%TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]:%NAME% %GRAY%(%GOLD%%PRICE%%GRAY%)%CONTINUE%
 
 //Potions
-ItemDisplay[rvl]:%PURPLE%R%WHITE%r%NL%%WHITE%7%PURPLE%5
+ItemDisplay[rvl]:%PURPLE%R%WHITE%r%PURPLE%R%NL%%WHITE%R%PURPLE%r%WHITE%R
 ItemDisplay[rvs CLVL<91]:%PURPLE%r%WHITE%35
 ItemDisplay[rvs CLVL>90]:
-ItemDisplay[hp5]: %RED%O
-ItemDisplay[mp5]: %BLUE%O
+ItemDisplay[hp5]: %RED%Ohp
+ItemDisplay[mp5]: %BLUE%Omp
 ItemDisplay[hp1 DIFF=0]:%RED%o
 ItemDisplay[hp2 DIFF=0]:%RED%o
 ItemDisplay[hp3 DIFF=0]:%RED%o
@@ -82,7 +82,7 @@ ItemDisplay[vps CLVL<10]:%DARK_GREEN%Stanima
 ItemDisplay[wms CLVL<21]:%YELLOW%O%GRAY%Thaw
 ItemDisplay[(tsc OR isc OR vps OR wms) CLVL>30]:
 ItemDisplay[yps]:%DARK_GREEN%O%GRAY%ant
-ItemDisplay[key]:
+ItemDisplay[key]:%NAME%
 
 //Ammo
 ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
@@ -95,21 +95,21 @@ ItemDisplay[(ARMOR OR WEAPON) NMAG  SOCK=0 (NORM OR EXC) !leg CLVL<6]:%NAME%
 //Gems
 //Gems
 //fix for flaweless and perfects for some reason it need that fix?
-ItemDisplay[gzv]: %DARK_GREEN%f%GRAY%[%PURPLE% O %GRAY%]%CONTINUE%
-ItemDisplay[glw]: %DARK_GREEN%f%GRAY%[%WHITE% O %GRAY%]%CONTINUE%
-ItemDisplay[glg]: %DARK_GREEN%f%GRAY%[%GREEN% O %GRAY%]%CONTINUE%
-ItemDisplay[glr]: %DARK_GREEN%f%GRAY%[%RED% O %GRAY%]%CONTINUE%
-ItemDisplay[glb]: %DARK_GREEN%f%GRAY%[%BLUE% O %GRAY%]%CONTINUE%
-ItemDisplay[gly]: %DARK_GREEN%f%GRAY%[%YELLOW% O %GRAY%]%CONTINUE%
-ItemDisplay[skl]: %DARK_GREEN%f%GRAY%[%ORANGE% O %GRAY%]%CONTINUE%
+ItemDisplay[gzv]: %DARK_GREEN%%NAME%%GRAY%[%PURPLE% O %GRAY%]%CONTINUE%
+ItemDisplay[glw]: %DARK_GREEN%%NAME%%GRAY%[%WHITE% O %GRAY%]%CONTINUE%
+ItemDisplay[glg]: %DARK_GREEN%%NAME%%GRAY%[%GREEN% O %GRAY%]%CONTINUE%
+ItemDisplay[glr]: %DARK_GREEN%%NAME%%GRAY%[%RED% O %GRAY%]%CONTINUE%
+ItemDisplay[glb]: %DARK_GREEN%%NAME%%GRAY%[%BLUE% O %GRAY%]%CONTINUE%
+ItemDisplay[gly]: %DARK_GREEN%%NAME%%GRAY%[%YELLOW% O %GRAY%]%CONTINUE%
+ItemDisplay[skl]: %DARK_GREEN%%NAME%%GRAY%[%ORANGE% O %GRAY%]%CONTINUE%
 ItemDisplay[gzv OR glw OR glg OR glr OR glb OR gly OR skl]:%NAME%{%TAN%To Up:%WHITE% Cube 3 with a Key}%CONTINUE%
-ItemDisplay[gpv]: %DARK_GREEN%P%GRAY%[%PURPLE% O %GRAY%]%CONTINUE%
-ItemDisplay[gpw]: %DARK_GREEN%P%GRAY%[%WHITE% O %GRAY%]%CONTINUE%
-ItemDisplay[gpg]: %DARK_GREEN%P%GRAY%[%GREEN% O %GRAY%]%CONTINUE%
-ItemDisplay[gpr]: %DARK_GREEN%P%GRAY%[%RED% O %GRAY%]%CONTINUE%
-ItemDisplay[gpb]: %DARK_GREEN%P%GRAY%[%BLUE% O %GRAY%]%CONTINUE%
-ItemDisplay[gpy]: %DARK_GREEN%P%GRAY%[%YELLOW% O %GRAY%]%CONTINUE%
-ItemDisplay[skz]: %DARK_GREEN%P%GRAY%[%ORANGE% O %GRAY%]%CONTINUE%
+ItemDisplay[gpv]: %DARK_GREEN%%NAME%%GRAY%[%PURPLE% O %GRAY%]%CONTINUE%
+ItemDisplay[gpw]: %DARK_GREEN%%NAME%%GRAY%[%WHITE% O %GRAY%]%CONTINUE%
+ItemDisplay[gpg]: %DARK_GREEN%%NAME%%GRAY%[%GREEN% O %GRAY%]%CONTINUE%
+ItemDisplay[gpr]: %DARK_GREEN%%NAME%%GRAY%[%RED% O %GRAY%]%CONTINUE%
+ItemDisplay[gpb]: %DARK_GREEN%%NAME%%GRAY%[%BLUE% O %GRAY%]%CONTINUE%
+ItemDisplay[gpy]: %DARK_GREEN%%NAME%%GRAY%[%YELLOW% O %GRAY%]%CONTINUE%
+ItemDisplay[skz]: %DARK_GREEN%%NAME%%GRAY%[%ORANGE% O %GRAY%]%CONTINUE%
 
 //hiding low ones
 ItemDisplay[GEM<3 DIFF>0]:
@@ -148,7 +148,7 @@ Index(2)
 PD2 ITEMS
 """
 //Project Diablo 2 items
-ItemDisplay[wss]: %DOT-20%%PURPLE%Shard%NL%%ORANGE% * %PURPLE%Worldstone%ORANGE% * {%TAN%Cube%WHITE%: This And An Item}%CONTINUE%
+ItemDisplay[wss]: %DOT-20%%PURPLE%Shard%NL%%ORANGE% * * %PURPLE%Worldstone%ORANGE% * * {%TAN%Cube%WHITE%: This And An Item}%CONTINUE%
 ItemDisplay[imra]: %NAME% %ORANGE%*{%WHITE%This Item + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Imbue White to %YELLOW%Rare %WHITE%Map:}%CONTINUE%
 ItemDisplay[rera]: %NAME% %ORANGE%*{%WHITE%This Item + Perf Gem + %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Reroll %YELLOW%Rare %WHITE%Map:}%CONTINUE%
 ItemDisplay[upma]: %NAME% %ORANGE%*{%WHITE%This Item + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Upg %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE% Map:}%CONTINUE%
@@ -157,10 +157,9 @@ ItemDisplay[scou]: %NAME% %ORANGE%*{%WHITE%This Item + %ORANGE%Hel%NL%%TAN%Note%
 ItemDisplay[lbox]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%** %RED% PUZZLEBOX  %ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 
 //Maps
-ItemDisplay[(t17 OR t18) NMAG]:%MAP-9B%%NAME% %NL%%DARK_GREEN%-%TAN%= %GRAY%iLv[%TAN%%ILVL%%GRAY%] %TAN%=%DARK_GREEN%- {%DARK_GREEN%Imbue This: %GOLD%Zakarum Orb + %BLUE%Jewel %ORANGE%Rune Thul or above}
-ItemDisplay[(t17 OR t18) !ID MAG]:%MAP-9B%%NAME% %NL%%DARK_GREEN%-%TAN%= %GRAY%iLv[%TAN%%ILVL%%GRAY%] %TAN%=%DARK_GREEN%-
-ItemDisplay[(t17 OR t18) !ID RARE]:%MAP-9B%%NAME% %NL%%DARK_GREEN%-%TAN%= %GRAY%iLv[%TAN%%ILVL%%GRAY%] %TAN%=%DARK_GREEN%-
-ItemDisplay[t16]: %NAME%
+ItemDisplay[(t17 OR t18 OR t16) NMAG]:%MAP-9B%%NAME% %NL%%DARK_GREEN%-%TAN%= %GRAY%iLv[%TAN%%ILVL%%GRAY%] %TAN%=%DARK_GREEN%- {%DARK_GREEN%Imbue This: %GOLD%Zakarum Orb + %BLUE%Jewel %ORANGE%Rune Thul or above}
+ItemDisplay[(t17 OR t18 OR t16) !ID MAG]:%MAP-9B%%NAME% %NL%%DARK_GREEN%-%TAN%= %GRAY%iLv[%TAN%%ILVL%%GRAY%] %TAN%=%DARK_GREEN%-
+ItemDisplay[(t17 OR t18 OR t16) !ID RARE]:%MAP-9B%%NAME% %NL%%DARK_GREEN%-%TAN%= %GRAY%iLv[%TAN%%ILVL%%GRAY%] %TAN%=%DARK_GREEN%-
 
 //D Clone
 ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %BORDER-62%%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-
@@ -206,10 +205,10 @@ CHARMS
 Mostly taken from Kryzard's I couldnt do better then this
 """
 //All Charms
-ItemDisplay[cm2 MAG !ID]:%PURPLE%-%WHITE%=%BLUE% %NAME% %WHITE%=%PURPLE%-
-ItemDisplay[cm1 OR cm3 MAG !ID ILVL<85]: %DOT-9B%%PURPLE%-%WHITE%=   %BLUE%%NAME%   %WHITE%=%PURPLE%-
-ItemDisplay[(cm1 OR cm3) MAG !ID (ILVL>84 AND ILVL<90)]: %DOT-9B%%PURPLE%-%WHITE%=   %BLUE%%NAME%   %WHITE%=%PURPLE%-%NL%%GRAY%iLvl[%ORANGE%%ILVL%%GRAY%]
-ItemDisplay[(cm1 OR cm3) MAG !ID ILVL>89]: %DOT-9B%%PURPLE%-%WHITE%=   %BLUE%%NAME%   %WHITE%=%PURPLE%-%NL%%GRAY%iLvl[%RED%%ILVL%%GRAY%]
+ItemDisplay[cm2 MAG !ID]:%PURPLE%*%WHITE%*%BLUE% %NAME% %WHITE%*%PURPLE%*
+ItemDisplay[cm1 OR cm3 MAG !ID ILVL<85]: %DOT-9B%%PURPLE%*%WHITE%*   %BLUE%%NAME%   %WHITE%*%PURPLE%*
+ItemDisplay[(cm1 OR cm3) MAG !ID (ILVL>84 AND ILVL<90)]: %DOT-9B%%PURPLE%*%WHITE%*   %BLUE%%NAME%   %WHITE%*%PURPLE%*%NL%%GRAY%iLvl[%ORANGE%%ILVL%%GRAY%]
+ItemDisplay[(cm1 OR cm3) MAG !ID ILVL>89]: %DOT-9B%%PURPLE%*%WHITE%*   %BLUE%%NAME%   %WHITE%*%PURPLE%*%NL%%GRAY%iLvl[%RED%%ILVL%%GRAY%]
 
 //Good Charms
 ItemDisplay[cm3 (MAXDMG>6 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Grand Charm 
