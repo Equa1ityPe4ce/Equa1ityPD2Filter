@@ -407,10 +407,10 @@ ItemDisplay[ARMOR !rin !amu NORM RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral %
 ItemDisplay[ARMOR !rin !amu EXC RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Pul %PURPLE%O}
 ItemDisplay[ARMOR !rin !amu NORM CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ Perf %PURPLE%O}
 ItemDisplay[ARMOR !rin !amu EXC CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Pul %PURPLE%O}
-ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Or+ %ORANGE%Amn %BLUE%O}
-ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Fa+ %ORANGE%Um %BLUE%O}
-ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Or+ %ORANGE%Amn %BLUE%O}
-ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Fa+ %ORANGE%Um %BLUE%O}
+ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ort %ORANGE%Amn %BLUE%O}
+ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Fal %ORANGE%Um %BLUE%O}
+ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ort %ORANGE%Amn %BLUE%O}
+ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Fal %ORANGE%Um %BLUE%O}
 ItemDisplay[ARMOR !rin !amu NORM UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Tal %ORANGE%Shael O}
 ItemDisplay[ARMOR !rin !amu EXC UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Lem O}
 ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral %ORANGE%Sol %GREEN%O}
