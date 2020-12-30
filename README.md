@@ -5,7 +5,6 @@ NOTE:
 TO Apply Filter Drop file in ProjectDiablo2 Folder inside the d2 folder. and thats it!
 I'm still new to this so feed back is welcome
 UPDATES PUSHED MONDAYS USA Afternoons!!!!!
-
 * Equa1ity's Filte12
 
 _*Change Log*_
