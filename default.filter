@@ -370,6 +370,7 @@ ItemDisplay[(EQ1 OR EQ2 OR EQ3 OR EQ5 OR EQ6) MAG CLVL<60]: %NAME%
 ItemDisplay[(EQ1 OR EQ2 OR EQ3 OR EQ5 OR EQ6) MAG CLVL>59]:
 ItemDisplay[(WP1 OR WP2 OR WP3 OR WP4 OR WP5 OR WP6 OR WP7 WP8 OR WP9 OR WP10 OR WP11 OR WP12 OR WP13) !(wax OR 9wa OR 7wa OR 7fb OR 7p7 OR 9p9 OR pik OR 7wh OR 9wh OR whm OR gma OR 9gm OR 7gm crs OR 9cr OR 7fb OR 7p7 OR 9p9 OR pik) MAG]:
 ItemDisplay[am5 OR ama OR amf MAG]: %NAME%
+ItemDisplay[RARE XBOW]:
 
 //Jewels
 ItemDisplay[jew MAG !ID ILVL<85]:%BORDER-68%%TAN%-%WHITE%=%BLUE% %NAME% %WHITE%%TAN%-%WHITE%=%NL%%GRAY%iLv[%ILVL%%GRAY%]
