@@ -206,9 +206,9 @@ Mostly taken from Kryzard's I couldnt do better then this
 """
 //All Charms
 ItemDisplay[cm2 MAG !ID]:%PURPLE%-%WHITE%=%BLUE% %NAME% %WHITE%=%PURPLE%-
-ItemDisplay[cm1 OR cm3 MAG !ID ILVL<85]: %DOT-9B%%PURPLE%-%WHITE%=%BLUE% %NAME% %WHITE%=%PURPLE%-
-ItemDisplay[(cm1 OR cm3) MAG !ID (ILVL>84 AND ILVL<90)]: %DOT-9B%%PURPLE%-%WHITE%=%BLUE% %NAME% %WHITE%=%PURPLE%-%NL%%GRAY%iLvl[%ORANGE%%ILVL%%GRAY%]
-ItemDisplay[(cm1 OR cm3) MAG !ID ILVL>89]: %DOT-9B%%DOT-9B%%PURPLE%-%WHITE%=%BLUE% %NAME% %WHITE%=%PURPLE%-%NL%%GRAY%iLvl[%RED%%ILVL%%GRAY%]
+ItemDisplay[cm1 OR cm3 MAG !ID ILVL<85]: %DOT-20%%PURPLE%-%WHITE%=%BLUE% %NAME% %WHITE%=%PURPLE%-
+ItemDisplay[(cm1 OR cm3) MAG !ID (ILVL>84 AND ILVL<90)]: %DOT-20%%PURPLE%-%WHITE%=%BLUE% %NAME% %WHITE%=%PURPLE%-%NL%%GRAY%iLvl[%ORANGE%%ILVL%%GRAY%]
+ItemDisplay[(cm1 OR cm3) MAG !ID ILVL>89]: %DOT-20%%PURPLE%-%WHITE%=%BLUE% %NAME% %WHITE%=%PURPLE%-%NL%%GRAY%iLvl[%RED%%ILVL%%GRAY%]
 
 //Skillers
 //Asassin
