@@ -20,3 +20,7 @@ Rewrite of code Mostly to not be using other peoples stuf.
 - removed quantity if item  is only 1
 - some low level rune word support
 - better class skill item support
+
+12/31/2020
+- hot fix for ILVL>90 sc's (Extra %DOT-20% was displaying)
+- Changes to the way im doing charms (Work in progress)
