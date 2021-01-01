@@ -145,11 +145,11 @@ PD2 ITEMS
 """
 //Project Diablo 2 items
 ItemDisplay[wss]: %DOT-20%%PURPLE%Shard%NL%%ORANGE% * * %PURPLE%Worldstone%ORANGE% * * {%TAN%Cube%WHITE%: This And An Item}%CONTINUE%
-ItemDisplay[imra]: %NAME% %ORANGE%*{%WHITE%This Item + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Imbue White to %YELLOW%Rare %WHITE%Map:}%CONTINUE%
-ItemDisplay[rera]: %NAME% %ORANGE%*{%WHITE%This Item + Perf Gem + %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Reroll %YELLOW%Rare %WHITE%Map:}%CONTINUE%
-ItemDisplay[upma]: %NAME% %ORANGE%*{%WHITE%This Item + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Upg %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE% Map:}%CONTINUE%
-ItemDisplay[imma]: %NAME% %ORANGE%*{%WHITE%This Item + %BLUE%Jewel %NL%%TAN%Note%WHITE%: Imbue White to %BLUE%Magic%WHITE% Map:}%CONTINUE%
-ItemDisplay[scou]: %NAME% %ORANGE%*{%WHITE%This Item + %ORANGE%Hel%NL%%TAN%Note%WHITE%: Revert back to a White Map:}%CONTINUE%
+ItemDisplay[imra]: %NAME%{%WHITE%Cube This %BLUE%Jewel %ORANGE%Rune Thul or Above %TAN%Imbue %WHITE%White %TAN%to %YELLOW%Rare %WHITE%Map:}%CONTINUE%
+ItemDisplay[rera]: %NAME%{%WHITE%Cube This %DARK_GREEN%Perf Gem %ORANGE%Rune Thul or Above %NL%%TAN% Reroll %YELLOW%Rare %WHITE%Map:}%CONTINUE%
+ItemDisplay[upma]: %NAME%{%WHITE%Cube This %DARK_GREEN%Perf %ORANGE%O  %ORANGE%Rune Thul or Above %NL%%TAN%upgrayedd %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE% Map}%CONTINUE%
+ItemDisplay[imma]: %NAME%{%WHITE%Cube This %BLUE%Jewel %NL%%TAN%White to %BLUE%Magic%WHITE% Map}%CONTINUE%
+ItemDisplay[scou]: %NAME%{%WHITE%Cube This %ORANGE%Hel%NL%%TAN%White Map}%CONTINUE%
 ItemDisplay[lbox]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%** %RED% PUZZLEBOX  %ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 
 //Maps
@@ -398,6 +398,8 @@ ItemDisplay[rin MAG ILVL<85]: %NAME%%GRAY%[%GRAY%iLv%ILVL%%GRAY%]{%BLUE%This Ite
 ItemDisplay[rin MAG (ILVL>84 AND ILVL<90)]: %NAME%%GRAY%[iLv%ORANGE%%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %RED%Blood Ring %WHITE%Craft Recipe:}
 ItemDisplay[rin MAG ILVL>89]: %NAME%%GRAY%[iLv%RED%%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %RED%Blood Ring %WHITE%Craft Recipe:}
 
+
+
 """
 Index(7)
 SHOPPING
@@ -445,6 +447,32 @@ ItemDisplay[CHEST (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To So
 ItemDisplay[(WEAPON AND !THROWING) (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Ral %ORANGE%Amn %PURPLE%O}
 ItemDisplay[(HELM OR CIRC) (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Ral %ORANGE%Thul %BLUE%O}
 ItemDisplay[SHIELD (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Tal %ORANGE%Amn %RED%O}
+
+//Craftables
+ItemDisplay[amu MAG ILVL<85]: %NAME%%GRAY%[iLv%ILVL%]{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
+ItemDisplay[amu MAG (ILVL>84 AND ILVL<90)]: %NAME%%GRAY%[iLv%ORANGE%%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
+ItemDisplay[amu MAG ILVL>89]: %NAME%%GRAY%[iLv%RED%%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
+ItemDisplay[rin MAG ILVL<85]: %NAME%%GRAY%[%GRAY%iLv%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %RED%Blood Ring %WHITE%Craft Recipe:}
+ItemDisplay[rin MAG (ILVL>84 AND ILVL<90)]: %NAME%%GRAY%[iLv%ORANGE%%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %RED%Blood Ring %WHITE%Craft Recipe:}
+ItemDisplay[rin MAG ILVL>89]: %NAME%%GRAY%[iLv%RED%%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %RED%Blood Ring %WHITE%Craft Recipe:}
+
+//helm Ith Rune Perfect Sapphire Any Jewel
+
+// boots  Ral PSaph Jool
+
+// Glovs Ort P Saph Any Jool
+
+//Belt Tal spah jool
+
+// Shield eth psaph jool
+
+// armor nef saph jool
+
+// ammey thul saph jool
+
+//ring amn saph jool
+
+// weapon tir saph jool
 
 """
 Index(9)
