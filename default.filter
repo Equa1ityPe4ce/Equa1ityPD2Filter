@@ -41,11 +41,7 @@ ItemDisplay[CLVL>59 CLVL<80 GOLD<1000]:
 ItemDisplay[CLVL>79 GOLD<5000]:
 
 // Ethereal
-ItemDisplay[ETH UNI]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%CONTINUE%
-ItemDisplay[ETH RARE]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%CONTINUE%
-ItemDisplay[ETH CRAFT]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%CONTINUE%
-ItemDisplay[ETH MAG]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%CONTINUE%
-ItemDisplay[ETH NMAG]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%CONTINUE%
+ItemDisplay[ETH (UNI OR RARE OR CRAFT OR MAG OR NMAG)]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%CONTINUE%
 
 // Sockets Display
 ItemDisplay[SOCK>0]:%NAME%%TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
@@ -57,16 +53,16 @@ ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]:%NAME% %GRAY%(%GOLD%%PRICE%%GRAY
 ItemDisplay[rvl]:%PURPLE%R%WHITE%r%PURPLE%R%NL%%WHITE%R%PURPLE%r%WHITE%R
 ItemDisplay[rvs CLVL<91]:%PURPLE%r%WHITE%35
 ItemDisplay[rvs CLVL>90]:
-ItemDisplay[hp5]: %RED%Ohp
-ItemDisplay[mp5]: %BLUE%Omp
-ItemDisplay[hp1 DIFF=0]:%RED%o
-ItemDisplay[hp2 DIFF=0]:%RED%o
-ItemDisplay[hp3 DIFF=0]:%RED%o
-ItemDisplay[hp4 DIFF<2]:%RED%o
-ItemDisplay[mp1 DIFF=0]:%BLUE%o
-ItemDisplay[mp2 DIFF=0]:%BLUE%o
-ItemDisplay[mp3 DIFF=0]:%BLUE%o
-ItemDisplay[mp4 DIFF<2]:%BLUE%o
+ItemDisplay[hp5]: %RED%(%GRAY%hp%RED%)
+ItemDisplay[mp5]: %BLUE%(%GRAY%mp%BLUE%)
+ItemDisplay[hp1 DIFF=0]:%RED%.%GRAY%h%RED%p
+ItemDisplay[hp2 DIFF=0]:%RED%.%GRAY%h%RED%p
+ItemDisplay[hp3 DIFF=0]:%RED%.%GRAY%h%RED%p
+ItemDisplay[hp4 DIFF<2]:%RED%.%GRAY%h%RED%p
+ItemDisplay[mp1 DIFF=0]:%BLUE%.%GRAY%m%RED%p
+ItemDisplay[mp2 DIFF=0]:%BLUE%.%GRAY%m%RED%p
+ItemDisplay[mp3 DIFF=0]:%BLUE%.%GRAY%m%RED%p
+ItemDisplay[mp4 DIFF<2]:%BLUE%.%GRAY%m%RED%p
 ItemDisplay[(hp1 OR hp2 OR hp3 OR mp1 OR mp2 OR mp3) DIFF>0]:
 ItemDisplay[(hp4 OR mp4) DIFF>1]:
 
@@ -74,15 +70,15 @@ ItemDisplay[(hp4 OR mp4) DIFF>1]:
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>10]:
 
 //Utilites
-ItemDisplay[tbk]:%WHITE%T%BLUE%P%DARK_GREEN%Tome
-ItemDisplay[ibk]:%WHITE%I%RED%D%DARK_GREEN%Tome
-ItemDisplay[tsc CLVL<21]:%WHITE%T%BLUE%p
-ItemDisplay[isc CLVL<21]:%WHITE%I%RED%d
-ItemDisplay[vps CLVL<10]:%DARK_GREEN%Stanima
-ItemDisplay[wms CLVL<21]:%YELLOW%O%GRAY%Thaw
+ItemDisplay[tbk]:%BLUE%.%WHITE%T%BLUE%P%DARK_GREEN%Tome
+ItemDisplay[ibk]:%RED%.%WHITE%I%RED%D%DARK_GREEN%Tome
+ItemDisplay[tsc CLVL<21]:%BLUE%.%WHITE%T%BLUE%p
+ItemDisplay[isc CLVL<21]:%RED%.%WHITE%I%RED%d
+ItemDisplay[vps CLVL<10]:%DARK_GREEN%Sta
+ItemDisplay[wms CLVL<21]:%YELLOW%.%GRAY%Thaw
 ItemDisplay[(tsc OR isc OR vps OR wms) CLVL>30]:
-ItemDisplay[yps]:%DARK_GREEN%O%GRAY%ant
-ItemDisplay[key]:%NAME%
+ItemDisplay[yps]:%BLACK%O%GRAY%a
+ItemDisplay[key]:%GRAY%Key
 
 //Ammo
 ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
@@ -149,11 +145,11 @@ PD2 ITEMS
 """
 //Project Diablo 2 items
 ItemDisplay[wss]: %DOT-20%%PURPLE%Shard%NL%%ORANGE% * * %PURPLE%Worldstone%ORANGE% * * {%TAN%Cube%WHITE%: This And An Item}%CONTINUE%
-ItemDisplay[imra]: %NAME% %ORANGE%*{%WHITE%This Item + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Imbue White to %YELLOW%Rare %WHITE%Map:}%CONTINUE%
-ItemDisplay[rera]: %NAME% %ORANGE%*{%WHITE%This Item + Perf Gem + %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Reroll %YELLOW%Rare %WHITE%Map:}%CONTINUE%
-ItemDisplay[upma]: %NAME% %ORANGE%*{%WHITE%This Item + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Upg %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE% Map:}%CONTINUE%
-ItemDisplay[imma]: %NAME% %ORANGE%*{%WHITE%This Item + %BLUE%Jewel %NL%%TAN%Note%WHITE%: Imbue White to %BLUE%Magic%WHITE% Map:}%CONTINUE%
-ItemDisplay[scou]: %NAME% %ORANGE%*{%WHITE%This Item + %ORANGE%Hel%NL%%TAN%Note%WHITE%: Revert back to a White Map:}%CONTINUE%
+ItemDisplay[imra]: %NAME%{%WHITE%Cube This %BLUE%Jewel %ORANGE%Rune Thul or Above %TAN%Imbue %WHITE%White %TAN%to %YELLOW%Rare %WHITE%Map:}%CONTINUE%
+ItemDisplay[rera]: %NAME%{%WHITE%Cube This %DARK_GREEN%Perf Gem %ORANGE%Rune Thul or Above %NL%%TAN% Reroll %YELLOW%Rare %WHITE%Map:}%CONTINUE%
+ItemDisplay[upma]: %NAME%{%WHITE%Cube This %DARK_GREEN%Perf %ORANGE%O  %ORANGE%Rune Thul or Above %NL%%TAN%upgrayedd %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE% Map}%CONTINUE%
+ItemDisplay[imma]: %NAME%{%WHITE%Cube This %BLUE%Jewel %NL%%TAN%White to %BLUE%Magic%WHITE% Map}%CONTINUE%
+ItemDisplay[scou]: %NAME%{%WHITE%Cube This %ORANGE%Hel%NL%%TAN%White Map}%CONTINUE%
 ItemDisplay[lbox]: %BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%NL%%ORANGE%** %RED% PUZZLEBOX  %ORANGE%**%NL%%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#
 
 //Maps
@@ -369,8 +365,11 @@ ItemDisplay[wsp OR 9ws OR 7ws OR am5 OR ama OR amf (MAG OR RARE) !ID]:%NAME%
 ItemDisplay[(EQ1 OR EQ2 OR EQ3 OR EQ5 OR EQ6) MAG CLVL<60]: %NAME%
 ItemDisplay[(EQ1 OR EQ2 OR EQ3 OR EQ5 OR EQ6) MAG CLVL>59]:
 ItemDisplay[(WP1 OR WP2 OR WP3 OR WP4 OR WP5 OR WP6 OR WP7 WP8 OR WP9 OR WP10 OR WP11 OR WP12 OR WP13) !(wax OR 9wa OR 7wa OR 7fb OR 7p7 OR 9p9 OR pik OR 7wh OR 9wh OR whm OR gma OR 9gm OR 7gm crs OR 9cr OR 7fb OR 7p7 OR 9p9 OR pik) MAG]:
-ItemDisplay[am5 OR ama OR amf MAG]: %NAME%
 ItemDisplay[RARE XBOW !ID]:
+ItemDisplay[RARE !ETH THROWING !ZON !ID]:
+
+//Show Any Mmag zon jav
+ItemDisplay[(am5 OR ama OR amf) MAG]: %NAME%%
 
 //Jewels
 ItemDisplay[jew MAG !ID ILVL<85]:%BORDER-68%%TAN%-%WHITE%=%BLUE% %NAME% %WHITE%%TAN%-%WHITE%=%NL%%GRAY%iLv[%ILVL%%GRAY%]
@@ -398,6 +397,8 @@ ItemDisplay[amu MAG ILVL>89]: %NAME%%GRAY%[iLv%RED%%ILVL%%GRAY%]{%BLUE%This Item
 ItemDisplay[rin MAG ILVL<85]: %NAME%%GRAY%[%GRAY%iLv%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %RED%Blood Ring %WHITE%Craft Recipe:}
 ItemDisplay[rin MAG (ILVL>84 AND ILVL<90)]: %NAME%%GRAY%[iLv%ORANGE%%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %RED%Blood Ring %WHITE%Craft Recipe:}
 ItemDisplay[rin MAG ILVL>89]: %NAME%%GRAY%[iLv%RED%%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %RED%Blood Ring %WHITE%Craft Recipe:}
+
+
 
 """
 Index(7)
@@ -428,8 +429,8 @@ ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ort %ORANGE%Am
 ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Fal %ORANGE%Um %BLUE%O}
 ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ort %ORANGE%Amn %BLUE%O}
 ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Fal %ORANGE%Um %BLUE%O}
-ItemDisplay[ARMOR !rin !amu NORM UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Tal %ORANGE%Shael O}
-ItemDisplay[ARMOR !rin !amu EXC UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Lem O}
+ItemDisplay[ARMOR !rin !amu NORM UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Tal %ORANGE%Shael %WHITE%O}
+ItemDisplay[ARMOR !rin !amu EXC UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Lem %WHITE%O}
 ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral %ORANGE%Sol %GREEN%O}
 ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Lum %ORANGE%Pul %GREEN%O}
 ItemDisplay[ARMOR !rin !amu NORM SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Tal %ORANGE%Shael %WHITE%O}
@@ -446,6 +447,32 @@ ItemDisplay[CHEST (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To So
 ItemDisplay[(WEAPON AND !THROWING) (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Ral %ORANGE%Amn %PURPLE%O}
 ItemDisplay[(HELM OR CIRC) (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Ral %ORANGE%Thul %BLUE%O}
 ItemDisplay[SHIELD (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Tal %ORANGE%Amn %RED%O}
+
+//Craftables
+ItemDisplay[amu MAG ILVL<85]: %NAME%%GRAY%[iLv%ILVL%]{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
+ItemDisplay[amu MAG (ILVL>84 AND ILVL<90)]: %NAME%%GRAY%[iLv%ORANGE%%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
+ItemDisplay[amu MAG ILVL>89]: %NAME%%GRAY%[iLv%RED%%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
+ItemDisplay[rin MAG ILVL<85]: %NAME%%GRAY%[%GRAY%iLv%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %RED%Blood Ring %WHITE%Craft Recipe:}
+ItemDisplay[rin MAG (ILVL>84 AND ILVL<90)]: %NAME%%GRAY%[iLv%ORANGE%%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %RED%Blood Ring %WHITE%Craft Recipe:}
+ItemDisplay[rin MAG ILVL>89]: %NAME%%GRAY%[iLv%RED%%ILVL%%GRAY%]{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %RED%Blood Ring %WHITE%Craft Recipe:}
+
+//helm Ith Rune Perfect Sapphire Any Jewel
+
+// boots  Ral PSaph Jool
+
+// Glovs Ort P Saph Any Jool
+
+//Belt Tal spah jool
+
+// Shield eth psaph jool
+
+// armor nef saph jool
+
+// ammey thul saph jool
+
+//ring amn saph jool
+
+// weapon tir saph jool
 
 """
 Index(9)
