@@ -40,11 +40,11 @@ ItemDisplay[CLVL>39 CLVL<60 GOLD<50]:
 ItemDisplay[CLVL>59 CLVL<80 GOLD<1000]:
 ItemDisplay[CLVL>79 GOLD<5000]:
 
-//Dark mode engage?
-// ItemDisplay[NMAG SOCK=0 !ID]:%WHITE%(%GRAY%%NAME% %WHITE%)%CONTINUE%
-// ItemDisplay[MAG !(rin OR amu OR jew OR cm3 OR cm1) !ID]:%BLUE%(%GRAY%%NAME% %BLUE%)%CONTINUE%
-// ItemDisplay[RARE !(rin OR amu OR jew) !ID]:%YELLOW%(%GRAY%%NAME% %YELLOW%)%CONTINUE%
-// ItemDisplay[NMAG SOCK>0]:%DARK_GREEN%(%GRAY%%NAME% %DARK_GREEN%)%CONTINUE%
+//Dark mode engage
+ItemDisplay[NMAG SOCK=0 !ID]:%WHITE%(%GRAY%%NAME% %WHITE%)%CONTINUE%
+ItemDisplay[MAG !(rin OR amu OR jew OR cm3 OR cm1) !ID]:%BLUE%(%GRAY%%NAME% %BLUE%)%CONTINUE%
+ItemDisplay[RARE !(rin OR amu OR jew) !ID]:%YELLOW%(%GRAY%%NAME% %YELLOW%)%CONTINUE%
+ItemDisplay[NMAG SOCK>0]:%DARK_GREEN%(%GRAY%%NAME% %DARK_GREEN%)%CONTINUE%
 
 // Ethereal
 ItemDisplay[ETH (UNI OR RARE OR CRAFT OR MAG OR NMAG)]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%CONTINUE%
