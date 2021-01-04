@@ -24,3 +24,8 @@ Rewrite of code Mostly to not be using other peoples stuf.
 12/31/2020
 - hot fix for ILVL>90 sc's (Extra %DOT-20% was displaying)
 - Changes to the way im doing charms (Work in progress)
+
+
+1/4/2021
+- add dark mode
+- minor polish (eg % at end of unique ring)
