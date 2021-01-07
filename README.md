@@ -29,3 +29,6 @@ Rewrite of code Mostly to not be using other peoples stuf.
 1/4/2021
 - add dark mode
 - minor polish (eg % at end of unique ring)
+
+1/6/2021
+-Cham crash fix (Sorry if I caused you to lose a cham)
