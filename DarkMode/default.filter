@@ -171,10 +171,10 @@ Index(3)
 UBER AND TOKENS
 """
 //Essences
-ItemDisplay[tes]: %DOT-62%%ORANGE%*%NAME%{%TAN%Essence %WHITE%from: %BLUE%Andariel %WHITE%or %BLUE%Duriel}%CONTINUE%
-ItemDisplay[ceh]: %DOT-62%%ORANGE%*%NAME%{%TAN%Essence %WHITE%from: %TAN%Mephisto}%CONTINUE%
-ItemDisplay[bet]: %DOT-62%%ORANGE%*%NAME%{%TAN%Essence %WHITE%from: %RED%Diablo}%CONTINUE%
-ItemDisplay[fed]: %DOT-62%%ORANGE%*%NAME%{%TAN%Essence %WHITE%from: %DARK_GREEN%Baal}%CONTINUE%
+ItemDisplay[tes]: %DOT-62%%BLUE% Suffering Essence%NL%%GREEN%-%ORANGE%=%GREEN%-%ORANGE%=%GREEN%-{%TAN%Essence %WHITE%from: %BLUE%Andariel %WHITE%or %BLUE%Duriel}%CONTINUE%
+ItemDisplay[ceh]: %DOT-62%%YELLOW% Hatred Essence%NL%%GREEN%-%ORANGE%=%GREEN%-%ORANGE%=%GREEN%-{%TAN%Essence %WHITE%from: %TAN%Mephisto}%CONTINUE%
+ItemDisplay[bet]: %DOT-62%%RED% Terror Essence%NL%%GREEN%-%ORANGE%=%GREEN%-%ORANGE%=%GREEN%-{%TAN%Essence %WHITE%from: %RED%Diablo}%CONTINUE%
+ItemDisplay[fed]: %DOT-62%%GREEN% Destruction Essence%NL%%GREEN%-%ORANGE%=%GREEN%-%ORANGE%=%GREEN%-{%TAN%Essence %WHITE%from: %DARK_GREEN%Baal}%CONTINUE%
 
 //Uber Keys
 ItemDisplay[pk1]: %BORDER-62%%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-
@@ -1110,6 +1110,12 @@ ItemDisplay[NMAG !INF !RW 7wa SOCK>3 ED>0]:%DOT-20%%NAME% %NL%%ORANGE%-%DARK_GRE
 ItemDisplay[NMAG !INF !RW 7wa SOCK>3]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 ItemDisplay[NMAG !INF !RW 7wa (SOCK=0 OR SOCK>3) ED>5]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 ItemDisplay[NMAG !INF !RW 7wa (SOCK=0 OR SOCK>3) ED>9]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
+
+//Cham axe
+ItemDisplay[NMAG !INF !RW 7ga SOCK>3 ED>5]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
+ItemDisplay[NMAG !INF !RW 7ga !SUP SOCK>3]: %NAME%
+ItemDisplay[NMAG !INF !RW 7ga (SOCK=0 OR SOCK>3) ED>5]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
+ItemDisplay[NMAG !INF !RW 7ga (SOCK=0 OR SOCK>3) ED>9]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 
 //Scourge
 ItemDisplay[NMAG !INF !RW 7fl SOCK>3 ED>5]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
