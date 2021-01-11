@@ -1,5 +1,5 @@
 """
-V2.0
+V2.1.4
 Tor's Bath House Filter.  Thanks to The D2 Modding Community (Gamers, Developers, Content Creators and Anyone Involved in keeping it alive) 
 with out other people showing passion for this game I love. I wouldn't get to keep playing it
 Shout Out To:
@@ -171,10 +171,10 @@ Index(3)
 UBER AND TOKENS
 """
 //Essences
-ItemDisplay[tes]: %DOT-62%%ORANGE%*%NAME%{%TAN%Essence %WHITE%from: %BLUE%Andariel %WHITE%or %BLUE%Duriel}%CONTINUE%
-ItemDisplay[ceh]: %DOT-62%%ORANGE%*%NAME%{%TAN%Essence %WHITE%from: %TAN%Mephisto}%CONTINUE%
-ItemDisplay[bet]: %DOT-62%%ORANGE%*%NAME%{%TAN%Essence %WHITE%from: %RED%Diablo}%CONTINUE%
-ItemDisplay[fed]: %DOT-62%%ORANGE%*%NAME%{%TAN%Essence %WHITE%from: %DARK_GREEN%Baal}%CONTINUE%
+ItemDisplay[tes]: %DOT-62%%BLUE% Suffering Essence%NL%%GREEN%-%ORANGE%=%GREEN%-%ORANGE%=%GREEN%-{%TAN%Essence %WHITE%from: %BLUE%Andariel %WHITE%or %BLUE%Duriel}%CONTINUE%
+ItemDisplay[ceh]: %DOT-62%%YELLOW% Hatred Essence%NL%%GREEN%-%ORANGE%=%GREEN%-%ORANGE%=%GREEN%-{%TAN%Essence %WHITE%from: %TAN%Mephisto}%CONTINUE%
+ItemDisplay[bet]: %DOT-62%%RED% Terror Essence%NL%%GREEN%-%ORANGE%=%GREEN%-%ORANGE%=%GREEN%-{%TAN%Essence %WHITE%from: %RED%Diablo}%CONTINUE%
+ItemDisplay[fed]: %DOT-62%%GREEN% Destruction Essence%NL%%GREEN%-%ORANGE%=%GREEN%-%ORANGE%=%GREEN%-{%TAN%Essence %WHITE%from: %DARK_GREEN%Baal}%CONTINUE%
 
 //Uber Keys
 ItemDisplay[pk1]: %BORDER-62%%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%BLUE%=%GOLD%-%BLUE%=%GOLD%-%BLUE%=%GOLD%-
@@ -204,7 +204,6 @@ ItemDisplay[RUNE>25]:%BORDER-62%%PURPLE%#%RED%#%PURPLE%#%RED%#%PURPLE%#%RED%#%PU
 """
 Index(5)
 CHARMS
-Mostly taken from Kryzard's I couldnt do better then this
 """
 //All Charms
 ItemDisplay[cm2 MAG !ID]:%PURPLE%-%WHITE%=%BLUE% %NAME% %WHITE%=%PURPLE%-
@@ -364,8 +363,8 @@ MAGIC AND RARE
 //Class items
 ItemDisplay[(CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) (MAG OR RARE) !ID CLVL<40]: %NAME%
 ItemDisplay[(CL5 OR CL6 OR CL7) (MAG OR RARE) !ID CLVL>41]: %NAME%
-ItemDisplay[(CL1 OR CL2 OR CL3 OR CL4) (MAG OR RARE) !ID CLVL>41]:%CONTINUE%
-ItemDisplay[wsp OR 9ws OR 7ws OR am5 OR ama OR amf (MAG OR RARE) !ID]:%NAME%
+ItemDisplay[(CL1 OR CL2 OR CL3 OR CL4) (MAG OR RARE) !ID CLVL>41]:%NAME%%CONTINUE%
+ItemDisplay[wsp OR 9ws OR 7ws OR am5 OR ama OR amf (MAG OR RARE) !ID]:%NAME%%CONTINUE%
 
 //Hide magics but show mag zon javs
 ItemDisplay[(EQ1 OR EQ2 OR EQ3 OR EQ5 OR EQ6) MAG CLVL<60]: %NAME%
@@ -375,7 +374,7 @@ ItemDisplay[RARE XBOW !ID]:
 ItemDisplay[RARE !ETH THROWING !ZON !ID]:
 
 //Show Any Mmag zon jav
-ItemDisplay[(am5 OR ama OR amf) MAG]: %NAME%%
+ItemDisplay[(am5 OR ama OR amf) MAG]: %NAME%
 
 //Jewels
 ItemDisplay[jew MAG !ID ILVL<85]:%BORDER-68%%TAN%-%WHITE%=%BLUE% %NAME% %WHITE%%TAN%-%WHITE%=%NL%%GRAY%iLv[%ILVL%%GRAY%]
@@ -1111,6 +1110,12 @@ ItemDisplay[NMAG !INF !RW 7wa SOCK>3]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=
 ItemDisplay[NMAG !INF !RW 7wa (SOCK=0 OR SOCK>3) ED>5]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 ItemDisplay[NMAG !INF !RW 7wa (SOCK=0 OR SOCK>3) ED>9]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 
+//Cham axe
+ItemDisplay[NMAG !INF !RW 7ga SOCK>3 ED>5]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
+ItemDisplay[NMAG !INF !RW 7ga !SUP SOCK>3]: %NAME%
+ItemDisplay[NMAG !INF !RW 7ga (SOCK=0 OR SOCK>3) ED>5]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
+ItemDisplay[NMAG !INF !RW 7ga (SOCK=0 OR SOCK>3) ED>9]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
+
 //Scourge
 ItemDisplay[NMAG !INF !RW 7fl SOCK>3 ED>5]: %DOT-20%%NAME% %NL%%ORANGE%-%DARK_GREEN%=%ORANGE%-
 ItemDisplay[NMAG !INF !RW 7fl !SUP SOCK>3]: %NAME%
@@ -1355,6 +1360,8 @@ ItemDisplay[NMAG !RW !INF CL2 !UNI !RW !INF SK149=3 SOCK=2]: %NAME%%GRAY%[%DARK_
 
 //pattern
 ItemDisplay[NMAG NORM !RW !INF CL5 (NORM OR EXC) SOCK=3 CLVL<31]: %NAME%%GRAY%[%DARK_GREEN%pattern%GRAY%]{%DARK_GREEN% Pattern Claws:%GRAY%10%AR, 40-80ED, 15@, 6Str, 6Dex, 30%FBR, 2Mak%NL% %ORANGE% Tal Ort Tir}
+//chaos
+ItemDisplay[NMAG (7hw OR 7ar OR 7qr) ETH !RW !INF (SOCK=0 OR SOCK=3) ED>5]: %NAME%%GRAY%[%DARK_GREEN%ChaosClaw%GRAY%]{%DARK_GREEN% Chaos Claws:%NL% %ORANGE% Fal Ohm Um}
 
 //leaf
 ItemDisplay[NMAG NORM !RW STAFF SOCK=2 CLVL<31]: %NAME%%GRAY%{%DARK_GREEN% Leaf Staff:%GRAY%+2 Fire Skill Any Class, 2MAK, Defence Per Lvl, Soso Skills - 3FireBolt, 3Inferno, 3Warmth%NL% %ORANGE% Tir Ral}
@@ -1448,17 +1455,17 @@ ItemDisplay[NMAG !INF !RW CL5 ELT ETH (SOCK=0 OR SOCK=3) ED>9]:%DOT-20%%NAME% %N
 ItemDisplay[NMAG !INF !RW CL5 ELT ETH (SOCK=0 OR SOCK=3) SK275>0 ED>9]:%DOT-20%%DARK_GREEN%=%ORANGE%-%NL%%TAN%** %DARK_GREEN%%NAME% %RED%DragonTalon %TAN%** %NL%%ORANGE%-%DARK_GREEN%=
 
 //Druid stuff
-ItemDisplay[!NMAG !RW !INF SK247=3 (SOCK=0 OR SOCK>1)]: %NAME%%DARK_GREEN%3Grizz
-ItemDisplay[!NMAG !RW !INF SK221=3 (SOCK=0 OR SOCK>1)]: %NAME%%DARK_GREEN%3Raven
-ItemDisplay[!NMAG !RW !INF SK225=3 (SOCK=0 OR SOCK>1)]: %NAME%%RED%3FStorm
-ItemDisplay[!NMAG !RW !INF SK229=3 (SOCK=0 OR SOCK>1)]: %NAME%%RED%3Boulder
-ItemDisplay[!NMAG !RW !INF SK239=3 (SOCK=0 OR SOCK>1)]: %NAME%%RED%3FClaw
-ItemDisplay[!NMAG !RW !INF SK240=3 (SOCK=0 OR SOCK>1)]: %NAME%%TAN%3Twist
-ItemDisplay[!NMAG !RW !INF SK243=3 (SOCK=0 OR SOCK>1)]: %NAME%%TAN%3ShokWav
-ItemDisplay[!NMAG !RW !INF SK244=3 (SOCK=0 OR SOCK>1)]: %NAME%%RED%3Volc
-ItemDisplay[!NMAG !RW !INF SK245=3 (SOCK=0 OR SOCK>1)]: %NAME%%TAN%3Nado
-ItemDisplay[!NMAG !RW !INF SK249=3 (SOCK=0 OR SOCK>1)]: %NAME%%RED%3Armag
-ItemDisplay[!NMAG !RW !INF SK250=3 (SOCK=0 OR SOCK>1)]: %NAME%%TAN%3HCane
+ItemDisplay[!NMAG !UNI !RW !INF SK247=3 (SOCK=0 OR SOCK>1)]: %NAME%%DARK_GREEN%3Grizz
+ItemDisplay[!NMAG !UNI !RW !INF SK221=3 (SOCK=0 OR SOCK>1)]: %NAME%%DARK_GREEN%3Raven
+ItemDisplay[!NMAG !UNI !RW !INF SK225=3 (SOCK=0 OR SOCK>1)]: %NAME%%RED%3FStorm
+ItemDisplay[!NMAG !UNI !RW !INF SK229=3 (SOCK=0 OR SOCK>1)]: %NAME%%RED%3Boulder
+ItemDisplay[!NMAG !UNI !RW !INF SK239=3 (SOCK=0 OR SOCK>1)]: %NAME%%RED%3FClaw
+ItemDisplay[!NMAG !UNI !RW !INF SK240=3 (SOCK=0 OR SOCK>1)]: %NAME%%TAN%3Twist
+ItemDisplay[!NMAG !UNI !RW !INF SK243=3 (SOCK=0 OR SOCK>1)]: %NAME%%TAN%3ShokWav
+ItemDisplay[!NMAG !UNI !RW !INF SK244=3 (SOCK=0 OR SOCK>1)]: %NAME%%RED%3Volc
+ItemDisplay[!NMAG !UNI !RW !INF SK245=3 (SOCK=0 OR SOCK>1)]: %NAME%%TAN%3Nado
+ItemDisplay[!NMAG !UNI !RW !INF SK249=3 (SOCK=0 OR SOCK>1)]: %NAME%%RED%3Armag
+ItemDisplay[!NMAG !UNI !RW !INF SK250=3 (SOCK=0 OR SOCK>1)]: %NAME%%TAN%3HCane
 ItemDisplay[NMAG ELT STAFF ETH !RW ED>5 SOCK=4 (6cs OR 6bs OR 8cs OR 8bs)]: %NAME%%DARK_GREEN%Shockwave Insight
 
 //Barb stuff
