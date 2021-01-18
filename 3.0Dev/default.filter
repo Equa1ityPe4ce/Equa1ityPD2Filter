@@ -1,5 +1,5 @@
 """
-Equa1ity's PD2 Loot filter  v3.0
+Equa1ity's PD2 Loot filter  v3.0.1
 Thanks to The D2 Modding Community (Gamers, Developers, Content Creators and Anyone Involved in keeping it alive) 
 with out other people showing passion for this game I love. I wouldn't get to keep playing it
 Shout Out To:
@@ -51,6 +51,8 @@ ItemDisplay[isc CLVL<20]:%RED%(%WHITE%I%GRAY%d%RED%)
 ItemDisplay[isc CLVL>19]:
 ItemDisplay[vps CLVL<10]:%DARK_GREEN%(%GRAY%Sta%DARK_GREEN%)
 ItemDisplay[wms CLVL<21]:%YELLOW%(%GRAY%thaw%YELLOW%)
+ItemDisplay[vps CLVL>10]:
+ItemDisplay[wms CLVL>20]:
 ItemDisplay[(tsc OR isc OR vps OR wms) CLVL>30]:
 ItemDisplay[yps]:%BLACK%O%GRAY%a
 ItemDisplay[key]:%BLACK%Key
@@ -2031,6 +2033,7 @@ EXC DAGGER
 // Poignard0
 ItemDisplay[9dg !ID UNI]:%GOLD%Spineripper%CONTINUE%
 ItemDisplay[9dg !UNI CLVL>40]:
+ItemDisplay[9dg NMAG CLVL>25]:
 
 // Rondel
 ItemDisplay[9di !ID UNI]:%GOLD%Heart Carver%CONTINUE%
@@ -3037,13 +3040,15 @@ ItemDisplay[NMAG EXC SHIELD !xsh CLVL>30]:
 //armors
 //chest
 ItemDisplay[MAG CHEST CLVL>40]:
+ItemDisplay[NMAG ARMOR (NORM OR EXC) !xtp !xsh !DIN SOCK=0 CLVL>20]:
 
 //circ
 ItemDisplay[NMAG CIRC !ED]:
 
 //all weapons
 ItemDisplay[NMAG INF]:
-ItemDisplay[NMAG WEAPON NORM SOCK=0 !(crs OR fla OR brs OR lsd OR 9cr OR 9tw) CLVL>15]:%CONTINUE%
+ItemDisplay[NMAG WEAPON NORM SOCK=0 !(crs OR fla OR brs OR lsd OR 9cr OR 9tw) CLVL>15]:
+ItemDisplay[NMAG WEAPON EXC SOCK=0 !(9cr OR 9tw) CLVL>30]:
 ItemDisplay[NMAG WEAPON !ELT !(crs OR fla OR 9cr OR 9tw) CLVL>80]:
 ItemDisplay[NMAG SOCK=1]:
 
