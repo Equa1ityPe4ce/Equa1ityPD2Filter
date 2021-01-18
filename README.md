@@ -9,7 +9,7 @@ _Note_ There is a darkMode folder that is also kind of fun to use,  it's not for
 
 _*Change Log*_
 -=-=-=-= V3
-1/16 Alpha Elevated to Beta branch Rewrtie again to practice more of a string builder format. Also giving me more control for later edits  but ill probably just rerwite again for next season "Note V4 hopefully go full string builder"
+1/16 Alpha Elevated to Beta branch rewrite again to practice more of a string builder format. Also giving me more control for later edits  but ill probably just rerwite again for next season "Note V4 hopefully go full string builder"
 
 1/18: Release candidate pass by beta, pushed to production
 
