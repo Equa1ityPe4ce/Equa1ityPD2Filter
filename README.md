@@ -1,15 +1,17 @@
 # Equa1ity's PD2 Filter
 Loot Filter For Project Diablo 2
 
-NOTE:
-TO Apply Filter Drop file in ProjectDiablo2 Folder inside the d2 folder. and thats it!
-I'm still new to this so feed back is welcome
-UPDATES PUSHED MONDAYS USA Afternoons!!!!!
+How To Install
+All that is needed is to Download the default.filter file. Then drop file in your DiabloII/ProjectDiablo2 folder (The one with all the game files in it) A pop up will ask if you would like to Replace existing file select yes.  Close game and reopen Or press 0 on number pad after 1st install of file to activate it if game is currently open.
+
+_Note_ There is a darkMode folder that is also kind of fun to use,  it's not for everyone to access navigate into the 3.0 darkmode folder and use that default.filter file instead
 * Equa1ity's Filte12
 
 _*Change Log*_
 -=-=-=-= V3
-1/16 Alpha Elevated to Beta branch Rewrie again to practive more of a string builder format also giving me more control for later edits  but ill probably just rerwite again for next season
+1/16 Alpha Elevated to Beta branch Rewrtie again to practice more of a string builder format. Also giving me more control for later edits  but ill probably just rerwite again for next season "Note V4 hopefully go full string builder"
+
+1/18: Release candidate pass by beta, pushed to production
 
 
 -=-=-=-= V2
