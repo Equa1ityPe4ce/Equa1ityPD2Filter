@@ -26,10 +26,10 @@ ItemDisplay[CLVL>59 CLVL<80 GOLD<1000]:
 ItemDisplay[CLVL>79 GOLD<5000]:
 
 //Dark mode engage
-// ItemDisplay[NMAG SOCK=0 !ID]:%WHITE%(%GRAY%%NAME% %WHITE%)%CONTINUE%
-// ItemDisplay[MAG !(rin OR amu OR jew OR cm3 OR cm1) !ID]:%BLUE%(%GRAY%%NAME% %BLUE%)%CONTINUE%
-// ItemDisplay[RARE !(rin OR amu OR jew) !ID]:%YELLOW%(%GRAY%%NAME% %YELLOW%)%CONTINUE%
-// ItemDisplay[NMAG SOCK>0]:%DARK_GREEN%(%GRAY%%NAME% %DARK_GREEN%)%CONTINUE%
+ItemDisplay[NMAG SOCK=0 !ID]:%WHITE%(%GRAY%%NAME% %WHITE%)%CONTINUE%
+ItemDisplay[MAG !(rin OR amu OR jew OR cm3 OR cm1) !ID]:%BLUE%(%GRAY%%NAME% %BLUE%)%CONTINUE%
+ItemDisplay[RARE !(rin OR amu OR jew) !ID]:%YELLOW%(%GRAY%%NAME% %YELLOW%)%CONTINUE%
+ItemDisplay[NMAG SOCK>0]:%DARK_GREEN%(%GRAY%%NAME% %DARK_GREEN%)%CONTINUE%
 
 //ETH
 ItemDisplay[ETH (UNI OR RARE OR CRAFT OR MAG OR NMAG)]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%CONTINUE%
@@ -2733,7 +2733,7 @@ ItemDisplay[NMAG amf]:
 ItemDisplay[(MAG OR RARE) amf]:%NAME%
 
 """
-Index(9)
+Index(10)
 SETS
 """
 ItemDisplay[SET !ID amu]: %DOT-62% %GREEN%Amulet%NL%%DARK_GREEN%<%GRAY%*%DARK_GREEN%><%GRAY%*%DARK_GREEN%> SET <%GRAY%*%DARK_GREEN%><%GRAY%*%DARK_GREEN%>
@@ -2742,45 +2742,45 @@ ItemDisplay[SET !ID rin]: %DOT-62% %GREEN%Ring%NL%%DARK_GREEN%<%GRAY%*%DARK_GREE
 //- ALDUR'S ---------------------------
 ItemDisplay[SET !ID xtb]: %DOT-62%%GREEN% Aldur's Boots
 ItemDisplay[SET !ID uul]: %DOT-62%%GREEN% Aldur's Armor
-ItemDisplay[SET !ID 9mt]: %GREEN% Aldur's Mace
-ItemDisplay[SET !ID dr8]: %GREEN% Aldur's Helm
+ItemDisplay[SET !ID 9mt]: %GREEN%(%GRAY%Aldur's Mace%GREEN%)
+ItemDisplay[SET !ID dr8]: %GREEN%(%GRAY%Aldur's Helm%GREEN%)
 
 //- ANGELIC ---------------------------
-ItemDisplay[SET !ID rng]: %GREEN% Angelic Armor
-ItemDisplay[SET !ID sbr]: %GREEN% Angelic Sabre
+ItemDisplay[SET !ID rng]: %GREEN%(%GRAY%Angelic Armor%GREEN%)
+ItemDisplay[SET !ID sbr]: %GREEN%(%GRAY%Angelic Sabre%GREEN%)
 
 //- ARCANNA'S -------------------------
-ItemDisplay[SET !ID wst]: %GREEN% Arcanna's Staff
-ItemDisplay[SET !ID ltp]: %GREEN% Arcanna's Plate
-ItemDisplay[SET !ID skp]: %GREEN% Arcanna's Cap
+ItemDisplay[SET !ID wst]: %GREEN%(%GRAY%Arcanna's Staff%GREEN%)
+ItemDisplay[SET !ID ltp]: %GREEN%(%GRAY%Arcanna's Plate%GREEN%)
+ItemDisplay[SET !ID skp]: %GREEN%(%GRAY%Arcanna's Cap%GREEN%)
 
 //- ARCTIC ----------------------------
-ItemDisplay[SET !ID vbl]: %GREEN% Arctic Belt
-ItemDisplay[SET !ID qui]: %GREEN% Arctic Armor
-ItemDisplay[SET !ID swb]: %GREEN% Arctic Bow
+ItemDisplay[SET !ID vbl]: %GREEN%(%GRAY%Arctic Belt%GREEN%)
+ItemDisplay[SET !ID qui]: %GREEN%(%GRAY%Arctic Armor%GREEN%)
+ItemDisplay[SET !ID swb]: %GREEN%(%GRAY%Arctic Bow%GREEN%)
 
 //- BERSERKER'S -----------------------
-ItemDisplay[SET !ID 2ax]: %GREEN% Berserker's Axe
-ItemDisplay[SET !ID spl]: %GREEN% Berserker's Mail
-ItemDisplay[SET !ID hlm]: %GREEN% Berserker's Helm
+ItemDisplay[SET !ID 2ax]: %GREEN%(%GRAY%Berserker's Axe%GREEN%)
+ItemDisplay[SET !ID spl]: %GREEN%(%GRAY%Berserker's Mail%GREEN%)
+ItemDisplay[SET !ID hlm]: %GREEN%(%GRAY%Berserker's Helm%GREEN%)
 
 //- BUL-KATHOS' -----------------------
 ItemDisplay[SET !ID 7gd]: %DOT-62%%GREEN% Bul-Kathos' Blade
 ItemDisplay[SET !ID 7wd]: %DOT-62%%GREEN% Bul-Kathos' Sword
 
 //- CATHAN'S --------------------------
-ItemDisplay[SET !ID msk]: %GREEN% Cathan's Mask
-ItemDisplay[SET !ID chn]: %GREEN% Cathan's Mail
-ItemDisplay[SET !ID bst]: %GREEN% Cathan's Staff
+ItemDisplay[SET !ID msk]: %GREEN%(%GRAY%Cathan's Mask%GREEN%)
+ItemDisplay[SET !ID chn]: %GREEN%(%GRAY%Cathan's Mail%GREEN%)
+ItemDisplay[SET !ID bst]: %GREEN%(%GRAY%Cathan's Staff%GREEN%)
 
 //- CIVERB'S --------------------------
-ItemDisplay[SET !ID gsc]: %GREEN% Civerb's Scepter
-ItemDisplay[SET !ID lrg]: %GREEN% Civerb's Shield
+ItemDisplay[SET !ID gsc]: %GREEN%(%GRAY%Civerb's Scepter%GREEN%)
+ItemDisplay[SET !ID lrg]: %GREEN%(%GRAY%Civerb's Shield%GREEN%)
 
 //- CLEGLAW'S -------------------------
-ItemDisplay[SET !ID sml]: %GREEN% Cleglaw's Shield
-ItemDisplay[SET !ID mgl]: %GREEN% Cleglaw's Gloves
-ItemDisplay[SET !ID lsd]: %GREEN% Cleglaw's Sword
+ItemDisplay[SET !ID sml]: %GREEN%(%GRAY%Cleglaw's Shield%GREEN%)
+ItemDisplay[SET !ID mgl]: %GREEN%(%GRAY%Cleglaw's Gloves%GREEN%)
+ItemDisplay[SET !ID lsd]: %GREEN%(%GRAY%Cleglaw's Sword%GREEN%)
 
 //- COW KING'S ------------------------
 ItemDisplay[SET !ID stu]: %DOT-62%%GREEN% Cow Leather
@@ -2788,44 +2788,44 @@ ItemDisplay[SET !ID xap]: %DOT-62%%GREEN% Cow Hat
 //Cow King's Heavy Boots, in "Multi" at the top of the sets section
 
 //- DEATH'S ---------------------------
-ItemDisplay[SET !ID lbl]: %GREEN% Death's Sash
-ItemDisplay[SET !ID lgl]: %GREEN% Death's Gloves
-ItemDisplay[SET !ID wsd]: %GREEN% Death's Sword
+ItemDisplay[SET !ID lbl]: %GREEN%(%GRAY%Death's Sash%GREEN%)
+ItemDisplay[SET !ID lgl]: %GREEN%(%GRAY%Death's Gloves%GREEN%)
+ItemDisplay[SET !ID wsd]: %GREEN%(%GRAY%Death's Sword%GREEN%)
 
 //- GRISWOLD'S ------------------------
-ItemDisplay[SET !ID xar]: %GREEN% Griswold's Plate
+ItemDisplay[SET !ID xar]: %GREEN%(%GRAY%Griswold's Plate%GREEN%)
 ItemDisplay[SET !ID paf]: %DOT-62%%GREEN% Griswold's Shield
 ItemDisplay[SET !ID 7ws]: %DOT-62%%GREEN% Griswold's Caduceus
 ItemDisplay[SET !ID urn]: %DOT-62%%GREEN% Griswold's Corona
 
 //- HEAVEN'S --------------------------
-ItemDisplay[SET !ID 7ma]: %GREEN% Heaven's Mace
-ItemDisplay[SET !ID xrs]: %GREEN% Heaven's Cuirass
-ItemDisplay[SET !ID uhm]: %GREEN% Heaven's Helm
-ItemDisplay[SET !ID uts]: %GREEN% Heaven's Ward
+ItemDisplay[SET !ID 7ma]: %GREEN%(%GRAY%Heaven's Mace%GREEN%)
+ItemDisplay[SET !ID xrs]: %GREEN%(%GRAY%Heaven's Cuirass%GREEN%)
+ItemDisplay[SET !ID uhm]: %GREEN%(%GRAY%Heaven's Helm%GREEN%)
+ItemDisplay[SET !ID uts]: %GREEN%(%GRAY%Heaven's Ward%GREEN%)
 
 //- HSARU'S ---------------------------
-ItemDisplay[SET !ID buc]: %GREEN% Hsarus' Buckler
-ItemDisplay[SET !ID mbt]: %GREEN% Hsarus' Boots
+ItemDisplay[SET !ID buc]: %GREEN%(%GRAY%Hsarus' Buckler%GREEN%)
+ItemDisplay[SET !ID mbt]: %GREEN%(%GRAY%Hsarus' Boots%GREEN%)
 //Hsarus' Belt, in "Multi" at the top of the sets section
 
 //- HWANIN'S --------------------------
-ItemDisplay[SET !ID 9vo]: %GREEN% Hwanin's Bill
-ItemDisplay[SET !ID xcl]: %GREEN% Hwanin's Mail
-ItemDisplay[SET !ID xrn]: %GREEN% Hwanin's Crown
+ItemDisplay[SET !ID 9vo]: %GREEN%(%GRAY%Hwanin's Bill%GREEN%)
+ItemDisplay[SET !ID xcl]: %GREEN%(%GRAY%Hwanin's Mail%GREEN%)
+ItemDisplay[SET !ID xrn]: %GREEN%(%GRAY%Hwanin's Crown%GREEN%)
 //Hwanin's Belt, in "Multi" at the top of the sets section
 
 //- IMMORTAL KING ---------------------
-ItemDisplay[SET !ID zhb]: %GREEN% Immortal King's Belt
-ItemDisplay[SET !ID xhg]: %GREEN% Immortal King's Gauntlets
-ItemDisplay[SET !ID xhb]: %GREEN% Immortal King's Boots
+ItemDisplay[SET !ID zhb]: %GREEN%(%GRAY%Immortal King's Belt%GREEN%)
+ItemDisplay[SET !ID xhg]: %GREEN%(%GRAY%Immortal King's Gauntlets%GREEN%)
+ItemDisplay[SET !ID xhb]: %GREEN%(%GRAY%Immortal King's Boots%GREEN%)
 ItemDisplay[SET !ID uar]: %BORDER-62%%BLUE%<%RED%*%BLUE%><%RED%*%BLUE%><%RED%*%BLUE%><%RED%*%BLUE%>%NL%%GREEN%Immortal King's Armor%NL%%BLUE%<%RED%*%BLUE%><%RED%*%BLUE%><%RED%*%BLUE%><%RED%*%BLUE%>
-ItemDisplay[SET !ID 7m7]: %GREEN% Immortal King's Maul
-ItemDisplay[SET !ID ba5]: %GREEN% Immortal King's Helm
+ItemDisplay[SET !ID 7m7]: %GREEN%(%GRAY%Immortal King's Maul%GREEN%)
+ItemDisplay[SET !ID ba5]: %GREEN%(%GRAY%Immortal King's Helm%GREEN%)
 
 //- INFERNAL --------------------------
-ItemDisplay[SET !ID dgr]: %GREEN% Infernal Dagger
-ItemDisplay[SET !ID gwn]: %GREEN% Infernal Wand
+ItemDisplay[SET !ID dgr]: %GREEN%(%GRAY%Infernal Dagger%GREEN%)
+ItemDisplay[SET !ID gwn]: %GREEN%(%GRAY%Infernal Wand%GREEN%)
 //Infernal Heavy Belt, in "Multi" at the top of the sets section
 //Infernal Cap, in "Multi" at the top of the sets section
 
@@ -2833,73 +2833,73 @@ ItemDisplay[SET !ID gwn]: %GREEN% Infernal Wand
 // Every item in this set is shared with other sets. See multi section above.
 
 //- ISENHART'S ------------------------
-ItemDisplay[SET !ID brs]: %GREEN% Isenhart's Plate
-ItemDisplay[SET !ID fhl]: %GREEN% Isenhart's Helm
-ItemDisplay[SET !ID bsd]: %GREEN% Isenhart's Sword
-ItemDisplay[SET !ID gts]: %GREEN% Isenhart's Shield
+ItemDisplay[SET !ID brs]: %GREEN%(%GRAY%Isenhart's Plate%GREEN%)
+ItemDisplay[SET !ID fhl]: %GREEN%(%GRAY%Isenhart's Helm%GREEN%)
+ItemDisplay[SET !ID bsd]: %GREEN%(%GRAY%Isenhart's Sword%GREEN%)
+ItemDisplay[SET !ID gts]: %GREEN%(%GRAY%Isenhart's Shield%GREEN%)
 
 //- M'AVINA'S -------------------------
-ItemDisplay[SET !ID amc]: %DOT-62%%%GREEN% M'avina's Bow
+ItemDisplay[SET !ID amc]: %DOT-62%%GREEN% M'avina's Bow
 ItemDisplay[SET !ID uld]: %DOT-62%%GREEN% M'avina's Armor
-ItemDisplay[SET !ID xtg]: %GREEN% M'avina's Gloves
+ItemDisplay[SET !ID xtg]: %GREEN%(%GRAY%M'avina's Gloves%GREEN%)
 ItemDisplay[SET !ID zvb]: %DOT-62%%GREEN% M'avina's Belt
 ItemDisplay[SET !ID ci3]: %DOT-62%%GREEN% M'avina's Helm
 
 //- MILABREGA'S -----------------------
-ItemDisplay[SET !ID kit]: %GREEN% Milabrega's Shield
-ItemDisplay[SET !ID aar]: %GREEN% Milabrega's Armor
-ItemDisplay[SET !ID wsp]: %GREEN% Milabrega's Scepter
+ItemDisplay[SET !ID kit]: %GREEN%(%GRAY%Milabrega's Shield%GREEN%)
+ItemDisplay[SET !ID aar]: %GREEN%(%GRAY%Milabrega's Armor%GREEN%)
+ItemDisplay[SET !ID wsp]: %GREEN%(%GRAY%Milabrega's Scepter%GREEN%)
 //Milabrega's Crown, in "Multi" at the top of the sets section
 
 //- NAJ'S -----------------------------
-ItemDisplay[SET !ID ci0]: %GREEN% Naj's Circlet
-ItemDisplay[SET !ID ult]: %GREEN% Naj's Plate
+ItemDisplay[SET !ID ci0]: %GREEN%(%GRAY%Naj's Circlet%GREEN%)
+ItemDisplay[SET !ID ult]: %GREEN%(%GRAY%Naj's Plate%GREEN%)
 ItemDisplay[SET !ID 6cs]: %DOT-62%%GREEN% Naj's Staff %RED%tele stick
 
 //- NATALYA'S -------------------------
 ItemDisplay[SET !ID 7qr]: %BORDER-62%%BLUE%<%RED%*%BLUE%><%RED%*%BLUE%><%RED%*%BLUE%><%RED%*%BLUE%>%NL%%GREEN% Natalya's Mark%NL%%BLUE%<%RED%*%BLUE%><%RED%*%BLUE%><%RED%*%BLUE%><%RED%*%BLUE%>
 ItemDisplay[SET !ID ucl]: %DOT-62%%GREEN%  Natalya's Mail
-ItemDisplay[SET !ID xmb]: %GREEN%  Natalya's Boots
+ItemDisplay[SET !ID xmb]: %GREEN%(%GRAY%Natalya's Boots%GREEN%)
 ItemDisplay[SET !ID xh9]: %DOT-62%%GREEN%  Natalya's Helm
 
 //- ORPHAN'S --------------------------
 ItemDisplay[SET !ID xhm]: %DOT-62%%GREEN% Guillaume's Helm
-ItemDisplay[SET !ID xvg]: %GREEN% Magnus' Gloves
-ItemDisplay[SET !ID xml]: %GREEN% Whitstan's Shield
-ItemDisplay[SET !ID ztb]: %GREEN% Wilhelm's Belt
+ItemDisplay[SET !ID xvg]: %GREEN%(%GRAY%Magnus' Gloves%GREEN%)
+ItemDisplay[SET !ID xml]: %GREEN%(%GRAY%Whitstan's Shield%GREEN%)
+ItemDisplay[SET !ID ztb]: %GREEN%(%GRAY%Wilhelm's Belt%GREEN%)
 
 //- SANDER'S --------------------------
-ItemDisplay[SET !ID bwn]: %GREEN% Sander's Bone Wand
-ItemDisplay[SET !ID vgl]: %GREEN% Sander's Gloves
+ItemDisplay[SET !ID bwn]: %GREEN%(%GRAY%Sander's Bone Wand%GREEN%)
+ItemDisplay[SET !ID vgl]: %GREEN%(%GRAY%Sander's Gloves%GREEN%)
 
 //- SAZABI'S --------------------------
 ItemDisplay[SET !ID 7ls]: %DOT-62%%GREEN% Sazabi's Sword
-ItemDisplay[SET !ID upl]: %GREEN% Sazabi's Armor
-ItemDisplay[SET !ID xhl]: %GREEN% Sazabi's Helm
+ItemDisplay[SET !ID upl]: %GREEN%(%GRAY%Sazabi's Armor%GREEN%)
+ItemDisplay[SET !ID xhl]: %GREEN%(%GRAY%Sazabi's Helm%GREEN%)
 
 //- SIGON'S ---------------------------
-ItemDisplay[SET !ID hgl]: %GREEN% Sigon's Gauntlets
-ItemDisplay[SET !ID tow]: %GREEN% Sigon's Shield
-ItemDisplay[SET !ID hbt]: %GREEN% Sigon's Greaves
-ItemDisplay[SET !ID gth]: %GREEN% Sigon's Plate
-ItemDisplay[SET !ID ghm]: %GREEN% Sigon's Helm
-ItemDisplay[SET !ID hbl]: %GREEN% Sigon's Belt
+ItemDisplay[SET !ID hgl]: %GREEN%(%GRAY%Sigon's Gauntlets%GREEN%)
+ItemDisplay[SET !ID tow]: %GREEN%(%GRAY%Sigon's Shield%GREEN%)
+ItemDisplay[SET !ID hbt]: %GREEN%(%GRAY%Sigon's Greaves%GREEN%)
+ItemDisplay[SET !ID gth]: %GREEN%(%GRAY%Sigon's Plate%GREEN%)
+ItemDisplay[SET !ID ghm]: %GREEN%(%GRAY%Sigon's Helm%GREEN%)
+ItemDisplay[SET !ID hbl]: %GREEN%(%GRAY%Sigon's Belt%GREEN%)
 
 //- TAL RASHA'S -----------------------
 ItemDisplay[SET !ID zmb]: %DOT-62%%GREEN% Tal Belt
 ItemDisplay[SET !ID uth]: %BORDER-62%%BLUE%<%RED%*%BLUE%><%RED%*%BLUE%><%RED%*%BLUE%><%RED%*%BLUE%>%NL%%GREEN% Tal Rasha's Armor%NL%%BLUE%<%RED%*%BLUE%><%RED%*%BLUE%><%RED%*%BLUE%><%RED%*%BLUE%>
-ItemDisplay[SET !ID xsk]: %GREEN% Tal Mask
+ItemDisplay[SET !ID xsk]: %GREEN%(%GRAY%Tal Mask%GREEN%)
 ItemDisplay[SET !ID oba]: %DOT-62%%GREEN%*%GREEN% Tal Wand
 
 //- TANCRED'S -------------------------
-ItemDisplay[SET !ID mpi]: %GREEN% Tancred's Pick
-ItemDisplay[SET !ID lbt]: %GREEN% Tancred's Boots
-ItemDisplay[SET !ID bhm]: %GREEN% Tancred's Helm
-ItemDisplay[SET !ID ful]: %GREEN% Tancred's Mail
+ItemDisplay[SET !ID mpi]: %GREEN%(%GRAY%Tancred's Pick%GREEN%)
+ItemDisplay[SET !ID lbt]: %GREEN%(%GRAY%Tancred's Boots%GREEN%)
+ItemDisplay[SET !ID bhm]: %GREEN%(%GRAY%Tancred's Helm%GREEN%)
+ItemDisplay[SET !ID ful]: %GREEN%(%GRAY%Tancred's Mail%GREEN%)
 
 //- DISCIPLE --------------------------
-ItemDisplay[SET !ID umc]: %GREEN% Disciple Belt
-ItemDisplay[SET !ID uui]: %GREEN% Disciple Armor
+ItemDisplay[SET !ID umc]: %GREEN%(%GRAY%Disciple Belt%GREEN%)
+ItemDisplay[SET !ID uui]: %GREEN%(%GRAY%Disciple Armor%GREEN%)
 ItemDisplay[SET !ID ulg]: %DOT-62%%GREEN% Laying of Hands Bramble Mitts
 ItemDisplay[SET !ID xlb]: %DOT-62%%GREEN% Disciple Boots
 
@@ -2911,9 +2911,9 @@ ItemDisplay[SET !ID xul]: %DOT-62%%GREEN% Trang Armor
 ItemDisplay[SET !ID ne9]: %DOT-62%%GREEN% Trang Shield
 
 //- VIDALA'S --------------------------
-ItemDisplay[SET !ID lea]: %GREEN% Vidala's Armor
-ItemDisplay[SET !ID lbb]: %GREEN% Vidala's Bow
-ItemDisplay[SET !ID tbt]: %GREEN% Vidala's Boots
+ItemDisplay[SET !ID lea]: %GREEN%(%GRAY%Vidala's Armor%GREEN%)
+ItemDisplay[SET !ID lbb]: %GREEN%(%GRAY%Vidala's Bow%GREEN%)
+ItemDisplay[SET !ID tbt]: %GREEN%(%GRAY%Vidala's Boots%GREEN%)
 
 // FINAL
 //ETH
