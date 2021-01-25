@@ -3102,3 +3102,4 @@ ItemDisplay[RARE !ID CHEST CLVL>60]:
 //Show me every identified item
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]:%NAME%
 ItemDisplay[INF]:
+
