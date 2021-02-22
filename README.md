@@ -9,6 +9,8 @@ _Note_ There is a darkMode folder that is also kind of fun to use,  it's not for
 
 _*Change Log*_
 -=-=-=-= V3
+2/22/2021 - Added some Martial Arts item displays on claws.  added all run drop notifications for Char level<40 for prep for new ladder.  also reworked all bases and Class centric bases to work more the way I want.  Waiting for more info on crafting before I edit the Mag drop lines to make sure that stuff is ready to roll at launch
+
 2/1/21 3.1.3 Some polish and usined FilterBird to fix some syntax issues
 
 1/25/2021: 3.1.1 some minor bug fix's and clean some things up
