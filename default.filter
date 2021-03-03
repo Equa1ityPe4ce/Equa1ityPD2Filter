@@ -3959,7 +3959,7 @@ ItemDisplay[SET !ID bsd]: %GREEN% Isenhart's Sword
 ItemDisplay[SET !ID gts]: %GREEN% Isenhart's Shield
 
 //- M'AVINA'S -------------------------
-ItemDisplay[SET !ID amc]: %DOT-84%%%GREEN% M'avina's Bow
+ItemDisplay[SET !ID amc]: %DOT-84%%GREEN% M'avina's Bow
 ItemDisplay[SET !ID uld]: %DOT-84%%GREEN% M'avina's Armor
 ItemDisplay[SET !ID xtg]: %GREEN% M'avina's Gloves
 ItemDisplay[SET !ID zvb]: %DOT-84%%GREEN% M'avina's Belt
