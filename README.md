@@ -9,6 +9,8 @@ _Note_ There is a darkMode folder that is also kind of fun to use,  it's not for
 
 _*Change Log*_
 -=-=-=-= V3
+3/6/2021 - Added crafting notes to appropriate runes, fix for unstacked gems. Early release in preperation for website launch for filter
+
 3/1/2021 - Added Crafting notes to P Gems, also to Magic bases.  "Tenative based on how annoying/helpful that is" -  Also Protip for crafting. as long as its not a class specific item. You will get a higher iLVL froma  vendor instead of a monster dropping it.
 
 2/22/2021 - Added some Martial Arts item displays on claws.  added all run drop notifications for Char level<40 for prep for new ladder.  also reworked all bases and Class centric bases to work more the way I want.  Waiting for more info on crafting before I edit the Mag drop lines to make sure that stuff is ready to roll at launch
