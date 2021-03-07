@@ -122,6 +122,7 @@ ItemDisplay[toa]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%>%NL% %ORANGE%%N
 // """
 //Runes
 ItemDisplay[RUNE<18 CLVL<41]:%MAP-9B%%ORANGE%%RUNENAME% %DARK_GREEN%[%GRAY%%RUNENUM%%DARK_GREEN%]%CONTINUE%
+ItemDisplay[RUNE>10 (CLVL>40 AND CLVL<60)]:%MAP-9B%%ORANGE%%RUNENAME% %DARK_GREEN%[%GRAY%%RUNENUM%%DARK_GREEN%]%CONTINUE%
 ItemDisplay[RUNE=8 QTY<2]:%DOT-9B%%ORANGE%%RUNENAME% %DARK_GREEN%[%GRAY%%RUNENUM%%DARK_GREEN%]%CONTINUE%
 ItemDisplay[RUNE=8 QTY>1]:%DOT-9B%%ORANGE%%RUNENAME% %GRAY%x%DARK_GREEN%%QTY% %DARK_GREEN%[%GRAY%%RUNENUM%%DARK_GREEN%]%CONTINUE%
 ItemDisplay[RUNE=9 QTY<2]:%DOT-9B%%ORANGE%%RUNENAME% %DARK_GREEN%[%GRAY%%RUNENUM%%DARK_GREEN%]%CONTINUE%
@@ -146,10 +147,8 @@ ItemDisplay[(r10 OR r10s)]:%NAME%{%BLUE%Hpwr Amulet %GREEN%Saftey Amulet%NL%%PUR
 ItemDisplay[(r11 OR r11s)]:%NAME%{%BLUE%Hpwr Ring %GREEN%Saftey Ring%NL%%PURPLE%Caster Ring %RED%Blood Amulet}
 ItemDisplay[(r12 OR r12s)]:%NAME%{%GREEN%Saftey Weapon%NL%%RED%Blood Ring}
 
-// """
 // INDEX(5)
 // GEMS
-// """
 //Amethyst
 //chipped
 ItemDisplay[(gcv OR gcvs)]:%DARK_GREEN%chipped%GRAY%[%PURPLE% O %GRAY%]%CONTINUE%	
@@ -4196,8 +4195,8 @@ ItemDisplay[MAG ID GLOVES]:%NAME%{%NL%%BLUE%HPower Ort, %RED%Blood Nef%NL%%GREEN
 ItemDisplay[MAG ID BELT]:%NAME%{%NL%%BLUE%HPower Tal, %RED%Blood Tal%NL%%GREEN%Saftey Tal%PURPLE%Caster Ith}%CONTINUE%
 ItemDisplay[MAG ID SHIELD]:%NAME%{%NL%%BLUE%HPower Eth, %RED%Blood Ith%NL%%GREEN%Saftey Nef%PURPLE%Caster Eth}%CONTINUE%
 ItemDisplay[MAG ID CHEST]:%NAME%{%NL%%BLUE%HPower Nef, %RED%Blood Thul%NL%%GREEN%Saftey Eth%PURPLE%Caster Tal}%CONTINUE%
-ItemDisplay[MAG ID rin]:%NAME%{%NL%%BLUE%HPower Thul, %RED%Blood Amn%NL%%GREEN%Saftey Amn%PURPLE%Caster Ral}%CONTINUE%
-ItemDisplay[MAG ID amu]:%NAME%{%NL%%BLUE%HPower Amn, %RED%Blood Sol%NL%%GREEN%Saftey Thul%PURPLE%Caster Amn}%CONTINUE%
+ItemDisplay[MAG ID rin]:%NAME%{%NL%%BLUE%HPower Amn, %RED%Blood Sol%NL%%GREEN%Saftey Amn%PURPLE%Caster Amn}%CONTINUE%
+ItemDisplay[MAG ID amu]:%NAME%{%NL%%BLUE%HPower Thul, %RED%Blood Amn%NL%%GREEN%Saftey Thul%PURPLE%Caster Ral}%CONTINUE%
 ItemDisplay[MAG ID WEAPON !BOW]:%NAME%{%NL%%BLUE%HPower Tir, %RED%Blood Ort%NL%%PURPLE%Caster Tir}%CONTINUE%
 ItemDisplay[MAG ID BOW]:%NAME%{%NL%%GREEN%Saftey Sol}%CONTINUE%
 
