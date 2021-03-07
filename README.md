@@ -9,6 +9,8 @@ _Note_ There is a darkMode folder that is also kind of fun to use,  it's not for
 
 _*Change Log*_
 -=-=-=-= V3
+3/7/2021 - Hot fix for ring and amulets to display propper runes for fraftibng (they were backwards!!)
+
 3/6/2021 - Added crafting notes to appropriate runes, fix for unstacked gems. Early release in preperation for website launch for filter
 
 3/1/2021 - Added Crafting notes to P Gems, also to Magic bases.  "Tenative based on how annoying/helpful that is" -  Also Protip for crafting. as long as its not a class specific item. You will get a higher iLVL froma  vendor instead of a monster dropping it.
