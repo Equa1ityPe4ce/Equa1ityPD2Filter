@@ -1,5 +1,5 @@
 // """
-// Equa1ity's PD2 Loot filter  v3.6.3
+// Equa1ity's PD2 Loot filter  v3.6.4
 // Thanks to The D2 Modding Community (Gamers, Developers, Content Creators and Anyone Involved in keeping it alive) 
 // with out other people showing passion for this game I love. I wouldn't get to keep playing it
 // Shout Out To:
@@ -3966,7 +3966,7 @@ ItemDisplay[SET !ID hlm]: %GREEN% Berserker's Helm
 
 //- BUL-KATHOS' -----------------------
 ItemDisplay[SET !ID 7gd]: %DOT-84%%GREEN% Bul-Kathos' Blade
-ItemDisplay[SET !ID 7wd]: %DOT-84%%GREEN% Bul-Kathos' Sword
+ItemDisplay[SET !ID (7wd OR 7fb)]: %DOT-84%%GREEN% Bul-Kathos' Sword
 
 //- CATHAN'S --------------------------
 ItemDisplay[SET !ID msk]: %GREEN% Cathan's Mask
