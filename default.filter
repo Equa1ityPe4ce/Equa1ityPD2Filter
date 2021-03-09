@@ -1,5 +1,5 @@
 // """
-// Equa1ity's PD2 Loot filter  v3.6.6
+// Equa1ity's PD2 Loot filter  v3.6.7
 // Thanks to The D2 Modding Community (Gamers, Developers, Content Creators and Anyone Involved in keeping it alive) 
 // with out other people showing passion for this game I love. I wouldn't get to keep playing it
 // Shout Out To:
@@ -15,7 +15,7 @@
 // RAREDOT0C pass
 // SETDOT84 pass
 // UNIQDORDER0E PASS
-// CRAFTDOT0B PASS
+// CRAFTDOT0B PASSMutualA1d
 //MAGDOT97 pass
 // purple 9B
 //RED62
@@ -81,6 +81,7 @@ ItemDisplay[wss QTY<2]: %DOT-9B%%BLUE%<%ORANGE%*%BLUE%><%ORANGE%*%BLUE%>%BLUE%<%
 ItemDisplay[imra QTY<2]: %NAME%{%WHITE%Cube This %BLUE%Jewel %ORANGE%Rune Thul or Above %TAN%Imbue %NL%%WHITE%White %TAN%to %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[rera QTY<2]: %NAME%{%WHITE%Cube This %DARK_GREEN%Perf Gem %ORANGE%Rune Thul or Above %NL%%TAN% Reroll %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[upma QTY<2]: %NAME%{%WHITE%Cube This %DARK_GREEN%Perf %ORANGE%O  %ORANGE%Rune Thul or Above %NL%%TAN%upgrayedd %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE% Map}
+ItemDisplay[upmp QTY<2]: %NAME%{%WHITE%Cube This %DARK_GREEN%3 x maps of same tier %NL%%TAN%upgrayedd %WHITE%to %WHITE% Map Of Next Tir}
 ItemDisplay[imma QTY<2]: %NAME%{%WHITE%Cube This %BLUE%Jewel %NL%%TAN%White to %BLUE%Magic%WHITE% Map}
 ItemDisplay[scou QTY<2]: %NAME%{%WHITE%Cube This %ORANGE%Hel%NL%%TAN%White Map}
 ItemDisplay[lbox QTY<2]: %BORDER-9B%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>%NL%%ORANGE%** %GOLD%PUZZLEBOX %ORANGE%**%NL%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>
@@ -106,11 +107,11 @@ ItemDisplay[(t21 OR t22 OR t23 OR t24) ID MAG]:%MAP-9B%%NAME% %DARK_GREEN%[%ORAN
 ItemDisplay[(t21 OR t22 OR t23 OR t24) !ID RARE]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t2%DARK_GREEN%]%NL%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY%iLv[%TAN%%ILVL%%GRAY%] %DARK_GREEN%<%TAN%*%DARK_GREEN%>{%DARK_GREEN%Re Roll This: %GOLD%Horadrim Orb + %BLUE%Any P Gem %ORANGE%Rune Thul or above}
 ItemDisplay[(t21 OR t22 OR t23 OR t24) ID RARE]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t2%DARK_GREEN%]{%DARK_GREEN%Re Roll This: %GOLD%Horadrim Orb + %BLUE%Any P Gem %ORANGE%Rune Thul or above}
 
-ItemDisplay[(t31 OR t32 OR t33 OR t34) NMAG]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t3%DARK_GREEN%]%NL%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY%iLv[%GOLD%%ILVL%%GRAY%] %DARK_GREEN%<%TAN%*%DARK_GREEN%>{%DARK_GREEN%Imbue This: %GOLD%Zakarum Orb + %BLUE%Jewel %ORANGE%Rune Thul or above}
-ItemDisplay[(t31 OR t32 OR t33 OR t34) !ID MAG]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t3%DARK_GREEN%]%NL%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY%iLv[%TAN%%ILVL%%GRAY%] %DARK_GREEN%<%TAN%*%DARK_GREEN%>{%DARK_GREEN%Upgrayedd This: %GOLD%Angelic Orb + %ORANGE%P Skull Rune Thul or above}
-ItemDisplay[(t31 OR t32 OR t33 OR t34) ID MAG]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t3%DARK_GREEN%]{%DARK_GREEN%Upgrayedd This: %GOLD%Angelic Orb + %ORANGE%P Skull Rune Thul or above}
-ItemDisplay[(t31 OR t32 OR t33 OR t34) !ID RARE]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t3%DARK_GREEN%]%NL%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY%iLv[%TAN%%ILVL%%GRAY%] %DARK_GREEN%<%TAN%*%DARK_GREEN%>{%DARK_GREEN%Re Roll This: %GOLD%Horadrim Orb + %BLUE%Any P Gem %ORANGE%Rune Thul or above}
-ItemDisplay[(t31 OR t32 OR t33 OR t34) ID RARE]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t3%DARK_GREEN%]{%DARK_GREEN%Re Roll This: %GOLD%Horadrim Orb + %BLUE%Any P Gem %ORANGE%Rune Thul or above}
+ItemDisplay[(t31 OR t32 OR t33 OR t34 OR t35 OR t36) NMAG]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t3%DARK_GREEN%]%NL%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY%iLv[%GOLD%%ILVL%%GRAY%] %DARK_GREEN%<%TAN%*%DARK_GREEN%>{%DARK_GREEN%Imbue This: %GOLD%Zakarum Orb + %BLUE%Jewel %ORANGE%Rune Thul or above}
+ItemDisplay[(t31 OR t32 OR t33 OR t34 OR t35 OR t36) !ID MAG]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t3%DARK_GREEN%]%NL%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY%iLv[%TAN%%ILVL%%GRAY%] %DARK_GREEN%<%TAN%*%DARK_GREEN%>{%DARK_GREEN%Upgrayedd This: %GOLD%Angelic Orb + %ORANGE%P Skull Rune Thul or above}
+ItemDisplay[(t31 OR t32 OR t33 OR t34 OR t35 OR t36) ID MAG]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t3%DARK_GREEN%]{%DARK_GREEN%Upgrayedd This: %GOLD%Angelic Orb + %ORANGE%P Skull Rune Thul or above}
+ItemDisplay[(t31 OR t32 OR t33 OR t34 OR t35 OR t36) !ID RARE]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t3%DARK_GREEN%]%NL%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY%iLv[%TAN%%ILVL%%GRAY%] %DARK_GREEN%<%TAN%*%DARK_GREEN%>{%DARK_GREEN%Re Roll This: %GOLD%Horadrim Orb + %BLUE%Any P Gem %ORANGE%Rune Thul or above}
+ItemDisplay[(t31 OR t32 OR t33 OR t34 OR t35 OR t36) ID RARE]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t3%DARK_GREEN%]{%DARK_GREEN%Re Roll This: %GOLD%Horadrim Orb + %BLUE%Any P Gem %ORANGE%Rune Thul or above}
 
 ItemDisplay[(t41 OR t42) NMAG]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%]%NL%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY%iLv[%GOLD%%ILVL%%GRAY%] %DARK_GREEN%<%TAN%*%DARK_GREEN%>{%DARK_GREEN%Imbue This: %GOLD%Zakarum Orb + %BLUE%Jewel %ORANGE%Rune Thul or above}
 ItemDisplay[(t41 OR t42) !ID MAG]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%]%NL%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY%iLv[%TAN%%ILVL%%GRAY%] %DARK_GREEN%<%TAN%*%DARK_GREEN%>{%DARK_GREEN%Upgrayedd This: %GOLD%Angelic Orb + %ORANGE%P Skull Rune Thul or above}
