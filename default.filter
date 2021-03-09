@@ -4279,8 +4279,8 @@ ItemDisplay[MAG ID SHIELD]:%NAME%{%NL%%BLUE%HPower Eth, %RED%Blood Ith%NL%%GREEN
 ItemDisplay[MAG ID CHEST]:%NAME%{%NL%%BLUE%HPower Nef, %RED%Blood Thul%NL%%GREEN%Saftey Eth%PURPLE%Caster Tal}%CONTINUE%
 ItemDisplay[MAG ID rin]:%NAME%{%NL%%BLUE%HPower Amn, %RED%Blood Sol%NL%%GREEN%Saftey Amn%PURPLE%Caster Amn}%CONTINUE%
 ItemDisplay[MAG ID amu]:%NAME%{%NL%%BLUE%HPower Thul, %RED%Blood Amn%NL%%GREEN%Saftey Thul%PURPLE%Caster Ral}%CONTINUE%
-ItemDisplay[MAG ID WEAPON !BOW]:%NAME%{%NL%%BLUE%HPower Tir, %RED%Blood Ort%NL%%PURPLE%Caster Tir}%CONTINUE%
-ItemDisplay[MAG ID BOW]:%NAME%{%NL%%GREEN%Saftey Sol}%CONTINUE%
+ItemDisplay[MAG ID WEAPON !XBOW !BOW]:%NAME%{%NL%%BLUE%HPower Tir, %RED%Blood Ort%NL%%PURPLE%Caster Tir}%CONTINUE%
+ItemDisplay[MAG ID (BOW OR XBOW)]:%NAME%{%NL%%GREEN%Saftey Sol}%CONTINUE%
 
 //Show quantitiy >1
 ItemDisplay[!aqv !wss !cqv !tbk !ibk !THROWING !JAV !ZON !SPEAR !WEAPON !ARMOR QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%%CONTINUE%
