@@ -90,6 +90,7 @@ ItemDisplay[wss QTY>1]: %DOT-9B%%BLUE%<%ORANGE%*%BLUE%><%ORANGE%*%BLUE%>%BLUE%<%
 ItemDisplay[imra QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%{%WHITE%Cube This %BLUE%Jewel %ORANGE%Rune Thul or Above %TAN%Imbue %NL%%WHITE%White %TAN%to %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[rera QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%{%WHITE%Cube This %DARK_GREEN%Perf Gem %ORANGE%Rune Thul or Above %NL%%TAN% Reroll %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[upma QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%{%WHITE%Cube This %DARK_GREEN%Perf %ORANGE%O  %ORANGE%Rune Thul or Above %NL%%TAN%upgrayedd %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE% Map}
+ItemDisplay[upmp QTY>1]: %NAME%{%WHITE%Cube This %DARK_GREEN%3 x maps of same tier %NL%%TAN%upgrayedd %WHITE%to %WHITE% Map Of Next Tir}
 ItemDisplay[imma QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%{%WHITE%Cube This %BLUE%Jewel %NL%%TAN%White to %BLUE%Magic%WHITE% Map}
 ItemDisplay[scou QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%{%WHITE%Cube This %ORANGE%Hel%NL%%TAN%White Map}
 ItemDisplay[lbox QTY>1]: %BORDER-9B%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>%NL%%ORANGE%** %GOLD%PUZZLEBOX %GRAY%x%DARK_GREEN%%QTY% %ORANGE%**%NL%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>
