@@ -1692,36 +1692,36 @@ ItemDisplay[xtp !RW NMAG (SOCK=0 OR SOCK=3) ED>0]:%DOT-20%%NAME%%NL%%GRAY%<%DARK
 
 // Sharktooth 
 ItemDisplay[xld !ID UNI]:%GOLD%Toothrow%CONTINUE%
-ItemDisplay[xld ID MAG CLVL>55]:
-ItemDisplay[xld ID RARE CLVL>55]:
+ItemDisplay[xld !ID MAG CLVL>55]:
+ItemDisplay[xld !ID RARE CLVL>55]:
 ItemDisplay[xld !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[xld !RW NMAG SOCK>1 CLVL>65]:
 
 // Templar Coat 
 ItemDisplay[xlt !ID UNI]:%GOLD%Guardian Angel%CONTINUE%
-ItemDisplay[xlt ID MAG CLVL>55]:
-ItemDisplay[xlt ID RARE CLVL>55]:
+ItemDisplay[xlt !ID MAG CLVL>55]:
+ItemDisplay[xlt !ID RARE CLVL>55]:
 ItemDisplay[xlt !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[xlt !RW NMAG SOCK>1 CLVL>65]:
 
 // Embossed Plate 
 ItemDisplay[xth !ID UNI]:%GOLD%Atma's Wail%CONTINUE%
-ItemDisplay[xth ID MAG CLVL>55]:
-ItemDisplay[xth ID RARE CLVL>55]:
+ItemDisplay[xth !ID MAG CLVL>55]:
+ItemDisplay[xth !ID RARE CLVL>55]:
 ItemDisplay[xth !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[xth !RW NMAG SOCK>1 CLVL>65]:
 
 // Chaos Armor
 ItemDisplay[xul !ID UNI]:%GOLD%Black Hades%CONTINUE%
-ItemDisplay[xul ID MAG CLVL>55]:
-ItemDisplay[xul ID RARE CLVL>55]:
+ItemDisplay[xul !ID MAG CLVL>55]:
+ItemDisplay[xul !ID RARE CLVL>55]:
 ItemDisplay[xul !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[xul !RW NMAG SOCK>1 CLVL>65]:
 
 // Ornate Plate
 ItemDisplay[xar !ID UNI]:%GOLD%Corpsemourn%CONTINUE%
-ItemDisplay[xar ID MAG CLVL>55]:
-ItemDisplay[xar ID RARE CLVL>55]:
+ItemDisplay[xar !ID MAG CLVL>55]:
+ItemDisplay[xar !ID RARE CLVL>55]:
 ItemDisplay[xar !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[xar !RW NMAG SOCK>1 CLVL>65]:
 
