@@ -4018,19 +4018,21 @@ ItemDisplay[NMAG ama]:
 // Matriarchal Bow 
 ItemDisplay[amb !ID UNI]:%GOLD%Blood Raven's Charge%CONTINUE%
 ItemDisplay[amb !ID (MAG OR RARE)]:%NAME%%CONTINUE%
-ItemDisplay[amb NMAG (SOCK=0 OR SOCK<4)]:
+ItemDisplay[amb NMAG (SOCK=0 OR SOCK<3)]:
 ItemDisplay[amb NMAG SOCK=4]:%NAME%%CONTINUE%
 ItemDisplay[amb NMAG ED>5]:%DOT-20%%NAME%%CONTINUE%
 ItemDisplay[amb NMAG ED>5 SOCK=4]:%DOT-20%%NAME%%NL%%GRAY%<%DARK_GREEN%*%GRAY%><%DARK_GREEN%*%GRAY%>%CONTINUE%
+ItemDisplay[amb NMAG ED>5 SOCK=3]:%DOT-20%%NAME%%NL%%GRAY%<%DARK_GREEN%*%GRAY%><%DARK_GREEN%*%GRAY%>%CONTINUE%
 
 
 // Grand Matron Bow
 ItemDisplay[amc !ID MAG]:%DOT-0C%%NAME%%CONTINUE%
 ItemDisplay[amc !ID RARE CLVL>90]:
-ItemDisplay[amc NMAG (SOCK=0 OR SOCK<4)]:
+ItemDisplay[amc NMAG (SOCK=0 OR SOCK<3)]:
 ItemDisplay[amc NMAG SOCK=4]:%NAME%%CONTINUE%
 ItemDisplay[amc NMAG ED>5]:%DOT-20%%NAME%%CONTINUE%
 ItemDisplay[amc NMAG ED>5 SOCK=4]:%DOT-20%%NAME%%NL%%GRAY%<%DARK_GREEN%*%GRAY%><%DARK_GREEN%*%GRAY%>%CONTINUE%
+ItemDisplay[amc NMAG ED>5 SOCK=3]:%DOT-20%%NAME%%NL%%GRAY%<%DARK_GREEN%*%GRAY%><%DARK_GREEN%*%GRAY%>%CONTINUE%
 
 // Matriarchal Spear
 ItemDisplay[amd !ID UNI]:%GOLD%Stoneraven%CONTINUE%
