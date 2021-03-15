@@ -764,7 +764,7 @@ ItemDisplay[6ws NMAG ETH ED>0 (SOCK=0 OR SOCK>3)]:%GRAY%Archon Staff%CONTINUE%
 // """
 //Zon Bows
 ItemDisplay[NMAG !INF !RW ZON TABSK0=3]:%NAME% 3Bow%CONTINUE%
-ItemDisplay[NMAG !INF !RW ZON TABSK0=2 CLVL<80]:%NAME% 2Bow%CONTINUE%
+
 //Zon spear
 ItemDisplay[NMAG !INF !RW ZON TABSK2=3]:%NAME% 3JavSK%CONTINUE%
 ItemDisplay[NMAG !INF !RW ZON TABSK2=2 CLVL<80]:%NAME% 2JavSK%CONTINUE%
@@ -4029,10 +4029,11 @@ ItemDisplay[amb NMAG ED>5 SOCK=4]:%DOT-20%%NAME%%NL%%GRAY%<%DARK_GREEN%*%GRAY%><
 // Grand Matron Bow
 ItemDisplay[amc !ID MAG]:%DOT-0C%%NAME%%CONTINUE%
 ItemDisplay[amc !ID RARE CLVL>90]:
-ItemDisplay[amc NMAG (SOCK=0 OR SOCK<4)]:
+ItemDisplay[amc NMAG (SOCK=0 OR SOCK<3)]:
 ItemDisplay[amc NMAG SOCK=4]:%NAME%%CONTINUE%
 ItemDisplay[amc NMAG ED>5]:%DOT-20%%NAME%%CONTINUE%
 ItemDisplay[amc NMAG ED>5 SOCK=4]:%DOT-20%%NAME%%NL%%GRAY%<%DARK_GREEN%*%GRAY%><%DARK_GREEN%*%GRAY%>%CONTINUE%
+ItemDisplay[amc NMAG ED>5 SOCK=3]:%DOT-20%%NAME%%NL%%GRAY%<%DARK_GREEN%*%GRAY%><%DARK_GREEN%*%GRAY%>%CONTINUE%
 
 // Matriarchal Spear
 ItemDisplay[amd !ID UNI]:%GOLD%Stoneraven%CONTINUE%
