@@ -1728,22 +1728,6 @@ ItemDisplay[xar !RW NMAG SOCK>1 CLVL>65]:
 // """
 // ELT CHEST
 // """
-//Defence restrictions
-ItemDisplay[NMAG !INF uui DEF<441]:
-ItemDisplay[NMAG !INF uea DEF<451]:
-ItemDisplay[NMAG !INF ula DEF<461]:
-ItemDisplay[NMAG !INF utu DEF<461]:
-ItemDisplay[NMAG !INF ucl DEF<471]:
-ItemDisplay[NMAG !INF urs DEF<471]:
-ItemDisplay[NMAG !INF uhn DEF<471]:
-ItemDisplay[NMAG !INF upl DEF<501]:
-ItemDisplay[NMAG !INF utp DEF<501]:
-ItemDisplay[NMAG !INF uld DEF<501]:
-ItemDisplay[NMAG !INF ult DEF<531]:
-ItemDisplay[NMAG !INF uth DEF<531]:
-ItemDisplay[NMAG !INF uul DEF<531]:
-ItemDisplay[NMAG !INF uar DEF<571]:
-ItemDisplay[NMAG !INF uit DEF<142]:
 // Dusk Shroud 
 ItemDisplay[uui !ID UNI]:%GOLD%Ormus' Robes%CONTINUE%
 ItemDisplay[uui !ID MAG CLVL>75]:
