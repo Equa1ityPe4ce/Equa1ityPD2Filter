@@ -4348,21 +4348,21 @@ ItemDisplay[EXC NMAG (GLOVES OR BOOTS OR BELT)]:
 ItemDisplay[ELT NMAG (GLOVES OR BOOTS OR BELT)]:
 
 //Defence restrictions
-ItemDisplay[NMAG uui DEF<441]:
-ItemDisplay[NMAG uea DEF<451]:
-ItemDisplay[NMAG ula DEF<461]:
-ItemDisplay[NMAG utu DEF<461]:
-ItemDisplay[NMAG ucl DEF<471]:
-ItemDisplay[NMAG urs DEF<471]:
-ItemDisplay[NMAG uhn DEF<471]:
-ItemDisplay[NMAG upl DEF<501]:
-ItemDisplay[NMAG utp DEF<501]:
-ItemDisplay[NMAG uld DEF<501]:
-ItemDisplay[NMAG ult DEF<531]:
-ItemDisplay[NMAG uth DEF<531]:
-ItemDisplay[NMAG uul DEF<531]:
-ItemDisplay[NMAG uar DEF<571]:
-ItemDisplay[NMAG uit DEF<142]:
+ItemDisplay[NMAG !RW uui DEF<441]:
+ItemDisplay[NMAG !RW uea DEF<451]:
+ItemDisplay[NMAG !RW ula DEF<461]:
+ItemDisplay[NMAG !RW utu DEF<461]:
+ItemDisplay[NMAG !RW ucl DEF<471]:
+ItemDisplay[NMAG !RW urs DEF<471]:
+ItemDisplay[NMAG !RW uhn DEF<471]:
+ItemDisplay[NMAG !RW upl DEF<501]:
+ItemDisplay[NMAG !RW utp DEF<501]:
+ItemDisplay[NMAG !RW uld DEF<501]:
+ItemDisplay[NMAG !RW ult DEF<531]:
+ItemDisplay[NMAG !RW uth DEF<531]:
+ItemDisplay[NMAG !RW uul DEF<531]:
+ItemDisplay[NMAG !RW uar DEF<571]:
+ItemDisplay[NMAG !RW uit DEF<142]:
 
 //circ
 ItemDisplay[NMAG CIRC SOCK=0 ED<5]:
