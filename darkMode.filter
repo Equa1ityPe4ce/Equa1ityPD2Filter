@@ -1179,8 +1179,7 @@ ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !RW NMAG CLVL>90 !(SK251=3 OR SK25
 ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !RW NMAG]:%NAME%%CONTINUE%
 ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !RW NMAG SOCK=2 CLVL>75]: 
 
-ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !ID !ETH MAG]:%NAME%%GRAY%iLv[%ILVL%]%CONTINUE%
-ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !ID ETH MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]%CONTINUE%
+ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !ID MAG]:%NAME%%GRAY%iLv[%ILVL%]%CONTINUE%
 ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !ID !ETH RARE CLVL>50]:%NAME%%CONTINUE%
 ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !ID ETH RARE CLVL>50]:%DOT-0C%%WHITE%<%RED%*%WHITE%><%RED%*%WHITE%> %YELLOW%%NAME% %WHITE%<%RED%*%WHITE%><%RED%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]%CONTINUE%
 
@@ -1196,7 +1195,8 @@ ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) NMAG !RW ETH 
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) NMAG !RW ETH (SOCK=0 OR SOCK=3) ED>5]:%BORDER-97%%NAME%%CONTINUE%
 
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) !ID !ETH MAG]:%NAME%%GRAY%iLv[%ILVL%]%CONTINUE%
-ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) !ID ETH MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]%CONTINUE%
+ItemDisplay[(7ar OR 7tw OR 7qr OR 9ar OR 9tw) OR 9qr) !ID ETH MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]%CONTINUE%
+ItemDisplay[(7wb OR 7xf OR 7cs OR 7lw) !ID ETH MAG]:%NAME%%GRAY%iLv[%ILVL%]%CONTINUE%
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) !ID !ETH RARE CLVL>50]:%NAME%%CONTINUE%
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) !ID ETH RARE CLVL>50]:%DOT-0C%%NAME%%CONTINUE%
 
@@ -1672,15 +1672,15 @@ ItemDisplay[xrs !RW NMAG SOCK>1 CLVL<65 ED>0]:%DOT-20%%NAME%
 
 // Mesh Armor 
 ItemDisplay[xhn !ID UNI]:%GOLD%Shaftstop%CONTINUE%
-ItemDisplay[xhn ID MAG CLVL>65]:
-ItemDisplay[xhn ID RARE CLVL>55]:
+ItemDisplay[xhn !ID MAG CLVL>65]:
+ItemDisplay[xhn !ID RARE CLVL>55]:
 ItemDisplay[xhn !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[xhn !RW NMAG SOCK>1 CLVL>65]:
 
 // Russet Armor 
 ItemDisplay[xpl !ID UNI]:%GOLD%Skullder's Ire%CONTINUE%
-ItemDisplay[xpl ID MAG CLVL>35]:
-ItemDisplay[xpl ID RARE CLVL>55]:
+ItemDisplay[xpl !ID MAG CLVL>35]:
+ItemDisplay[xpl !ID RARE CLVL>55]:
 ItemDisplay[xpl !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[xpl !RW NMAG SOCK>1 CLVL>65]:
 
@@ -1694,36 +1694,36 @@ ItemDisplay[xtp !RW NMAG (SOCK=0 OR SOCK=3) ED>0]:%DOT-20%%NAME%%NL%%GRAY%<%DARK
 
 // Sharktooth 
 ItemDisplay[xld !ID UNI]:%GOLD%Toothrow%CONTINUE%
-ItemDisplay[xld ID !MAG CLVL>55]:
-ItemDisplay[xld ID !RARE CLVL>55]:
+ItemDisplay[xld !ID MAG CLVL>55]:
+ItemDisplay[xld !ID RARE CLVL>55]:
 ItemDisplay[xld !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[xld !RW NMAG SOCK>1 CLVL>65]:
 
 // Templar Coat 
 ItemDisplay[xlt !ID UNI]:%GOLD%Guardian Angel%CONTINUE%
-ItemDisplay[xlt ID !MAG CLVL>55]:
-ItemDisplay[xlt ID !RARE CLVL>55]:
+ItemDisplay[xlt !ID MAG CLVL>55]:
+ItemDisplay[xlt !ID RARE CLVL>55]:
 ItemDisplay[xlt !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[xlt !RW NMAG SOCK>1 CLVL>65]:
 
 // Embossed Plate 
 ItemDisplay[xth !ID UNI]:%GOLD%Atma's Wail%CONTINUE%
-ItemDisplay[xth ID !MAG CLVL>55]:
-ItemDisplay[xth ID !RARE CLVL>55]:
+ItemDisplay[xth !ID MAG CLVL>55]:
+ItemDisplay[xth !ID RARE CLVL>55]:
 ItemDisplay[xth !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[xth !RW NMAG SOCK>1 CLVL>65]:
 
 // Chaos Armor
 ItemDisplay[xul !ID UNI]:%GOLD%Black Hades%CONTINUE%
-ItemDisplay[xul ID !MAG CLVL>55]:
-ItemDisplay[xul ID !RARE CLVL>55]:
+ItemDisplay[xul !ID MAG CLVL>55]:
+ItemDisplay[xul !ID RARE CLVL>55]:
 ItemDisplay[xul !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[xul !RW NMAG SOCK>1 CLVL>65]:
 
 // Ornate Plate
 ItemDisplay[xar !ID UNI]:%GOLD%Corpsemourn%CONTINUE%
-ItemDisplay[xar ID !MAG CLVL>55]:
-ItemDisplay[xar ID !RARE CLVL>55]:
+ItemDisplay[xar !ID MAG CLVL>55]:
+ItemDisplay[xar !ID RARE CLVL>55]:
 ItemDisplay[xar !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[xar !RW NMAG SOCK>1 CLVL>65]:
 
