@@ -1195,7 +1195,7 @@ ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) NMAG !RW ETH 
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) NMAG !RW ETH (SOCK=0 OR SOCK=3) ED>5]:%BORDER-97%%NAME%%CONTINUE%
 
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) !ID !ETH MAG]:%NAME%%GRAY%iLv[%ILVL%]%CONTINUE%
-ItemDisplay[(7ar OR 7tw OR 7qr OR 9ar OR 9tw) OR 9qr) !ID ETH MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]%CONTINUE%
+ItemDisplay[(7ar OR 7tw OR 7qr OR 9ar OR 9tw OR 9qr) !ID ETH MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]%CONTINUE%
 ItemDisplay[(7wb OR 7xf OR 7cs OR 7lw) !ID ETH MAG]:%NAME%%GRAY%iLv[%ILVL%]%CONTINUE%
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) !ID !ETH RARE CLVL>50]:%NAME%%CONTINUE%
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) !ID ETH RARE CLVL>50]:%DOT-0C%%NAME%%CONTINUE%
