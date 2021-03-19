@@ -1178,7 +1178,7 @@ ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !RW NMAG CLVL>90 !(SK251=3 OR SK25
 ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !RW NMAG]:%NAME%%CONTINUE%
 ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !RW NMAG SOCK=2 CLVL>75]: 
 
-ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !ID MAG]:%NAME%%GRAY%iLv[%ILVL%]%CONTINUE%
+ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !ID MAG]:%NAME%%CONTINUE%
 ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !ID !ETH RARE CLVL>50]:%NAME%%CONTINUE%
 ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !ID ETH RARE CLVL>50]:%DOT-0C%%WHITE%<%RED%*%WHITE%><%RED%*%WHITE%> %YELLOW%%NAME% %WHITE%<%RED%*%WHITE%><%RED%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]%CONTINUE%
 
