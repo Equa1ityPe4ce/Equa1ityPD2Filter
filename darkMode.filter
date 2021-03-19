@@ -946,11 +946,10 @@ ItemDisplay[NMAG !RW !INF CL2 SK150=3]:%NAME%3GrimWard%CONTINUE%
 //Gen
 ItemDisplay[CL2 !ID MAG ILVL<86]:%NAME%%GRAY%iLv[%ILVL%%GRAY%]
 ItemDisplay[CL2 !ID MAG (ILVL>85 AND ILVL<90)]:%NAME%%GRAY%iLv[%ILVL%%GRAY%]
-ItemDisplay[CL2 !ID MAG ILVL>89]:%NAME%%GRAY%iLv[%ILVL%%GRAY%]
+ItemDisplay[CL2 !ID MAG ILVL>89]:%NAME%%GRAY%iLv[%ILVL%%GRAY%]{%RED%O %ORANGE%Ral %NL%%RED% Blood}
 ItemDisplay[CL2 !ID MAG CLVL>90]:
-ItemDisplay[CL2 !ID MAG CLVL<91]:%NAME%{%RED%O %ORANGE%Ral %NL%%RED% Blood}
-ItemDisplay[CL2 !ID RARE CLVL<71]:%NAME%%CONTINUE%
-ItemDisplay[CL2 !ID RARE CLVL>70]:
+ItemDisplay[CL2 !ID RARE CLVL<91]:%NAME%%CONTINUE%
+ItemDisplay[CL2 !ID RARE CLVL>90]:
 ItemDisplay[CL2 !RW NMAG CLVL>70 !(SK149=3 OR SK154=3 OR SK142=3 OR SK133=3 OR SK138=3 OR SK150=3)]:
 ItemDisplay[CL2 !RW NMAG CLVL>70 (SK149=3 OR SK154=3 OR SK142=3 OR SK133=3 OR SK138=3 OR SK150=3)]:%NAME%%CONTINUE%
 ItemDisplay[CL2 !RW NMAG CLVL<71]:%NAME%%CONTINUE%
@@ -1167,8 +1166,8 @@ ItemDisplay[CL5 NORM RARE]:%NAME%%CONTINUE%
 ItemDisplay[CL5 NORM NMAG SOCK=0 ED<5 CLVL>5]:
 ItemDisplay[CL5 NORM NMAG SOCK=0 ED>5 CLVL<51]:%NAME%%CONTINUE%
 ItemDisplay[CL5 NORM NMAG CLVL>50]:
-ItemDisplay[CL5 NORM !ID !ETH MAG]:%NAME% %GRAY%iLv[%ILVL%]%CONTINUE%
-ItemDisplay[CL5 NORM !ID ETH MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]%CONTINUE%
+ItemDisplay[CL5 NORM !ID MAG CLVL<61]:%NAME% %GRAY%iLv[%ILVL%]%CONTINUE%
+ItemDisplay[CL5 NORM !ID MAG CLVL>60]:
 ItemDisplay[CL5 NORM !ID !ETH RARE CLVL>50]:%NAME%%CONTINUE%
 ItemDisplay[CL5 NORM !ID ETH RARE CLVL>50]:%DOT-0C%%NAME%%CONTINUE%
 
@@ -1194,8 +1193,8 @@ ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) NMAG !RW ETH 
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) NMAG !RW ETH (SOCK=0 OR SOCK=3)]:%NAME%%CONTINUE%
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) NMAG !RW ETH (SOCK=0 OR SOCK=3) ED>5]:%BORDER-97%%NAME%%CONTINUE%
 
-ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) !ID !ETH MAG]:%NAME%%GRAY%iLv[%ILVL%]%CONTINUE%
-ItemDisplay[(7ar OR 7tw OR 7qr OR 9ar OR 9tw OR 9qr) !ID ETH MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]%CONTINUE%
+ItemDisplay[(EXC OR ELT) !(7tw OR 7qr OR 9tw) !ID !ETH MAG]:%NAME%%GRAY%iLv[%ILVL%]%CONTINUE%
+ItemDisplay[(7tw OR 7qr OR 9tw) !ID ETH MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]%CONTINUE%
 ItemDisplay[(7wb OR 7xf OR 7cs OR 7lw) !ID ETH MAG]:%NAME%%GRAY%iLv[%ILVL%]%CONTINUE%
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) !ID !ETH RARE CLVL>50]:%NAME%%CONTINUE%
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) !ID ETH RARE CLVL>50]:%DOT-0C%%NAME%%CONTINUE%
@@ -3338,14 +3337,14 @@ ItemDisplay[9s9 !RW NMAG CLVL>5]:
 
 // Spiculum
 ItemDisplay[9gl !ID !ETH MAG CLVL>65]:
-ItemDisplay[9gl !ID ETH MAG]:%NAME%%CONTINUE%
+ItemDisplay[9gl !ID ETH MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]
 ItemDisplay[9gl !ID !ETH RARE CLVL>65]:
 ItemDisplay[9gl !ID ETH RARE]:%NAME%%CONTINUE%
 ItemDisplay[9gl !RW NMAG CLVL>5]:
 
 // Harpoon
 ItemDisplay[9ts !ID !ETH MAG CLVL>65]:
-ItemDisplay[9ts !ID ETH MAG]:%NAME%%CONTINUE%
+ItemDisplay[9ts !ID ETH MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]
 ItemDisplay[9ts !ID !ETH RARE CLVL>65]:
 ItemDisplay[9ts !ID ETH RARE]:%NAME%%CONTINUE%
 ItemDisplay[9ts !RW NMAG CLVL>5]:
@@ -3378,7 +3377,7 @@ ItemDisplay[7s7 !RW NMAG CLVL>5]:
 // Ghost Glaive
 ItemDisplay[7gl !ID UNI]:%GOLD%Wraith Flight%CONTINUE% 
 ItemDisplay[7gl !ID !ETH MAG CLVL>85]:
-ItemDisplay[7gl !ID ETH MAG]:%NAME%%CONTINUE%
+ItemDisplay[7gl !ID ETH MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]
 ItemDisplay[7gl !ID !ETH RARE CLVL>85]:
 ItemDisplay[7gl !ID ETH RARE]:%NAME%%CONTINUE%
 ItemDisplay[7gl !RW NMAG CLVL>5]:
@@ -3386,7 +3385,7 @@ ItemDisplay[7gl !RW NMAG CLVL>5]:
 // Winged Harpoon
 ItemDisplay[7ts !ID UNI]:%GOLD%Gargoyle's Bite%CONTINUE% 
 ItemDisplay[7ts !ID !ETH MAG CLVL>85]:
-ItemDisplay[7ts !ID ETH MAG]:%NAME%%CONTINUE%
+ItemDisplay[7ts !ID ETH MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]
 ItemDisplay[7ts !ID !ETH RARE CLVL>85]:
 ItemDisplay[7ts !ID ETH RARE]:%NAME%%CONTINUE%
 ItemDisplay[7ts !RW NMAG CLVL>5]:
@@ -3428,7 +3427,8 @@ ItemDisplay[pik !ETH (NMAG OR MAG OR RARE) CLVL>30]:
 ItemDisplay[pik ETH !ID MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%NL%%GRAY%iLv[%ILVL%]
 ItemDisplay[pik ETH !ID RARE]:%DOT-0C%%NAME%%CONTINUE%
 ItemDisplay[pik ETH NMAG SOCK>2 CLVL>40]:
-ItemDisplay[pik ETH NMAG ED>5]:%DOT-20%%GRAY%<%DARK_GREEN%*%GRAY%><%DARK_GREEN%*%GRAY%>%NL%%NAME%%CONTINUE%
+ItemDisplay[pik ETH NMAG ED>5 CLVL<80]:%DOT-20%%GRAY%<%DARK_GREEN%*%GRAY%><%DARK_GREEN%*%GRAY%>%NL%%NAME%%CONTINUE%
+ItemDisplay[pik ETH NMAG ED>5 CLVL>60]:
 
 // """
 // EXC SPEAR
@@ -4229,16 +4229,16 @@ ItemDisplay[SET !ID tbt]: %GREEN%(%GRAY%Vidala's Boots%GREEN%)
 ItemDisplay[ETH !ID UNI]:%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%NAME%%CONTINUE%
 
 //Mid Uniques
-ItemDisplay[UNI !ID (xvg OR uow OR 7cs OR zlb OR 7bw OR 7gs OR 7ls OR 7sc OR 7fl OR 7bl OR 7mp OR 72a OR xow OR uts OR ush OR xsh OR cap OR uhm OR xhb OR xvb OR umc OR uvc OR zvb OR upl OR utu OR uui OR xth OR xtp OR xpl OR xhn OR oba OR pae OR nea OR 7wb OR 9tw OR amb OR jew)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%>%NL%%NAME%%NL%%GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%>
+ItemDisplay[UNI !ID (xvg OR uow OR 7cs OR zlb OR 7bw OR 7gs OR 7ls OR 7sc OR 7fl OR 7bl OR 7mp OR 72a OR xow OR uts OR ush OR xsh OR cap OR uhm OR xhb OR xvb OR umc OR uvc OR zvb OR upl OR utu OR uui OR xth OR xtp OR xpl OR xhn OR oba OR pae OR nea OR 7wb OR amb OR jew)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%>%NL%%NAME%%NL%%GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%>
 
 //Non Eth Mid Uniq
-ItemDisplay[UNI !ETH !ID (7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%>%NL%%NAME%%NL%%GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%>
+ItemDisplay[UNI !ETH !ID (9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%>%NL%%NAME%%NL%%GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%>
 
 //High Uniques
 ItemDisplay[UNI !ID (umg OR zhb OR ulc OR lbt OR rin OR amu OR ci2 OR ci3 OR baa OR bac OR dra OR drb OR dre OR nef OR pa9 OR pac OR obc OR obf OR xea OR xlt OR uld OR uar OR lbl OR zvb OR xtb OR uvg OR uhg OR cap OR xhm OR xh9 OR uap OR ulm OR usk OR urn OR uh9 OR xsh OR uit OR 7wa OR 7gi OR 6sw OR 6lw OR 7kr OR 7wh OR 7gm OR 9ws OR 7ws OR 6ws OR 7cr OR 7gd OR 7gw OR 7gl OR 7ts)]:%BORDER-0E%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>%NL% %NL%%NAME%%NL% %NL%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>
 
 //ETH High UNIQ
-ItemDisplay[UNI ETH !ID (7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>%NL% %NL%%NAME%%NL% %NL%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>
+ItemDisplay[UNI ETH !ID (9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>%NL% %NL%%NAME%%NL% %NL%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>
 
 
 // """
