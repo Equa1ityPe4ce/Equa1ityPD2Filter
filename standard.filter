@@ -71,7 +71,7 @@ ItemDisplay[upma QTY<2]: %NAME%{%WHITE%Cube This %DARK_GREEN%Perf %ORANGE%O  %OR
 ItemDisplay[upmp QTY<2]: %NAME%{%WHITE%Cube This %DARK_GREEN%3 x maps of same tier %NL%%TAN%upgrayedd %WHITE%to %WHITE% Map Of Next Tir}
 ItemDisplay[imma QTY<2]: %NAME%{%WHITE%Cube This %BLUE%Jewel %NL%%TAN%White to %BLUE%Magic%WHITE% Map}
 ItemDisplay[scou QTY<2]: %NAME%{%WHITE%Cube This %ORANGE%Hel%NL%%TAN%White Map}
-ItemDisplay[scrb QTY<2]: %NAME%{%WHITE%Cube This %ORANGE%tier 3 map%NL%%TAN%create a group dungeon}
+ItemDisplay[scrb QTY<2]: %BORDER-9B%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>%NL%%NAME%{%WHITE%Cube This %ORANGE%tier 3 map%NL%%TAN%create a group dungeon}
 ItemDisplay[lbox QTY<2]: %BORDER-9B%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>%NL%%ORANGE%** %GOLD%PUZZLEBOX %ORANGE%**%NL%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>
 
 ItemDisplay[wss QTY>1]: %DOT-9B%%BLUE%<%ORANGE%*%BLUE%><%ORANGE%*%BLUE%>%BLUE%<%ORANGE%*%BLUE%><%ORANGE%*%BLUE%>%NL%%PURPLE%Shard %GRAY%x%DARK_GREEN%%QTY%%NL%%PURPLE%Worldstone %NL%%BLUE%<%ORANGE%*%BLUE%><%ORANGE%*%BLUE%>%BLUE%<%ORANGE%*%BLUE%><%ORANGE%*%BLUE%>{%TAN%Cube%WHITE%: This And An Item To Corrupt/Slam}
@@ -81,7 +81,7 @@ ItemDisplay[upma QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%{%WHITE%Cube This %DARK_
 ItemDisplay[upmp QTY>1]: %NAME%{%WHITE%Cube This %DARK_GREEN%3 x maps of same tier %NL%%TAN%upgrayedd %WHITE%to %WHITE% Map Of Next Tir}
 ItemDisplay[imma QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%{%WHITE%Cube This %BLUE%Jewel %NL%%TAN%White to %BLUE%Magic%WHITE% Map}
 ItemDisplay[scou QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%{%WHITE%Cube This %ORANGE%Hel%NL%%TAN%White Map}
-ItemDisplay[scrb QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%{%WHITE%Cube This %ORANGE%tier 3 map%NL%%TAN%create a group dungeon}
+ItemDisplay[scrb QTY>1]: %BORDER-9B%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>%NL%%NAME% %GRAY%x%DARK_GREEN%%QTY%{%WHITE%Cube This %ORANGE%tier 3 map%NL%%TAN%create a group dungeon}
 ItemDisplay[lbox QTY>1]: %BORDER-9B%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>%NL%%ORANGE%** %GOLD%PUZZLEBOX %GRAY%x%DARK_GREEN%%QTY% %ORANGE%**%NL%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>
 
 //Maps
@@ -112,6 +112,13 @@ ItemDisplay[(t41 OR t42) ID RARE]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GR
 //D Clone
 ItemDisplay[(dcma OR dcbl OR dcho OR dcso) QTY<2]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>
 ItemDisplay[(dcma OR dcbl OR dcho OR dcso) QTY>1]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>%NL%%ORANGE%** %NAME% %GRAY%x%DARK_GREEN%%QTY% %ORANGE%**%NL%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>
+//D CLone items
+ItemDisplay[UNI !ID utb]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>
+ItemDisplay[UNI !ID uhl]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>
+ItemDisplay[UNI !ID 7bs]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>
+ItemDisplay[UNI !ID 7qr]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>
+ItemDisplay[UNI !ID uth]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>%NL%%ORANGE%** %NAME% %ORANGE%**%NL%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>
+
 
 // """
 // Index(3)
