@@ -550,8 +550,8 @@ ItemDisplay[ci3 !RW NMAG (SOCK=0 OR SOCK=3) ED>0]:%DOT-20%%DARK_GREEN%<%TAN%*%DA
 
 
 //Unique Rin amu and Circ
-ItemDisplay[rin !ID UNI]:%GOLD%Ring%CONTINUE%
-ItemDisplay[amu !ID UNI]:%GOLD%Amulet%CONTINUE%
+ItemDisplay[rin !ID UNI]:%BORDER-62%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%> %ORANGE%*** %GOLD%Ring %ORANGE%*** %RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>
+ItemDisplay[amu !ID UNI]:%BORDER-62%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%> %ORANGE%*** %GOLD%Amulet %ORANGE%*** %RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>
 ItemDisplay[ci2 !ID UNI]:%GOLD%Kira's Guardian%CONTINUE%
 ItemDisplay[ci3 !ID UNI]:%GOLD%Griffon's Eye%CONTINUE%
 
@@ -2103,6 +2103,8 @@ ItemDisplay[xhg !RW NMAG CLVL>5]:
 // """
 // ELT GLoves
 // """
+ItemDisplay[CLVL>90 GLOVES MAG !ID]:
+ItemDisplay[CLVL>90 GLOVES NMAG]:
 // Bramble Mitts 
 ItemDisplay[ulg !ID UNI]:%GOLD%%CONTINUE%
 ItemDisplay[ulg !ID MAG CLVL>85 ILVL<90]:
@@ -2503,6 +2505,7 @@ ItemDisplay[7ha !RW NMAG SOCK>1 CLVL>78]:
 // Small Crescent 
 ItemDisplay[7ax !ID MAG CLVL>70]:
 ItemDisplay[7ax !ID RARE CLVL>75]:
+ItemDisplay[7ax !RW !ETH NMAG CLVL>90]:
 ItemDisplay[7ax !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[7ax !RW NMAG SOCK>1 CLVL>78]:
 
@@ -2521,6 +2524,7 @@ ItemDisplay[72a NMAG (ED>5 AND SOCK>2)]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GREEN%>
 ItemDisplay[7mp !ID UNI]:%GOLD%Cranebeak%CONTINUE%
 ItemDisplay[7mp !ID MAG CLVL>70]:
 ItemDisplay[7mp !ID RARE CLVL>75]:
+ItemDisplay[7mp !RW !ETH NMAG CLVL>90]:
 ItemDisplay[7mp !RW NMAG SOCK=0 ED<5 CLVL>5]:
 ItemDisplay[7mp !RW NMAG SOCK>2]:%NAME%%CONTINUE%
 ItemDisplay[7mp !RW NMAG SOCK>2 ED>5]:%NAME%%CONTINUE%
@@ -2543,12 +2547,14 @@ ItemDisplay[7la !ID MAG CLVL>80]:
 ItemDisplay[7la !ID RARE CLVL>85]:
 ItemDisplay[7la !RW NMAG SOCK=0 ED<5 CLVL>5]:
 ItemDisplay[7la !RW NMAG SOCK>2]:%NAME%%CONTINUE%
+ItemDisplay[7la !RW !ETH NMAG CLVL>90]:
 ItemDisplay[7la !RW NMAG SOCK>2 ED>5]:%NAME%%CONTINUE%
 
 // Silver Edged Axe 
 ItemDisplay[7ba !ID UNI]:%GOLD%Ethereal Edge%CONTINUE%
 ItemDisplay[7ba !ID MAG CLVL>80]:
 ItemDisplay[7ba !ID RARE CLVL>85]:
+ItemDisplay[7ba !RW !ETH NMAG CLVL>90]:
 ItemDisplay[7ba !RW NMAG SOCK=0 ED<5 CLVL>5]:
 ItemDisplay[7ba !RW NMAG SOCK>2]:%NAME%%CONTINUE%
 ItemDisplay[7ba !RW NMAG SOCK>2 ED>5]:%NAME%%CONTINUE%
@@ -2557,6 +2563,7 @@ ItemDisplay[7ba !RW NMAG SOCK>2 ED>5]:%NAME%%CONTINUE%
 ItemDisplay[7bt !ID UNI]:%GOLD%Hellslayer%CONTINUE%
 ItemDisplay[7bt !ID MAG CLVL>80]:
 ItemDisplay[7bt !ID RARE CLVL>85]:
+ItemDisplay[7bt !RW !ETH NMAG CLVL>90]:
 ItemDisplay[7bt !RW NMAG SOCK=0 ED<5 CLVL>5]:
 ItemDisplay[7bt !RW NMAG SOCK>2]:%NAME%%CONTINUE%
 ItemDisplay[7bt !RW NMAG SOCK>2 ED>5]:%NAME%%CONTINUE%
@@ -2581,6 +2588,7 @@ ItemDisplay[7gi !ID !ETH RARE CLVL>85]:
 ItemDisplay[7gi !ID ETH RARE CLVL>85]:
 ItemDisplay[7gi !RW NMAG SOCK=0 ED<5 CLVL>5]:
 ItemDisplay[7gi !RW NMAG SOCK>2]:%NAME%%CONTINUE%
+ItemDisplay[7gi !RW !ETH NMAG CLVL>90]:
 ItemDisplay[7gi !RW NMAG SOCK>2 ED>5]:%DOT-20%%NAME%%CONTINUE%
 
 // """
@@ -3257,6 +3265,7 @@ ItemDisplay[7tk !ID ETH MAG]:%NAME%%CONTINUE%
 ItemDisplay[7tk CLVL>90 !ID !ETH MAG]:
 ItemDisplay[7tk !ID ETH RARE]:%NAME%%CONTINUE%
 ItemDisplay[7tk CLVL>90 !ID !ETH RARE]:
+ItemDisplay[7tk CLVL>90 !ID NMAG]:
 
 // Flying Axe 
 ItemDisplay[7ta !ID UNI]:%GOLD%Gimmershred%CONTINUE%
@@ -3264,6 +3273,7 @@ ItemDisplay[7ta !ID ETH MAG]:%NAME%%CONTINUE%
 ItemDisplay[7ta CLVL>90 !ID !ETH MAG]:
 ItemDisplay[7ta !ID ETH RARE]:%NAME%%CONTINUE%
 ItemDisplay[7ta CLVL>90 !ID !ETH RARE]:
+ItemDisplay[7ta CLVL>90 !ID NMAG]:
 
 // Winged Knife
 ItemDisplay[7bk !ID UNI]:%GOLD%Warshrike%CONTINUE% 
@@ -3271,6 +3281,7 @@ ItemDisplay[7bk !ID ETH MAG]:%NAME%%CONTINUE%
 ItemDisplay[7bk CLVL>90 !ID !ETH MAG]:
 ItemDisplay[7bk !ID ETH RARE]:%NAME%%CONTINUE%
 ItemDisplay[7bk CLVL>90 !ID !ETH RARE]:
+ItemDisplay[7bk CLVL>90 !ID NMAG]:
 
 // Winged Axe 
 ItemDisplay[7b8 !ID UNI]:%GOLD%Lacerator%CONTINUE%
@@ -3278,6 +3289,7 @@ ItemDisplay[7b8 !ID ETH MAG]:%NAME%%CONTINUE%
 ItemDisplay[7b8 CLVL>90 !ID !ETH MAG]:
 ItemDisplay[7b8 !ID ETH RARE]:%NAME%%CONTINUE%
 ItemDisplay[7b8 CLVL>90 !ID !ETH RARE]:
+ItemDisplay[7b8 CLVL>90 !ID NMAG]:
 
 // """
 // NORM JAVELIN
@@ -3487,6 +3499,7 @@ ItemDisplay[7sr !RW NMAG SOCK>1 CLVL>23]:
 // Stygian Pike
 ItemDisplay[7tr !ETH !UNI !CRAFT (!ID AND MAG) (!ID AND RARE) CLVL>80]:
 ItemDisplay[7tr !ETH !RW NMAG SOCK=0 CLVL>5]:
+ItemDisplay[7tr !ETH !RW NMAG ED<5 CLVL>90]:
 ItemDisplay[7tr !RW NMAG ETH SOCK=0]: %DOT-20%%NAME%(4sock At larzuk)%CONTINUE%
 ItemDisplay[7tr !RW NMAG ETH ED>5 SOCK>3]: %DOT-20%%NAME%%CONTINUE%
 ItemDisplay[7tr !RW NMAG ETH SOCK>2]: %DOT-20%%NAME%%CONTINUE%
@@ -3496,6 +3509,7 @@ ItemDisplay[7tr !RW NMAG ETH ED>5 (SOCK=0 OR SOCK>2)]:%DOT-20%%DARK_GREEN%<%TAN%
 ItemDisplay[7br !ID UNI]:%GOLD%Viperfork%CONTINUE%
 ItemDisplay[7br !ETH (NMAG OR MAG OR RARE) CLVL>60]:
 ItemDisplay[7br !ETH !RW NMAG SOCK=0 CLVL>5]:
+ItemDisplay[7br !ETH !RW NMAG ED<5 CLVL>90]:
 ItemDisplay[7br ETH !ID MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%GRAY%iLv[%ILVL%]
 ItemDisplay[7br ETH !ID RARE]:%DOT-0C%%NAME%%CONTINUE%
 ItemDisplay[7br ETH NMAG ED>5]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %NAME% %DARK_GREEN%<%TAN%*%DARK_GREEN%>%CONTINUE%
@@ -3504,6 +3518,7 @@ ItemDisplay[7br NMAG (ED>5 AND SOCK=4)]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GREEN%>
 // Ghost Spear 
 ItemDisplay[7st !ETH !UNI !CRAFT (!ID AND MAG) (!ID AND RARE) CLVL>80]:
 ItemDisplay[7st !ETH !RW NMAG SOCK=0 CLVL>5]:
+ItemDisplay[7st !ETH !RW NMAG ED<5 CLVL>90]:
 ItemDisplay[7st ETH !ID MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>%GRAY%iLv[%ILVL%]
 ItemDisplay[7st ETH !ID RARE]:%DOT-0C%%NAME%%CONTINUE%
 ItemDisplay[7st ETH NMAG ED>5]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %NAME% %DARK_GREEN%<%TAN%*%DARK_GREEN%>%CONTINUE%
@@ -4245,13 +4260,13 @@ ItemDisplay[ETH !ID UNI]:%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%NAME%%CONTINUE%
 ItemDisplay[UNI !ID (xvg OR uow OR 7cs OR zlb OR 7bw OR 7gs OR 7ls OR 7sc OR 7fl OR 7bl OR 7mp OR 72a OR xow OR uts OR ush OR xsh OR cap OR uhm OR xhb OR xvb OR umc OR uvc OR zvb OR upl OR utu OR uui OR xth OR xtp OR xpl OR xhn OR oba OR pae OR nea OR 7wb OR amb OR jew)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%>
 
 //Non Eth Mid Uniq
-ItemDisplay[UNI !ETH !ID (9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%>
+ItemDisplay[UNI !ETH !ID (9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%><%ORANGE%*%GREEN%><%ORANGE%*%GREEN%>
 
 //High Uniques
-ItemDisplay[UNI !ID (uhb OR umg OR zhb OR ulc OR lbt OR rin OR amu OR ci2 OR ci3 OR baa OR bac OR dra OR drb OR dre OR nef OR pa9 OR pac OR obc OR obf OR xea OR xlt OR uld OR uar OR lbl OR zvb OR xtb OR uvg OR uhg OR cap OR xhm OR xh9 OR uap OR ulm OR usk OR urn OR uh9 OR xsh OR uit OR 7wa OR 7gi OR 6sw OR 6lw OR 7kr OR 7wh OR 7gm OR 9ws OR 7ws OR 6ws OR 7cr OR 7gd OR 7gw OR 7gl OR 7ts)]:%BORDER-0E%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%> %GOLD%%NAME% %RED%<%PURPLE%*%RED%><%PURPLE%*%RED%> 
+ItemDisplay[UNI !ID (uhb OR umg OR zhb OR ulc OR lbt OR ci2 OR ci3 OR baa OR bac OR dra OR drb OR dre OR nef OR pa9 OR pac OR obc OR obf OR xea OR xlt OR uld OR uar OR lbl OR zvb OR xtb OR uvg OR uhg OR cap OR xhm OR xh9 OR uap OR ulm OR usk OR urn OR uh9 OR xsh OR uit OR 7wa OR 7gi OR 6sw OR 6lw OR 7kr OR 7wh OR 7gm OR 9ws OR 7ws OR 6ws OR 7cr OR 7gd OR 7gw OR 7gl OR 7ts)]:%BORDER-0E%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%> %GOLD%%NAME% %RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>
 
 //ETH High UNIQ
-ItemDisplay[UNI ETH !ID (9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%> %GOLD%%NAME% %RED%<%PURPLE%*%RED%><%PURPLE%*%RED%> 
+ItemDisplay[UNI ETH !ID (9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%> %GOLD%%NAME% %RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>
 
 
 // """
@@ -4332,6 +4347,7 @@ ItemDisplay[ID RARE]:%NAME%
 
 //Always Ping for unique craft and runweword drops
 ItemDisplay[UNI ID]:%DOT-0E%%NAME%
+ItemDisplay[UNI !ID]:%DOT-0E%%NAME%
 ItemDisplay[CRAFT ID]:%DOT-0B%%NAME%
 
 
