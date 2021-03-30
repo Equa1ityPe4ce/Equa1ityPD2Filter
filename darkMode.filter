@@ -1,5 +1,5 @@
 // """
-// Equa1ity's PD2 Loot filter  v3.6.8
+// Equa1ity's PD2 Loot filter  v3.7.2
 // Thanks to The D2 Modding Community (Gamers, Developers, Content Creators and Anyone Involved in keeping it alive) 
 // with out other people showing passion for this game I love. I wouldn't get to keep playing it
 // Shout Out To:
@@ -28,7 +28,7 @@ ItemDisplay[CLVL>80 GOLD<5000]:
 ItemDisplay[NMAG INF]:
 
 //Dark mode engage
-ItemDisplay[NMAG SOCK=0 (WEAPON OR ARMOR)]:%WHITE%(%GRAY%%NAME% %WHITE%)%CONTINUE%
+ItemDisplay[NMAG SOCK=0 !ID]:%WHITE%(%GRAY%%NAME% %WHITE%)%CONTINUE%
 ItemDisplay[MAG !(rin OR amu OR jew OR cm3 OR cm1) !ID]:%BLUE%(%GRAY%%NAME% %BLUE%)%CONTINUE%
 ItemDisplay[RARE !(rin OR amu OR jew) !ID]:%YELLOW%(%GRAY%%NAME% %YELLOW%)%CONTINUE%
 ItemDisplay[NMAG SOCK>0]:%DARK_GREEN%(%GRAY%%NAME% %DARK_GREEN%)%CONTINUE%
@@ -4225,7 +4225,7 @@ ItemDisplay[SET !ID hbl]: %GREEN%( %GRAY%Sigon's Belt %GREEN%)
 //- TAL RASHA'S -----------------------
 ItemDisplay[SET !ID zmb]: %DOT-84%%GREEN% Tal Belt
 ItemDisplay[SET !ID uth]: %BORDER-84% %BLUE%<%RED%*%BLUE%><%RED%*%BLUE%>%GREEN% Tal Rasha's Armor %BLUE%<%RED%*%BLUE%><%RED%*%BLUE%>
-ItemDisplay[SET !ID xsk]: %GREEN%( %GRAY%Tal Mask %GREEN%)
+ItemDisplay[SET !ID xsk]: %GREEN%( %GRAY%Tal Mask  %GREEN%)
 ItemDisplay[SET !ID oba]: %DOT-84%%GREEN%*%GREEN% Tal Wand
 
 //- TANCRED'S -------------------------
@@ -4248,9 +4248,9 @@ ItemDisplay[SET !ID xul]: %DOT-84%%DARK_GREEN%<%GRAY%*%DARK_GREEN%>%GREEN% Trang
 ItemDisplay[SET !ID ne9]: %DOT-84%%DARK_GREEN%<%GRAY%*%DARK_GREEN%>%GREEN% Trang Shield %DARK_GREEN%<%GRAY%*%DARK_GREEN%>
 
 //- VIDALA'S --------------------------
-ItemDisplay[SET !ID lea]: %GREEN%( %GRAY%Vidala's Armor %GREEN%)
-ItemDisplay[SET !ID lbb]: %GREEN%( %GRAY%Vidala's Bow %GREEN%)
-ItemDisplay[SET !ID tbt]: %GREEN%( %GRAY%Vidala's Boots %GREEN%)
+ItemDisplay[SET !ID lea]:%GREEN%( %GRAY%Vidala's Armor %GREEN%)
+ItemDisplay[SET !ID lbb]:%GREEN%( %GRAY%Vidala's Bow %GREEN%)
+ItemDisplay[SET !ID tbt]:%GREEN%( %GRAY%Vidala's Boots %GREEN%)
 
 // FINAL
 //ETH
@@ -4324,7 +4324,7 @@ ItemDisplay[rin MAG ILVL>89]: %NAME%%GRAY%[iLv%RED%%ILVL%%GRAY%]%CONTINUE%
 // Utils II
 // """
 
-//Craft notes on ID's items
+//Craft notes on ID items
 ItemDisplay[MAG ID HELM !CIRC]:%NAME%{%NL%%BLUE%HPower Ith, %RED%Blood Ral%NL%%GREEN%Saftey Ith%PURPLE%Caster Nef}%CONTINUE%
 ItemDisplay[MAG ID BOOTS]:%NAME%{%NL%%BLUE%HPower Ral, %RED%Blood Eth%NL%%GREEN%Saftey Ort%PURPLE%Caster Thul}%CONTINUE%
 ItemDisplay[MAG ID GLOVES]:%NAME%{%NL%%BLUE%HPower Ort, %RED%Blood Nef%NL%%GREEN%Saftey Ral%PURPLE%Caster Ort}%CONTINUE%
@@ -4339,7 +4339,7 @@ ItemDisplay[MAG ID (BOW OR XBOW)]:%NAME%{%NL%%GREEN%Saftey Sol}%CONTINUE%
 //Show quantitiy >1
 ItemDisplay[!aqv !wss !cqv !tbk !ibk !THROWING !JAV !ZON !SPEAR !WEAPON !ARMOR QTY>1]: %NAME% %GRAY%x%DARK_GREEN%%QTY%%CONTINUE%
 
-//Always show me those items
+//Always show
 ItemDisplay[SET]:%NAME%
 ItemDisplay[ID MAG CIRC]:%NAME%
 ItemDisplay[ID RARE]:%NAME%
