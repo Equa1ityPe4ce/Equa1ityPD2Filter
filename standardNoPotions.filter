@@ -323,6 +323,7 @@ ItemDisplay[GEMTYPE=7 GEM=5]:%NAME%{%ORANGE%6x Pskull %NL%%DARK_GREEN%Reroll Hig
 // INDEX (6)
 // POTIONS
 // """
+ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5  CLVL>90]:
 //Juvs
 ItemDisplay[rvl]:%PURPLE%Full%GRAY%Juv
 ItemDisplay[rvs CLVL<85]:%PURPLE%(%GRAY%juv%PURPLE%)
