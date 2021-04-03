@@ -338,6 +338,7 @@ ItemDisplay[hp3 CLVL>30]:
 ItemDisplay[hp4 CLVL<41]:%RED%(%GRAY%hp%RED%)
 ItemDisplay[hp4 CLVL>40]:
 ItemDisplay[hp5]:%RED%(%GRAY%hp%RED%)
+ItemDisplay[hp5 CLVL>90]:
 
 //MANA
 ItemDisplay[mp1 CLVL<12]:%BLUE%(%GRAY%mp%BLUE%)
@@ -345,6 +346,7 @@ ItemDisplay[mp2 CLVL<20]:%BLUE%(%GRAY%mp%BLUE%)
 ItemDisplay[mp3 CLVL<25]:%BLUE%(%GRAY%mp%BLUE%)
 ItemDisplay[mp4 CLVL<40]:%BLUE%(%GRAY%mp%BLUE%)
 ItemDisplay[mp5]:%BLUE%(%GRAY%mp%BLUE%)
+ItemDisplay[mp5 CLVL>90]:
 
 ItemDisplay[(mp1 OR hp1) CLVL>12]:
 ItemDisplay[(mp2 OR hp2) CLVL>20]:
