@@ -3,7 +3,7 @@
 // Thanks to The D2 Modding Community (Gamers, Developers, Content Creators and Anyone Involved in keeping it alive) 
 // with out other people showing passion for this game I love. I wouldn't get to keep playing it
 // Shout Out To:
-// 1. Mitch, Dave and Figgy(OG's)
+// 1. Mitch, Dave and Figgy(OG's) STAT18
 
 // Tools I use
 // IDE: VS Code
@@ -1006,6 +1006,7 @@ ItemDisplay[NMAG ELT STAFF ETH !RW ED>5 (SOCK=0 OR SOCK=4) (6cs OR 6bs OR 8cs OR
 // """
 // ASN CLAWS
 // """
+ItemDisplay[CL5 MAG !ID !ETH CLVL>90]:
 //Asassin stuff
 //uniques
 ItemDisplay[7cs !ID UNI]:%GOLD%Shadow Killer%CONTINUE%
@@ -1131,11 +1132,6 @@ ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !RW NMAG CLVL>90 !(SK251=3 OR SK25
 ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !RW NMAG]:%NAME%%CONTINUE%
 ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !RW NMAG SOCK=2 CLVL>75]: 
 
-ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !ID MAG]:%NAME%%CONTINUE%
-ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !ID !ETH RARE CLVL>50]:%NAME%%CONTINUE%
-ItemDisplay[(9ar OR 9wb OR 9xf OR 9lw OR 9qr) !ID ETH RARE CLVL>50]:%DOT-0C%%WHITE%<%RED%*%WHITE%><%RED%*%WHITE%> %YELLOW%%NAME% %WHITE%<%RED%*%WHITE%><%RED%*%WHITE%>%CONTINUE%
-
-
 //ELT
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) NMAG !RW !ETH SOCK=2]:
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) NMAG !RW !ETH (SK251=3 OR SK252=3 OR SK253=3 OR SK254=3 OR SK255=3 OR SK256=3 OR SK257=3 OR SK258=3 OR SK259=3 OR SK260=3 OR SK261=3 OR SK262=3 OR SK263=3 OR SK264=3 OR SK265=3 OR SK266=3 OR SK267=3 OR SK268=3 OR SK269=3 OR SK270=3 OR SK271=3 OR SK272=3 OR SK273=3 OR SK274=3 OR SK275=3 OR SK276=3 OR SK277=3 OR SK278=3 OR SK279=3 OR SK280=3 OR SK366=3)]:%NAME%%CONTINUE%
@@ -1146,15 +1142,23 @@ ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) NMAG !RW ETH 
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) NMAG !RW ETH (SOCK=0 OR SOCK=3)]:%NAME%%CONTINUE%
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) NMAG !RW ETH (SOCK=0 OR SOCK=3) ED>5]:%BORDER-97%%NAME%%CONTINUE%
 
-ItemDisplay[CL5 (EXC OR ELT) !(7tw OR 7qr OR 9tw) !ID !ETH MAG]:%NAME%%CONTINUE%
-ItemDisplay[(7tw OR 7qr OR 9tw) !ID ETH MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%> <%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%> <%YELLOW%*%WHITE%>%CONTINUE%
+//MAG AND RARE
+ItemDisplay[CL5 (EXC OR ELT) !ID !ETH MAG]:%NAME%%CONTINUE%
 ItemDisplay[(7wb OR 7xf OR 7cs OR 7lw) !ID ETH MAG]:%NAME%%CONTINUE%
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) !ID !ETH RARE CLVL>85]:
 ItemDisplay[(7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr OR 9tw) !ID ETH RARE]:%NAME%%CONTINUE%
 
+ItemDisplay[CL5 NORM !ID (MAG OR RARE) CLVL<70]:%NAME%
+ItemDisplay[CL5 NORM !ID (MAG OR RARE) CLVL>71]:
+ItemDisplay[CL5 (EXC OR ELT) !ID (MAG OR RARE) CLVL<91]:%NAME%
+ItemDisplay[CL5 !(7tw OR 7qr OR 9tw) !ID (MAG OR RARE) CLVL>90]:
+ItemDisplay[CL5 (7tw OR 7qr OR 9tw) !ID ETH RARE]:%DOT-0C%%WHITE%<%RED%*%WHITE%><%RED%*%WHITE%> %YELLOW%%NAME% %WHITE%<%RED%*%WHITE%><%RED%*%WHITE%>%CONTINUE%
+ItemDisplay[CL5 (7tw OR 7qr OR 9tw) !ID ETH MAG]:%DOT-0C%%WHITE%<%RED%*%WHITE%><%RED%*%WHITE%> %BLUE%%NAME% %WHITE%<%RED%*%WHITE%><%RED%*%WHITE%>%CONTINUE%
+ItemDisplay[CL5 (7tw OR 7qr OR 9tw) !ID !ETH (MAG OR RARE)]:
+
 // //pattern/strength
-ItemDisplay[NMAG CL5 (NORM OR EXC) SOCK=2 CLVL<61]:%NAME%{%TAN% Strength: %ORANGE%Amn Tir}
-ItemDisplay[NMAG CL5 (NORM OR EXC) SOCK=3 CLVL<71]:%NAME%{%TAN% Pattern: %ORANGE%Tal Ort Tir}
+ItemDisplay[NMAG CL5 (NORM OR EXC) SOCK=2 CLVL<61]:%NAME% %DARK_GREEN%Strength{%TAN% Strength: %ORANGE%Amn Tir}
+ItemDisplay[NMAG CL5 (NORM OR EXC) SOCK=3 CLVL<71]:%NAME% %DARK_GREEN%Pattern{%TAN% Pattern: %ORANGE%Tal Ort Tir}
 
 //str
 ItemDisplay[NORM (SWORD OR AXE OR SCEPTER OR MACE) SOCK=2 CLVL>19 AND CLVL<35]:%NAME%{%TAN% Strength: %ORANGE%Amn Tir}
@@ -3452,6 +3456,7 @@ ItemDisplay[7sr !RW NMAG SOCK>1 CLVL>23]:
 
 // Stygian Pike
 ItemDisplay[7tr !ETH !UNI !CRAFT (!ID AND MAG) (!ID AND RARE) CLVL>80]:
+ItemDisplay[7tr !ETH (MAG OR RARE) CLVL>85]:
 ItemDisplay[7tr !ETH !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[7tr !ETH !RW NMAG ED<5 CLVL>90]:
 ItemDisplay[7tr !RW NMAG ETH SOCK=0]: %DOT-20%%NAME%(4sock At larzuk)%CONTINUE%
