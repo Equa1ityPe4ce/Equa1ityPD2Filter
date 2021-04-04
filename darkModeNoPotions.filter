@@ -1,5 +1,5 @@
 // """
-// Equa1ity's PD2 Loot filter  v3.9.2
+// Equa1ity's PD2 Loot filter  v3.9.3
 // Thanks to The D2 Modding Community (Gamers, Developers, Content Creators and Anyone Involved in keeping it alive) 
 // with out other people showing passion for this game I love. I wouldn't get to keep playing it
 // Shout Out To:
@@ -519,7 +519,10 @@ ItemDisplay[cm1 !UNI MFIND>5]: %NAME%%GOLD%MF %CONTINUE%
 ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]:%BORDER-0C%%WHITE%<%YELLOW%*%WHITE%> %YELLOW%%NAME% %WHITE%<%YELLOW%*%WHITE%>
 ItemDisplay[(jew OR EQ7) MAG !ID ILVL<90]:%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
 ItemDisplay[(rin OR amu) MAG !ID]:%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
-ItemDisplay[(jew OR EQ7) MAG !ID ILVL>89]:%DOT-97%%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
+ItemDisplay[(jew OR EQ7) MAG !ID ILVL>85]:%DOT-97%%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
+
+//Circ's
+ItemDisplay[CIRC (NMAG OR MAG) !ci3 CLVL>90]:
 
 //daid
 ItemDisplay[ci3 NMAG SOCK=3]:%NAME%%CONTINUE%
