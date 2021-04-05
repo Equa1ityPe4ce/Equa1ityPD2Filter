@@ -515,19 +515,17 @@ ItemDisplay[cm3 !UNI MFIND>11]: %NAME%%GOLD%MF %CONTINUE%
 ItemDisplay[cm2 !UNI MFIND>9]: %NAME%%GOLD%MF %CONTINUE%
 ItemDisplay[cm1 !UNI MFIND>5]: %NAME%%GOLD%MF %CONTINUE%
 
-//Circ's
-ItemDisplay[CIRC (NMAG OR MAG) !ID !RW !ci3 CLVL>90]:
-
 //Jewels Amulets Rings Circlets
 ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]:%BORDER-0C%%WHITE%<%YELLOW%*%WHITE%> %YELLOW%%NAME% %WHITE%<%YELLOW%*%WHITE%>
-ItemDisplay[(jew OR EQ7) MAG !ID ILVL<90]:%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
+ItemDisplay[(jew OR EQ7) MAG !ID ILVL<90 CLVL<91]:%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
 ItemDisplay[(rin OR amu) MAG !ID]:%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
-ItemDisplay[(jew OR EQ7) MAG !ID ILVL>85]:%DOT-97%%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
+ItemDisplay[(jew OR EQ7) MAG !ID ILVL>85 CLVL<91]:%DOT-97%%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
+ItemDisplay[EQ7 (NMAG OR MAG) !ID !RW !ci3 CLVL>90]:
 
 //daid
 ItemDisplay[ci3 NMAG SOCK=3]:%NAME%%CONTINUE%
 ItemDisplay[ci3 !RW NMAG (SOCK=0 OR SOCK=3) ED>0]:%DOT-20%%PURPLE%<%RED%*%PURPLE%> %GRAY%%NAME% %PURPLE%<%RED%*%PURPLE%>%CONTINUE%
-
+ItemDisplay[ci3 MAG !ID !RW CLVL>90]:
 
 //Unique Rin amu and Circ
 ItemDisplay[rin !ID UNI]:%BORDER-9B%%RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%>%ORANGE% * * * %GOLD%%NAME% %ORANGE%* * * %RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%>
