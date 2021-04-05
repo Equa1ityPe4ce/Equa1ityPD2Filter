@@ -519,7 +519,7 @@ ItemDisplay[(rin OR amu) MAG !ID]:%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*
 ItemDisplay[(jew OR EQ7) MAG !ID ILVL>85]:%DOT-97%%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
 
 //Circ's
-ItemDisplay[CIRC (NMAG OR MAG) !ID !ci3 CLVL>90]:
+ItemDisplay[CIRC (NMAG OR MAG) !ID !RW !ci3 CLVL>90]:
 
 //daid
 ItemDisplay[ci3 NMAG SOCK=3]:%NAME%%CONTINUE%
