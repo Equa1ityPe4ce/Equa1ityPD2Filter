@@ -517,7 +517,8 @@ ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]:%BORDER-0C%%WHITE%<%YELLOW%*%WH
 ItemDisplay[(jew OR EQ7) MAG !ID ILVL<90 CLVL<91]:%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
 ItemDisplay[(rin OR amu) MAG !ID]:%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
 ItemDisplay[(jew OR EQ7) MAG !ID ILVL>85 CLVL<91]:%DOT-97%%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
-ItemDisplay[EQ7 (NMAG OR MAG) !ID !RW !ci3 CLVL>90]:
+ItemDisplay[EQ7 MAG !ID !RW !ci3 CLVL>90]:
+ItemDisplay[EQ7 NMAG !RW !ci3 CLVL>90]:
 
 //daid
 ItemDisplay[ci3 NMAG SOCK=3]:%NAME%%CONTINUE%
