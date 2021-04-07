@@ -2661,7 +2661,7 @@ ItemDisplay[9fl !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[9fl !RW NMAG SOCK>1 CLVL>60]:
 
 // Battle Hammer 
-ItemDisplay[9wh !ID UNI]:
+ItemDisplay[9wh !ID UNI]:%GOLD%Earthshaker
 ItemDisplay[9wh !ID !ETH MAG CLVL>60]:
 ItemDisplay[9wh !ID !ETH RARE CLVL>650]:
 ItemDisplay[9wh !RW NMAG SOCK=0 CLVL>5]:
