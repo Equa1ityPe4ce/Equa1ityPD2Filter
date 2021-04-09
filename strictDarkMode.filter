@@ -4053,7 +4053,7 @@ ItemDisplay[SET !ID sbr]:
 //- ARCANNA'S -------------------------
 ItemDisplay[SET !ID wst]:
 ItemDisplay[SET !ID ltp]:
-ItemDisplay[SET !ID skp]
+ItemDisplay[SET !ID skp]:
 
 //- ARCTIC ----------------------------
 ItemDisplay[SET !ID vbl]:
