@@ -60,7 +60,7 @@ ItemDisplay[wms CLVL<21]:%YELLOW%(%GRAY%thaw%YELLOW%)
 ItemDisplay[vps CLVL>10]:
 ItemDisplay[wms CLVL>20]:
 ItemDisplay[(tsc OR isc OR vps OR wms) CLVL>30]:
-ItemDisplay[key]:%BLACK%Key
+ItemDisplay[key]:
 //Ammo
 ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
 //Show Wirt's leg
@@ -323,7 +323,7 @@ ItemDisplay[GEMTYPE=7 GEM=5]:%NAME%{%ORANGE%6x Pskull %NL%%DARK_GREEN%Reroll Hig
 // POTIONS
 // """
 ItemDisplay[yps]:
-ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR yps) CLVL>90]:
+ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR yps) CLVL>85]:
 //Juvs
 ItemDisplay[rvl]:%PURPLE%Full%GRAY%Juv
 ItemDisplay[rvs CLVL<85]:%PURPLE%(%GRAY%juv%PURPLE%)
@@ -2661,7 +2661,7 @@ ItemDisplay[9fl !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[9fl !RW NMAG SOCK>1 CLVL>60]:
 
 // Battle Hammer 
-ItemDisplay[9wh !ID UNI]:
+ItemDisplay[9wh !ID UNI]:%GOLD%Earthshaker
 ItemDisplay[9wh !ID !ETH MAG CLVL>60]:
 ItemDisplay[9wh !ID !ETH RARE CLVL>650]:
 ItemDisplay[9wh !RW NMAG SOCK=0 CLVL>5]:
