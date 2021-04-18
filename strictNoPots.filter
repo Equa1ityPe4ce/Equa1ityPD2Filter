@@ -323,7 +323,7 @@ ItemDisplay[GEMTYPE=7 GEM=5]:%NAME%{%ORANGE%6x Pskull %NL%%DARK_GREEN%Reroll Hig
 // POTIONS
 // """
 ItemDisplay[yps]:
-// ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR yps) CLVL>85]:
+ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR yps) CLVL>85]:
 //Juvs
 ItemDisplay[rvl]:%PURPLE%Full%GRAY%Juv
 ItemDisplay[rvs CLVL<85]:%PURPLE%(%GRAY%juv%PURPLE%)
@@ -4327,7 +4327,7 @@ ItemDisplay[NMAG SOCK=1 CLVL>10]:
 
 ////
 //Strict Mode Add's
-ItemDisplay[NMAG (WEAPON OR ARMOR)  !(7tw OR 9tw OR 7wa OR DIN OR WAND OR amb OR amc) !ED>9]:
+ItemDisplay[NMAG (WEAPON OR ARMOR)  !(7tw OR 9tw OR 7wa OR !DIN OR !WAND) !ED>9]:
 
 ItemDisplay[CLVL>90 NMAG (STAFF OR SOR OR NEC)]:
 ItemDisplay[CLVL>90 NMAG WAND !(SK66>2 OR SK72>2 OR SK76>2 OR SK82>2 OR SK87>2 OR SK91>2 OR SK381>2 OR SK374>2 OR SK67>2 OR SK68>2 OR SK73>2 OR SK92>2 OR SK74>2 OR SK78>2 OR SK83>2 OR SK84>2 OR SK93>2 OR SK69>2 OR SK70>2 OR SK75>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK89>2 OR SK90>2 OR SK94>2 OR SK95>2 OR SK367>0)]:
