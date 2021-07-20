@@ -4421,6 +4421,30 @@ ItemDisplay[SET !ID lea]:%GREEN%Vidala's Armor%CONTINUE%
 ItemDisplay[SET !ID lbb]:%GREEN%Vidala's Bow%CONTINUE%
 ItemDisplay[SET !ID tbt]:%GREEN%Vidala's Boots%CONTINUE%
 
+// FINAL
+//Sets Mid
+ItemDisplay[SET !ID (amu OR rin OR xtb OR uul OR stu OR xap OR lgl OR paf OR 7ws OR urn OR 6cs OR 7qr OR xhm OR 7ls OR ulg OR xmg OR utc OR uh9 OR xul OR ne9)]:%DOT-84%%DARK_GREEN%<%GRAY%*%DARK_GREEN%> <%GRAY%*%DARK_GREEN%> %NAME% %DARK_GREEN%<%GRAY%*%DARK_GREEN%> <%GRAY%*%DARK_GREEN%>%CONTINUE%
+
+// Sets High
+ItemDisplay[SET !ID (lbl OR uar OR uth)]:%BORDER-84%%BLUE%<%RED%*%BLUE%> <%RED%*%BLUE%> <%RED%*%BLUE%> %NAME% %BLUE%<%RED%*%BLUE%> <%RED%*%BLUE%> <%RED%*%BLUE%>%CONTINUE%
+
+//ETH
+ItemDisplay[ETH !ID UNI]:%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%NAME%%CONTINUE%
+
+// eth mid's
+ItemDisplay[UNI !ID (92a OR 9gm)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
+
+//Mid Uniques
+ItemDisplay[UNI !ID (xlg OR 7tw OR drd OR 9ls OR 7bw OR 8hx OR xvg OR uow OR 7cs OR zlb OR 7bw OR 7gs OR 7ls OR 7sc OR 7fl OR 7bl OR 7mp OR 72a OR xow OR uts OR ush OR xsh OR cap OR uhm OR xhb OR xvb OR umc OR uvc OR zvb OR upl OR uui OR xth OR xtp OR xpl OR xhn OR oba OR pae OR nea OR 7wb OR amb OR jew)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
+
+//Non Eth Mid Uniq
+ItemDisplay[UNI !ETH !ID (7gi OR 9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
+
+//High Uniques
+ItemDisplay[UNI !ID (utu OR uhb OR umg OR zhb OR ulc OR lbt OR ci2 OR ci3 OR baa OR bac OR dra OR drb OR dre OR nef OR pa9 OR pac OR obc OR obf OR xea OR xlt OR uld OR uar OR lbl OR zvb OR xtb OR uvg OR uhg OR cap OR xhm OR xh9 OR uap OR ulm OR usk OR urn OR uh9 OR xsh OR uit OR 7wa OR 6sw OR 6lw OR 7kr OR 7wh OR 7gm OR 9ws OR 7ws OR 6ws OR 7cr OR 7gd OR 7gw OR 7gl OR 7ts)]:%BORDER-9B%%RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%> %ORANGE% * * * %GOLD%%NAME% %ORANGE%* * * %RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%>
+
+//ETH High UNIQ
+ItemDisplay[UNI ETH !ID (7gi OR 9ls OR 9s8 OR 9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-9B%%RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%> %ORANGE% * * * %GOLD%%NAME% %ORANGE%* * * %RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%>
 
 // """
 // Index(10)
@@ -4494,7 +4518,6 @@ ItemDisplay[ID RARE]:%NAME%
 ItemDisplay[UNI ID]:%DOT-0E%%NAME%
 ItemDisplay[UNI !ID]:%DOT-0E%%NAME%
 ItemDisplay[CRAFT ID]:%DOT-0B%%NAME%
-
 
 // """
 // INDEX(13)
