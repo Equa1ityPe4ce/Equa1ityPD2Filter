@@ -3465,18 +3465,18 @@ ItemDisplay[tkf !ID RARE CLVL>20]:
 ItemDisplay[tkf !RW NMAG CLVL>10]:
 
 // Throwing Axe
-ItemDisplay[tax !RW NMAG CLVL>15]:
-ItemDisplay[tax !RW MAG CLVL>30]:
+ItemDisplay[tax !ID NMAG CLVL>15]:
+ItemDisplay[tax !ID MAG CLVL>30]:
 ItemDisplay[tax !RW RARE CLVL>60]:
 
 // Balanced Knife
-ItemDisplay[bkf !RW NMAG CLVL>5]:
-ItemDisplay[bkf !RW MAG CLVL>40]:
+ItemDisplay[bkf !ID NMAG CLVL>5]:
+ItemDisplay[bkf !ID MAG CLVL>40]:
 ItemDisplay[bkf !RW RARE CLVL>60]:
 
 // Balanced Axe
-ItemDisplay[bal !RW NMAG CLVL>5]:
-ItemDisplay[bal !RW MAG CLVL>50]:
+ItemDisplay[bal !ID NMAG CLVL>5]:
+ItemDisplay[bal !ID MAG CLVL>50]:
 ItemDisplay[bal !RW RARE CLVL>60]:
 // """
 // EXC THROW
@@ -3490,20 +3490,20 @@ ItemDisplay[9tk !RW RARE CLVL>60]:
 // Francisca
 ItemDisplay[9ta !ID UNI]:%GOLD%The Scalper%CONTINUE%
 ItemDisplay[9ta !RW NMAG CLVL>5]:
-ItemDisplay[9ta !RW MAG CLVL>60]:
-ItemDisplay[9ta !RW RARE CLVL>60]:
+ItemDisplay[9ta !ID MAG CLVL>60]:
+ItemDisplay[9ta !ID RARE CLVL>60]:
 
 // War Dart 
 ItemDisplay[9bk !ID ETH MAG]:%NAME%%CONTINUE%
 ItemDisplay[9bk !RW NMAG CLVL>5]:
-ItemDisplay[9bk !RW MAG CLVL>60]:
-ItemDisplay[9bk !RW RARE CLVL>60]:
+ItemDisplay[9bk !ID MAG CLVL>60]:
+ItemDisplay[9bk !ID RARE CLVL>60]:
 
 // Hurlbat
 ItemDisplay[9b8 !ID ETH MAG]:%NAME%%CONTINUE%
 ItemDisplay[9b8 !RW NMAG CLVL>5]:
-ItemDisplay[9b8 !RW MAG CLVL>60]:
-ItemDisplay[9b8 !RW RARE CLVL>60]:
+ItemDisplay[9b8 !ID MAG CLVL>60]:
+ItemDisplay[9b8 !ID RARE CLVL>60]:
 
 // """
 // ELT THROW
@@ -3517,113 +3517,113 @@ ItemDisplay[7tk CLVL>90 NMAG]:
 // Flying Axe 
 ItemDisplay[7ta !ID UNI]:%GOLD%Gimmershred%CONTINUE%
 ItemDisplay[7ta CLVL>70 NMAG]:
-ItemDisplay[7ta MAG CLVL>60]:
-ItemDisplay[7ta RARE CLVL>60]:
+ItemDisplay[7ta !ID MAG CLVL>60]:
+ItemDisplay[7ta !ID RARE CLVL>60]:
 
 // Winged Knife
 ItemDisplay[7bk !ID UNI]:%GOLD%Warshrike%CONTINUE% 
 ItemDisplay[7bk CLVL>80 NMAG]:
-ItemDisplay[7bk MAG CLVL>60]:
-ItemDisplay[7bk RARE CLVL>60]:
+ItemDisplay[7bk !ID MAG CLVL>60]:
+ItemDisplay[7bk !ID RARE CLVL>60]:
 
 // Winged Axe 
 ItemDisplay[7b8 !ID UNI]:%GOLD%Lacerator%CONTINUE%
 ItemDisplay[7b8 CLVL>80 NMAG]:
-ItemDisplay[7b8 MAG CLVL>60]:
-ItemDisplay[7b8 RARE CLVL>60]:
+ItemDisplay[7b8 !ID MAG CLVL>60]:
+ItemDisplay[7b8 !ID RARE CLVL>60]:
 
 // """
 // NORM JAVELIN
 // """
-ItemDisplay[JAV (MAG OR RARE) ETH ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[JAV !ID (MAG OR RARE) ETH ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Javelin
 ItemDisplay[jav !ID !ETH MAG CLVL>5]:
 ItemDisplay[jav !RW NMAG CLVL>5]:
-ItemDisplay[jav !RW MAG CLVL>20]:
-ItemDisplay[jav !RW RARE CLVL>40]:
+ItemDisplay[jav !ID MAG CLVL>20]:
+ItemDisplay[jav !ID RARE CLVL>40]:
 
 // Pilum
 ItemDisplay[pil !ID !ETH MAG CLVL>15]:
 ItemDisplay[pil !RW NMAG CLVL>5]:
-ItemDisplay[pil !RW MAG CLVL>30]:
-ItemDisplay[pil !RW RARE CLVL>450]:
+ItemDisplay[pil !ID MAG CLVL>30]:
+ItemDisplay[pil !ID RARE CLVL>450]:
 
 // Short Spear 
 ItemDisplay[ssp !ID !ETH MAG CLVL>45]:
 ItemDisplay[ssp !RW NMAG CLVL>5]:
-ItemDisplay[ssp !RW MAG CLVL>40]:
-ItemDisplay[ssp !RW RARE CLVL>50]:
+ItemDisplay[ssp !ID MAG CLVL>40]:
+ItemDisplay[ssp !ID RARE CLVL>50]:
 
 // Glaive
 ItemDisplay[glv !ID !ETH MAG CLVL>45]:
 ItemDisplay[glv !RW NMAG CLVL>5]:
-ItemDisplay[glv !RW MAG CLVL>40]:
-ItemDisplay[glv !RW RARE CLVL>50]:
+ItemDisplay[glv !ID MAG CLVL>40]:
+ItemDisplay[glv !ID RARE CLVL>50]:
 
 // Throwing Spear
 ItemDisplay[tsp !ID !ETH MAG CLVL>45]:
 ItemDisplay[tsp !RW NMAG CLVL>5]:
-ItemDisplay[tsp !RW MAG CLVL>60]:
-ItemDisplay[tsp !RW RARE CLVL>60]:
+ItemDisplay[tsp !ID MAG CLVL>60]:
+ItemDisplay[tsp !ID RARE CLVL>60]:
 
 // """
 // EXC JAVELIN
 // """
 // War Javelin 
 ItemDisplay[9ja !RW NMAG CLVL>5]:
-ItemDisplay[9ja !RW MAG CLVL>70]:
-ItemDisplay[9ja !RW RARE CLVL>80]:
+ItemDisplay[9ja !ID MAG CLVL>70]:
+ItemDisplay[9ja !ID RARE CLVL>80]:
 
 // Great Pilum 
 ItemDisplay[9pi !RW NMAG CLVL>5]:
-ItemDisplay[9pi !RW MAG CLVL>70]:
-ItemDisplay[9pi !RW RARE CLVL>80]:
+ItemDisplay[9pi !ID MAG CLVL>70]:
+ItemDisplay[9pi !ID RARE CLVL>80]:
 
 // Simbilan
 ItemDisplay[9s9 !RW NMAG CLVL>5]:
-ItemDisplay[9s9 !RW MAG CLVL>70]:
-ItemDisplay[9s9 !RW RARE CLVL>80]:
+ItemDisplay[9s9 !ID MAG CLVL>70]:
+ItemDisplay[9s9 !ID RARE CLVL>80]:
 
 // Spiculum
 ItemDisplay[9gl !RW NMAG CLVL>5]:
-ItemDisplay[9gl !RW MAG CLVL>70]:
-ItemDisplay[9gl !RW RARE CLVL>80]:
+ItemDisplay[9gl !ID MAG CLVL>70]:
+ItemDisplay[9gl !ID RARE CLVL>80]:
 
 // Harpoon
 ItemDisplay[9ts !RW NMAG CLVL>5]:
-ItemDisplay[9ts !RW MAG CLVL>80]:
-ItemDisplay[9ts !RW RARE CLVL>90]:
+ItemDisplay[9ts !ID MAG CLVL>80]:
+ItemDisplay[9ts !ID RARE CLVL>90]:
 
 // """
 // ELT JAVELIN
 // """
 // Hyperion Javelin
 ItemDisplay[7ja !RW NMAG CLVL>5]:
-ItemDisplay[7ja MAG CLVL>60]:
-ItemDisplay[7ja RARE CLVL>60]:
+ItemDisplay[7ja !ID MAG CLVL>60]:
+ItemDisplay[7ja !ID RARE CLVL>60]:
 
 // Stygian Pilum 
 ItemDisplay[7pi !RW NMAG CLVL>5]:
-ItemDisplay[7pi MAG CLVL>60]:
-ItemDisplay[7pi RARE CLVL>60]:
+ItemDisplay[7pi !ID MAG CLVL>60]:
+ItemDisplay[7pi !ID RARE CLVL>60]:
 
 // Balrog Spear
 ItemDisplay[7s7 !ID UNI]:%GOLD%Demon's Arch%CONTINUE% 
 ItemDisplay[7s7 !RW NMAG CLVL>5]:
-ItemDisplay[7s7 MAG CLVL>60]:
-ItemDisplay[7s7 RARE CLVL>60]:
+ItemDisplay[7s7 !ID MAG CLVL>60]:
+ItemDisplay[7s7 !ID RARE CLVL>60]:
 
 // Ghost Glaive
 ItemDisplay[7gl !ID UNI]:%GOLD%Wraith Flight%CONTINUE% 
 ItemDisplay[7gl !RW NMAG CLVL>5]:
-ItemDisplay[7gl MAG CLVL>60]:
-ItemDisplay[7gl RARE CLVL>60]:
+ItemDisplay[7gl !ID MAG CLVL>60]:
+ItemDisplay[7gl !ID RARE CLVL>60]:
 
 // Winged Harpoon
 ItemDisplay[7ts !ID UNI]:%GOLD%Gargoyle's Bite%CONTINUE% 
 ItemDisplay[7ts !RW NMAG CLVL>5]:
-ItemDisplay[7ts MAG CLVL>60]:
-ItemDisplay[7ts RARE CLVL>60]:
+ItemDisplay[7ts !ID MAG CLVL>60]:
+ItemDisplay[7ts !ID RARE CLVL>60]:
 
 // """
 // NORM SPEAR
@@ -4546,16 +4546,16 @@ ItemDisplay[ETH !ID UNI]:%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%NAME%%CONTINUE%
 ItemDisplay[UNI !ID (92a OR 9gm)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
 
 //Mid Uniques
-ItemDisplay[UNI !ID (7tw OR drd OR 9ls OR 7bw OR 8hx OR xvg OR uow OR 7cs OR zlb OR 7bw OR 7gs OR 7ls OR 7sc OR 7fl OR 7bl OR 7mp OR 72a OR xow OR uts OR ush OR xsh OR cap OR uhm OR xhb OR xvb OR umc OR uvc OR zvb OR upl OR utu OR uui OR xth OR xtp OR xpl OR xhn OR oba OR pae OR nea OR 7wb OR amb OR jew)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
+ItemDisplay[UNI !ID (xlg OR 7tw OR drd OR 9ls OR 7bw OR 8hx OR xvg OR uow OR 7cs OR zlb OR 7bw OR 7gs OR 7ls OR 7sc OR 7fl OR 7bl OR 7mp OR 72a OR xow OR uts OR ush OR xsh OR cap OR uhm OR xhb OR xvb OR umc OR uvc OR zvb OR upl OR uui OR xth OR xtp OR xpl OR xhn OR oba OR pae OR nea OR 7wb OR amb OR jew)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
 
 //Non Eth Mid Uniq
-ItemDisplay[UNI !ETH !ID (9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
+ItemDisplay[UNI !ETH !ID (7gi OR 9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
 
 //High Uniques
-ItemDisplay[UNI !ID (uhb OR umg OR zhb OR ulc OR lbt OR ci2 OR ci3 OR baa OR bac OR dra OR drb OR dre OR nef OR pa9 OR pac OR obc OR obf OR xea OR xlt OR uld OR uar OR lbl OR zvb OR xtb OR uvg OR uhg OR cap OR xhm OR xh9 OR uap OR ulm OR usk OR urn OR uh9 OR xsh OR uit OR 7wa OR 7gi OR 6sw OR 6lw OR 7kr OR 7wh OR 7gm OR 9ws OR 7ws OR 6ws OR 7cr OR 7gd OR 7gw OR 7gl OR 7ts)]:%BORDER-9B%%RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%> %ORANGE% * * * %GOLD%%NAME% %ORANGE%* * * %RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%>
+ItemDisplay[UNI !ID (utu OR uhb OR umg OR zhb OR ulc OR lbt OR ci2 OR ci3 OR baa OR bac OR dra OR drb OR dre OR nef OR pa9 OR pac OR obc OR obf OR xea OR xlt OR uld OR uar OR lbl OR zvb OR xtb OR uvg OR uhg OR cap OR xhm OR xh9 OR uap OR ulm OR usk OR urn OR uh9 OR xsh OR uit OR 7wa OR 6sw OR 6lw OR 7kr OR 7wh OR 7gm OR 9ws OR 7ws OR 6ws OR 7cr OR 7gd OR 7gw OR 7gl OR 7ts)]:%BORDER-9B%%RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%> %ORANGE% * * * %GOLD%%NAME% %ORANGE%* * * %RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%>
 
 //ETH High UNIQ
-ItemDisplay[UNI ETH !ID (9ls OR 9s8 OR 9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-9B%%RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%> %ORANGE% * * * %GOLD%%NAME% %ORANGE%* * * %RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%>
+ItemDisplay[UNI ETH !ID (7gi OR 9ls OR 9s8 OR 9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-9B%%RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%> %ORANGE% * * * %GOLD%%NAME% %ORANGE%* * * %RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%>
 
 // """
 // Index(10)
