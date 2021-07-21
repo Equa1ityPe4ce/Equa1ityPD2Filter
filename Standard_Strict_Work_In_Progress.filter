@@ -1420,7 +1420,7 @@ ItemDisplay[NMAG !RW DIN !INF (pab OR pac OR paf) (SOCK=0 OR SOCK>2) RES>20]:%BO
 // """
 //uniques
 ItemDisplay[baa !ID UNI]:%GOLD%Arreat's Face%CONTINUE%
-ItemDisplay[ba6 !ID UNI]:%GOLD%Reziarfgs EyE%CONTINUE%
+ItemDisplay[ba6 !ID UNI]:%GOLD%Cyclopean Roar%CONTINUE%
 ItemDisplay[bac !ID UNI]:%GOLD%Wolfhowl%CONTINUE%
 ItemDisplay[bad !ID UNI]:%GOLD%Demonhorn's Edge%CONTINUE%
 ItemDisplay[bae !ID UNI]:%GOLD%Halaberd's Reign%CONTINUE%
@@ -2596,8 +2596,8 @@ ItemDisplay[uhc !RW NMAG CLVL>5]:
 // Normal Axes
 // """
 ItemDisplay[AXE (RARE OR MAG) !ETH CLVL>89]:
-ItemDisplay[AXE (RARE OR MAG) !(wax OR 7wa OR 9wa OR gax OR 9ga OR 7ga) CLVL>89]:
-ItemDisplay[AXE RARE ETH ILVL>84]:%DOT-0C%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[AXE (RARE OR MAG) !(wax OR 7wa OR 9wa OR gax OR 9ga OR 7ga OR bal OR 9b8 OR 7b8) CLVL>89]:
+ItemDisplay[AXE ETH (RARE OR MAG) !ID ILVL>84]:%DOT-0C%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Hand Axe
 ItemDisplay[hax !ID UNI]:%GOLD%The Gnasher%CONTINUE%
 ItemDisplay[hax !ID MAG CLVL>5]:
@@ -2864,7 +2864,7 @@ ItemDisplay[7gi !RW NMAG SOCK>2 ED>5]:%DOT-20%%NAME%%CONTINUE%
 // """
 ItemDisplay[MACE (RARE OR MAG) !ETH CLVL>89]:
 ItemDisplay[MACE (RARE OR MAG) !(clb OR spc OR mau OR 9m9 OR 7m7 OR 9cl OR 9sp OR gma OR 9gm OR 7gm OR 7cl OR 7sp) CLVL>89]:
-ItemDisplay[MACE ETH ILVL>84]:%DOT-0C%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[MACE ETH (RARE OR MAG) !ID ILVL>84]:%DOT-0C%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Club
 ItemDisplay[clb !ID UNI]:%GOLD%Felloak%CONTINUE%
 ItemDisplay[clb !ID MAG CLVL>89 ILVL<85]:
@@ -3052,9 +3052,9 @@ ItemDisplay[7gm NMAG (ED>5 AND SOCK=6)]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GREEN%>
 // """
 // NORM SWORDS
 // """
-ItemDisplay[SWORD (RARE OR MAG) !ETH CLVL>89]:
-ItemDisplay[SWORD (RARE OR MAG) !(crs OR 7cr OR 9cr OR lsd OR 7ls OR 9ls OR flb OR 7fb OR 9fb OR gsd OR 7gd OR 9gd) CLVL>89]:
-ItemDisplay[SWORD RARE ETH ILVL>84]:%DOT-0C%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[SWORD (RARE OR MAG) !ID !ETH CLVL>89]:
+ItemDisplay[SWORD (RARE OR MAG) !ID !(crs OR 7cr OR 9cr OR lsd OR 7ls OR 9ls OR flb OR 7fb OR 9fb OR gsd OR 7gd OR 9gd) CLVL>89]:
+ItemDisplay[SWORD ETH (RARE OR MAG) !ID ILVL>84]:%DOT-0C%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Short Sword 
 ItemDisplay[ssd !ID UNI]:%GOLD%Rixot's Keen%CONTINUE%
 ItemDisplay[ssd !ID MAG CLVL>5]:
@@ -3460,7 +3460,7 @@ ItemDisplay[7bl !RW NMAG SOCK=0 CLVL>5]:
 // """
 // NORM THROW
 // """"
-ItemDisplay[THROWING ETH (MAG OR RARE) ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[THROWING !JAV !ZON (MAG OR RARE) !(bal OR 9b8 OR 7b8) CLVL>84]:
 // // Throwing Knife 
 ItemDisplay[tkf !ID MAG CLVL>60]:
 ItemDisplay[tkf !ID RARE CLVL>20]:
@@ -3537,7 +3537,8 @@ ItemDisplay[7b8 !ID RARE CLVL>60]:
 // """
 // NORM JAVELIN
 // """
-ItemDisplay[JAV !ID (MAG OR RARE) ETH ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[JAV (MAG OR RARE) (jav OR pil OR ssp OR 9ja OR 9pi OR 9s9 OR 7ja OR 7pi OR 7s7) !ID CLVL>85]:
+ItemDisplay[JAV !ID (MAG OR RARE) ETH !ID ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Javelin
 ItemDisplay[jav !ID !ETH MAG CLVL>5]:
 ItemDisplay[jav !RW NMAG CLVL>5]:
@@ -3631,8 +3632,8 @@ ItemDisplay[7ts !ID RARE CLVL>60]:
 // NORM SPEAR
 // """
 ItemDisplay[SPEAR (RARE OR MAG) !ETH CLVL>89]:
-ItemDisplay[SPEAR (RARE OR MAG) !(pik OR 7p7 OR 9p9 OR brn OR 7br OR 9br) CLVL>89]:
-ItemDisplay[SPEAR RARE ETH ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[SPEAR (RARE OR MAG) !(pik OR 7p7 OR 9p9 OR brn OR 7br OR 9br OR 7st) CLVL>89]:
+ItemDisplay[SPEAR (MAG OR RARE) !ID ETH ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Spear
 ItemDisplay[spr !ID UNI]:%GOLD%The Dragon Chang%CONTINUE%
 ItemDisplay[spr !ID MAG CLVL>5]:
@@ -3759,7 +3760,8 @@ ItemDisplay[7p7 NMAG ED>5 (SOCK=4 OR SOCK=0 OR SOCK=6)]:%DOT-20%%DARK_GREEN%<%TA
 // """
 // NORM POLE
 // """
-ItemDisplay[POLEARM RARE ETH ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[POLEARM (MAG OR RARE) (bar OR 9b7 OR 7o7 OR vou OR 9vo OR 7vo) !ID CLVL>84]:
+ItemDisplay[POLEARM (MAG OR RARE) !(bar OR 9b7 OR 7o7 OR vou OR 9vo OR 7vo) !ID ETH ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Bardiche
 ItemDisplay[bar !ID UNI]:%GOLD%Dimoak's Hew%CONTINUE%
 ItemDisplay[bar !ID MAG CLVL>10]:
@@ -3900,8 +3902,8 @@ ItemDisplay[7wc NMAG ETH (ED>5 AND SOCK=4)]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GRE
 // NORM BOW
 // """
 ItemDisplay[BOW (RARE OR MAG) CLVL>89]:
-ItemDisplay[BOW (RARE OR MAG) !(cbw OR 8cb OR 6cb OR lwb OR 8lw OR 6lw) CLVL>89]:
-ItemDisplay[BOW (MAG OR RARE) ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[BOW (RARE OR MAG) !(cbw OR 8cb OR 6cb OR lwb OR 8lw OR 6lw OR am1 OR am2 OR am6 OR am7 OR amb OR amc) CLVL>85]:
+ItemDisplay[BOW (MAG OR RARE) (cbw OR 8cb OR 6cb OR lwb OR 8lw OR 6lw OR am1 OR am2 OR am6 OR am7 OR amb OR amc) ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Short Bow 
 ItemDisplay[sbw !ID UNI]:%GOLD%Pluckeye%CONTINUE%
 ItemDisplay[sbw !ID MAG CLVL>10]:
@@ -4076,9 +4078,8 @@ ItemDisplay[6lw NMAG ED>5 SOCK=4]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY
 // """
 // NORM XBOW
 // """
-ItemDisplay[XBOW (RARE OR MAG) CLVL>89]:
 ItemDisplay[XBOW (RARE OR MAG) !(hxb OR 8hx OR 6hx OR rxb OR 8rx OR 6rx) CLVL>89]:
-ItemDisplay[XBOW (MAG OR RARE) ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[XBOW (MAG OR RARE) !ID (hxb OR 8hx OR 6hx OR rxb OR 8rx OR 6rx) ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Light Crossbow 
 ItemDisplay[lxb !ID UNI]:%GOLD%Leadcrow%CONTINUE%
 ItemDisplay[lxb !ID MAG CLVL>10]:
@@ -4173,7 +4174,7 @@ ItemDisplay[6rx NMAG ED>5 (SOCK=4 OR SOCK=6)]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_G
 // """
 // NORM ZON
 // """
-ItemDisplay[ZON (MAG OR RARE) ILVL>86]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[ZON (MAG OR RARE) !ID (am1 OR am2 OR am6 OR am7 OR amb OR amc) ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Stag Bow 
 ItemDisplay[am1 !ID (MAG OR RARE) CLVL>60 ILVL<86]:
 ItemDisplay[am1 !RW NMAG SOCK>1 CLVL>35]:
