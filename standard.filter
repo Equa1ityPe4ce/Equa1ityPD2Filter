@@ -71,6 +71,30 @@ ItemDisplay[NMAG (ETH OR SOCK>1)]:%GRAY%%NAME%%CONTINUE%
 ItemDisplay[MAG]:%BLUE%%NAME%%CONTINUE%
 ItemDisplay[RARE]:%YELLOW%%NAME%%CONTINUE%
 
+ItemDisplay[bks]: %GOLD%%NAME%
+ItemDisplay[bkd]: %GOLD%%NAME%
+ItemDisplay[leg]: %GOLD%%NAME%
+ItemDisplay[hdm]: %GOLD%%NAME%
+ItemDisplay[ass]: %GOLD%Book of Skill
+ItemDisplay[box]: %GOLD%%NAME%
+ItemDisplay[hst]: %GOLD%%NAME%
+ItemDisplay[vip]: %GOLD%%NAME%
+ItemDisplay[msf]: %GOLD%%NAME%
+ItemDisplay[j34]: %GOLD%%NAME%
+ItemDisplay[g34]: %GOLD%%NAME%
+ItemDisplay[xyz]: %GOLD%Potion of Life
+ItemDisplay[g33]: %GOLD%%NAME%
+ItemDisplay[qey]: %GOLD%%NAME%
+ItemDisplay[qbr]: %GOLD%%NAME%
+ItemDisplay[qhr]: %GOLD%%NAME%
+ItemDisplay[qf1]: %GOLD%%NAME%
+ItemDisplay[qf2]: %GOLD%%NAME%
+ItemDisplay[bbb]: %GOLD%%NAME%
+ItemDisplay[mss]: %GOLD%%NAME%
+ItemDisplay[hfh]: %GOLD%%NAME%
+ItemDisplay[ice]: %GOLD%Malahs Potion
+ItemDisplay[tr2]: %GOLD%Scroll of Resistance
+
 //ETH
 ItemDisplay[ETH (UNI OR RARE OR CRAFT OR MAG OR NMAG)]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%] %CONTINUE%
 
@@ -508,7 +532,7 @@ ItemDisplay[NMAG !INF ZON TABSK2=2 CLVL<80]:%NAME% %DARK_GREEN%[%GOLD%2Jav%DARK_
 ItemDisplay[(STAFF OR CL6) NMAG (SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0)]:%NAME% %DARK_GREEN%[%CONTINUE%
 ItemDisplay[NMAG (STAFF OR CL6) SK38=1]:%NAME%%YELLOW% 1CBolt%CONTINUE%
 ItemDisplay[NMAG (STAFF OR CL6) SK42=1]:%NAME%%YELLOW% 1SField%CONTINUE%
-ItemDisplay[NMAG (STAFF OR CL6) SK43=1]:%NAME%%YELLOW% 1kines%CONTINUE%
+ItemDisplay[NMAG (STAFF OR CL6) SK43=1]:%NAME%%YELLOW% 1TeleKen%CONTINUE%
 ItemDisplay[NMAG (STAFF OR CL6) SK48=1]:%NAME%%YELLOW% 1Nova%CONTINUE%
 ItemDisplay[NMAG (STAFF OR CL6) SK49=1]:%NAME%%YELLOW% 1Lightn%CONTINUE%
 ItemDisplay[NMAG (STAFF OR CL6) SK53=1]:%NAME%%YELLOW% 1ChLight%CONTINUE%
@@ -542,7 +566,7 @@ ItemDisplay[NMAG (STAFF OR CL6) SK376=1]:%NAME%%RED% 1Combus%CONTINUE%
 
 ItemDisplay[NMAG (STAFF OR CL6) SK38=2]:%NAME%%YELLOW% 2CBolt%CONTINUE%
 ItemDisplay[NMAG (STAFF OR CL6) SK42=2]:%NAME%%YELLOW% 2SField%CONTINUE%
-ItemDisplay[NMAG (STAFF OR CL6) SK43=2]:%NAME%%YELLOW% 2kines%CONTINUE%
+ItemDisplay[NMAG (STAFF OR CL6) SK43=2]:%NAME%%YELLOW% 2TeleKen%CONTINUE%
 ItemDisplay[NMAG (STAFF OR CL6) SK48=2]:%NAME%%YELLOW% 2Nova%CONTINUE%
 ItemDisplay[NMAG (STAFF OR CL6) SK49=2]:%NAME%%YELLOW% 2Lightn%CONTINUE%
 ItemDisplay[NMAG (STAFF OR CL6) SK53=2]:%NAME%%YELLOW% 2ChLight%CONTINUE%
@@ -576,7 +600,7 @@ ItemDisplay[NMAG (STAFF OR CL6) SK376=2]:%NAME%%RED% 2Combus%CONTINUE%
 
 ItemDisplay[NMAG (STAFF OR CL6) SK38=3]:%NAME%%YELLOW% 3CBolt%CONTINUE%
 ItemDisplay[NMAG (STAFF OR CL6) SK42=3]:%NAME%%YELLOW% 3SField%CONTINUE%
-ItemDisplay[NMAG (STAFF OR CL6) SK43=3]:%NAME%%YELLOW% 3kines%CONTINUE%
+ItemDisplay[NMAG (STAFF OR CL6) SK43=3]:%NAME%%YELLOW% 3TelKen%CONTINUE%
 ItemDisplay[NMAG (STAFF OR CL6) SK48=3]:%NAME%%YELLOW% 3Nova%CONTINUE%
 ItemDisplay[NMAG (STAFF OR CL6) SK49=3]:%NAME%%YELLOW% 3Lightn%CONTINUE%
 ItemDisplay[NMAG (STAFF OR CL6) SK53=3]:%NAME%%YELLOW% 3ChLight%CONTINUE%
@@ -4497,15 +4521,15 @@ ItemDisplay[SHIELD (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To S
 // """
 
 //Craft notes on ID items
-ItemDisplay[MAG ID HELM !CIRC]:%NAME%{%NL%%BLUE%HPower Ith, %RED%Blood Ral%NL%%GREEN%Saftey Ith%PURPLE%Caster Nef}%CONTINUE%
-ItemDisplay[MAG ID BOOTS]:%NAME%{%NL%%BLUE%HPower Ral, %RED%Blood Eth%NL%%GREEN%Saftey Ort%PURPLE%Caster Thul}%CONTINUE%
-ItemDisplay[MAG ID GLOVES]:%NAME%{%NL%%BLUE%HPower Ort, %RED%Blood Nef%NL%%GREEN%Saftey Ral%PURPLE%Caster Ort}%CONTINUE%
-ItemDisplay[MAG ID BELT]:%NAME%{%NL%%BLUE%HPower Tal, %RED%Blood Tal%NL%%GREEN%Saftey Tal%PURPLE%Caster Ith}%CONTINUE%
-ItemDisplay[MAG ID SHIELD]:%NAME%{%NL%%BLUE%HPower Eth, %RED%Blood Ith%NL%%GREEN%Saftey Nef%PURPLE%Caster Eth}%CONTINUE%
-ItemDisplay[MAG ID CHEST]:%NAME%{%NL%%BLUE%HPower Nef, %RED%Blood Thul%NL%%GREEN%Saftey Eth%PURPLE%Caster Tal}%CONTINUE%
-ItemDisplay[MAG ID rin]:%NAME%{%NL%%BLUE%HPower Amn, %RED%Blood Sol%NL%%GREEN%Saftey Amn%PURPLE%Caster Amn}%CONTINUE%
-ItemDisplay[MAG ID amu]:%NAME%{%NL%%BLUE%HPower Thul, %RED%Blood Amn%NL%%GREEN%Saftey Thul%PURPLE%Caster Ral}%CONTINUE%
-ItemDisplay[MAG ID WEAPON !XBOW !BOW]:%NAME%{%NL%%BLUE%HPower Tir, %RED%Blood Ort%NL%%PURPLE%Caster Tir}%CONTINUE%
+ItemDisplay[MAG ID HELM !CIRC]:%NAME%{%NL%%BLUE%HPower Ith, %RED%Blood Ral %ORANGE%Vampiric Lum%NL%%GREEN%Saftey Ith%PURPLE%Caster Nef %YELLOW%Bountiful Tir}%CONTINUE%
+ItemDisplay[MAG ID BOOTS]:%NAME%{%NL%%BLUE%HPower Ral, %RED%Blood Eth %ORANGE%Vampiric El%NL%%GREEN%Saftey Ort%PURPLE%Caster Thul %YELLOW%Bountiful io}%CONTINUE%
+ItemDisplay[MAG ID GLOVES]:%NAME%{%NL%%BLUE%HPower Ort, %RED%Blood Nef %ORANGE%Vampiric io%NL%%GREEN%Saftey Ral%PURPLE%Caster Ort %YELLOW%Bountiful Hel}%CONTINUE%
+ItemDisplay[MAG ID BELT]:%NAME%{%NL%%BLUE%HPower Tal, %RED%Blood Tal %ORANGE%Vampiric Eld%NL%%GREEN%Saftey Tal%PURPLE%Caster Ith %YELLOW%Bountiful El}%CONTINUE%
+ItemDisplay[MAG ID SHIELD]:%NAME%{%NL%%BLUE%HPower Eth, %RED%Blood Ith %ORANGE%Vampiric Sol%NL%%GREEN%Saftey Nef%PURPLE%Caster Eth %YELLOW%Bountiful Dol}%CONTINUE%
+ItemDisplay[MAG ID CHEST]:%NAME%{%NL%%BLUE%HPower Nef, %RED%Blood Thul %ORANGE%Vampiric Tir%NL%%GREEN%Saftey Eth%PURPLE%Caster Tal %YELLOW%Bountiful Eld}%CONTINUE%
+ItemDisplay[MAG ID rin]:%NAME%{%NL%%BLUE%HPower Amn, %RED%Blood Sol %ORANGE%Vampiric Hel%NL%%GREEN%Saftey Amn%PURPLE%Caster Amn %YELLOW%Bountiful Lum}%CONTINUE%
+ItemDisplay[MAG ID amu]:%NAME%{%NL%%BLUE%HPower Thul, %RED%Blood Amn %ORANGE%Vampiric Dol%NL%%GREEN%Saftey Thul%PURPLE%Caster Ral %YELLOW%Bountiful Ko}%CONTINUE%
+ItemDisplay[MAG ID WEAPON !XBOW !BOW]:%NAME%{%NL%%BLUE%HPower Tir, %RED%Blood Ort %ORANGE%Vampiric Shael%NL%%PURPLE%Caster Shael}%CONTINUE%
 ItemDisplay[MAG ID (BOW OR XBOW)]:%NAME%{%NL%%GREEN%Saftey Sol}%CONTINUE%
 
 //Show quantitiy >1
