@@ -62,15 +62,6 @@ ItemDisplay[NMAG DIN RES=28]:%NAME%%DARK_GREEN%[%ORANGE%28+%DARK_GREEN%]%CONTINU
 ItemDisplay[NMAG DIN RES=29]:%DOT-20%%NAME%%DARK_GREEN%[%ORANGE%29+%DARK_GREEN%]%CONTINUE%
 ItemDisplay[NMAG DIN RES=30]:%DOT-20%%NAME%%DARK_GREEN%[%PURPLE%30+%DARK_GREEN%]%CONTINUE%
 
-//COLOR
-ItemDisplay[(UNI OR RW)]:%GOLD%%NAME%%CONTINUE%
-ItemDisplay[SET]:%GREEN%%NAME%%CONTINUE%
-ItemDisplay[CRAFT]:%ORANGE%%NAME%%CONTINUE%
-ItemDisplay[NMAG !ETH SOCK=0]:%WHITE%%NAME%%CONTINUE%
-ItemDisplay[NMAG (ETH OR SOCK>1)]:%GRAY%%NAME%%CONTINUE%
-ItemDisplay[MAG]:%BLUE%%NAME%%CONTINUE%
-ItemDisplay[RARE]:%YELLOW%%NAME%%CONTINUE%
-
 ItemDisplay[bks]: %GOLD%%NAME%
 ItemDisplay[bkd]: %GOLD%%NAME%
 ItemDisplay[leg]: %GOLD%%NAME%
@@ -94,6 +85,15 @@ ItemDisplay[mss]: %GOLD%%NAME%
 ItemDisplay[hfh]: %GOLD%%NAME%
 ItemDisplay[ice]: %GOLD%Malahs Potion
 ItemDisplay[tr2]: %GOLD%Scroll of Resistance
+
+//COLOR
+ItemDisplay[(UNI OR RW)]:%GOLD%%NAME%%CONTINUE%
+ItemDisplay[SET]:%GREEN%%NAME%%CONTINUE%
+ItemDisplay[CRAFT]:%ORANGE%%NAME%%CONTINUE%
+ItemDisplay[NMAG !ETH SOCK=0]:%WHITE%%NAME%%CONTINUE%
+ItemDisplay[NMAG (ETH OR SOCK>1)]:%GRAY%%NAME%%CONTINUE%
+ItemDisplay[MAG]:%BLUE%%NAME%%CONTINUE%
+ItemDisplay[RARE]:%YELLOW%%NAME%%CONTINUE%
 
 //ETH
 ItemDisplay[ETH (UNI OR RARE OR CRAFT OR MAG OR NMAG)]:%NAME%%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%] %CONTINUE%
@@ -2886,6 +2886,8 @@ ItemDisplay[fla NMAG SOCK=5]:%NAME%%GRAY%[%DARK_GREEN%CTA%GRAY%]{%DARK_GREEN% Ca
 ItemDisplay[whm !ID UNI]:%GOLD%Ironstone%CONTINUE%
 ItemDisplay[whm !ID !ETH MAG CLVL>30]:
 ItemDisplay[whm !ID !ETH RARE CLVL>50]:
+ItemDisplay[(whm OR fla) !RW ETH NMAG (SOCK=2 OR SOCK<5) CLVL<60]:%NAME%
+ItemDisplay[(9wh OR 9fl) !RW ETH NMAG (SOCK=2 OR SOCK<5) CLVL<80]:%NAME%
 ItemDisplay[whm !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[whm !RW NMAG SOCK>1 CLVL>30]:
 ItemDisplay[whm ETH !ID MAG]:%DOT-97%%NAME% 
