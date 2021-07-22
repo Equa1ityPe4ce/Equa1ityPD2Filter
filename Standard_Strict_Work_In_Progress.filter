@@ -3708,7 +3708,7 @@ ItemDisplay[spt !RW NMAG SOCK>1 CLVL>23]:
 
 // Pike
 ItemDisplay[pik !ID UNI]:%GOLD%The Tannr Gorerod%CONTINUE%
-ItemDisplay[pik !ETH (NMAG OR MAG OR RARE) CLVL>40]:
+ItemDisplay[pik !ETH !ID (NMAG OR MAG OR RARE) CLVL>40]:
 ItemDisplay[pik ETH !ID MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>
 ItemDisplay[pik ETH !ID RARE]:%DOT-0C%%NAME%%CONTINUE%
 ItemDisplay[pik ETH NMAG SOCK>2 CLVL>40]:
@@ -3747,7 +3747,7 @@ ItemDisplay[9st !RW NMAG SOCK>1 CLVL>65]:
 
 // Lance
 ItemDisplay[9p9 !ID UNI]:%GOLD%Spire of Honor%CONTINUE%
-ItemDisplay[9p9 !ETH (NMAG OR MAG OR RARE) CLVL>70]:
+ItemDisplay[9p9 !ETH !ID (NMAG OR MAG OR RARE) CLVL>70]:
 ItemDisplay[9p9 ETH !ID MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>
 ItemDisplay[9p9 ETH !ID RARE]:%DOT-0C%%NAME%%CONTINUE%
 ItemDisplay[9p9 ETH NMAG SOCK<2 CLVL>70]:
@@ -3794,7 +3794,7 @@ ItemDisplay[7st NMAG ED>5 SOCK=4]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY
 
 // War Pike 
 ItemDisplay[7p7 !ID UNI]:%GOLD%Steel Pillar%CONTINUE%
-ItemDisplay[7p7 !ETH (NMAG OR MAG OR RARE) CLVL>85]:
+ItemDisplay[7p7 !ETH !ID (NMAG OR MAG OR RARE) CLVL>85]:
 ItemDisplay[7p7 !ETH !RW NMAG SOCK=0 CLVL>75]:
 ItemDisplay[7p7 ETH !ID MAG]:%DOT-97%%WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%> %BLUE%%NAME% %WHITE%<%YELLOW%*%WHITE%><%YELLOW%*%WHITE%>
 ItemDisplay[7p7 ETH !ID RARE]:%DOT-0C%%NAME%%CONTINUE%
@@ -4662,7 +4662,7 @@ ItemDisplay[MAG ID SHIELD]:%NAME%{%NL%%BLUE%HPower Eth, %RED%Blood Ith %ORANGE%V
 ItemDisplay[MAG ID CHEST]:%NAME%{%NL%%BLUE%HPower Nef, %RED%Blood Thul %ORANGE%Vampiric Tir%NL%%GREEN%Saftey Eth%PURPLE%Caster Tal %YELLOW%Bountiful Eld}%CONTINUE%
 ItemDisplay[MAG ID rin]:%NAME%{%NL%%BLUE%HPower Amn, %RED%Blood Sol %ORANGE%Vampiric Hel%NL%%GREEN%Saftey Amn%PURPLE%Caster Amn %YELLOW%Bountiful Lum}%CONTINUE%
 ItemDisplay[MAG ID amu]:%NAME%{%NL%%BLUE%HPower Thul, %RED%Blood Amn %ORANGE%Vampiric Dol%NL%%GREEN%Saftey Thul%PURPLE%Caster Ral %YELLOW%Bountiful Ko}%CONTINUE%
-ItemDisplay[MAG ID WEAPON !XBOW !BOW]:%NAME%{%NL%%BLUE%HPower Tir, %RED%Blood Ort %ORANGE%Vampiric Shael%NL%%PURPLE%Caster Shael}%CONTINUE%
+ItemDisplay[MAG ID WEAPON !XBOW !BOW]:%NAME%{%NL%%BLUE%HPower Tir, %RED%Blood Ort %ORANGE%Vampiric Shael%NL%%PURPLE%Caster Tir %YELLOW%Bountiful Shael}%CONTINUE%
 ItemDisplay[MAG ID (BOW OR XBOW)]:%NAME%{%NL%%GREEN%Saftey Sol}%CONTINUE%
 
 //Show quantitiy >1
