@@ -497,7 +497,7 @@ ItemDisplay[wms CLVL>20]:
 ItemDisplay[(tsc OR isc OR vps OR wms) CLVL>30]:
 ItemDisplay[yps]:%DARK_GREEN%O%GRAY%antidote
 ItemDisplay[key]:%BLACK%Key
-ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
+// ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
 //Ammo
 ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
 //Show Wirt's leg
@@ -652,8 +652,8 @@ ItemDisplay[(gly OR glys) QTY<2]:%DARK_GREEN%flawless%GRAY%[%YELLOW% O %GRAY%][%
 ItemDisplay[(gly OR glys) QTY>1]:%DARK_GREEN%flawless %GRAY%[%YELLOW% O %GRAY%][%YELLOW% O %GRAY%] %GRAY%x%ORANGE%%QTY%%GRAY%%CONTINUE%
 
 //perf
-ItemDisplay[(gpy OR gpys) QTY<2]:%DARK_GREEN%perfect%GRAY%[%YELLOW% O %GRAY%][%YELLOW% O %GRAY%][%YELLOW% O %GRAY%]{%ORANGE%Tal Thul %NL%%DARK_GREEN%Socket Armor%WHITE%:}
-ItemDisplay[(gpy OR gpys) QTY>1]:%DARK_GREEN%perfect %GRAY%[%YELLOW% O %GRAY%][%YELLOW% O %GRAY%][%YELLOW% O %GRAY%] %GRAY%x%ORANGE%%QTY%%GRAY%{%ORANGE%Tal Thul %NL%%DARK_GREEN%Socket Armor%WHITE%:}
+ItemDisplay[(gpy OR gpys) QTY<2]:%DARK_GREEN%perfect%GRAY%[%YELLOW% O %GRAY%][%YELLOW% O %GRAY%][%YELLOW% O %GRAY%]{Amulet Ko, Ring Lum, Weapon Shael%NL%Chest Eld, Helm Tir, Gloves Hel, Belt El, Boots io, Sheild Dol%NL%%YELLOW%Bountiful}
+ItemDisplay[(gpy OR gpys) QTY>1]:%DARK_GREEN%perfect %GRAY%[%YELLOW% O %GRAY%][%YELLOW% O %GRAY%][%YELLOW% O %GRAY%] %GRAY%x%ORANGE%%QTY%%GRAY%{Amulet Ko, Ring Lum, Weapon Shael%NL%Chest Eld, Helm Tir, Gloves Hel, Belt El, Boots io, Sheild Dol%NL%%YELLOW%Bountiful}
 
 // Sapphire
 //chipped
@@ -740,8 +740,8 @@ ItemDisplay[(skl OR skls) QTY<2]:%DARK_GREEN%flawless%GRAY%[%ORANGE% O %GRAY%][%
 ItemDisplay[(skl OR skls) QTY>1]:%DARK_GREEN%flawless %GRAY%[%ORANGE% O %GRAY%][%ORANGE% O %GRAY%] %GRAY%x%ORANGE%%QTY%%GRAY%%CONTINUE% 	
 
 //perf
-ItemDisplay[(skz OR skzs) QTY<2]:%DARK_GREEN%perfect%GRAY%[%ORANGE% O %GRAY%][%ORANGE% O %GRAY%][%ORANGE% O %GRAY%]{%ORANGE%6x Pskull %NL%%DARK_GREEN%Reroll High iLvl Rare%WHITE%:}
-ItemDisplay[(skz OR skzs) QTY>1]:%DARK_GREEN%perfect %GRAY%[%ORANGE% O %GRAY%][%ORANGE% O %GRAY%][%ORANGE% O %GRAY%] %GRAY%x%ORANGE%%QTY%%GRAY%{%ORANGE%6x Pskull %NL%%DARK_GREEN%Reroll High iLvl Rare%WHITE%:}
+ItemDisplay[(skz OR skzs) QTY<2]:%DARK_GREEN%perfect%GRAY%[%ORANGE% O %GRAY%][%ORANGE% O %GRAY%][%ORANGE% O %GRAY%]{%TAN%Amulet Dol, Ring Hel, Weapon Shael%NL%Chest Tir, Helm Lum, Gloves io, Belt Eld, Boots El, Sheild Sol%NL%%ORANGE%Vampiric}
+ItemDisplay[(skz OR skzs) QTY>1]:%DARK_GREEN%perfect %GRAY%[%ORANGE% O %GRAY%][%ORANGE% O %GRAY%][%ORANGE% O %GRAY%] %GRAY%x%ORANGE%%QTY%%GRAY%{%TAN%Amulet Dol, Ring Hel, Weapon Shael%NL%Chest Tir, Helm Lum, Gloves io, Belt Eld, Boots El, Sheild Sol%NL%%ORANGE%Vampiric}
 
 //Kill gems at level
 ItemDisplay[GEM=1 CLVL>9]:
