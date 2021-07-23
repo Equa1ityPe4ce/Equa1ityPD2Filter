@@ -959,7 +959,6 @@ ItemDisplay[rvl]:%PURPLE%Full%GRAY%Juv
 ItemDisplay[rvs CLVL<85]:%PURPLE%(%GRAY%juv%PURPLE%)
 ItemDisplay[rvs CLVL>84]:
 ItemDisplay[CLVL=59 key]:%BLACK%Next Level pots are deleted
-ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
 
 //healing
 ItemDisplay[hp1 CLVL<12]:%RED%(%GRAY%hp%RED%)
@@ -986,6 +985,7 @@ ItemDisplay[(mp4 OR hp4) CLVL>40]:
 
 //Throw Pots
 ItemDisplay[(opl OR opm OR ops OR gpl OR gpm OR gps)]:
+ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
 
 // """
 // Index(7)
