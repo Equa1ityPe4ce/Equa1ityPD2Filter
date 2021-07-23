@@ -947,8 +947,8 @@ ItemDisplay[GEMTYPE=2 GEM=5]:%NAME%{%TAN%Upgrade Armor %NL%%GOLD%Normal %ORANGE%
 ItemDisplay[GEMTYPE=3 GEM=5]:%NAME%{%TAN%Helm Ith, Boots Ort, Gloves Ral%NL%Belt Tal, Shield Nef, Chest Eth%NL%Amulet Thul, Ring Amn, Weap Sol%NL%%GREEN%Saftey}
 ItemDisplay[GEMTYPE=4 GEM=5]:%NAME%{%TAN%Helm Ral, Boots Eth, Gloves Nef%NL%Belt Tal, Shield Ith, Chest Thul%NL%Amulet Amn, Ring Sol, Weap Ort%NL%%RED%Blood}
 ItemDisplay[GEMTYPE=5 GEM=5]:%NAME%{%TAN%Helm Ith, Boots Ral, Gloves Ort%NL%Belt Tal, Shield Eth, Chest Nef%NL%Amulet Thul, Ring Amn, Weap Tir%NL%%BLUE%Hit Power}
-ItemDisplay[GEMTYPE=6 GEM=5]:%NAME%{%ORANGE%Tal Thul %NL%%DARK_GREEN%Socket Armor%WHITE%:}
-ItemDisplay[GEMTYPE=7 GEM=5]:%NAME%{%ORANGE%6x Pskull %NL%%DARK_GREEN%Reroll High iLvl Rare%WHITE%:}
+ItemDisplay[GEMTYPE=6 GEM=5]:%NAME%{%TAN%Amulet Ko, Ring Lum, Weapon Shael%NL%Chest Eld, Helm Tir, Gloves Hel, Belt El, Boots io, Sheild Dol%NL%%YELLOW%Bountiful}
+ItemDisplay[GEMTYPE=7 GEM=5]:%NAME%{%TAN%Amulet Dol, Ring Hel, Weapon Shael%NL%Chest Tir, Helm Lum, Gloves io, Belt Eld, Boots El, Sheild Sol%NL%%ORANGE%Vampiric}
 
 // """
 // INDEX (6)
