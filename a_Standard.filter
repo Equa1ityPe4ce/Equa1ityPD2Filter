@@ -3543,91 +3543,91 @@ ItemDisplay[JAV (MAG OR RARE) !ID ETH ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> 
 // Javelin
 ItemDisplay[jav !ID !ETH MAG CLVL>5]:
 ItemDisplay[jav !RW NMAG CLVL>5]:
-ItemDisplay[jav !RW MAG CLVL>20]:
-ItemDisplay[jav !RW RARE CLVL>40]:
+ItemDisplay[jav !ID !RW MAG CLVL>20]:
+ItemDisplay[jav !ID !RW RARE CLVL>40]:
 
 // Pilum
 ItemDisplay[pil !ID !ETH MAG CLVL>15]:
 ItemDisplay[pil !RW NMAG CLVL>5]:
-ItemDisplay[pil !RW MAG CLVL>30]:
-ItemDisplay[pil !RW RARE CLVL>450]:
+ItemDisplay[pil !ID !RW MAG CLVL>30]:
+ItemDisplay[pil !ID !RW RARE CLVL>450]:
 
 // Short Spear 
 ItemDisplay[ssp !ID !ETH MAG CLVL>45]:
 ItemDisplay[ssp !RW NMAG CLVL>5]:
-ItemDisplay[ssp !RW MAG CLVL>40]:
-ItemDisplay[ssp !RW RARE CLVL>50]:
+ItemDisplay[ssp !ID !RW MAG CLVL>40]:
+ItemDisplay[ssp !ID !RW RARE CLVL>50]:
 
 // Glaive
 ItemDisplay[glv !ID !ETH MAG CLVL>45]:
 ItemDisplay[glv !RW NMAG CLVL>5]:
-ItemDisplay[glv !RW MAG CLVL>40]:
-ItemDisplay[glv !RW RARE CLVL>50]:
+ItemDisplay[glv !ID !RW MAG CLVL>40]:
+ItemDisplay[glv !ID !RW RARE CLVL>50]:
 
 // Throwing Spear
 ItemDisplay[tsp !ID !ETH MAG CLVL>45]:
 ItemDisplay[tsp !RW NMAG CLVL>5]:
-ItemDisplay[tsp !RW MAG CLVL>60]:
-ItemDisplay[tsp !RW RARE CLVL>60]:
+ItemDisplay[tsp !ID !RW MAG CLVL>60]:
+ItemDisplay[tsp !ID !RW RARE CLVL>60]:
 
 // """
 // EXC JAVELIN
 // """
 // War Javelin 
 ItemDisplay[9ja !RW NMAG CLVL>5]:
-ItemDisplay[9ja !RW MAG CLVL>70]:
-ItemDisplay[9ja !RW RARE CLVL>80]:
+ItemDisplay[9ja !ID !RW MAG CLVL>70]:
+ItemDisplay[9ja !ID !RW RARE CLVL>80]:
 
 // Great Pilum 
 ItemDisplay[9pi !RW NMAG CLVL>5]:
-ItemDisplay[9pi !RW MAG CLVL>70]:
-ItemDisplay[9pi !RW RARE CLVL>80]:
+ItemDisplay[9pi !ID !RW MAG CLVL>70]:
+ItemDisplay[9pi !ID !RW RARE CLVL>80]:
 
 // Simbilan
 ItemDisplay[9s9 !RW NMAG CLVL>5]:
-ItemDisplay[9s9 !RW MAG CLVL>70]:
-ItemDisplay[9s9 !RW RARE CLVL>80]:
+ItemDisplay[9s9 !ID !RW MAG CLVL>70]:
+ItemDisplay[9s9 !ID !RW RARE CLVL>80]:
 
 // Spiculum
 ItemDisplay[9gl !RW NMAG CLVL>5]:
-ItemDisplay[9gl !RW MAG CLVL>70]:
-ItemDisplay[9gl !RW RARE CLVL>80]:
+ItemDisplay[9gl !ID !RW MAG CLVL>70]:
+ItemDisplay[9gl !ID !RW RARE CLVL>80]:
 
 // Harpoon
 ItemDisplay[9ts !RW NMAG CLVL>5]:
-ItemDisplay[9ts !RW MAG CLVL>80]:
-ItemDisplay[9ts !RW RARE CLVL>90]:
+ItemDisplay[9ts !ID !RW MAG CLVL>80]:
+ItemDisplay[9ts !ID !RW RARE CLVL>90]:
 
 // """
 // ELT JAVELIN
 // """
 // Hyperion Javelin
 ItemDisplay[7ja !RW NMAG CLVL>5]:
-ItemDisplay[7ja MAG CLVL>60]:
-ItemDisplay[7ja RARE CLVL>60]:
+ItemDisplay[7ja !ID MAG CLVL>60]:
+ItemDisplay[7ja !ID RARE CLVL>60]:
 
 // Stygian Pilum 
 ItemDisplay[7pi !RW NMAG CLVL>5]:
-ItemDisplay[7pi MAG CLVL>60]:
-ItemDisplay[7pi RARE CLVL>60]:
+ItemDisplay[7pi !ID MAG CLVL>60]:
+ItemDisplay[7pi !ID RARE CLVL>60]:
 
 // Balrog Spear
 ItemDisplay[7s7 !ID UNI]:%GOLD%Demon's Arch%CONTINUE% 
 ItemDisplay[7s7 !RW NMAG CLVL>5]:
-ItemDisplay[7s7 MAG CLVL>60]:
-ItemDisplay[7s7 RARE CLVL>60]:
+ItemDisplay[7s7 !ID MAG CLVL>60]:
+ItemDisplay[7s7 !ID RARE CLVL>60]:
 
 // Ghost Glaive
 ItemDisplay[7gl !ID UNI]:%GOLD%Wraith Flight%CONTINUE% 
 ItemDisplay[7gl !RW NMAG CLVL>5]:
-ItemDisplay[7gl MAG CLVL>60]:
-ItemDisplay[7gl RARE CLVL>60]:
+ItemDisplay[7gl !ID MAG CLVL>60]:
+ItemDisplay[7gl !ID RARE CLVL>60]:
 
 // Winged Harpoon
 ItemDisplay[7ts !ID UNI]:%GOLD%Gargoyle's Bite%CONTINUE% 
 ItemDisplay[7ts !RW NMAG CLVL>5]:
-ItemDisplay[7ts MAG CLVL>60]:
-ItemDisplay[7ts RARE CLVL>60]:
+ItemDisplay[7ts !ID MAG CLVL>60]:
+ItemDisplay[7ts !ID RARE CLVL>60]:
 
 // """
 // NORM SPEAR
@@ -4184,16 +4184,16 @@ ItemDisplay[am2 !RW NMAG SOCK=0 CLVL>5]:
 
 
 // Maiden Spear
-ItemDisplay[am3 ID MAG CLVL>70]:
-ItemDisplay[am3 ID RARE CLVL>45]:
-ItemDisplay[am3 RW NMAG SOCK>1 CLVL>45]:
-ItemDisplay[am3 RW NMAG SOCK=0 CLVL>5]:
+ItemDisplay[am3 !ID MAG CLVL>70]:
+ItemDisplay[am3 !ID RARE CLVL>45]:
+ItemDisplay[am3 !RW NMAG SOCK>1 CLVL>45]:
+ItemDisplay[am3 !RW NMAG SOCK=0 CLVL>5]:
 
 // Maiden Pike 
-ItemDisplay[am4 ID MAG CLVL>60]:
-ItemDisplay[am4 ID RARE CLVL>65]:
-ItemDisplay[am4 RW NMAG SOCK>1 CLVL>65]:
-ItemDisplay[am4 RW NMAG SOCK=0 CLVL>5]:
+ItemDisplay[am4 !ID MAG CLVL>60]:
+ItemDisplay[am4 !ID RARE CLVL>65]:
+ItemDisplay[am4 !RW NMAG SOCK>1 CLVL>65]:
+ItemDisplay[am4 !RW NMAG SOCK=0 CLVL>5]:
 
 // Maiden Javelin
 ItemDisplay[am5 !ID UNI]:%GOLD%True Silver%CONTINUE% 
