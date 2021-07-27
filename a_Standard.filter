@@ -4167,8 +4167,8 @@ ItemDisplay[6rx NMAG ED>5 (SOCK=4 OR SOCK=6)]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_G
 // """
 // NORM ZON
 // """
-ItemDisplay[ZON NMAG !RW (am1 OR am2 OR am6 OR am7 OR amb OR amc) CLVL<85 TABSK0>0 SOCK>2]:%NAME%
-ItemDisplay[ZON NMAG !RW (am1 OR am2 OR am6 OR am7 OR amb OR amc) CLVL<90 TABSK0>2 SOCK>2]:%DOT-20%%NAME% %DARK_GREEN%Melody Base
+ItemDisplay[ZON NMAG !RW (am1 OR am2 OR am6 OR am7 OR amb OR amc) CLVL<75 TABSK0>0 SOCK>2]:%NAME%
+ItemDisplay[ZON NMAG !RW (am1 OR am2 OR am6 OR am7 OR amb OR amc) CLVL<90 TABSK0>2 SOCK=3]:%DOT-20%%NAME% %DARK_GREEN%Melody Base
 ItemDisplay[ZON (MAG OR RARE) !ID (ETH OR am1 OR am2 OR am6 OR am7 OR amb OR amc) ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Stag Bow 
 ItemDisplay[am1 !ID (MAG OR RARE) CLVL>60 ILVL<86]:
