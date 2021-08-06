@@ -4389,7 +4389,7 @@ ItemDisplay[SET !ID ne9]: %DOT-84%%DARK_GREEN%<%GRAY%*%DARK_GREEN%>%GREEN% Trang
 ItemDisplay[SET !ID lea CLVL>80]:
 ItemDisplay[SET !ID lbb CLVL>80]:
 ItemDisplay[SET !ID tbt CLVL>80]:
-ItemDisplay[SET !ID lbb]: %GREEN% Vidala's Bowu}}
+ItemDisplay[SET !ID lbb]: %GREEN% Vidala's Bow
 ItemDisplay[SET !ID lea]: %GREEN% Vidala's Armor
 ItemDisplay[SET !ID tbt]: %GREEN% Vidala's Boots
 

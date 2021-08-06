@@ -792,6 +792,12 @@ ItemDisplay[(mp4 OR hp4) CLVL>40]:
 //Throw Pots
 ItemDisplay[(opl OR opm OR ops OR gpl OR gpm OR gps)]:
 // ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
+//====================================================================================================================================================================
+ItemDisplay[!ID MAG BOOTS ILVL>85]:%NAME%
+ItemDisplay[!ID MAG (WEAPON) !ETH] CLVL>85]:
+ItemDisplay[!ID MAG (CL1 OR CL2 OR CL3 OR CL4 OR CL6)] CLVL>85]:
+ItemDisplay[key OR yps]:
+//====================================================================================================================================================================
 
 // """
 // Index(7)
@@ -4383,7 +4389,7 @@ ItemDisplay[SET !ID ne9]: %DOT-84%%DARK_GREEN%<%GRAY%*%DARK_GREEN%>%GREEN% Trang
 ItemDisplay[SET !ID lea CLVL>80]:
 ItemDisplay[SET !ID lbb CLVL>80]:
 ItemDisplay[SET !ID tbt CLVL>80]:
-ItemDisplay[SET !ID lbb]: %GREEN% Vidala's Bowu}}
+ItemDisplay[SET !ID lbb]: %GREEN% Vidala's Bow
 ItemDisplay[SET !ID lea]: %GREEN% Vidala's Armor
 ItemDisplay[SET !ID tbt]: %GREEN% Vidala's Boots
 
@@ -4496,5 +4502,4 @@ ItemDisplay[ELT NMAG (GLOVES OR BOOTS OR BELT)]:
 
 //circ
 ItemDisplay[NMAG CIRC SOCK=0 ED<5]:
-
 ItemDisplay[NMAG SOCK=1 CLVL>10]:
