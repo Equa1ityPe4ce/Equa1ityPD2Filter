@@ -766,22 +766,22 @@ ItemDisplay[rvs CLVL<85]:%PURPLE%(%GRAY%juv%PURPLE%)
 ItemDisplay[rvs CLVL>84]:
 
 //healing
-ItemDisplay[hp1 CLVL<12]:%RED%(%GRAY%hp%RED%)
+ItemDisplay[hp1 CLVL<12]:%RED%(%GRAY%hp%RED%)%CONTINUE%
 ItemDisplay[hp1 CLVL>11]:
-ItemDisplay[hp2 CLVL<25]:%RED%(%GRAY%hp%RED%)
+ItemDisplay[hp2 CLVL<25]:%RED%(%GRAY%hp%RED%)%CONTINUE%
 ItemDisplay[hp2 CLVL>24]:
-ItemDisplay[hp3 CLVL<31]:%RED%(%GRAY%hp%RED%)
-ItemDisplay[hp3 CLVL>30]:
+ItemDisplay[hp3 CLVL<31]:%RED%(%GRAY%hp%RED%)%CONTINUE%
+ItemDisplay[hp3 CLVL>30]:%CONTINUE%
 ItemDisplay[hp4 CLVL<41]:%RED%(%GRAY%hp%RED%)
 ItemDisplay[hp4 CLVL>40]:
-ItemDisplay[hp5]:%RED%(%GRAY%hp%RED%)
+ItemDisplay[hp5]:%RED%(%GRAY%hp%RED%)%CONTINUE%
 
 //MANA
-ItemDisplay[mp1 CLVL<12]:%BLUE%(%GRAY%mp%BLUE%)
-ItemDisplay[mp2 CLVL<20]:%BLUE%(%GRAY%mp%BLUE%)
-ItemDisplay[mp3 CLVL<25]:%BLUE%(%GRAY%mp%BLUE%)
-ItemDisplay[mp4 CLVL<40]:%BLUE%(%GRAY%mp%BLUE%)
-ItemDisplay[mp5]:%BLUE%(%GRAY%mp%BLUE%)
+ItemDisplay[mp1 CLVL<12]:%BLUE%(%GRAY%mp%BLUE%)%CONTINUE%
+ItemDisplay[mp2 CLVL<20]:%BLUE%(%GRAY%mp%BLUE%)%CONTINUE%
+ItemDisplay[mp3 CLVL<25]:%BLUE%(%GRAY%mp%BLUE%)%CONTINUE%
+ItemDisplay[mp4 CLVL<40]:%BLUE%(%GRAY%mp%BLUE%)%CONTINUE%
+ItemDisplay[mp5]:%BLUE%(%GRAY%mp%BLUE%)%CONTINUE%
 
 ItemDisplay[(mp1 OR hp1) CLVL>12]:
 ItemDisplay[(mp2 OR hp2) CLVL>20]:
