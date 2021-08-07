@@ -3733,7 +3733,7 @@ ItemDisplay[7wc NMAG ETH (ED>5 AND SOCK=4)]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GRE
 // """
 ItemDisplay[BOW !ID (RARE OR MAG) CLVL>89]:
 ItemDisplay[BOW !ID (RARE OR MAG) !(lwb OR 8lw OR 6lw OR am1 OR am2 OR am6 OR am7 OR amb OR amc) CLVL>85]:
-ItemDisplay[BOW !ID (MAG OR RARE) (lwb OR 8lw OR 6lw OR am1 OR am2 OR am6 OR am7 OR amb OR amc) ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[BOW !ID (MAG OR RARE) (lwb OR 8lw OR 6lw OR am1 OR am2 OR am6 OR am7 OR amb OR amc) ILVL>90]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Short Bow 
 ItemDisplay[sbw !ID UNI]:%GOLD%Pluckeye%CONTINUE%
 ItemDisplay[sbw !ID MAG CLVL>10]:
@@ -3909,7 +3909,7 @@ ItemDisplay[6lw NMAG ED>5 SOCK=4]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY
 // NORM XBOW
 // """
 ItemDisplay[XBOW (RARE OR MAG) !(hxb OR 8hx OR 6hx OR rxb OR 8rx OR 6rx) CLVL>89]:
-ItemDisplay[XBOW (MAG OR RARE) !ID (hxb OR 8hx OR 6hx OR rxb OR 8rx OR 6rx) ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[XBOW (MAG OR RARE) !ID (hxb OR 8hx OR 6hx OR rxb OR 8rx OR 6rx) ILVL>90]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Light Crossbow 
 ItemDisplay[lxb !ID UNI]:%GOLD%Leadcrow%CONTINUE%
 ItemDisplay[lxb !ID MAG CLVL>10]:
