@@ -3435,7 +3435,9 @@ ItemDisplay[7bl !RW NMAG SOCK=0 CLVL>5]:
 // """
 // NORM THROW
 // """"
-ItemDisplay[THROWING ETH (MAG OR RARE) ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[THROWING !JAV !ZON !ETH (MAG OR RARE) CLVL>84]:
+ItemDisplay[(glv OR 9gl OR 7gl OR tsp OR 7ts OR 9ts OR bkf OR 7bk OR 9bk OR bal OR 7b8 OR 9b8 OR ssp OR 9s9 OR 7s7) !JAV !ZON ETH RARE CLVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[(glv OR 9gl OR 7gl OR tsp OR 7ts OR 9ts OR bkf OR 7bk OR 9bk OR bal OR 7b8 OR 9b8 OR ssp OR 9s9 OR 7s7) !JAV !ZON ETH MAG CLVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %BLUE%%NAME% %WHITE%<%RED% * %WHITE%>
 // // Throwing Knife 
 ItemDisplay[tkf !ID MAG CLVL>60]:
 ItemDisplay[tkf !ID RARE CLVL>20]:
@@ -3448,13 +3450,13 @@ ItemDisplay[tax !RW RARE CLVL>60]:
 
 // Balanced Knife
 ItemDisplay[bkf !ID NMAG CLVL>5]:
-ItemDisplay[bkf !ID MAG CLVL>40]:
-ItemDisplay[bkf !RW RARE CLVL>60]:
+ItemDisplay[bkf !ID !ETH MAG CLVL>40]:
+ItemDisplay[bkf !RW !ETH RARE CLVL>60]:
 
 // Balanced Axe
 ItemDisplay[bal !ID NMAG CLVL>5]:
-ItemDisplay[bal !ID MAG CLVL>50]:
-ItemDisplay[bal !RW RARE CLVL>60]:
+ItemDisplay[bal !ID !ETH MAG CLVL>50]:
+ItemDisplay[bal !RW !ETH RARE CLVL>60]:
 // """
 // EXC THROW
 // """
@@ -3473,14 +3475,14 @@ ItemDisplay[9ta !ID RARE CLVL>60]:
 // War Dart 
 ItemDisplay[9bk !ID ETH MAG]:%NAME%%CONTINUE%
 ItemDisplay[9bk !RW NMAG CLVL>5]:
-ItemDisplay[9bk !ID MAG CLVL>60]:
-ItemDisplay[9bk !ID RARE CLVL>60]:
+ItemDisplay[9bk !ID !ETH MAG CLVL>60]:
+ItemDisplay[9bk !ID RARE !ETH CLVL>60]:
 
 // Hurlbat
 ItemDisplay[9b8 !ID ETH MAG]:%NAME%%CONTINUE%
 ItemDisplay[9b8 !RW NMAG CLVL>5]:
-ItemDisplay[9b8 !ID MAG CLVL>60]:
-ItemDisplay[9b8 !ID RARE CLVL>60]:
+ItemDisplay[9b8 !ID !ETH MAG CLVL>60]:
+ItemDisplay[9b8 !ID RARE !ETH CLVL>60]:
 
 // """
 // ELT THROW
@@ -3500,19 +3502,19 @@ ItemDisplay[7ta !ID RARE CLVL>60]:
 // Winged Knife
 ItemDisplay[7bk !ID UNI]:%GOLD%Warshrike%CONTINUE% 
 ItemDisplay[7bk CLVL>80 NMAG]:
-ItemDisplay[7bk !ID MAG CLVL>60]:
-ItemDisplay[7bk !ID RARE CLVL>60]:
+ItemDisplay[7bk !ID !ETH MAG CLVL>60]:
+ItemDisplay[7bk !ID RARE !ETH CLVL>60]:
 
 // Winged Axe 
 ItemDisplay[7b8 !ID UNI]:%GOLD%Lacerator%CONTINUE%
 ItemDisplay[7b8 CLVL>80 NMAG]:
-ItemDisplay[7b8 !ID MAG CLVL>60]:
-ItemDisplay[7b8 !ID RARE CLVL>60]:
+ItemDisplay[7b8 !ID !ETH MAG CLVL>60]:
+ItemDisplay[7b8 !ID RARE !ETH CLVL>60]:
 
 // """
 // NORM JAVELIN
 // """
-ItemDisplay[JAV (MAG OR RARE) !ID ETH ILVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[JAV (MAG OR RARE) !ETH !ID CLVL>85]:
 // Javelin
 ItemDisplay[jav !ID !ETH MAG CLVL>5]:
 ItemDisplay[jav !RW NMAG CLVL>5]:
@@ -3528,20 +3530,20 @@ ItemDisplay[pil !ID !RW RARE CLVL>450]:
 // Short Spear 
 ItemDisplay[ssp !ID !ETH MAG CLVL>45]:
 ItemDisplay[ssp !RW NMAG CLVL>5]:
-ItemDisplay[ssp !ID !RW MAG CLVL>40]:
-ItemDisplay[ssp !ID !RW RARE CLVL>50]:
+ItemDisplay[ssp !ID !RW !ETH MAG CLVL>40]:
+ItemDisplay[ssp !ID !RW !ETH RARE CLVL>50]:
 
 // Glaive
 ItemDisplay[glv !ID !ETH MAG CLVL>45]:
 ItemDisplay[glv !RW NMAG CLVL>5]:
-ItemDisplay[glv !ID !RW MAG CLVL>40]:
-ItemDisplay[glv !ID !RW RARE CLVL>50]:
+ItemDisplay[glv !ID !RW !ETH MAG CLVL>40]:
+ItemDisplay[glv !ID !RW !ETH RARE CLVL>50]:
 
 // Throwing Spear
 ItemDisplay[tsp !ID !ETH MAG CLVL>45]:
 ItemDisplay[tsp !RW NMAG CLVL>5]:
-ItemDisplay[tsp !ID !RW MAG CLVL>60]:
-ItemDisplay[tsp !ID !RW RARE CLVL>60]:
+ItemDisplay[tsp !ID !RW !ETH MAG CLVL>60]:
+ItemDisplay[tsp !ID !RW !ETH RARE CLVL>60]:
 
 // """
 // EXC JAVELIN
@@ -3558,18 +3560,18 @@ ItemDisplay[9pi !ID !RW RARE CLVL>80]:
 
 // Simbilan
 ItemDisplay[9s9 !RW NMAG CLVL>5]:
-ItemDisplay[9s9 !ID !RW MAG CLVL>70]:
-ItemDisplay[9s9 !ID !RW RARE CLVL>80]:
+ItemDisplay[9s9 !ID !RW !ETH MAG CLVL>70]:
+ItemDisplay[9s9 !ID !RW !ETH RARE CLVL>80]:
 
 // Spiculum
 ItemDisplay[9gl !RW NMAG CLVL>5]:
-ItemDisplay[9gl !ID !RW MAG CLVL>70]:
-ItemDisplay[9gl !ID !RW RARE CLVL>80]:
+ItemDisplay[9gl !ID !RW !ETH MAG CLVL>70]:
+ItemDisplay[9gl !ID !RW !ETH RARE CLVL>80]:
 
 // Harpoon
 ItemDisplay[9ts !RW NMAG CLVL>5]:
-ItemDisplay[9ts !ID !RW MAG CLVL>80]:
-ItemDisplay[9ts !ID !RW RARE CLVL>90]:
+ItemDisplay[9ts !ID !RW !ETH MAG CLVL>80]:
+ItemDisplay[9ts !ID !RW !ETH RARE CLVL>90]:
 
 // """
 // ELT JAVELIN
@@ -3587,20 +3589,20 @@ ItemDisplay[7pi !ID RARE CLVL>60]:
 // Balrog Spear
 ItemDisplay[7s7 !ID UNI]:%GOLD%Demon's Arch%CONTINUE% 
 ItemDisplay[7s7 !RW NMAG CLVL>5]:
-ItemDisplay[7s7 !ID MAG CLVL>60]:
-ItemDisplay[7s7 !ID RARE CLVL>60]:
+ItemDisplay[7s7 !ID !ETH MAG CLVL>60]:
+ItemDisplay[7s7 !ID !ETH RARE CLVL>60]:
 
 // Ghost Glaive
 ItemDisplay[7gl !ID UNI]:%GOLD%Wraith Flight%CONTINUE% 
 ItemDisplay[7gl !RW NMAG CLVL>5]:
-ItemDisplay[7gl !ID MAG CLVL>60]:
-ItemDisplay[7gl !ID RARE CLVL>60]:
+ItemDisplay[7gl !ID !ETH MAG CLVL>60]:
+ItemDisplay[7gl !ID !ETH RARE CLVL>60]:
 
 // Winged Harpoon
 ItemDisplay[7ts !ID UNI]:%GOLD%Gargoyle's Bite%CONTINUE% 
 ItemDisplay[7ts !RW NMAG CLVL>5]:
-ItemDisplay[7ts !ID MAG CLVL>60]:
-ItemDisplay[7ts !ID RARE CLVL>60]:
+ItemDisplay[7ts !ID !ETH MAG CLVL>60]:
+ItemDisplay[7ts !ID !ETH RARE CLVL>60]:
 
 // """
 // NORM SPEAR
