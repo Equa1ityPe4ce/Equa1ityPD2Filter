@@ -2148,6 +2148,7 @@ ItemDisplay[uts !RW NMAG SOCK>1 CLVL>90 ED>4]:%NAME%%CONTINUE%
 // """
 // NORM GLOVES
 // """
+ItemDisplay[GLOVES CLVL>85 !ID (MAG OR RARE)]:
 // Leather Gloves
 ItemDisplay[lgl !ID UNI]:%GOLD%The Hand of Broc%CONTINUE%
 ItemDisplay[lgl !ID MAG CLVL>10 ILVL<85]:
