@@ -3436,8 +3436,8 @@ ItemDisplay[7bl !RW NMAG SOCK=0 CLVL>5]:
 // NORM THROW
 // """"
 ItemDisplay[THROWING !JAV !ZON !ETH (MAG OR RARE) CLVL>84]:
-ItemDisplay[(glv OR 9gl OR 7gl OR tsp OR 7ts OR 9ts OR bkf OR 7bk OR 9bk OR bal OR 7b8 OR 9b8 OR ssp OR 9s9 OR 7s7) !JAV !ZON ETH RARE CLVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
-ItemDisplay[(glv OR 9gl OR 7gl OR tsp OR 7ts OR 9ts OR bkf OR 7bk OR 9bk OR bal OR 7b8 OR 9b8 OR ssp OR 9s9 OR 7s7) !JAV !ZON ETH MAG CLVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %BLUE%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[(glv OR 9gl OR 7gl OR tsp OR 7ts OR 9ts OR bkf OR 7bk OR 9bk OR bal OR 7b8 OR 9b8 OR ssp OR 9s9 OR 7s7 OR 7ta OR 9ta OR tax) !JAV !ZON ETH RARE CLVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[(glv OR 9gl OR 7gl OR tsp OR 7ts OR 9ts OR bkf OR 7bk OR 9bk OR bal OR 7b8 OR 9b8 OR ssp OR 9s9 OR 7s7 OR 7ta OR 9ta OR tax) !JAV !ZON ETH MAG CLVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %BLUE%%NAME% %WHITE%<%RED% * %WHITE%>
 // // Throwing Knife 
 ItemDisplay[tkf !ID MAG CLVL>60]:
 ItemDisplay[tkf !ID RARE CLVL>20]:
