@@ -118,8 +118,8 @@ ItemDisplay[ETH (UNI OR RARE OR CRAFT OR MAG OR NMAG)]:%NAME%%DARK_GREEN%[%ORANG
 // Sockets Display
 ItemDisplay[SOCK>0]:%NAME%%TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
 
-ItemDisplay[NMAG !RW ETH (SOCK=0 OR SOCK=2) (6ws OR 6ls) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %BORDER-20% %RED%< %BLACK% * %RED%>
-ItemDisplay[NMAG !RW ETH (SOCK=0 OR SOCK=2) (6ws OR 6ls)]:%DOT-20%%NAME%
+ItemDisplay[NMAG !RW ETH SOCK=2 (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %BORDER-20% %RED%< %BLACK% * %RED%>
+ItemDisplay[NMAG !RW ETH (SOCK=0 OR SOCK=2) (6ws OR 6ls OR 7gi)]:%DOT-20%%NAME%
 
 //Class skills
 //NECSKILLS
