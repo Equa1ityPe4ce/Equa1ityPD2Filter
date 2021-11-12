@@ -505,6 +505,9 @@ ItemDisplay[yps]:%DARK_GREEN%O%GRAY%antidote
 ItemDisplay[key]:%BLACK%Key
 // ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
 //Ammo
+ItemDisplay[(aqv OR cqv) MAG ILVL>90]: %WHITE%< %DARK_GREEN%* %WHITE% > %BLUE%%NAME% %WHITE%< %DARK_GREEN%* %WHITE% >
+ItemDisplay[(aqv OR cqv) RARE ILVL>90]: %WHITE%< %DARK_GREEN%* %WHITE% > %YELLOW%%NAME% %WHITE%< %DARK_GREEN%* %WHITE% >
+ItemDisplay[(aqv OR cqv) (RARE OR MAG)]:%NAME%
 ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
 //Show Wirt's leg
 ItemDisplay[leg CLVL>15]:%NAME%
