@@ -128,8 +128,10 @@ ItemDisplay[NMAG !RW xtp (SOCK=0 OR SOCK=3)]:%DOT-20%%NAME%
 ItemDisplay[NMAG !RW ETH SOCK=2 (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %BORDER-20% %RED%< %BLACK% * %RED%>
 ItemDisplay[(RARE OR MAG) !RW ETH !ID (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %BORDER-20% %RED%< %BLACK% * %RED%>
 ItemDisplay[NMAG !RW ETH (SOCK=0 OR SOCK=2) (6ws OR 6ls OR 7gi)]:%DOT-20%%NAME%
+ItemDisplay[ELT SHIELD ETH SOCK=4 !DIN]:%NAME%
+ItemDisplay[ELT SHIELD ETH SOCK=4 DIN RES>25]:%NAME%
 
-// Fore Item Show end
+//--------------------------------------------------------------------------------------- Force Item Show end
 
 //Class skills
 //NECSKILLS
