@@ -125,8 +125,9 @@ ItemDisplay[fla NMAG SOCK=4]:%NAME%%GRAY%[%DARK_GREEN%HOTO%GRAY%]{%DARK_GREEN% H
 ItemDisplay[(fla OR crs) NMAG SOCK=5]:%NAME%%GRAY%[%DARK_GREEN%CTA%GRAY%]{%DARK_GREEN% Call To Arms: %ORANGE% Amn Ral Mal Ist Ohm}
 ItemDisplay[NMAG !RW xtp (SOCK=0 OR SOCK=3) ED>10]:%DOT-20%%RED%< %BLACK% * %RED%> %NAME%
 ItemDisplay[NMAG !RW xtp (SOCK=0 OR SOCK=3)]:%NAME%
-ItemDisplay[NMAG !RW ETH SOCK=2 (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %BORDER-20% %RED%< %BLACK% * %RED%>
-ItemDisplay[(RARE OR MAG) !RW ETH !ID (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %BORDER-20% %RED%< %BLACK% * %RED%>
+ItemDisplay[NMAG !RW ETH SOCK=2 (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %RED%< %BLACK% * %RED%>
+ItemDisplay[NMAG !RW !ETH (SOCK=0 OR SOCK=6) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %RED%< %BLACK% * %RED%>
+ItemDisplay[(RARE OR MAG) !RW ETH !ID (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %RED%< %BLACK% * %RED%>
 ItemDisplay[NMAG !RW ETH (SOCK=0 OR SOCK=2) (6ws OR 6ls OR 7gi)]:%DOT-20%%NAME%
 ItemDisplay[ELT SHIELD ETH SOCK=4 !DIN]:%NAME%
 ItemDisplay[ELT SHIELD ETH SOCK=4 DIN RES>25]:%NAME%
@@ -570,6 +571,7 @@ ItemDisplay[key]:%BLACK%Key
 // ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
 //Ammo
 ItemDisplay[(aqv OR cqv) MAG ILVL>90]: %WHITE%< %DARK_GREEN%* %WHITE% > %BLUE%%NAME% %WHITE%< %DARK_GREEN%* %WHITE% >
+ItemDisplay[jewf]: %WHITE%< %DARK_GREEN%* %WHITE% > %ORANGE%%NAME% %WHITE%< %DARK_GREEN%* %WHITE% >
 ItemDisplay[(aqv OR cqv) RARE ILVL>90]: %WHITE%< %DARK_GREEN%* %WHITE% > %YELLOW%%NAME% %WHITE%< %DARK_GREEN%* %WHITE% >
 ItemDisplay[(aqv OR cqv) (RARE OR MAG)]:%NAME%
 ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
@@ -4076,7 +4078,7 @@ ItemDisplay[am6 !RW NMAG SOCK>1 CLVL<66]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GREEN%
 // Ceremonial Bow
 ItemDisplay[am7 !ID UNI]:%GOLD%Lycander's Aim%CONTINUE%
 ItemDisplay[am7 !ID  (MAG OR RARE)]:%DOT-0C%%NAME%
-ItemDisplay[am7 !RW NMAG SOCK>1 CLVL>65]:
+ItemDisplay[am7 !RW NMAG SOCK=1 CLVL>65]:
 ItemDisplay[am7 !RW NMAG SOCK>1 CLVL<66]:%DOT-20%%NAME%%CONTINUE%
 ItemDisplay[am7 !RW NMAG SOCK>1 ED>5 CLVL<66]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY%%NAME% %DARK_GREEN%<%TAN%*%DARK_GREEN%>%CONTINUE%
 ItemDisplay[am7 !RW NMAG SOCK=0 CLVL>5]:
