@@ -126,13 +126,13 @@ ItemDisplay[(fla OR crs) NMAG SOCK=5]:%NAME%%GRAY%[%DARK_GREEN%CTA%GRAY%]{%DARK_
 ItemDisplay[NMAG !RW xtp (SOCK=0 OR SOCK=3) ED>10]:%DOT-20%%RED%< %BLACK% * %RED%> %NAME%
 ItemDisplay[NMAG !RW xtp (SOCK=0 OR SOCK=3)]:%NAME%
 ItemDisplay[NMAG !RW ETH SOCK=2 (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %RED%< %BLACK% * %RED%>
-ItemDisplay[NMAG !RW !ETH (SOCK=0 OR SOCK=6) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %RED%< %BLACK% * %RED%>
+ItemDisplay[NMAG 7wc !RW (SOCK=0 OR SOCK=6) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %RED%< %BLACK% * %RED%>
 ItemDisplay[(RARE OR MAG) !RW ETH !ID (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %RED%< %BLACK% * %RED%>
 ItemDisplay[NMAG !RW ETH (SOCK=0 OR SOCK=2) (6ws OR 6ls OR 7gi)]:%DOT-20%%NAME%
 ItemDisplay[ELT SHIELD ETH SOCK=4 !DIN]:%NAME%
 ItemDisplay[ELT SHIELD ETH SOCK=4 DIN RES>25]:%NAME%
-ItemDisplay[(7qs OR 7wa OR 7ar OR 7wh OR 7ws) SOCK=2 ETH ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %NAME%
-ItemDisplay[(7qs OR 7wa OR 7ar OR 7wh OR 7ws) SOCK=2]:%NAME%
+ItemDisplay[(7qs OR 7wa OR 7ar OR 7wh OR 7ws) NMAG SOCK=2 ETH ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %NAME%
+ItemDisplay[(7qs OR 7wa OR 7ar OR 7wh OR 7ws) NMAG SOCK=2]:%NAME%
 //--------------------------------------------------------------------------------------- Force Item Show end
 
 //Class skills
@@ -2501,7 +2501,7 @@ ItemDisplay[uhc !RW NMAG CLVL>5]:
 // """
 // Normal Axes
 // """
-ItemDisplay[AXE (RARE OR MAG) !ETH CLVL>89]:
+ItemDisplay[AXE (RARE OR MAG) !ID !ETH CLVL>89]:
 ItemDisplay[AXE (RARE OR MAG) !(wax OR 7wa OR 9wa OR gax OR 9ga OR 7ga OR bal OR 9b8 OR 7b8) CLVL>85]:
 ItemDisplay[AXE ETH (RARE OR MAG) !ID ILVL>84]:%DOT-0C%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Hand Axe
@@ -2740,7 +2740,7 @@ ItemDisplay[7ga !ID !ETH MAG CLVL>70]:
 ItemDisplay[7ga !ID !ETH RARE CLVL>85]:
 ItemDisplay[7ga !ID !ID ETH RARE]:%DOT-0C%%NAME%%CONTINUE%
 ItemDisplay[7ga !RW NMAG !ETH SOCK=0 ED<5 CLVL>5]:%CONTINUE%
-ItemDisplay[7ga !RW NMAG ETH (SOCK=0 OR SOCK=6)]:%NAME%%DARK_GREEN%BOTDBase%CONTINUE%{%DARK_GREEN%Good ShapeShift Starter Weapon}
+ItemDisplay[7ga !RW NMAG ETH (SOCK=0 OR SOCK=6)]:%NAME%%DARK_GREEN%BOTDBase%CONTINUE%{%DARK_GREEN%BOTD %NL% %ORANGE%Vex Hel El Eld Zod Eth}
 ItemDisplay[7ga !RW NMAG !ETH SOCK>2 ED<5]:%NAME%%CONTINUE%
 ItemDisplay[7ga !RW NMAG ED>5]:%DOT-20%%NAME%%CONTINUE%
 ItemDisplay[7ga NMAG (ED>5 AND SOCK>2)]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %GRAY%%NAME% %DARK_GREEN%<%TAN%*%DARK_GREEN%>%CONTINUE%
@@ -2877,6 +2877,28 @@ ItemDisplay[9gm !ID !ETH RARE CLVL>80]:
 ItemDisplay[9gm !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[9gm !RW NMAG SOCK>1 CLVL>70]:
 ItemDisplay[9gm ETH !ID RARE]:%DOT-0C%%NAME%%CONTINUE%
+
+// """
+// ELT MACES
+// """
+// Truncheon
+ItemDisplay[7cl !ID UNI]:%GOLD%Nord's Tenderizer%CONTINUE%
+ItemDisplay[7cl !ID (MAG OR RARE) CLVL>85 ILVL<90]:
+ItemDisplay[7cl !ID (MAG OR RARE) CLVL<86]:%NAME%
+ItemDisplay[7cl NMAG SOCK<3]:
+
+// Tyrant Club 
+ItemDisplay[7sp !ID UNI]:%GOLD%Demon Limb%CONTINUE%
+ItemDisplay[7sp !ID (MAG OR RARE) CLVL>85 ILVL<90]:
+ItemDisplay[7sp !ID (MAG OR RARE) CLVL<86]:%NAME%
+ItemDisplay[7sp NMAG SOCK<3]:
+
+// Reinforced Mace 
+ItemDisplay[7ma !SET !UNI CLVL>80]:
+
+// Devil Star 
+ItemDisplay[7mt !ID UNI]:%GOLD%Baranar's Star%CONTINUE%
+ItemDisplay[7mt NMAG CLVL>80]:
 
 // Scourge
 ItemDisplay[7fl !ID UNI]:%GOLD%Horizon's/Stormlash%CONTINUE%
@@ -3322,6 +3344,7 @@ ItemDisplay[7bl !RW NMAG SOCK=0 CLVL>5]:
 // NORM THROW
 // """"
 ItemDisplay[THROWING !JAV !ZON !ETH (MAG OR RARE) CLVL>84]:
+ItemDisplay[THROWING !JAV !ZON !ETH NMAG CLVL>84]:
 ItemDisplay[(glv OR 9gl OR 7gl OR tsp OR 7ts OR 9ts OR bkf OR 7bk OR 9bk OR bal OR 7b8 OR 9b8 OR ssp OR 9s9 OR 7s7 OR 7ta OR 9ta OR tax) !JAV !ZON ETH RARE CLVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 ItemDisplay[(glv OR 9gl OR 7gl OR tsp OR 7ts OR 9ts OR bkf OR 7bk OR 9bk OR bal OR 7b8 OR 9b8 OR ssp OR 9s9 OR 7s7 OR 7ta OR 9ta OR tax) !JAV !ZON ETH MAG CLVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %BLUE%%NAME% %WHITE%<%RED% * %WHITE%>
 // // Throwing Knife 
@@ -4347,19 +4370,19 @@ ItemDisplay[SET !ID (lbl OR uar OR uth)]:%BORDER-84%%BLUE%<%RED%*%BLUE%> <%RED%*
 ItemDisplay[ETH !ID UNI]:%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%NAME%%CONTINUE%
 
 // eth mid's
-ItemDisplay[UNI !ID (92a OR 9ga OR 9cr)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
+ItemDisplay[UNI !ID (9la OR 7ba OR 92a OR 9ga OR 9cr)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
 
 //Mid Uniques
 ItemDisplay[UNI !ID (tgl OR xld OR 9gw OR ne6 OR xlg OR 7tw OR drd OR 9ls OR 7bw OR 8hx OR xvg OR uow OR 7cs OR zlb OR 7bw OR 7gs OR 7ls OR 7sc OR 7fl OR 7bl OR 7mp OR 72a OR xow OR uts OR ush OR xsh OR cap OR uhm OR xhb OR xvb OR umc OR uvc OR zvb OR upl OR uui OR xth OR xtp OR xpl OR xhn OR oba OR pae OR nea OR 7wb OR amb OR jew)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
 
 //Non Eth Mid Uniq
-ItemDisplay[UNI !ETH !ID (am5 OR 9ar OR dr2 OR pa3 OR ba6 OR 7gi OR 9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
+ItemDisplay[UNI !ETH !ID (7wc OR am5 OR 9ar OR dr2 OR pa3 OR ba6 OR 7gi OR 9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
 
 //High Uniques
 ItemDisplay[UNI !ID (utu OR uhb OR umg OR zhb OR ulc OR lbt OR ci2 OR ci3 OR baa OR bac OR dra OR drb OR dre OR nef OR pa9 OR pac OR obc OR obf OR xea OR xlt OR uld OR uar OR lbl OR zvb OR xtb OR uvg OR uhg OR cap OR xhm OR xh9 OR uap OR ulm OR usk OR urn OR uh9 OR xsh OR uit OR 7wa OR 6sw OR 6lw OR 7kr OR 7wh OR 7gm OR 9ws OR 7ws OR 6ws OR 7cr OR 7gd OR 7gw OR 7gl OR 7ts)]:%BORDER-9B%%RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%> %ORANGE% * * * %GOLD%%NAME% %ORANGE%* * * %RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%>
 
 //ETH High UNIQ
-ItemDisplay[UNI ETH !ID (9gm OR am5 OR 9ar OR pa3 OR ba6 OR 7gi OR 9ls OR 9s8 OR 9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-9B%%RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%> %ORANGE% * * * %GOLD%%NAME% %ORANGE%* * * %RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%>
+ItemDisplay[UNI ETH !ID (7wc OR 9gm OR am5 OR 9ar OR pa3 OR ba6 OR 7gi OR 9ls OR 9s8 OR 9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-9B%%RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%> %ORANGE% * * * %GOLD%%NAME% %ORANGE%* * * %RED%<%PURPLE%*%RED%> <%PURPLE%*%RED%> <%PURPLE%*%RED%>
 
 // """
 // Index(10)
