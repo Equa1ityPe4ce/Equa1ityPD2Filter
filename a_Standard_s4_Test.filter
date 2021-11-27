@@ -3353,17 +3353,17 @@ ItemDisplay[tkf !ID RARE CLVL>20]:
 ItemDisplay[tkf !RW NMAG CLVL>10]:
 
 // Throwing Axe
-ItemDisplay[tax !ID NMAG CLVL>15]:
+ItemDisplay[tax NMAG CLVL>15]:
 ItemDisplay[tax !ID MAG CLVL>30]:
 ItemDisplay[tax !RW RARE CLVL>60]:
 
 // Balanced Knife
-ItemDisplay[bkf !ID NMAG CLVL>5]:
+ItemDisplay[bkf NMAG CLVL>5]:
 ItemDisplay[bkf !ID !ETH MAG CLVL>40]:
 ItemDisplay[bkf !RW !ETH RARE CLVL>60]:
 
 // Balanced Axe
-ItemDisplay[bal !ID NMAG CLVL>5]:
+ItemDisplay[bal NMAG CLVL>5]:
 ItemDisplay[bal !ID !ETH MAG CLVL>50]:
 ItemDisplay[bal !RW !ETH RARE CLVL>60]:
 // """
@@ -3400,7 +3400,7 @@ ItemDisplay[7tk !ID ETH MAG]:%NAME%%CONTINUE%
 ItemDisplay[7tk CLVL>90 !ID !ETH MAG]:
 ItemDisplay[7tk !ID ETH RARE]:%NAME%%CONTINUE%
 ItemDisplay[7tk CLVL>90 !ID !ETH RARE]:
-ItemDisplay[7tk CLVL>90 NMAG]:
+ItemDisplay[7tk CLVL>70 NMAG]:
 
 // Flying Axe 
 ItemDisplay[7ta !ID UNI]:%GOLD%Gimmershred%CONTINUE%
