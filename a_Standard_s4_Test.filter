@@ -119,7 +119,7 @@ ItemDisplay[ETH (UNI OR RARE OR CRAFT OR MAG OR NMAG)]:%NAME%%DARK_GREEN%[%ORANG
 ItemDisplay[SOCK>0]:%NAME%%TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
 //-------------------------------------------------------------------------------------- Force Item Show start
 ItemDisplay[7wc SOCK=6 !ETH ED>5 CLVL<91]:%NAME%{%DARK_GREEN%Early ladder Poison Strike Scilence %NL% %ORANGE%Dol Eld Hel Ist Tir Vex}
-ItemDisplay[7wc SOCK=6 ETH ED>5]:%RED%< %BLACK% * %RED%> %GRAY% %NAME% %RED%< %BLACK% * %RED%> %GRAY%{%DARK_GREEN%Poison Strike BOTD %NL% %ORANGE%Vex Hel El Eld Zod Eth}
+ItemDisplay[7wc NMAG !RW SOCK=6 ETH ED>5]:%RED%< %BLACK% * %RED%> %GRAY% %NAME% %RED%< %BLACK% * %RED%> %GRAY%{%DARK_GREEN%Poison Strike BOTD %NL% %ORANGE%Vex Hel El Eld Zod Eth}
 ItemDisplay[7wc SOCK=6 ETH]:%NAME%
 ItemDisplay[fla NMAG SOCK=4]:%NAME%%GRAY%[%DARK_GREEN%HOTO%GRAY%]{%DARK_GREEN% Heart Of The Oak: %ORANGE% Ko Vex Pul Thul}
 ItemDisplay[(fla OR crs) NMAG SOCK=5]:%NAME%%GRAY%[%DARK_GREEN%CTA%GRAY%]{%DARK_GREEN% Call To Arms: %ORANGE% Amn Ral Mal Ist Ohm}
@@ -134,6 +134,24 @@ ItemDisplay[ELT SHIELD ETH SOCK=4 DIN RES>25]:%NAME%
 ItemDisplay[(7qs OR 7wa OR 7ar OR 7wh OR 7ws) NMAG SOCK=2 ETH ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %NAME%
 ItemDisplay[(7qs OR 7wa OR 7ar OR 7wh OR 7ws) NMAG SOCK=2]:%NAME%
 //--------------------------------------------------------------------------------------- Force Item Show end
+
+//Upgrading Notes
+ItemDisplay[ARMOR !rin !amu NORM RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral %ORANGE%Thul Perf %PURPLE%O}
+ItemDisplay[ARMOR !rin !amu EXC RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Pul %PURPLE%O}
+ItemDisplay[ARMOR !rin !amu NORM CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ Perf %PURPLE%O}
+ItemDisplay[ARMOR !rin !amu EXC CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Pul %PURPLE%O}
+ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ort %ORANGE%Amn %BLUE%O}
+ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Fal %ORANGE%Um %BLUE%O}
+ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ort %ORANGE%Amn %BLUE%O}
+ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Fal %ORANGE%Um %BLUE%O}
+ItemDisplay[ARMOR !rin !amu NORM UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Tal %ORANGE%Shael %WHITE%O}
+ItemDisplay[ARMOR !rin !amu EXC UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Lem %WHITE%O}
+ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral %ORANGE%Sol %GREEN%O}
+ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Lum %ORANGE%Pul %GREEN%O}
+ItemDisplay[ARMOR !rin !amu NORM SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Tal %ORANGE%Shael %WHITE%O}
+ItemDisplay[ARMOR !rin !amu EXC SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Lem %WHITE%O}
+ItemDisplay[WEAPON NORM SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral + %ORANGE%Sol %GREEN%O}
+ItemDisplay[WEAPON EXC SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Lum %ORANGE%Pul %GREEN%O}
 
 //Class skills
 //NECSKILLS
@@ -4399,23 +4417,6 @@ ItemDisplay[EQ4 MAG (TABSK0>2 OR TABSK2>2 OR TABSK50>2) CLVL<85]:%NAME% %PURPLE%
 // Index(11)
 // NOTES
 // """
-//Upgrading
-ItemDisplay[ARMOR !rin !amu NORM RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral %ORANGE%Thul Perf %PURPLE%O}
-ItemDisplay[ARMOR !rin !amu EXC RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Pul %PURPLE%O}
-ItemDisplay[ARMOR !rin !amu NORM CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ Perf %PURPLE%O}
-ItemDisplay[ARMOR !rin !amu EXC CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Pul %PURPLE%O}
-ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ort %ORANGE%Amn %BLUE%O}
-ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Fal %ORANGE%Um %BLUE%O}
-ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ort %ORANGE%Amn %BLUE%O}
-ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Fal %ORANGE%Um %BLUE%O}
-ItemDisplay[ARMOR !rin !amu NORM UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Tal %ORANGE%Shael %WHITE%O}
-ItemDisplay[ARMOR !rin !amu EXC UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Lem %WHITE%O}
-ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral %ORANGE%Sol %GREEN%O}
-ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Lum %ORANGE%Pul %GREEN%O}
-ItemDisplay[ARMOR !rin !amu NORM SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Tal %ORANGE%Shael %WHITE%O}
-ItemDisplay[ARMOR !rin !amu EXC SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ko %ORANGE%Lem %WHITE%O}
-ItemDisplay[WEAPON NORM SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Ral + %ORANGE%Sol %GREEN%O}
-ItemDisplay[WEAPON EXC SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Lum %ORANGE%Pul %GREEN%O}
 
 //socketing
 ItemDisplay[CHEST NORM !INF !SUP SOCK=0 NMAG CLVL<19]: %NAME%{%TAN%To Socket %ORANGE%Tal %ORANGE%Thul %YELLOW%O}
