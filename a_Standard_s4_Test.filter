@@ -117,7 +117,8 @@ ItemDisplay[ETH (UNI OR RARE OR CRAFT OR MAG OR NMAG)]:%NAME%%DARK_GREEN%[%ORANG
 
 // Sockets Display
 ItemDisplay[SOCK>0]:%NAME%%TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
-//-------------------------------------------------------------------------------------- Force Item Show start
+//-------------------------------------------------------------------------------------- SEASON 4 Force ITem
+ItemDisplay[(uhn OR rar OR utc OR ram OR rbt) !ID UNI]:%NAME% %RED%BIG %GREEN%DICK %PURPLE%ENERGY
 ItemDisplay[7wc SOCK=6 !ETH ED>5 CLVL<91]:%NAME%{%DARK_GREEN%Early ladder Poison Strike Scilence %NL% %ORANGE%Dol Eld Hel Ist Tir Vex}
 ItemDisplay[7wc NMAG !RW SOCK=6 ETH ED>5]:%RED%< %BLACK% * %RED%> %GRAY% %NAME% %RED%< %BLACK% * %RED%> %GRAY%{%DARK_GREEN%Poison Strike BOTD %NL% %ORANGE%Vex Hel El Eld Zod Eth}
 ItemDisplay[7wc SOCK=6 ETH]:%NAME%
@@ -133,6 +134,7 @@ ItemDisplay[ELT SHIELD ETH SOCK=4 !DIN]:%NAME%
 ItemDisplay[ELT SHIELD ETH SOCK=4 DIN RES>25]:%NAME%
 ItemDisplay[(7qs OR 7wa OR 7ar OR 7wh OR 7ws) NMAG SOCK=2 ETH ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %NAME%
 ItemDisplay[(7qs OR 7wa OR 7ar OR 7wh OR 7ws) NMAG SOCK=2]:%NAME%
+ItemDisplay[(7m7 OR 7wh) NMAG SOCK=5]:%NAME%
 //--------------------------------------------------------------------------------------- Force Item Show end
 
 //Upgrading Notes
@@ -155,7 +157,7 @@ ItemDisplay[WEAPON EXC SET ID]: %NAME%{%TAN%To Upgrade: %ORANGE%Lum %ORANGE%Pul 
 
 //Class skills
 //NECSKILLS
-ItemDisplay[(WAND OR NEC) NMAG (SK66>0 OR SK91>0 OR SK67>0 OR SK84>0 OR SK93>0 OR SK92>0 OR SK83>0 OR SK69>0 OR SK94>0 OR SK95>0 OR SK74>0 OR SK367>0 OR SK381>0)]:%NAME% %DARK_GREEN%[%CONTINUE%
+ItemDisplay[(WAND OR NEC) NMAG (SK89>0 OR SK66>0 OR SK91>0 OR SK67>0 OR SK84>0 OR SK93>0 OR SK92>0 OR SK83>0 OR SK69>0 OR SK94>0 OR SK95>0 OR SK74>0 OR SK367>0 OR SK381>0)]:%NAME% %DARK_GREEN%[%CONTINUE%
 ItemDisplay[NMAG SK66=3]:%NAME%%TAN% 3AmpDmg%CONTINUE%
 ItemDisplay[NMAG SK91=3]:%NAME%%TAN% 3LwrRes%CONTINUE%
 ItemDisplay[NMAG SK67=3]:%NAME%%WHITE% 3Teth%CONTINUE%
@@ -169,6 +171,7 @@ ItemDisplay[NMAG SK95=3]:%NAME%%DARK_GREEN% 3Reviv%CONTINUE%
 ItemDisplay[NMAG SK74=3]:%NAME%%RED% 3CExp%CONTINUE%
 ItemDisplay[NMAG SK367=3]:%NAME%%RED% 3BWarp%CONTINUE%
 ItemDisplay[NMAG SK381=3]:%NAME%%TAN% 3DPact%CONTINUE%
+ItemDisplay[NMAG SK89=3]:%NAME%%DARK_GREEN% 3SKArch%CONTINUE%
 
 ItemDisplay[NMAG SK66=2]:%NAME%%TAN% 2AmpDmg%CONTINUE%
 ItemDisplay[NMAG SK91=2]:%NAME%%TAN% 2LwrRes%CONTINUE%
@@ -183,6 +186,7 @@ ItemDisplay[NMAG SK95=2]:%NAME%%DARK_GREEN% 2Reviv%CONTINUE%
 ItemDisplay[NMAG SK74=2]:%NAME%%RED% 2CExp%CONTINUE%
 ItemDisplay[NMAG SK367=2]:%NAME%%RED% 2BWarp%CONTINUE%
 ItemDisplay[NMAG SK381=2]:%NAME%%TAN% 2DPact%CONTINUE%
+ItemDisplay[NMAG SK89=2]:%NAME%%DARK_GREEN% 3SKArch%CONTINUE%
 
 ItemDisplay[NMAG SK66=1]:%NAME%%TAN% 1AmpDmg%CONTINUE%
 ItemDisplay[NMAG SK91=1]:%NAME%%TAN% 1LwrRes%CONTINUE%
@@ -197,7 +201,8 @@ ItemDisplay[NMAG SK95=1]:%NAME%%DARK_GREEN% 1Reviv%CONTINUE%
 ItemDisplay[NMAG SK74=1]:%NAME%%RED% 1CExp%CONTINUE%
 ItemDisplay[NMAG SK367=1]:%NAME%%RED% 1BWarp%CONTINUE%
 ItemDisplay[NMAG SK381=1]:%NAME%%TAN% 1DPact%CONTINUE%
-ItemDisplay[(WAND OR NEC) NMAG (SK66>0 OR SK91>0 OR SK67>0 OR SK84>0 OR SK93>0 OR SK92>0 OR SK83>0 OR SK69>0 OR SK94>0 OR SK95>0 OR SK74>0 OR SK367>0 OR SK381>0)]:%NAME%%DARK_GREEN% ]%CONTINUE%
+ItemDisplay[NMAG SK89=1]:%NAME%%DARK_GREEN% 3SKArch%CONTINUE%
+ItemDisplay[(WAND OR NEC) NMAG (SK89>0 OR SK66>0 OR SK91>0 OR SK67>0 OR SK84>0 OR SK93>0 OR SK92>0 OR SK83>0 OR SK69>0 OR SK94>0 OR SK95>0 OR SK74>0 OR SK367>0 OR SK381>0)]:%NAME%%DARK_GREEN% ]%CONTINUE%
 
 //ASNSKILLS
 ItemDisplay[CL5 NMAG (SK275>0 OR SK269>0 OR SK254>0 OR SK259>0 OR SK274>0 OR SK280>0 OR SK271>0 OR SK267>0 OR SK262>0 OR SK253>0 OR SK273>0 OR SK276>0 OR SK266>0 OR SK277>0 OR SK278>0 OR SK265>0)]:%NAME% %DARK_GREEN%[%CONTINUE%
@@ -602,6 +607,7 @@ ItemDisplay[leg CLVL>15]:%NAME%
 // """
 //Project Diablo 2 items
 ItemDisplay[wss QTY<2]:%DOT-9B%%BLUE%<%ORANGE%*%BLUE%> %NAME% %BLUE%<%ORANGE%*%BLUE%>{%TAN%Cube%WHITE%: This And An Item To Corrupt/Slam}
+ItemDisplay[cwss]:%DOT-9B%%BLUE%<%ORANGE%*%BLUE%> %NAME% %BLUE%<%ORANGE%*%BLUE%>{%TAN%Cube%WHITE%: Use this to corrupt Annihilus'}
 ItemDisplay[imra QTY<2]: %NAME%{%WHITE%Cube This %BLUE%Jewel %ORANGE%Rune Thul or Above %TAN%Imbue %NL%%WHITE%White %TAN%to %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[rera QTY<2]: %NAME%{%WHITE%Cube This %DARK_GREEN%Perf Gem %ORANGE%Rune Thul or Above %NL%%TAN% Reroll %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[upma QTY<2]: %NAME%{%WHITE%Cube This %DARK_GREEN%Perf %ORANGE%O  %ORANGE%Rune Thul or Above %NL%%TAN%upgrayedd %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE% Map}
@@ -640,11 +646,17 @@ ItemDisplay[(t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38) ID MAG]:%MAP-
 ItemDisplay[(t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38) !ID RARE]:%MAP-9B%%RED%<%GOLD%*%RED%> <%GOLD%*%RED%> %YELLOW%%NAME% %DARK_GREEN%[%ORANGE%t3%DARK_GREEN%] %RED%<%GOLD%*%RED%> <%GOLD%*%RED%>{%DARK_GREEN%Re Roll This: %GOLD%Horadrim Orb + %BLUE%Any P Gem %ORANGE%Rune Thul or above}
 ItemDisplay[(t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38) ID RARE]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t3%DARK_GREEN%]{%DARK_GREEN%Re Roll This: %GOLD%Horadrim Orb + %BLUE%Any P Gem %ORANGE%Rune Thul or above}
 
-ItemDisplay[(t41 OR t42) NMAG]:%MAP-9B%%RED%<%GOLD%*%RED%> %RED%<%GOLD%*%RED%> %WHITE%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%] %RED%<%GOLD%*%RED%> <%GOLD%*%RED%>{%DARK_GREEN%Imbue This: %GOLD%Zakarum Orb + %BLUE%Jewel %ORANGE%Rune Thul or above}
-ItemDisplay[(t41 OR t42) !ID MAG]:%MAP-9B%%RED%<%GOLD%*%RED%> %BLUE%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%] %RED%<%GOLD%*%RED%> <%GOLD%*%RED%>{%DARK_GREEN%Upgrayedd This: %GOLD%Angelic Orb + %ORANGE%P Skull Rune Thul or above}
-ItemDisplay[(t41 OR t42) ID MAG]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%]{%DARK_GREEN%Upgrayedd This: %GOLD%Angelic Orb + %ORANGE%P Skull Rune Thul or above}
-ItemDisplay[(t41 OR t42) !ID RARE]:%MAP-9B%%RED%<%GOLD%*%RED%> <%GOLD%*%RED%> %YELLOW%%NAME% %DARK_GREEN%[%ORANGE%t1%DARK_GREEN%] %RED%<%GOLD%*%RED%> <%GOLD%*%RED%>{%DARK_GREEN%Re Roll This: %GOLD%Horadrim Orb + %BLUE%Any P Gem %ORANGE%Rune Thul or above}
-ItemDisplay[(t41 OR t42) ID RARE]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%]{%DARK_GREEN%Re Roll This: %GOLD%Horadrim Orb + %BLUE%Any P Gem %ORANGE%Rune Thul or above}
+ItemDisplay[(t41 OR t42 OR t43) NMAG]:%MAP-9B%%RED%<%GOLD%*%RED%> %RED%<%GOLD%*%RED%> %WHITE%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%] %RED%<%GOLD%*%RED%> <%GOLD%*%RED%>{%DARK_GREEN%Imbue This: %GOLD%Zakarum Orb + %BLUE%Jewel %ORANGE%Rune Thul or above}
+ItemDisplay[(t41 OR t42 OR t43) !ID MAG]:%MAP-9B%%RED%<%GOLD%*%RED%> %BLUE%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%] %RED%<%GOLD%*%RED%> <%GOLD%*%RED%>{%DARK_GREEN%Upgrayedd This: %GOLD%Angelic Orb + %ORANGE%P Skull Rune Thul or above}
+ItemDisplay[(t41 OR t42 OR t43) ID MAG]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%]{%DARK_GREEN%Upgrayedd This: %GOLD%Angelic Orb + %ORANGE%P Skull Rune Thul or above}
+ItemDisplay[(t41 OR t42 OR t43) !ID RARE]:%MAP-9B%%RED%<%GOLD%*%RED%> <%GOLD%*%RED%> %YELLOW%%NAME% %DARK_GREEN%[%ORANGE%t1%DARK_GREEN%] %RED%<%GOLD%*%RED%> <%GOLD%*%RED%>{%DARK_GREEN%Re Roll This: %GOLD%Horadrim Orb + %BLUE%Any P Gem %ORANGE%Rune Thul or above}
+ItemDisplay[(t41 OR t42 OR t43) ID RARE]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%]{%DARK_GREEN%Re Roll This: %GOLD%Horadrim Orb + %BLUE%Any P Gem %ORANGE%Rune Thul or above}
+
+ItemDisplay[(t61 OR t62) NMAG]:%MAP-9B%%RED%<%GOLD%*%RED%> %RED%<%GOLD%*%RED%> %WHITE%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%] %RED%<%GOLD%*%RED%> <%GOLD%*%RED%>
+ItemDisplay[(t61 OR t62) !ID MAG]:%MAP-9B%%RED%<%GOLD%*%RED%> %BLUE%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%] %RED%<%GOLD%*%RED%> <%GOLD%*%RED%>
+ItemDisplay[(t61 OR t62) ID MAG]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%]
+ItemDisplay[(t61 OR t62) !ID RARE]:%MAP-9B%%RED%<%GOLD%*%RED%> <%GOLD%*%RED%> %YELLOW%%NAME% %DARK_GREEN%[%ORANGE%t1%DARK_GREEN%] %RED%<%GOLD%*%RED%> <%GOLD%*%RED%>
+ItemDisplay[(t61 OR t62) ID RARE]:%MAP-9B%%NAME% %DARK_GREEN%[%ORANGE%t4%DARK_GREEN%]
 
 //D Clone
 ItemDisplay[(dcma OR dcbl OR dcho OR dcso) QTY<2]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>%ORANGE%** %NAME% %ORANGE%**%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>
@@ -675,7 +687,7 @@ ItemDisplay[pk3]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>
 ItemDisplay[(dhn OR bey OR mbr)]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%>%ORANGE% ** %NAME% %GRAY%x%DARK_GREEN%%QTY% %ORANGE%** %GOLD%<%BLUE%*%GOLD%>
 
 //Pand Talis
-// ItemDisplay[ubtm]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%>%ORANGE% ** %NAME% %GRAY%x%DARK_GREEN%%QTY% %ORANGE%** %GOLD%<%BLUE%*%GOLD%>
+ItemDisplay[ubtm OR rtma]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%>%ORANGE% %NAME% %GOLD%<%BLUE%*%GOLD%>
 
 //Tokens
 ItemDisplay[toa]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%> %ORANGE%%NAME% %GOLD%<%BLUE%*%GOLD%>
@@ -861,26 +873,22 @@ ItemDisplay[rvs CLVL>84]:
 
 //healing
 ItemDisplay[hp1 CLVL<12]:%RED%(%GRAY%hp%RED%)
-ItemDisplay[hp1 CLVL>11]:
 ItemDisplay[hp2 CLVL<25]:%RED%(%GRAY%hp%RED%)
-ItemDisplay[hp2 CLVL>24]:
 ItemDisplay[hp3 CLVL<31]:%RED%(%GRAY%hp%RED%)
-ItemDisplay[hp3 CLVL>30]:
 ItemDisplay[hp4 CLVL<41]:%RED%(%GRAY%hp%RED%)
-ItemDisplay[hp4 CLVL>40]:
 ItemDisplay[hp5]:%RED%(%GRAY%hp%RED%)
 
 //MANA
 ItemDisplay[mp1 CLVL<12]:%BLUE%(%GRAY%mp%BLUE%)
 ItemDisplay[mp2 CLVL<20]:%BLUE%(%GRAY%mp%BLUE%)
-ItemDisplay[mp3 CLVL<25]:%BLUE%(%GRAY%mp%BLUE%)
-ItemDisplay[mp4 CLVL<40]:%BLUE%(%GRAY%mp%BLUE%)
+ItemDisplay[mp3 CLVL<45]:%BLUE%(%GRAY%mp%BLUE%)
+ItemDisplay[mp4 CLVL<70]:%BLUE%(%GRAY%mp%BLUE%)
 ItemDisplay[mp5]:%BLUE%(%GRAY%mp%BLUE%)
 
 ItemDisplay[(mp1 OR hp1) CLVL>12]:
-ItemDisplay[(mp2 OR hp2) CLVL>20]:
-ItemDisplay[(mp3 OR hp3) CLVL>30]:
-ItemDisplay[(mp4 OR hp4) CLVL>40]:
+ItemDisplay[(mp2 OR hp2) CLVL>30]:
+ItemDisplay[(mp3 OR hp3) CLVL>450]:
+ItemDisplay[(mp4 OR hp4) CLVL>70]:
 
 //Throw Pots
 ItemDisplay[(opl OR opm OR ops OR gpl OR gpm OR gps)]:
@@ -1493,9 +1501,9 @@ ItemDisplay[NEC ETH !ID (MAG OR RARE) CLVL>65]:
 ItemDisplay[NEC ID MAG]:%NAME%{%ORANGE%Eth %PURPLE%O %NL%%PURPLE%Caster Shield%WHITE%:}
 ItemDisplay[WAND ID MAG]:%NAME%{%ORANGE%Tir %PURPLE%O %NL%%PURPLE%Caster Weapon%WHITE%:}
 
-ItemDisplay[(WAND OR NEC) !RW NMAG !(SK66>0 OR SK91>0 OR SK67>0 OR SK84>0 OR SK93>0 OR SK92>0 OR SK83>0 OR SK69>0 OR SK94>0 OR SK95>0 OR SK74>0 OR SK367>0 OR SK381>0)]:
-ItemDisplay[(WAND OR NEC) !RW NMAG (SK66>2 OR SK91>2 OR SK67>2 OR SK84>2 OR SK93>2 OR SK92>2 OR SK83>2 OR SK69>2 OR SK94>2 OR SK95>2 OR SK74>2 OR SK367>0 OR SK381>2)]:%NAME%%CONTINUE%
-ItemDisplay[(WAND OR NEC) !RW NMAG CLVL>70 !(SK66>2 OR SK91>2 OR SK67>2 OR SK84>2 OR SK93>2 OR SK92>2 OR SK83>2 OR SK69>2 OR SK94>2 OR SK95>2 OR SK74>2 OR SK367>0 OR SK381>2)]:
+ItemDisplay[(WAND OR NEC) !RW NMAG !(SK89>0 OR SK66>0 OR SK91>0 OR SK67>0 OR SK84>0 OR SK93>0 OR SK92>0 OR SK83>0 OR SK69>0 OR SK94>0 OR SK95>0 OR SK74>0 OR SK367>0 OR SK381>0)]:
+ItemDisplay[(WAND OR NEC) !RW NMAG (SK89>2 OR SK66>2 OR SK91>2 OR SK67>2 OR SK84>2 OR SK93>2 OR SK92>2 OR SK83>2 OR SK69>2 OR SK94>2 OR SK95>2 OR SK74>2 OR SK367>0 OR SK381>2)]:%NAME%%CONTINUE%
+ItemDisplay[(WAND OR NEC) !RW NMAG CLVL>70 !(SK89>2 OR SK66>2 OR SK91>2 OR SK67>2 OR SK84>2 OR SK93>2 OR SK92>2 OR SK83>2 OR SK69>2 OR SK94>2 OR SK95>2 OR SK74>2 OR SK367>0 OR SK381>2)]:
 
 // """
 // ARMORS MAIN
@@ -2204,7 +2212,7 @@ ItemDisplay[uow !ID MAG CLVL>65]:
 ItemDisplay[uow !ID RARE CLVL>85 ILVL<86]:
 ItemDisplay[uow !RW NMAG SOCK=0 CLVL>25]:
 ItemDisplay[uow !RW NMAG SOCK>1 CLVL>90 ED<5]:
-ItemDisplay[uow !RW NMAG SOCK>1 CLVL>90 ED>4]:%NAME%%CONTINUE%
+ItemDisplay[uow !RW NMAG SOCK>1 CLVL>90 ED>0]:%NAME%%CONTINUE%
 
 // Ward
 ItemDisplay[uts !ID UNI]:%GOLD%Spirit Ward%CONTINUE%
