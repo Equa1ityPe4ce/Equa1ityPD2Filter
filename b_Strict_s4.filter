@@ -133,11 +133,11 @@ ItemDisplay[7wc NMAG !RW SOCK=6 ETH ED>5]:%RED%< %BLACK% * %RED%> %GRAY% %NAME% 
 ItemDisplay[7wc SOCK=6 ETH]:%NAME%
 ItemDisplay[fla NMAG SOCK=4]:%NAME%%GRAY%[%DARK_GREEN%HOTO%GRAY%]{%DARK_GREEN% Heart Of The Oak: %ORANGE% Ko Vex Pul Thul}
 ItemDisplay[(fla OR crs) NMAG SOCK=5]:%NAME%%GRAY%[%DARK_GREEN%CTA%GRAY%]{%DARK_GREEN% Call To Arms: %ORANGE% Amn Ral Mal Ist Ohm}
-ItemDisplay[NMAG !RW xtp (SOCK=0 OR SOCK=3) ED>10]:%DOT-20%%RED%< %BLACK% * %RED%> %NAME%
+ItemDisplay[NMAG !RW xtp (SOCK=0 OR SOCK=3) ED>10]:%DOT-20%%RED%< %BLACK%* %RED%> %NAME%
 ItemDisplay[NMAG !RW xtp (SOCK=0 OR SOCK=3)]:%NAME%
-ItemDisplay[NMAG !RW ETH SOCK=2 (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %RED%< %BLACK% * %RED%>
-ItemDisplay[NMAG 7wc !RW (SOCK=0 OR SOCK=6) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %RED%< %BLACK% * %RED%>
-ItemDisplay[(RARE OR MAG) !RW ETH !ID (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %GRAY%%NAME% %RED%< %BLACK% * %RED%>
+ItemDisplay[NMAG !RW ETH SOCK=2 (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED%< %BLACK%* %RED%> %GRAY%%NAME% %RED%< %BLACK% * %RED%>
+ItemDisplay[NMAG 7wc !RW (SOCK=0 OR SOCK=6) ED>5]:%BORDER-20% %RED%< %BLACK%* %RED%> %GRAY%%NAME% %RED%< %BLACK% * %RED%>
+ItemDisplay[(RARE OR MAG) !RW ETH !ID (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED%< %BLACK%* %RED%> %GRAY%%NAME% %RED%< %BLACK% * %RED%>
 ItemDisplay[NMAG !RW ETH (SOCK=0 OR SOCK=2) (6ws OR 6ls OR 7gi)]:%DOT-20%%NAME%
 ItemDisplay[ELT SHIELD ETH SOCK=4 !DIN]:%NAME%
 ItemDisplay[ELT SHIELD ETH SOCK=4 DIN RES>25]:%NAME%
