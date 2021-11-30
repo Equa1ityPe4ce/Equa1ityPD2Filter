@@ -13,6 +13,14 @@
 // Index(1)
 // UTILS
 // """
+ItemDisplay[MAG CL1 !DRUID]:
+ItemDisplay[MAG CL3 !PALADIN]:
+ItemDisplay[MAG CL4 !NECROMANCER]:
+ItemDisplay[MAG CL5 !ASSASSIN]:
+ItemDisplay[MAG CL5 ASSASSIN key]:
+ItemDisplay[MAG CL6 !SORCERESS]:
+ItemDisplay[MAG CL7 !AMAZON]:
+
 //Golbal
 ItemDisplay[(ARMOR OR WEAPON) NMAG !ETH SOCK=0 ED=1]:%DARK_GREEN%[%ORANGE%1%%DARK_GREEN%] %WHITE%%NAME%%CONTINUE% 
 ItemDisplay[(ARMOR OR WEAPON) NMAG !ETH SOCK=0 ED=2]:%DARK_GREEN%[%ORANGE%2%%DARK_GREEN%] %WHITE%%NAME%%CONTINUE% 
@@ -1831,7 +1839,6 @@ ItemDisplay[xea !RW NMAG SOCK>1 CLVL>55]:
 // Demonhide Armor
 ItemDisplay[xla !ID UNI !ETH CLVL>85]:
 ItemDisplay[xla !ID UNI]:%GOLD%Skin of The Flayed One%CONTINUE%
-ItemDisplay[xla !ID UNI !ETH CLVL>85]:
 ItemDisplay[xla !ID MAG CLVL>45]:
 ItemDisplay[xla !ID RARE CLVL>65 ILVL<86]:
 ItemDisplay[xla !RW NMAG SOCK=0 CLVL>5]:
@@ -1840,7 +1847,6 @@ ItemDisplay[xla !RW NMAG SOCK>1 CLVL>55]:
 // Trellised Armor
 ItemDisplay[xtu !ID UNI !ETH CLVL>85]:
 ItemDisplay[xtu !ID UNI]:%GOLD%Iron Pelt%CONTINUE%
-ItemDisplay[xtu !ID UNI !ETH CLVL>85]:
 ItemDisplay[xtu !ID MAG CLVL>65]:
 ItemDisplay[xtu !ID RARE CLVL>65 ILVL<86]:
 ItemDisplay[xtu !RW NMAG SOCK=0 CLVL>5]:
@@ -2465,7 +2471,6 @@ ItemDisplay[lbl !RW NMAG CLVL>5]:
 // Light Belt 
 ItemDisplay[vbl !ID UNI CLVL>85]:
 ItemDisplay[vbl !ID UNI]:%GOLD%Snakecord%CONTINUE%
-ItemDisplay[vbl !ID UNI CLVL>85]:
 ItemDisplay[vbl !ID MAG CLVL>10]:
 ItemDisplay[vbl !ID RARE]:%NAME%
 ItemDisplay[vbl !RW NMAG CLVL>5]:
@@ -2473,7 +2478,6 @@ ItemDisplay[vbl !RW NMAG CLVL>5]:
 // Belt
 ItemDisplay[mbl !ID UNI CLVL>85]:
 ItemDisplay[mbl !ID UNI]:%GOLD%Nightsmoke%CONTINUE%
-ItemDisplay[mbl !ID UNI CLVL>85]:
 ItemDisplay[mbl !ID MAG CLVL>15]:
 ItemDisplay[mbl !ID RARE]:%NAME%
 ItemDisplay[mbl !RW NMAG CLVL>5]:
@@ -3654,8 +3658,8 @@ ItemDisplay[spr !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[spr !RW NMAG SOCK>1 CLVL>10]:
 
 // Trident
-ItemDisplay[tri !ID  !I CLVL>85]:
-ItemDisplay[tri !ID  !ID UNI]:%GOLD%Razortine%CONTINUE%
+ItemDisplay[tri !ID UNI CLVL>85]:
+ItemDisplay[tri !ID UNI]:%GOLD%Razortine%CONTINUE%
 ItemDisplay[tri !ID MAG CLVL>15]:
 ItemDisplay[tri !ID RARE CLVL>25]:
 ItemDisplay[tri !RW NMAG SOCK=0 CLVL>5]:
