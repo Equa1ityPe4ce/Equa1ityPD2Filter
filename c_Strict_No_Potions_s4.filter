@@ -14,6 +14,7 @@
 // UTILS
 // """
 ItemDisplay[MAG CL1 !DRUID]:
+ItemDisplay[MAG CL2 !BARBARIAN]:
 ItemDisplay[MAG CL3 !PALADIN]:
 ItemDisplay[MAG CL4 !NECROMANCER]:
 ItemDisplay[MAG CL5 !ASSASSIN]:
@@ -906,6 +907,7 @@ ItemDisplay[!ID MAG BOOTS ILVL>85]:%NAME%
 ItemDisplay[!ID MAG (WEAPON) !ETH CLVL>85]:
 ItemDisplay[!ID MAG (CL1 OR CL2 OR CL3 OR CL4 OR CL6) !ETH CLVL>85]:
 ItemDisplay[key OR yps]:
+ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
 //====================================================================================================================================================================
 
 // """
