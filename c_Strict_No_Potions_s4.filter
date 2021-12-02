@@ -918,6 +918,7 @@ ItemDisplay[MAG ID amu]:%NAME%{%NL%%BLUE%HPower Thul, %RED%Blood Amn %ORANGE%Vam
 ItemDisplay[MAG ID WEAPON !XBOW !BOW]:%NAME%{%NL%%BLUE%HPower Tir, %RED%Blood Ort %ORANGE%Vampiric Shael%NL%%PURPLE%Caster Tir %YELLOW%Bountiful Shael}%CONTINUE%
 ItemDisplay[MAG ID (BOW OR XBOW)]:%NAME%{%NL%%GREEN%Saftey Sol}%CONTINUE%
 ItemDisplay[SHOP]:%NAME%
+ItemDisplay[!NMAG ID]:%NAME%
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // """
 // INDEX (6)
