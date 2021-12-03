@@ -873,52 +873,7 @@ ItemDisplay[GEMTYPE=4 GEM=5]:%NAME%{%TAN%Helm Ral, Boots Eth, Gloves Nef%NL%Belt
 ItemDisplay[GEMTYPE=5 GEM=5]:%NAME%{%TAN%Helm Ith, Boots Ral, Gloves Ort%NL%Belt Tal, Shield Eth, Chest Nef%NL%Amulet Thul, Ring Amn, Weap Tir%NL%%BLUE%Hit Power}
 ItemDisplay[GEMTYPE=6 GEM=5]:%NAME%{%TAN%Amulet Ko, Ring Lum, Weapon Shael%NL%Chest Eld, Helm Tir, Gloves Hel, Belt El, Boots io, Sheild Dol%NL%%YELLOW%Bountiful}
 ItemDisplay[GEMTYPE=7 GEM=5]:%NAME%{%TAN%Amulet Dol, Ring Hel, Weapon Shael%NL%Chest Tir, Helm Lum, Gloves io, Belt Eld, Boots El, Sheild Sol%NL%%ORANGE%Vampiric}
-//Global I -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-// """
-// Index(10)
-// SHOPPING
-// """
-//Shop Hunting
-ItemDisplay[WEAPON MAG CLVL<30  ILVL<30 IAS>9]:%NAME%{%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %NL%%DARK_GREEN% Low Level IAS weapon %NL%%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% >}
-ItemDisplay[WEAPON MAG !RW !UNI TABSK34>2]:%NAME%{%RED%***   %GREEN%Warcrry Weapon%RED%   ***%NL%}
-ItemDisplay[EQ4 MAG (TABSK0>2 OR TABSK2>2 OR TABSK50>2) AND IAS=20]:%NAME% %PURPLE%< %GREEN%* %PURPLE%>{%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %NL%%GREEN% IAS Skill Gloves %NL%%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% >}
-ItemDisplay[(WAND OR DAGGER) MAG !RW !UNI SK91>3]:%NAME%{%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %NL%%PURPLE% Lower Resist Stick %NL%%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% >}
-ItemDisplay[(WAND OR DAGGER) MAG !RW !UNI SK82>3]:%NAME%{%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %NL%%RED% Life Tap Stick %NL%%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% >}
-ItemDisplay[EQ4 MAG (TABSK0>2 OR TABSK2>2 OR TABSK50>2) CLVL<85]:%NAME% %PURPLE%< %GREEN%* %PURPLE%>{%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %NL%%GREEN% 3 Skill Gloves %NL%%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% >}
-// """
-// Index(11)
-// NOTES
-// """
 
-//socketing
-ItemDisplay[CHEST NORM !INF !SUP SOCK=0 NMAG CLVL<19]: %NAME%{%TAN%To Socket %ORANGE%Tal %ORANGE%Thul %YELLOW%O}
-ItemDisplay[(WEAPON AND !THROWING) NORM !INF !SUP SOCK=0 NMAG CLVL<19]: %NAME%{%TAN%To Socket %ORANGE%Ral %ORANGE%Amn %PURPLE%O}
-ItemDisplay[(HELM OR CIRC) NORM !INF !SUP SOCK=0 NMAG CLVL<19]: %NAME%{%TAN%To Socket %ORANGE%Ral %ORANGE%Thul %BLUE%O}
-ItemDisplay[SHIELD NORM !INF !SUP SOCK=0 NMAG CLVL<19]: %NAME%{%TAN%To Socket %ORANGE%Tal %ORANGE%Amn %RED%O}
-ItemDisplay[CHEST (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Tal %ORANGE%Thul %YELLOW%O}
-ItemDisplay[(WEAPON AND !THROWING) (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Ral %ORANGE%Amn %PURPLE%O}
-ItemDisplay[(HELM OR CIRC) (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Ral %ORANGE%Thul %BLUE%O}
-ItemDisplay[SHIELD (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Tal %ORANGE%Amn %RED%O}
-
-// """
-// Index(12)
-// Utils II
-// """
-
-//Craft notes on ID items
-ItemDisplay[MAG ID HELM !CIRC]:%NAME%{%NL%%BLUE%HPower Ith, %RED%Blood Ral %ORANGE%Vampiric Lum%NL%%GREEN%Saftey Ith%PURPLE%Caster Nef %YELLOW%Bountiful Tir}%CONTINUE%
-ItemDisplay[MAG ID BOOTS]:%NAME%{%NL%%BLUE%HPower Ral, %RED%Blood Eth %ORANGE%Vampiric El%NL%%GREEN%Saftey Ort%PURPLE%Caster Thul %YELLOW%Bountiful io}%CONTINUE%
-ItemDisplay[MAG ID GLOVES]:%NAME%{%NL%%BLUE%HPower Ort, %RED%Blood Nef %ORANGE%Vampiric io%NL%%GREEN%Saftey Ral%PURPLE%Caster Ort %YELLOW%Bountiful Hel}%CONTINUE%
-ItemDisplay[MAG ID BELT]:%NAME%{%NL%%BLUE%HPower Tal, %RED%Blood Tal %ORANGE%Vampiric Eld%NL%%GREEN%Saftey Tal%PURPLE%Caster Ith %YELLOW%Bountiful El}%CONTINUE%
-ItemDisplay[MAG ID SHIELD]:%NAME%{%NL%%BLUE%HPower Eth, %RED%Blood Ith %ORANGE%Vampiric Sol%NL%%GREEN%Saftey Nef%PURPLE%Caster Eth %YELLOW%Bountiful Dol}%CONTINUE%
-ItemDisplay[MAG ID CHEST]:%NAME%{%NL%%BLUE%HPower Nef, %RED%Blood Thul %ORANGE%Vampiric Tir%NL%%GREEN%Saftey Eth%PURPLE%Caster Tal %YELLOW%Bountiful Eld}%CONTINUE%
-ItemDisplay[MAG ID rin]:%NAME%{%NL%%BLUE%HPower Amn, %RED%Blood Sol %ORANGE%Vampiric Hel%NL%%GREEN%Saftey Amn%PURPLE%Caster Amn %YELLOW%Bountiful Lum}%CONTINUE%
-ItemDisplay[MAG ID amu]:%NAME%{%NL%%BLUE%HPower Thul, %RED%Blood Amn %ORANGE%Vampiric Dol%NL%%GREEN%Saftey Thul%PURPLE%Caster Ral %YELLOW%Bountiful Ko}%CONTINUE%
-ItemDisplay[MAG ID WEAPON !XBOW !BOW]:%NAME%{%NL%%BLUE%HPower Tir, %RED%Blood Ort %ORANGE%Vampiric Shael%NL%%PURPLE%Caster Tir %YELLOW%Bountiful Shael}%CONTINUE%
-ItemDisplay[MAG ID (BOW OR XBOW)]:%NAME%{%NL%%GREEN%Saftey Sol}%CONTINUE%
-// ItemDisplay[SHOP]:%NAME%
-ItemDisplay[!NMAG ID]:%NAME%
-//-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // """
 // INDEX (6)
 // POTIONS
@@ -4619,6 +4574,52 @@ ItemDisplay[SET !ID tbt CLVL>85]:
 ItemDisplay[SET !ID lbb]: %GREEN% Vidala's Bow
 ItemDisplay[SET !ID lea]: %GREEN% Vidala's Armor
 ItemDisplay[SET !ID tbt]: %GREEN% Vidala's Boots
+
+//Global I -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// """
+// Index(10)
+// SHOPPING
+// """
+//Shop Hunting
+ItemDisplay[WEAPON MAG CLVL<30  ILVL<30 IAS>9]:%NAME%{%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %NL%%DARK_GREEN% Low Level IAS weapon %NL%%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% >}
+ItemDisplay[WEAPON MAG !RW !UNI TABSK34>2]:%NAME%{%RED%***   %GREEN%Warcrry Weapon%RED%   ***%NL%}
+ItemDisplay[EQ4 MAG (TABSK0>2 OR TABSK2>2 OR TABSK50>2) AND IAS=20]:%NAME% %PURPLE%< %GREEN%* %PURPLE%>{%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %NL%%GREEN% IAS Skill Gloves %NL%%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% >}
+ItemDisplay[(WAND OR DAGGER) MAG !RW !UNI SK91>3]:%NAME%{%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %NL%%PURPLE% Lower Resist Stick %NL%%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% >}
+ItemDisplay[(WAND OR DAGGER) MAG !RW !UNI SK82>3]:%NAME%{%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %NL%%RED% Life Tap Stick %NL%%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% >}
+ItemDisplay[EQ4 MAG (TABSK0>2 OR TABSK2>2 OR TABSK50>2) CLVL<85]:%NAME% %PURPLE%< %GREEN%* %PURPLE%>{%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %NL%%GREEN% 3 Skill Gloves %NL%%GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% > %GREEN%< %RED%*%GREEN% >}
+// """
+// Index(11)
+// NOTES
+// """
+
+//socketing
+ItemDisplay[CHEST NORM !INF !SUP SOCK=0 NMAG CLVL<19]: %NAME%{%TAN%To Socket %ORANGE%Tal %ORANGE%Thul %YELLOW%O}
+ItemDisplay[(WEAPON AND !THROWING) NORM !INF !SUP SOCK=0 NMAG CLVL<19]: %NAME%{%TAN%To Socket %ORANGE%Ral %ORANGE%Amn %PURPLE%O}
+ItemDisplay[(HELM OR CIRC) NORM !INF !SUP SOCK=0 NMAG CLVL<19]: %NAME%{%TAN%To Socket %ORANGE%Ral %ORANGE%Thul %BLUE%O}
+ItemDisplay[SHIELD NORM !INF !SUP SOCK=0 NMAG CLVL<19]: %NAME%{%TAN%To Socket %ORANGE%Tal %ORANGE%Amn %RED%O}
+ItemDisplay[CHEST (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Tal %ORANGE%Thul %YELLOW%O}
+ItemDisplay[(WEAPON AND !THROWING) (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Ral %ORANGE%Amn %PURPLE%O}
+ItemDisplay[(HELM OR CIRC) (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Ral %ORANGE%Thul %BLUE%O}
+ItemDisplay[SHIELD (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%TAN%To Socket %ORANGE%Tal %ORANGE%Amn %RED%O}
+
+// """
+// Index(12)
+// Utils II
+// """
+
+//Craft notes on ID items
+ItemDisplay[MAG ID HELM !CIRC]:%NAME%{%NL%%BLUE%HPower Ith, %RED%Blood Ral %ORANGE%Vampiric Lum%NL%%GREEN%Saftey Ith%PURPLE%Caster Nef %YELLOW%Bountiful Tir}%CONTINUE%
+ItemDisplay[MAG ID BOOTS]:%NAME%{%NL%%BLUE%HPower Ral, %RED%Blood Eth %ORANGE%Vampiric El%NL%%GREEN%Saftey Ort%PURPLE%Caster Thul %YELLOW%Bountiful io}%CONTINUE%
+ItemDisplay[MAG ID GLOVES]:%NAME%{%NL%%BLUE%HPower Ort, %RED%Blood Nef %ORANGE%Vampiric io%NL%%GREEN%Saftey Ral%PURPLE%Caster Ort %YELLOW%Bountiful Hel}%CONTINUE%
+ItemDisplay[MAG ID BELT]:%NAME%{%NL%%BLUE%HPower Tal, %RED%Blood Tal %ORANGE%Vampiric Eld%NL%%GREEN%Saftey Tal%PURPLE%Caster Ith %YELLOW%Bountiful El}%CONTINUE%
+ItemDisplay[MAG ID SHIELD]:%NAME%{%NL%%BLUE%HPower Eth, %RED%Blood Ith %ORANGE%Vampiric Sol%NL%%GREEN%Saftey Nef%PURPLE%Caster Eth %YELLOW%Bountiful Dol}%CONTINUE%
+ItemDisplay[MAG ID CHEST]:%NAME%{%NL%%BLUE%HPower Nef, %RED%Blood Thul %ORANGE%Vampiric Tir%NL%%GREEN%Saftey Eth%PURPLE%Caster Tal %YELLOW%Bountiful Eld}%CONTINUE%
+ItemDisplay[MAG ID rin]:%NAME%{%NL%%BLUE%HPower Amn, %RED%Blood Sol %ORANGE%Vampiric Hel%NL%%GREEN%Saftey Amn%PURPLE%Caster Amn %YELLOW%Bountiful Lum}%CONTINUE%
+ItemDisplay[MAG ID amu]:%NAME%{%NL%%BLUE%HPower Thul, %RED%Blood Amn %ORANGE%Vampiric Dol%NL%%GREEN%Saftey Thul%PURPLE%Caster Ral %YELLOW%Bountiful Ko}%CONTINUE%
+ItemDisplay[MAG ID WEAPON !XBOW !BOW]:%NAME%{%NL%%BLUE%HPower Tir, %RED%Blood Ort %ORANGE%Vampiric Shael%NL%%PURPLE%Caster Tir %YELLOW%Bountiful Shael}%CONTINUE%
+ItemDisplay[MAG ID (BOW OR XBOW)]:%NAME%{%NL%%GREEN%Saftey Sol}%CONTINUE%
+// ItemDisplay[SHOP]:%NAME%
+//-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 // FINAL
 //Sets Mid
