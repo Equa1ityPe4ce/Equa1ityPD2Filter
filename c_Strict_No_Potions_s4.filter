@@ -1422,7 +1422,7 @@ ItemDisplay[DIN !ID MAG CLVL>70 (ELT OR EXC) !(pa1 OR pa6 OR pab OR pa2 OR pa7 O
 ItemDisplay[DIN !ID RARE CLVL>80 NORM]:
 ItemDisplay[DIN !ID RARE CLVL>80 (EXC OR ELT) !(pa1 OR pa6 OR pab OR pa2 OR pa7 OR pab OR pa5 OR paa OR paf)]:
 ItemDisplay[DIN !ID RARE CLVL>80 (EXC OR ELT) (pa1 OR pa6 OR pab OR pa2 OR pa7 OR pab OR pa5 OR paa OR paf)]:%NAME%
-ItemDisplay[DIN !RW NMAG (NORM OR EXC OR ELT) CLVL<60 RES>10]:%NAME%%CONTINUE%
+ItemDisplay[DIN !RW NMAG (NORM OR EXC OR ELT) CLVL<80 RES>10]:%NAME%%CONTINUE%
 ItemDisplay[DIN !RW NMAG !pab !pac !paf CLVL>80 RES<30]:
 ItemDisplay[DIN !RW NMAG RES=30]:%NAME%%CONTINUE%
 
