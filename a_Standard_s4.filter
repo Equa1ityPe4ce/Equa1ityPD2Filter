@@ -4269,8 +4269,6 @@ ItemDisplay[SET !ID zhb]: %GREEN% Immortal King's Belt
 ItemDisplay[SET !ID xhg]: %GREEN% Immortal King's Gauntlets
 ItemDisplay[SET !ID xhb]: %GREEN% Immortal King's Boots
 ItemDisplay[SET !ID uar]: %BORDER-84%%BLUE%<%RED%*%BLUE%><%RED%*%BLUE%> %GREEN%Immortal King's Armor %BLUE%<%RED%*%BLUE%><%RED%*%BLUE%>
-ItemDisplay[SET !ID 7m7 CLVL>80]:
-ItemDisplay[SET !ID ba5 CLVL>80]:
 ItemDisplay[SET !ID 7m7]: %GREEN% Immortal King's Maul
 ItemDisplay[SET !ID ba5]: %GREEN% Immortal King's Helm
 
