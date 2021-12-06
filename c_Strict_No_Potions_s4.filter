@@ -877,6 +877,7 @@ ItemDisplay[GEMTYPE=7 GEM=5]:%NAME%{%TAN%Amulet Dol, Ring Hel, Weapon Shael%NL%C
 // INDEX (6)
 // POTIONS
 // """
+ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
 //Juvs
 ItemDisplay[rvl]:%PURPLE%Full%GRAY%Juv
 ItemDisplay[rvs CLVL<85]:%PURPLE%(%GRAY%juv%PURPLE%)
