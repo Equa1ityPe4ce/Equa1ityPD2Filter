@@ -4,7 +4,6 @@
 // with out other people showing passion for this game I love. I wouldn't get to keep playing it
 // Shout Out To:
 // 1. Mitch, Dave and Figgy(OG's) STAT18
-
 // Tools I use
 // IDE: VS Code
 // Source Control: GitHub
@@ -2511,7 +2510,7 @@ ItemDisplay[uhc !RW NMAG CLVL>5]:
 // Normal Axes
 // """
 ItemDisplay[AXE (RARE OR MAG) !ID !ETH CLVL>89]:
-ItemDisplay[AXE (RARE OR MAG) !(wax OR 7wa OR 9wa OR gax OR 9ga OR 7ga OR bal OR 9b8 OR 7b8) CLVL>85]:
+ItemDisplay[AXE (RARE OR MAG) !(wax OR 7wa OR 9wa OR gax OR 9ga OR 7ga OR bal OR 9b8 OR 7b8 OR 7gi OR 9gi OR gix) CLVL>85]:
 ItemDisplay[AXE ETH (RARE OR MAG) !ID ILVL>84]:%DOT-0C%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Hand Axe
 ItemDisplay[hax !ID UNI]:%GOLD%The Gnasher%CONTINUE%
