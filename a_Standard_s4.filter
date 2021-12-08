@@ -118,7 +118,7 @@ ItemDisplay[ETH (UNI OR RARE OR CRAFT OR MAG OR NMAG)]:%NAME%%DARK_GREEN%[%ORANG
 ItemDisplay[SOCK>0]:%NAME%%TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
 
 //-------------------------------------------------------------------------------------- SEASON 4 Force ITem
-ItemDisplay[(uhn OR rar OR utc OR ram OR rbt) !ID UNI]:%NAME% %RED%BIG %GREEN%DICK %PURPLE%ENERGY
+ItemDisplay[(uhn OR rar OR utc OR ram OR rbt OR amu) !ID UNI]:%NAME% %RED%BIG %GREEN%DICK %PURPLE%ENERGY
 ItemDisplay[7wc SOCK=6 !ETH ED>5 CLVL<91]:%NAME%{%DARK_GREEN%Early ladder Poison Strike Scilence %NL% %ORANGE%Dol Eld Hel Ist Tir Vex}
 ItemDisplay[7wc NMAG !RW SOCK=6 ETH ED>5]:%RED%< %BLACK% * %RED%> %GRAY% %NAME% %RED%< %BLACK% * %RED%> %GRAY%{%DARK_GREEN%Poison Strike BOTD %NL% %ORANGE%Vex Hel El Eld Zod Eth}
 ItemDisplay[7wc SOCK=6 ETH]:%NAME%
@@ -593,11 +593,10 @@ ItemDisplay[yps]:%DARK_GREEN%O%GRAY%antidote
 ItemDisplay[key]:%BLACK%Key
 // ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
 //Ammo
-ItemDisplay[(aqv OR cqv) MAG ILVL>90]: %WHITE%< %DARK_GREEN%* %WHITE% > %BLUE%%NAME% %WHITE%< %DARK_GREEN%* %WHITE% >
 ItemDisplay[jewf QTY<2]: %WHITE%< %DARK_GREEN%* %WHITE% > %TAN%Jewel Fragment
 ItemDisplay[jewf QTY>1]: %WHITE%< %DARK_GREEN%* %WHITE% > %TAN%Jewel Fragment %DARK_GREEN%[ %ORANGE%%QTY% %DARK_GREEN%]
 ItemDisplay[(aqv OR cqv) RARE ILVL>90]: %WHITE%< %DARK_GREEN%* %WHITE% > %YELLOW%%NAME% %WHITE%< %DARK_GREEN%* %WHITE% >
-ItemDisplay[(aqv OR cqv) (RARE OR MAG)]:%NAME%
+ItemDisplay[(aqv OR cqv) MAG CLVL>85]:
 ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
 
 
