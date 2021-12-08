@@ -118,7 +118,7 @@ ItemDisplay[ETH (UNI OR RARE OR CRAFT OR MAG OR NMAG)]:%NAME%%DARK_GREEN%[%ORANG
 ItemDisplay[SOCK>0]:%NAME%%TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
 
 //-------------------------------------------------------------------------------------- SEASON 4 Force ITem
-ItemDisplay[(uhn OR rar OR utc OR ram OR rbt OR amu) !ID UNI]:%NAME% %RED%BIG %GREEN%DICK %PURPLE%ENERGY
+ItemDisplay[(uhn OR rar OR utc OR ram OR rbt) !ID UNI]:%NAME% %RED%BIG %GREEN%DICK %PURPLE%ENERGY
 ItemDisplay[7wc SOCK=6 !ETH ED>5 CLVL<91]:%NAME%{%DARK_GREEN%Early ladder Poison Strike Scilence %NL% %ORANGE%Dol Eld Hel Ist Tir Vex}
 ItemDisplay[7wc NMAG !RW SOCK=6 ETH ED>5]:%RED%< %BLACK% * %RED%> %GRAY% %NAME% %RED%< %BLACK% * %RED%> %GRAY%{%DARK_GREEN%Poison Strike BOTD %NL% %ORANGE%Vex Hel El Eld Zod Eth}
 ItemDisplay[7wc SOCK=6 ETH]:%NAME%
