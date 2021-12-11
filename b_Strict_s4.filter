@@ -2393,7 +2393,6 @@ ItemDisplay[tbt !RW NMAG CLVL>5]:
 
 // Greaves
 ItemDisplay[hbt !ID UNI]:%GOLD%Tearhaunch%CONTINUE%
-ItemDisplay[hbt !ID UNI !ETH CLVL>85]:
 ItemDisplay[hbt !ID MAG CLVL>30]:
 ItemDisplay[hbt !ID RARE]:%NAME%
 ItemDisplay[hbt !RW NMAG CLVL>5]:

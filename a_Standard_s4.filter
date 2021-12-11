@@ -1795,7 +1795,6 @@ ItemDisplay[xea !RW NMAG SOCK>1 CLVL>55]:
 
 // Demonhide Armor
 ItemDisplay[xla !ID UNI]:%GOLD%Skin of The Flayed One%CONTINUE%
-ItemDisplay[xla !ID UNI !ETH CLVL>85]:
 ItemDisplay[xla !ID MAG CLVL>45]:
 ItemDisplay[xla !ID RARE CLVL>65 ILVL<86]:
 ItemDisplay[xla !RW NMAG SOCK=0 CLVL>5]:
@@ -1803,7 +1802,6 @@ ItemDisplay[xla !RW NMAG SOCK>1 CLVL>55]:
 
 // Trellised Armor
 ItemDisplay[xtu !ID UNI]:%GOLD%Iron Pelt%CONTINUE%
-ItemDisplay[xtu !ID UNI !ETH CLVL>85]:
 ItemDisplay[xtu !ID MAG CLVL>65]:
 ItemDisplay[xtu !ID RARE CLVL>65 ILVL<86]:
 ItemDisplay[xtu !RW NMAG SOCK=0 CLVL>5]:
@@ -2033,35 +2031,30 @@ ItemDisplay[sml !RW NMAG CLVL>5]:
 
 // Large Shield
 ItemDisplay[lrg !ID UNI]:%GOLD%Stormguild%CONTINUE%
-ItemDisplay[lrg !ID UNI !ETH CLVL>85]:
 ItemDisplay[lrg !ID MAG CLVL>15]:
 ItemDisplay[lrg !ID RARE CLVL>25 ILVL<86]:
 ItemDisplay[lrg !RW NMAG CLVL>15]:
 
 // Kite Shield
 ItemDisplay[kit !ID UNI]:%GOLD%Steelclash%CONTINUE%
-ItemDisplay[kit !ID UNI !ETH CLVL>85]:
 ItemDisplay[kit !ID MAG CLVL>25]:
 ItemDisplay[kit !ID RARE CLVL>35 ILVL<86]:
 ItemDisplay[kit !RW NMAG CLVL>25]:
 
 // Spiked Shield
 ItemDisplay[spk !ID UNI]:%GOLD%Swordback Hold%CONTINUE%
-ItemDisplay[spk !ID UNI !ETH CLVL>85]:
 ItemDisplay[spk !ID MAG CLVL>15]:
 ItemDisplay[spk !ID RARE CLVL>25 ILVL<86]:
 ItemDisplay[spk !RW NMAG CLVL>15]:
 
 // Tower Shield
 ItemDisplay[tow !ID UNI]:%GOLD%Bverrit Keep%CONTINUE%
-ItemDisplay[tow !ID UNI !ETH CLVL>85]:
 ItemDisplay[tow !ID MAG CLVL>25]:
 ItemDisplay[tow !ID RARE CLVL>35 ILVL<86]:
 ItemDisplay[tow !RW NMAG CLVL>25]:
 
 // Bone Shield
 ItemDisplay[bsh !ID UNI]:%GOLD%Wall of the Eyeless%CONTINUE%
-ItemDisplay[bsh !ID UNI !ETH CLVL>85]:
 ItemDisplay[bsh !ID MAG CLVL>45]:
 ItemDisplay[bsh !ID RARE]:%NAME%%CONTINUE%
 ItemDisplay[bsh !RW NMAG CLVL>25 !SOCK=2]:
@@ -2069,7 +2062,6 @@ ItemDisplay[bsh !RW NMAG CLVL>35 SOCK=2]:
 
 // Gothic Shield
 ItemDisplay[gts !ID UNI]:%GOLD%The Ward%CONTINUE%
-ItemDisplay[gts !ID UNI !ETH CLVL>85]:
 ItemDisplay[gts !ID MAG CLVL>25]:
 ItemDisplay[gts !ID RARE CLVL>25 ILVL<86]:
 ItemDisplay[gts !RW NMAG CLVL>25]:
@@ -2079,7 +2071,6 @@ ItemDisplay[gts !RW NMAG CLVL>25]:
 // """
 // Defender 
 ItemDisplay[xuc !ID UNI]:%GOLD%Visceratuant%CONTINUE%
-ItemDisplay[xuc !ID UNI !ETH CLVL>85]:
 ItemDisplay[xuc !ID MAG CLVL>45]:
 ItemDisplay[xuc !ID RARE CLVL>55 ILVL<86]:
 ItemDisplay[xuc !RW NMAG SOCK=0 CLVL>25]:
@@ -2094,7 +2085,6 @@ ItemDisplay[xml !RW NMAG SOCK>1 CLVL>65]:
 
 // Scutum
 ItemDisplay[xrg !ID UNI]:%GOLD%Stormchaser%CONTINUE%
-ItemDisplay[xrg !ID UNI !ETH CLVL>85]:
 ItemDisplay[xrg !ID MAG CLVL>45]:
 ItemDisplay[xrg !ID RARE CLVL>55 ILVL<86]:
 ItemDisplay[xrg !RW NMAG SOCK=0 CLVL>25]:
@@ -2102,7 +2092,6 @@ ItemDisplay[xrg !RW NMAG SOCK>1 CLVL>65]:
 
 // Barbed Shield 
 ItemDisplay[xpk !ID UNI]:%GOLD%Lance Guard%CONTINUE%
-ItemDisplay[xpk !ID UNI !ETH CLVL>85]:
 ItemDisplay[xpk !ID MAG CLVL>45]:
 ItemDisplay[xpk !ID RARE CLVL>65 ILVL<86]:
 ItemDisplay[xpk !RW NMAG SOCK=0 CLVL>25]:
@@ -2131,7 +2120,6 @@ ItemDisplay[xow !RW NMAG SOCK>1 CLVL>65]:
 
 // Ancient Shield
 ItemDisplay[xts !ID UNI]:%GOLD%Radament's Sphere%CONTINUE%
-ItemDisplay[xts !ID UNI !ETH CLVL>85]:
 ItemDisplay[xts !ID MAG CLVL>45]:
 ItemDisplay[xts !ID RARE CLVL>65 ILVL<86]:
 ItemDisplay[xts !RW NMAG SOCK=0 CLVL>25]:
@@ -2334,7 +2322,6 @@ ItemDisplay[tbt !RW NMAG CLVL>5]:
 
 // Greaves
 ItemDisplay[hbt !ID UNI]:%GOLD%Tearhaunch%CONTINUE%
-ItemDisplay[hbt !ID UNI !ETH CLVL>85]:
 ItemDisplay[hbt !ID MAG CLVL>30]:
 ItemDisplay[hbt !ID RARE]:%NAME%
 ItemDisplay[hbt !RW NMAG CLVL>5]:
@@ -4425,8 +4412,8 @@ ItemDisplay[ETH !ID UNI]:%DARK_GREEN%[%ORANGE%eth%DARK_GREEN%]%NAME%%CONTINUE%
 // eth mid's
 ItemDisplay[UNI !ID (9la OR 7ba OR 92a OR 9ga OR 9cr)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
 
-//Mid Uniques
-ItemDisplay[UNI !ID (tgl OR xld OR 9gw OR ne6 OR xlg OR 7tw OR drd OR 9ls OR 7bw OR 8hx OR xvg OR uow OR 7cs OR zlb OR 7bw OR 7gs OR 7ls OR 7sc OR 7fl OR 7bl OR 7mp OR 72a OR xow OR uts OR ush OR xsh OR cap OR uhm OR xhb OR xvb OR umc OR uvc OR zvb OR upl OR uui OR xth OR xtp OR xpl OR xhn OR oba OR pae OR nea OR 7wb OR amb OR jew)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
+//Mid Uniquess
+ItemDisplay[UNI !ID (umb OR tgl OR xld OR 9gw OR ne6 OR xlg OR 7tw OR drd OR 9ls OR 7bw OR 8hx OR xvg OR uow OR 7cs OR zlb OR 7bw OR 7gs OR 7ls OR 7sc OR 7fl OR 7bl OR 7mp OR 72a OR xow OR uts OR ush OR xsh OR cap OR uhm OR xhb OR xvb OR umc OR uvc OR zvb OR upl OR uui OR xth OR xtp OR xpl OR xhn OR oba OR pae OR nea OR 7wb OR amb OR jew)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
 
 //Non Eth Mid Uniq
 ItemDisplay[UNI !ETH !ID (7wc OR am5 OR 9ar OR dr2 OR pa3 OR ba6 OR 7gi OR 9tw OR 7bk OR 7b8 OR 7b7 OR amf OR ama OR uvb OR uul OR 7bt OR 7ga OR 7m7 OR 7s8 OR 7pa OR 7p7 OR 8ls)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
