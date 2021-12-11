@@ -141,8 +141,8 @@ ItemDisplay[(RARE OR MAG) !RW ETH !ID (6ws OR 6ls OR 7gi) ED>5]:%BORDER-20% %RED
 ItemDisplay[NMAG !RW ETH (SOCK=0 OR SOCK=2) (6ws OR 6ls OR 7gi)]:%DOT-20%%NAME%
 ItemDisplay[ELT SHIELD ETH SOCK=4 !DIN]:%NAME%
 ItemDisplay[ELT SHIELD ETH SOCK=4 DIN RES>25]:%NAME%
-ItemDisplay[(7qs OR 7wa OR 7ar OR 7wh OR 7ws) NMAG SOCK=2 ETH ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %NAME%
-ItemDisplay[(7qs OR 7wa OR 7ar OR 7wh OR 7ws) NMAG SOCK=2]:%NAME%
+ItemDisplay[(7qs OR 7wa OR 7ar OR 7wh OR 7ws OR 7lw) NMAG SOCK=2 ETH ED>5]:%BORDER-20% %RED%< %BLACK% * %RED%> %NAME%
+ItemDisplay[(7qs OR 7wa OR 7ar OR 7wh OR 7ws OR 7lw) NMAG SOCK=2]:%NAME%
 ItemDisplay[(7m7 OR 7wh) NMAG SOCK=5]:%NAME%
 //--------------------------------------------------------------------------------------- Force Item Show end
 
