@@ -698,7 +698,7 @@ ItemDisplay[pk3]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>
 ItemDisplay[(dhn OR bey OR mbr)]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%>%ORANGE% ** %NAME% %GRAY%x%DARK_GREEN%%QTY% %ORANGE%** %GOLD%<%BLUE%*%GOLD%>
 
 //Pand Talis
-ItemDisplay[ubtm OR rtma]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%>%ORANGE% %NAME% %GOLD%<%BLUE%*%GOLD%>
+ItemDisplay[ubtm OR rtma OR rtmv OR rtmo]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%>%ORANGE% %NAME% %GOLD%<%BLUE%*%GOLD%>
 
 //Tokens
 ItemDisplay[toa]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%> %ORANGE%%NAME% %GOLD%<%BLUE%*%GOLD%>
