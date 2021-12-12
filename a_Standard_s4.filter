@@ -2753,7 +2753,7 @@ ItemDisplay[7gi !RW NMAG SOCK>2 ED>5]:%DOT-20%%NAME%%CONTINUE%
 // NORM MACES
 // """
 ItemDisplay[MACE (RARE OR MAG) !ETH CLVL>89]:
-ItemDisplay[MACE (RARE OR MAG) !(clb OR spc OR mau OR 9m9 OR 7m7 OR 9cl OR 9sp OR gma OR 9gm OR 7gm OR 7cl OR 7sp OR 7fl) CLVL>89]:
+ItemDisplay[MACE (RARE OR MAG) !(clb OR spc OR mau OR 9m9 OR 7m7 OR 9cl OR 9sp OR gma OR 9gm OR 7gm OR 7cl OR 7sp OR 7fl OR whm OR 9wh OR 7wh) CLVL>89]:
 ItemDisplay[MACE ETH (RARE OR MAG) !ID ILVL>84]:%DOT-0C%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Club
 ItemDisplay[clb !ID UNI]:%GOLD%Felloak%CONTINUE%
