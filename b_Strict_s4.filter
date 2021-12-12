@@ -3036,7 +3036,7 @@ ItemDisplay[7gm NMAG ED>5 (SOCK=0 OR SOCK=6)]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_G
 ItemDisplay[crs NMAG SOCK=5]:%NAME% %GRAY%[%DARK_GREEN%CTA%GRAY%]{%DARK_GREEN% Call To Arms: %ORANGE% Amn Ral Mal Ist Ohm}
 ItemDisplay[crs NMAG SOCK=0 (ILVL>25 AND ILVL<50) CLVL<60]:%NAME% %DARK_GREEN%Spirit Base{%DARK_GREEN%Spirit Sword: %ORANGE%Tal Thul Ort Amn}
 ItemDisplay[SWORD (RARE OR MAG) !ID !ETH !7cr CLVL>89]:
-ItemDisplay[SWORD (RARE OR MAG) !ID !(crs OR 7cr OR 9cr OR lsd OR 7ls OR 9ls OR flb OR 7fb OR 9fb OR gsd OR 7gd OR 9gd) CLVL>89]:
+ItemDisplay[SWORD (RARE OR MAG) !ID !(crs OR 7cr OR 9cr OR lsd OR 7ls OR 9ls OR flb OR 7fb OR 9fb OR gsd OR 7gd OR 9gd OR 7gs OR gis OR 9gs) CLVL>89]:
 ItemDisplay[SWORD ETH (RARE OR MAG) !ID ILVL>84]:%DOT-0C%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Short Sword 
 ItemDisplay[ssd !ID UNI]:%GOLD%Rixot's Keen%CONTINUE%
