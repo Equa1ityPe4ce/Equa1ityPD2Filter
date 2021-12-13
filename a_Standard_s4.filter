@@ -2888,7 +2888,9 @@ ItemDisplay[7sp !ID (MAG OR RARE) CLVL<86]:%NAME%
 ItemDisplay[7sp NMAG SOCK<3]:
 
 // Reinforced Mace 
-ItemDisplay[7ma !SET !UNI CLVL>80]:
+ItemDisplay[7ma !ID (MAG OR RARE) CLVL>85 ILVL<90]:
+ItemDisplay[7ma !ID (MAG OR RARE) CLVL<86]:%NAME%
+ItemDisplay[7ma NMAG SOCK<3]:
 
 // Devil Star 
 ItemDisplay[7mt !ID UNI]:%GOLD%Baranar's Star%CONTINUE%
