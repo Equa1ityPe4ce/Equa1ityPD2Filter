@@ -13,14 +13,6 @@
 // Index(1)
 // UTILS
 // """
-ItemDisplay[MAG CL1 !DRUID]:
-ItemDisplay[MAG CL2 !BARBARIAN]:
-ItemDisplay[MAG CL3 !PALADIN]:
-ItemDisplay[MAG CL4 !NECROMANCER]:
-ItemDisplay[MAG CL5 !ASSASSIN]:
-ItemDisplay[MAG CL5 ASSASSIN key]:
-ItemDisplay[MAG CL6 !SORCERESS]:
-ItemDisplay[MAG CL7 !AMAZON]:
 
 //Golbal
 ItemDisplay[(ARMOR OR WEAPON) NMAG !ETH SOCK=0 ED=1]:%DARK_GREEN%[%ORANGE%1%%DARK_GREEN%] %WHITE%%NAME%%CONTINUE% 
