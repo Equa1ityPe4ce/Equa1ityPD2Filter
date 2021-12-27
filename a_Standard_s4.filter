@@ -3784,8 +3784,6 @@ ItemDisplay[7wc NMAG ETH (ED>5 AND SOCK=4)]:%DOT-20%%DARK_GREEN%<%TAN%*%DARK_GRE
 // NORM BOW
 // """
 ItemDisplay[BOW !ID (RARE OR MAG) CLVL>89]:
-ItemDisplay[BOW !ID (RARE OR MAG) !(lwb OR 8lw OR 6lw OR am1 OR am2 OR am6 OR am7 OR amb OR amc) CLVL>85]:
-ItemDisplay[BOW !ID (MAG OR RARE) (lwb OR 8lw OR 6lw OR am1 OR am2 OR am6 OR am7 OR amb OR amc) ILVL>90]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
 // Short Bow 
 ItemDisplay[sbw !ID UNI]:%GOLD%Pluckeye%CONTINUE%
 ItemDisplay[sbw !ID MAG CLVL>10]:
