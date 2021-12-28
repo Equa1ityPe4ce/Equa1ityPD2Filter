@@ -4497,7 +4497,7 @@ ItemDisplay[SET !ID 6cs]: %DOT-84%%DARK_GREEN%<%GRAY%*%DARK_GREEN%> %GREEN% Naj'
 //- NATALYA'S -------------------------
 ItemDisplay[SET !ID 7qr]: %BORDER-84%%BLUE%<%RED%*%BLUE%> %GREEN% Natalya's Mark %BLUE%<%RED%*%BLUE%>
 ItemDisplay[SET !ID ucl]: %DOT-84%%DARK_GREEN%<%GRAY%*%DARK_GREEN%> %GREEN%  Natalya's Mail %DARK_GREEN%<%GRAY%*%DARK_GREEN%>
-ItemDisplay[SET !ID xmb]: %DARK_GREEN%<%GRAY%*%DARK_GREEN%> %GREEN%%GREEN%  Natalya's Boots DARK_GREEN%<%GRAY%*%DARK_GREEN%>
+ItemDisplay[SET !ID xmb]: %DARK_GREEN%<%GRAY%*%DARK_GREEN%> %GREEN%%GREEN%  Natalya's Boots %DARK_GREEN%<%GRAY%*%DARK_GREEN%>
 ItemDisplay[SET !ID xh9]: %DOT-84%%DARK_GREEN%<%GRAY%*%DARK_GREEN%> %GREEN%  Natalya's Helm %DARK_GREEN%<%GRAY%*%DARK_GREEN%> 
 
 //- ORPHAN'S --------------------------
