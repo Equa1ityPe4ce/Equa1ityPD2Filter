@@ -600,8 +600,6 @@ ItemDisplay[key]:%BLACK%Key
 //Ammo
 ItemDisplay[jewf QTY<2]: %WHITE%< %DARK_GREEN%* %WHITE% > %TAN%Jewel Fragment
 ItemDisplay[jewf QTY>1]: %WHITE%< %DARK_GREEN%* %WHITE% > %TAN%Jewel Fragment %DARK_GREEN%[ %ORANGE%%QTY% %DARK_GREEN%]
-ItemDisplay[(aqv OR cqv) RARE ILVL>90]: %WHITE%< %DARK_GREEN%* %WHITE% > %YELLOW%%NAME% %WHITE%< %DARK_GREEN%* %WHITE% >
-ItemDisplay[(aqv OR cqv) MAG CLVL>85]:
 ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
 
 
@@ -919,7 +917,7 @@ ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1
 // CHARMS AND JEWELS
 //All Charms
 ItemDisplay[(cm1 OR cm3) MAG !ID]:%DOT-97%%PURPLE%<%WHITE%*%PURPLE%>%BLUE% %NAME% %PURPLE%<%WHITE%*%PURPLE%>%BLUE%
-ItemDisplay[cm2 MAG !ID]:%PURPLE%<%WHITE%*%PURPLE%>%BLUE% %NAME% %PURPLE%<%WHITE%*%PURPLE%>%BLUE%
+ItemDisplay[cm2 MAG !ID]:
 
 // Anni
 ItemDisplay[cm1 UNI !ID]:%BORDER-0E%%RED%<%PURPLE%*%RED%> %ORANGE%Annilius %RED%<%PURPLE%*%RED%>
@@ -1108,7 +1106,7 @@ ItemDisplay[cm2 ID !UNI STAT332=3]: %NAME% %GOLD%3%GREEN%Poison%CONTINUE%
 //Jewels Amulets Rings Circlets
 ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]:%BORDER-0C%%WHITE%<%YELLOW%*%WHITE%> %YELLOW%%NAME% %WHITE%<%YELLOW%*%WHITE%>
 ItemDisplay[(jew OR EQ7) MAG !ID ILVL<90 CLVL<91]:%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
-ItemDisplay[(rin OR amu) MAG !ID]:%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
+ItemDisplay[(rin OR amu) MAG !ID]:
 ItemDisplay[(jew OR EQ7) MAG !ID ILVL>85 CLVL<91]:%DOT-97%%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
 ItemDisplay[EQ7 MAG !ID !RW !ci3 CLVL>90]:
 ItemDisplay[EQ7 NMAG !RW !ci3 CLVL>90]:
