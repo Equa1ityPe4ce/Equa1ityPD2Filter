@@ -1269,7 +1269,7 @@ ItemDisplay[6ws !ID UNI]:%GOLD%Mang Song's Lesson%CONTINUE%
 // ORBS
 // """
 ItemDisplay[MAG CL6 !ID CLVL>84 ILVL<91]:
-ItemDisplay[STAFF CLVL<80 (FCR=10 OR FCR=30) SOCK=4]:%DOT-20%%NAME%%CONTINUE%
+ItemDisplay[STAFF CLVL<80 SOCK=4]:%DOT-20%%NAME%%CONTINUE%
 ItemDisplay[STAFF FCR=50 SOCK=4]:%DOT-20%%NAME%%CONTINUE%
 ItemDisplay[(STAFF OR CL6) RARE !ID CLVL<80]:%NAME%%CONTINUE%
 ItemDisplay[(STAFF OR CL6) RARE !ID CLVL>90 ILVL<90]:
@@ -1285,8 +1285,6 @@ ItemDisplay[STAFF !RW SOCK=5 NMAG (SK64>2 OR SK369>2 OR SK65>2 OR SK59>2 OR SK55
 ItemDisplay[STAFF !RW SOCK=4 NMAG]:%NAME%
 ItemDisplay[STAFF !RW SOCK=5 NMAG]:%NAME%
 
-
-ItemDisplay[(CL6 OR STAFF) MAG ID]:%BLUE%%NAME%
 //craft drops
 ItemDisplay[(CL6 OR STAFF) NORM MAG !ID CLVL<40]:%NAME%%CONTINUE%
 ItemDisplay[(CL6 OR STAFF) NORM MAG !ID CLVL>39 ILVL<85]:
@@ -1398,7 +1396,7 @@ ItemDisplay[DRU !ID RARE CLVL>90]:
 ItemDisplay[NMAG !RW (DRU OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) !(SK237>0 OR SK247>0 OR SK249>0 OR SK244>0 OR SK229>0 OR SK245>0 OR SK240>0 OR SK233>0 OR SK238>0 OR SK239>0 OR SK243>0 OR SK224>0 OR SK248>0)]:
 ItemDisplay[NMAG !RW (DRU OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) (SK237>2 OR SK247>2 OR SK249>2 OR SK244>2 OR SK229>2 OR SK245>2 OR SK240>2 OR SK233>2 OR SK238>2 OR SK239>2 OR SK243>2 OR SK224>2 OR SK248>2)]:%NAME%%CONTINUE%
 ItemDisplay[NMAG !RW (DRU OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) CLVL>70 !(SK237>2 OR SK247>2 OR SK249>2 OR SK244>2 OR SK229>2 OR SK245>2 OR SK240>2 OR SK233>2 OR SK238>2 OR SK239>2 OR SK243>2 OR SK224>2 OR SK248>2)]:
-ItemDisplay[NMAG ELT STAFF ETH !RW ED>5 (SOCK=0 OR SOCK=4) (6cs OR 6bs OR 8cs OR 8bs)]: %DARK_GREEN%Shockwave Insight{%TAN%Shockwave Insight:  %ORANGE%Ral Tir Tal Sol}
+
 
 // """
 // ASN CLAWS
@@ -1545,7 +1543,7 @@ ItemDisplay[bhm !RW NMAG SOCK>1 CLVL>35]:
 // Great Helm 
 ItemDisplay[ghm !ID UNI]:%GOLD%Howltusk%CONTINUE%
 ItemDisplay[ghm !ID MAG CLVL>30]:
-ItemDisplay[ghm !ID RARE CLVL>35 ILVL<86]:
+ItemDisplay[ghm !ID RARE CLVL>35 ILVL<85]:
 ItemDisplay[ghm !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[ghm !RW NMAG SOCK>1 CLVL>30]:
 
@@ -1604,7 +1602,7 @@ ItemDisplay[xh9 !RW NMAG SOCK>1 CLVL>60]:
 // Winged Helm
 ItemDisplay[xhm !ID UNI]:%GOLD%Valkyrie Wing%CONTINUE%
 ItemDisplay[xhm !ID MAG CLVL>50]:
-ItemDisplay[xhm !ID RARE CLVL>55 ILVL<86]:
+ItemDisplay[xhm !ID RARE CLVL>55 ILVL<85]:
 ItemDisplay[xhm !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[xhm !RW NMAG SOCK>1 CLVL>50]:
 
@@ -1640,7 +1638,7 @@ ItemDisplay[ulm !RW NMAG SOCK>1 CLVL>80]:
 
 // Giant Conch
 ItemDisplay[uhl !ID MAG CLVL>65]:
-ItemDisplay[uhl !ID RARE CLVL>85 ILVL<86]:
+ItemDisplay[uhl !ID RARE CLVL>85 ILVL<85]:
 ItemDisplay[uhl !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[uhl !RW NMAG SOCK>1 CLVL>80]:
 
@@ -1694,7 +1692,7 @@ ItemDisplay[lea !RW NMAG CLVL>5]:
 // Hard Leather Armor
 ItemDisplay[hla !ID UNI]:%GOLD%The Centurion%CONTINUE%
 ItemDisplay[hla !ID MAG CLVL>10]:
-ItemDisplay[hla !ID RARE CLVL>20 ILVL<86]:
+ItemDisplay[hla !ID RARE CLVL>20 ILVL<85]:
 ItemDisplay[hla !RW NMAG CLVL>5]:
 
 // Studded Leather
@@ -2521,7 +2519,7 @@ ItemDisplay[axe !RW NMAG SOCK=0 CLVL>5]:
 ItemDisplay[axe !RW NMAG SOCK>1 CLVL>18]:
 
 // Double Axe 
-ItemDisplay[2ax !ID UNI]:%GOLD%Blade Bone%CONTINUE%
+ItemDisplay[2ax !ID UNI]:%GOLD%Bladebone%CONTINUE%
 ItemDisplay[2ax !ID MAG CLVL>20]:
 ItemDisplay[2ax !ID RARE CLVL>24]:
 ItemDisplay[2ax !RW NMAG SOCK=0 CLVL>5]:
@@ -3349,8 +3347,8 @@ ItemDisplay[7bl !RW NMAG SOCK=0 CLVL>5]:
 // """"
 ItemDisplay[THROWING !JAV !ZON !ETH (MAG OR RARE) CLVL>84]:
 ItemDisplay[THROWING !JAV !ZON !ETH NMAG CLVL>84]:
-ItemDisplay[(glv OR 9gl OR 7gl OR tsp OR 7ts OR 9ts OR bkf OR 7bk OR 9bk OR bal OR 7b8 OR 9b8 OR ssp OR 9s9 OR 7s7 OR 7ta OR 9ta OR tax) !JAV !ZON ETH RARE CLVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
-ItemDisplay[(glv OR 9gl OR 7gl OR tsp OR 7ts OR 9ts OR bkf OR 7bk OR 9bk OR bal OR 7b8 OR 9b8 OR ssp OR 9s9 OR 7s7 OR 7ta OR 9ta OR tax) !JAV !ZON ETH MAG CLVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %BLUE%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[(glv OR 9gl OR 7gl OR tsp OR 7ts OR 9ts OR bkf OR 7bk OR 9bk OR bal OR 7b8 OR 9b8 OR ssp OR 9s9 OR 7s7 OR 7ta OR 9ta OR tax) ETH RARE CLVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %YELLOW%%NAME% %WHITE%<%RED% * %WHITE%>
+ItemDisplay[(glv OR 9gl OR 7gl OR tsp OR 7ts OR 9ts OR bkf OR 7bk OR 9bk OR bal OR 7b8 OR 9b8 OR ssp OR 9s9 OR 7s7 OR 7ta OR 9ta OR tax) ETH MAG CLVL>84]:%DOT-97%%WHITE%<%RED% * %WHITE%> %BLUE%%NAME% %WHITE%<%RED% * %WHITE%>
 // // Throwing Knife 
 ItemDisplay[tkf !ID MAG CLVL>60]:
 ItemDisplay[tkf !ID RARE CLVL>20]:
@@ -3438,7 +3436,7 @@ ItemDisplay[jav !ID !RW RARE CLVL>40]:
 ItemDisplay[pil !ID !ETH MAG CLVL>15]:
 ItemDisplay[pil !RW NMAG CLVL>5]:
 ItemDisplay[pil !ID !RW MAG CLVL>30]:
-ItemDisplay[pil !ID !RW RARE CLVL>450]:
+ItemDisplay[pil !ID !RW RARE CLVL>45]:
 
 // Short Spear 
 ItemDisplay[ssp !ID !ETH MAG CLVL>45]:
@@ -4453,7 +4451,6 @@ ItemDisplay[CRAFT ID]:%DOT-0B%%NAME%
 ItemDisplay[NORM NMAG (GLOVES OR BOOTS OR BELT)]:
 ItemDisplay[EXC NMAG (GLOVES OR BOOTS OR BELT)]:
 ItemDisplay[ELT NMAG (GLOVES OR BOOTS OR BELT)]:
-ItemDisplay[NMAG (7p7 OR 7gm) SOCK=2 ETH]:%BORDER-20%%DARK_GREEN%<%TAN%*%DARK_GREEN%> %NAME%%DARK_GREEN% Wind %DARK_GREEN%<%TAN%*%DARK_GREEN%>
 
 //circ
 ItemDisplay[NMAG CIRC SOCK=0 ED<5]:
