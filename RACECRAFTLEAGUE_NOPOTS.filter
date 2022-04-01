@@ -637,6 +637,7 @@ ItemDisplay[(MAG OR RARE) !ID ILVL>90]:%NAME% %GRAY%iLv[%RED%%ILVL%%GRAY%]%CONTI
 // Price
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR CRAFT) ID]:%NAME% %GRAY%(%GOLD%%PRICE%%GRAY%)%CONTINUE%
 
+ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
 //Utilites
 ItemDisplay[tbk]:%BLUE%(%GRAY%TpThome%BLUE%)
 ItemDisplay[ibk]:%RED%(%GRAY%IdThome%RED%)
@@ -652,7 +653,6 @@ ItemDisplay[(tsc OR isc OR vps OR wms) CLVL>30]:
 ItemDisplay[yps CLVL>85]:
 ItemDisplay[yps]:%DARK_GREEN%O%GRAY%antidote
 ItemDisplay[key]:%BLACK%Key
-// ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
 //Ammo
 ItemDisplay[jewf QTY<2]: %WHITE%< %DARK_GREEN%* %WHITE% > %TAN%Jewel Fragment
 ItemDisplay[jewf QTY>1]: %WHITE%< %DARK_GREEN%* %WHITE% > %TAN%Jewel Fragment %DARK_GREEN%[ %ORANGE%%QTY% %DARK_GREEN%]
