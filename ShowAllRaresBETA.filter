@@ -8,6 +8,11 @@
 // IDE: VS Code
 // Source Control: GitHub
 // Extensions: https://marketplace.visualstudio.com/items?itemName=TommyC90.diablo2-loot-filter-hint (BIG THANKS TO THIS DUDE FOR The GG Linting)
+//---------------------------------------------------------------------------------------------------------------------------------------------------
+//Special RACE LEAGE
+ItemDisplay[rvs]:%PURPLE%(%GRAY%juv%PURPLE%)
+
+
 //GLOBAL HIDE
 ItemDisplay[MAG (BELT OR GLOVES OR BOOTS OR rin) CLVL>90]:
 // """
@@ -936,18 +941,9 @@ ItemDisplay[rvs CLVL<85]:%PURPLE%(%GRAY%juv%PURPLE%)
 ItemDisplay[rvs CLVL>84]:
 
 //healing
-ItemDisplay[hp1 CLVL<12]:%RED%(%GRAY%hp%RED%)
-ItemDisplay[hp2 CLVL<25]:%RED%(%GRAY%hp%RED%)
-ItemDisplay[hp3 CLVL<31]:%RED%(%GRAY%hp%RED%)
-ItemDisplay[hp4 CLVL<41]:%RED%(%GRAY%hp%RED%)
-ItemDisplay[hp5]:%RED%(%GRAY%hp%RED%)
-
+ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:%RED%(%GRAY%hp%RED%)%CONTINUE%
 //MANA
-ItemDisplay[mp1 CLVL<12]:%BLUE%(%GRAY%mp%BLUE%)
-ItemDisplay[mp2 CLVL<20]:%BLUE%(%GRAY%mp%BLUE%)
-ItemDisplay[mp3 CLVL<45]:%BLUE%(%GRAY%mp%BLUE%)
-ItemDisplay[mp4 CLVL<70]:%BLUE%(%GRAY%mp%BLUE%)
-ItemDisplay[mp5]:%BLUE%(%GRAY%mp%BLUE%)
+ItemDisplay[(mp1 OR mp2 OR mp3 OR mp4 OR mp5)]:%BLUE%(%GRAY%mp%BLUE%)%CONTINUE%
 
 ItemDisplay[(mp1 OR hp1) CLVL>12]:
 ItemDisplay[(mp2 OR hp2) CLVL>30]:
@@ -2963,7 +2959,7 @@ ItemDisplay[(amb OR amc OR am7 OR am2 OR am1 OR am6) !ID (MAG OR RARE) CLVL>15 I
 ItemDisplay[(amb OR amc OR am7 OR am2 OR am1 OR am6) !ID (MAG OR RARE) CLVL>84 ILVL>84]:%DOT-9B%%RED%<%ORANGE%*%RED%> %NAME% %RED%<%ORANGE%*%RED%>
 
 //Normal
-ItemDisplay[NORM ZON !ID !ETH (MAG OR RARE) CLVL>40 ILVL<85]:
+ItemDisplay[NORM ZON !ID !ETH (MAG OR RARE) CLVL>60 ILVL<85]:
 ItemDisplay[NORM ZON !ID !ETH (MAG OR RARE) CLVL>84]:
 ItemDisplay[NORM ZON !ID ETH (MAG OR RARE)]:%WHITE%<%RED%*%WHITE%> %NAME% %WHITE%<%RED%*%WHITE%>
 
@@ -2991,22 +2987,22 @@ ItemDisplay[NMAG !INF ELT ZON (amb OR amc OR amd OR ame) (SOCK>1 OR SOCK=0) (TAB
 
 //Stag Bow, Ashwood Bow, Matriarchal Bow
 ItemDisplay[am1 UNI !ID]:%GOLD% %NAME% %CONTINUE%
-ItemDisplay[am1 MAG CLVL>30 ILVL<85]:
-ItemDisplay[am1 RARE CLVL>45 ILVL<85]:
+ItemDisplay[am1 !ID MAG CLVL>60 ILVL<85]:
+ItemDisplay[am1 !ID RARE CLVL>60 ILVL<85]:
 ItemDisplay[am1 NMAG !RW SOCK=0 CLVL<5]:
 ItemDisplay[am1 NMAG !RW SOCK>1 CLVL<40]:%NAME%
 ItemDisplay[am1 NMAG !RW SOCK>1 CLVL>39]:
 
 ItemDisplay[am6 UNI !ID]:%GOLD% %NAME% %CONTINUE%
-ItemDisplay[am6 MAG CLVL>60 ILVL<85]:
-ItemDisplay[am6 RARE CLVL>85 ILVL<85]:
+ItemDisplay[am6 !ID MAG CLVL>60 ILVL<85]:
+ItemDisplay[am6 !ID RARE CLVL>60 ILVL<85]:
 ItemDisplay[am6 NMAG !RW SOCK=0 CLVL<5]:
 ItemDisplay[am6 NMAG !RW SOCK>1 CLVL<80]:%NAME%
 ItemDisplay[am6 NMAG !RW SOCK>1 CLVL>79]:
 
 ItemDisplay[amb UNI !ID]:%GOLD% Blood Raven's Charge %CONTINUE%
-ItemDisplay[amb MAG CLVL>85 ILVL<85]:
-ItemDisplay[amb RARE CLVL>85 ILVL<85]:
+ItemDisplay[amb !ID MAG CLVL>60 ILVL<85]:
+ItemDisplay[amb !ID RARE CLVL>60 ILVL<85]:
 ItemDisplay[amb NMAG !RW SOCK=0 CLVL<5]:
 ItemDisplay[amb NMAG !RW SOCK>1]:%NAME%
 ItemDisplay[amb NMAG !RW SOCK>1 ED>5]:%DOT-20%%NAME%
@@ -3015,22 +3011,22 @@ ItemDisplay[amb NMAG !RW SOCK>1 ED>5]:%DOT-20%%NAME%
 
 //Reflex Bow, Ceremonial Bow, Grand Matron Bow
 ItemDisplay[am2 UNI !ID]:%GOLD% %NAME% %CONTINUE%
-ItemDisplay[am2 MAG CLVL>30 ILVL<85]:
-ItemDisplay[am2 RARE CLVL>45 ILVL<85]:
+ItemDisplay[am2 !ID MAG CLVL>60 ILVL<85]:
+ItemDisplay[am2 !ID RARE CLVL>60 ILVL<85]:
 ItemDisplay[am2 NMAG !RW SOCK=0 CLVL<5]:
 ItemDisplay[am2 NMAG !RW SOCK>1 CLVL<40]:%NAME%
 ItemDisplay[am2 NMAG !RW SOCK>1 CLVL>39]:
 
 ItemDisplay[am7 UNI !ID]:%GOLD% Lycander's Aim %CONTINUE%
-ItemDisplay[am7 MAG CLVL>60 ILVL<85]:
-ItemDisplay[am7 RARE CLVL>85 ILVL<85]:
+ItemDisplay[am7 !ID MAG CLVL>60 ILVL<85]:
+ItemDisplay[am7 !ID RARE CLVL>60 ILVL<85]:
 ItemDisplay[am7 NMAG !RW SOCK=0 CLVL<5]:
 ItemDisplay[am7 NMAG !RW SOCK>1 CLVL<80]:%NAME%
 ItemDisplay[am7 NMAG !RW SOCK>1 CLVL>79]:
 
 ItemDisplay[amc UNI !ID]:%GOLD% %NAME% %CONTINUE%
-ItemDisplay[amc MAG CLVL>85 ILVL<85]:
-ItemDisplay[amc RARE CLVL>85 ILVL<85]:
+ItemDisplay[amc !ID MAG CLVL>60 ILVL<85]:
+ItemDisplay[amc !ID RARE CLVL>60 ILVL<85]:
 ItemDisplay[amc NMAG !RW SOCK=0 CLVL<5]:
 ItemDisplay[amc NMAG !RW SOCK>1]:%NAME%%
 ItemDisplay[amc NMAG !RW SOCK>1 ED>5]:%DOT-20%%NAME%
@@ -3038,22 +3034,22 @@ ItemDisplay[amc NMAG !RW SOCK>1 ED>5]:%DOT-20%%NAME%
 
 //Maiden Spear, Ceremonial Spear, Matriarchal Spear
 ItemDisplay[am3 UNI !ID]:%GOLD% %NAME% %CONTINUE%
-ItemDisplay[am3 MAG CLVL>30 ILVL<85]:
-ItemDisplay[am3 RARE CLVL>45 ILVL<85]:
+ItemDisplay[am3 !ID MAG CLVL>60 ILVL<85]:
+ItemDisplay[am3 !ID RARE CLVL>60 ILVL<85]:
 ItemDisplay[am3 NMAG !RW SOCK=0 CLVL<5]:
 ItemDisplay[am3 NMAG !RW SOCK>1 CLVL<40]:%NAME%
 ItemDisplay[am3 NMAG !RW SOCK>1 CLVL>39]:
 
 ItemDisplay[am8 UNI !ID]:%GOLD% %NAME% %CONTINUE%
-ItemDisplay[am8 MAG CLVL>60 ILVL<85]:
-ItemDisplay[am8 RARE CLVL>85 ILVL<85]:
+ItemDisplay[am8 !ID MAG CLVL>60 ILVL<85]:
+ItemDisplay[am8 !ID RARE CLVL>60 ILVL<85]:
 ItemDisplay[am8 NMAG !RW SOCK=0 CLVL<5]:
 ItemDisplay[am8 NMAG !RW SOCK>1 CLVL<80]:%NAME%
 ItemDisplay[am8 NMAG !RW SOCK>1 CLVL>79]:
 
 ItemDisplay[amd UNI !ID]:%GOLD% Stoneraven %CONTINUE%
-ItemDisplay[amd MAG CLVL>85 ILVL<85]:
-ItemDisplay[amd RARE CLVL>85 ILVL<85]:
+ItemDisplay[amd !ID MAG CLVL>60 ILVL<85]:
+ItemDisplay[amd !ID RARE CLVL>60 ILVL<85]:
 ItemDisplay[amd NMAG !RW SOCK=0 CLVL<5]:
 ItemDisplay[amd NMAG !RW SOCK>1]:%NAME%%
 ItemDisplay[amd NMAG !RW SOCK>1 ED>5]:%DOT-20%%NAME%
@@ -3062,22 +3058,22 @@ ItemDisplay[amd NMAG !RW SOCK>1 ED>5]:%DOT-20%%NAME%
 
 //Maiden Pike, Ceremonial Pike, Matriarchal Pike
 ItemDisplay[am4 UNI !ID]:%GOLD% %NAME% %CONTINUE%
-ItemDisplay[am4 MAG CLVL>30 ILVL<85]:
-ItemDisplay[am4 RARE CLVL>45 ILVL<85]:
+ItemDisplay[am4 !ID MAG CLVL>60 ILVL<85]:
+ItemDisplay[am4 !ID RARE CLVL>60 ILVL<85]:
 ItemDisplay[am4 NMAG !RW SOCK=0 CLVL<5]:
 ItemDisplay[am4 NMAG !RW SOCK>1 CLVL<40]:%NAME%
 ItemDisplay[am4 NMAG !RW SOCK>1 CLVL>39]:
 
 ItemDisplay[am9 UNI !ID]:%GOLD% Lycander's Flank %CONTINUE%
-ItemDisplay[am9 MAG CLVL>60 ILVL<85]:
-ItemDisplay[am9 RARE CLVL>85 ILVL<85]:
+ItemDisplay[am9 !ID MAG CLVL>60 ILVL<85]:
+ItemDisplay[am9 !ID RARE CLVL>60 ILVL<85]:
 ItemDisplay[am9 NMAG !RW SOCK=0 CLVL<5]:
 ItemDisplay[am9 NMAG !RW SOCK>1 CLVL<80]:%NAME%
 ItemDisplay[am9 NMAG !RW SOCK>1 CLVL>79]:
 
 ItemDisplay[ame UNI !ID]:%GOLD% Zerae's Resolve %CONTINUE%
-ItemDisplay[ame MAG CLVL>85 ILVL<85]:
-ItemDisplay[ame RARE CLVL>85 ILVL<85]:
+ItemDisplay[ame !ID MAG CLVL>60 ILVL<85]:
+ItemDisplay[ame !ID RARE CLVL>60 ILVL<85]:
 ItemDisplay[ame NMAG !RW SOCK=0 CLVL<5]:
 ItemDisplay[ame NMAG !RW SOCK>1]:%NAME%%
 ItemDisplay[ame NMAG !RW SOCK>1 ED>5]:%DOT-20%%NAME%
@@ -3086,7 +3082,7 @@ ItemDisplay[ame NMAG !RW SOCK>1 ED>5]:%DOT-20%%NAME%
 
 //Maiden Javelin, Ceremonial Javelin, Matriarchal Javelin
 ItemDisplay[(am5 OR ama OR amf) MAG !ETH CLVL>85]:
-ItemDisplay[(am5 OR ama OR amf) NMAG CLVL>88]:
+ItemDisplay[(am5 OR ama OR amf) NMAG CLVL>60]:
 
 ItemDisplay[am5 UNI !ID]:%GOLD% True Silver %CONTINUE%
 ItemDisplay[am5 MAG !ID]:%NAME%
@@ -4313,15 +4309,15 @@ ItemDisplay[jav UNI !ID]:%GOLD% %NAME% %CONTINUE%
 ItemDisplay[jav !ID !ETH MAG CLVL>15]:
 ItemDisplay[jav !ID !ETH RARE CLVL>35]:
 ItemDisplay[jav !RW NMAG CLVL>5]:
-ItemDisplay[jav !ID !RW ETH MAG CLVL>40]:
-ItemDisplay[jav !ID !RW ETH RARE CLVL>50 ILVL<85]:
+ItemDisplay[jav !ID !RW ETH MAG CLVL>60 ILVL<85]:
+ItemDisplay[jav !ID !RW ETH RARE CLVL>60 ILVL<85]:
 
 ItemDisplay[9ja UNI !ID]:%GOLD% %NAME% %CONTINUE%
 ItemDisplay[9ja !ID !ETH MAG CLVL>35]:
 ItemDisplay[9ja !ID !ETH RARE CLVL>55]:
 ItemDisplay[9ja !RW NMAG CLVL>5]:
-ItemDisplay[9ja !ID !RW ETH MAG CLVL>40 ILVL<85]:
-ItemDisplay[9ja !ID !RW ETH RARE CLVL>50 ILVL<85]:
+ItemDisplay[9ja !ID !RW ETH MAG CLVL>60 ILVL<85]:
+ItemDisplay[9ja !ID !RW ETH RARE CLVL>60 ILVL<85]:
 
 ItemDisplay[7ja UNI !ID]:%GOLD% %NAME% %CONTINUE%
 ItemDisplay[7ja !ID !ETH MAG CLVL>75]:
@@ -4337,15 +4333,15 @@ ItemDisplay[pil UNI !ID]:%GOLD% %NAME% %CONTINUE%
 ItemDisplay[pil !ID !ETH MAG CLVL>15]:
 ItemDisplay[pil !ID !ETH RARE CLVL>35]:
 ItemDisplay[pil !RW NMAG CLVL>5]:
-ItemDisplay[pil !ID !RW ETH MAG CLVL>40 ILVL<85]:
-ItemDisplay[pil !ID !RW ETH RARE CLVL>50 ILVL<85]:
+ItemDisplay[pil !ID !RW ETH MAG CLVL>60 ILVL<85]:
+ItemDisplay[pil !ID !RW ETH RARE CLVL>60 ILVL<85]:
 
 ItemDisplay[9pi UNI !ID]:%GOLD% %NAME% %CONTINUE%
 ItemDisplay[9pi !ID !ETH MAG CLVL>35]:
 ItemDisplay[9pi !ID !ETH RARE CLVL>55]:
 ItemDisplay[9pi !RW NMAG CLVL>5]:
-ItemDisplay[9pi !ID !RW ETH MAG CLVL>40 ILVL<85]:
-ItemDisplay[9pi !ID !RW ETH RARE CLVL>50 ILVL<85]:
+ItemDisplay[9pi !ID !RW ETH MAG CLVL>80 ILVL<85]:
+ItemDisplay[9pi !ID !RW ETH RARE CLVL>60 ILVL<85]:
 
 ItemDisplay[7pi UNI !ID]:%GOLD% %NAME% %CONTINUE%
 ItemDisplay[7pi !ID !ETH MAG CLVL>75]:
@@ -4361,15 +4357,15 @@ ItemDisplay[ssp UNI !ID]:%GOLD% %NAME% %CONTINUE%
 ItemDisplay[ssp !ID !ETH MAG CLVL>15]:
 ItemDisplay[ssp !ID !ETH RARE CLVL>35]:
 ItemDisplay[ssp !RW NMAG CLVL>5]:
-ItemDisplay[ssp !ID !RW ETH MAG CLVL>40 ILVL<85]:
-ItemDisplay[ssp !ID !RW ETH RARE CLVL>50 ILVL<85]:
+ItemDisplay[ssp !ID !RW ETH MAG CLVL>60 ILVL<85]:
+ItemDisplay[ssp !ID !RW ETH RARE CLVL>60 ILVL<85]:
 
 ItemDisplay[9s9 UNI !ID]:%GOLD% %NAME% %CONTINUE%
 ItemDisplay[9s9 !ID !ETH MAG CLVL>35]:
 ItemDisplay[9s9 !ID !ETH RARE CLVL>55]:
 ItemDisplay[9s9 !RW NMAG CLVL>5]:
-ItemDisplay[9s9 !ID !RW ETH MAG CLVL>40 ILVL<85]:
-ItemDisplay[9s9 !ID !RW ETH RARE CLVL>50 ILVL<85]:
+ItemDisplay[9s9 !ID !RW ETH MAG CLVL>60 ILVL<85]:
+ItemDisplay[9s9 !ID !RW ETH RARE CLVL>60 ILVL<85]:
 
 ItemDisplay[7s7 UNI !ID]:%GOLD% Demon's Arch %CONTINUE%
 ItemDisplay[7s7 !ID !ETH MAG CLVL>75]:
@@ -4385,15 +4381,15 @@ ItemDisplay[glv UNI !ID]:%GOLD% %NAME% %CONTINUE%
 ItemDisplay[glv !ID !ETH MAG CLVL>15]:
 ItemDisplay[glv !ID !ETH RARE CLVL>35]:
 ItemDisplay[glv !RW NMAG CLVL>5]:
-ItemDisplay[glv !ID !RW ETH MAG CLVL>40 ILVL<85]:
-ItemDisplay[glv !ID !RW ETH RARE CLVL>50 ILVL<85]:
+ItemDisplay[glv !ID !RW ETH MAG CLVL>60 ILVL<85]:
+ItemDisplay[glv !ID !RW ETH RARE CLVL>60 ILVL<85]:
 
 ItemDisplay[9gl UNI !ID]:%GOLD% %NAME% %CONTINUE%
 ItemDisplay[9gl !ID !ETH MAG CLVL>35]:
 ItemDisplay[9gl !ID !ETH RARE CLVL>55]:
 ItemDisplay[9gl !RW NMAG CLVL>5]:
-ItemDisplay[9gl !ID !RW ETH MAG CLVL>40 ILVL<85]:
-ItemDisplay[9gl !ID !RW ETH RARE CLVL>50 ILVL<85]:
+ItemDisplay[9gl !ID !RW ETH MAG CLVL>60 ILVL<85]:
+ItemDisplay[9gl !ID !RW ETH RARE CLVL>60 ILVL<85]:
 
 ItemDisplay[7gl UNI !ID]:%GOLD% Wraith Flight %CONTINUE%
 ItemDisplay[7gl !ID !ETH MAG CLVL>75]:
@@ -4409,22 +4405,22 @@ ItemDisplay[tsp UNI !ID]:%GOLD% %NAME% %CONTINUE%
 ItemDisplay[tsp !ID !ETH MAG CLVL>15]:
 ItemDisplay[tsp !ID !ETH RARE CLVL>35]:
 ItemDisplay[tsp !RW NMAG CLVL>5]:
-ItemDisplay[tsp !ID !RW ETH MAG CLVL>40 ILVL<85]:
-ItemDisplay[tsp !ID !RW ETH RARE CLVL>50 ILVL<85]:
+ItemDisplay[tsp !ID !RW ETH MAG]:%NAME%
+ItemDisplay[tsp !ID !RW ETH RARE]:%NAME%
 
 ItemDisplay[9ts UNI !ID]:%GOLD% %NAME% %CONTINUE%
 ItemDisplay[9ts !ID !ETH MAG CLVL>35]:
 ItemDisplay[9ts !ID !ETH RARE CLVL>55]:
 ItemDisplay[9ts !RW NMAG CLVL>5]:
-ItemDisplay[9ts !ID !RW ETH MAG CLVL>40 ILVL<85]:
-ItemDisplay[9ts !ID !RW ETH RARE CLVL>50 ILVL<85]:
+ItemDisplay[9ts !ID !RW ETH MAG]:%NAME%
+ItemDisplay[9ts !ID !RW ETH RARE]:%NAME%
 
 ItemDisplay[7ts UNI !ID]:%GOLD% Gargoyle's Bite %CONTINUE%
 ItemDisplay[7ts !ID !ETH MAG CLVL>75]:
 ItemDisplay[7ts !ID !ETH RARE CLVL>85]:
 ItemDisplay[7ts !RW NMAG CLVL>5]:
-ItemDisplay[7ts !ID !RW ETH MAG CLVL>85 ILVL<85]:
-ItemDisplay[7ts !ID !RW ETH RARE CLVL>85 ILVL<85]:
+ItemDisplay[7ts !ID !RW ETH MAG]:%NAME%
+ItemDisplay[7ts !ID !RW ETH RARE]:%NAME%
 
 //•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○•○
 //        Process Unique JAVELINS
