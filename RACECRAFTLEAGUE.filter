@@ -264,7 +264,7 @@ ItemDisplay[NMAG SK253=1]:%NAME%%PURPLE% 1PHam%CONTINUE%
 ItemDisplay[NMAG SK273=1]:%NAME%%PURPLE% 1MB%CONTINUE%
 ItemDisplay[NMAG SK276=1]:%NAME%%RED% 1DSent%CONTINUE%
 ItemDisplay[NMAG SK266=1]:%NAME%%WHITE% 1BladFry%CONTINUE%
-ItemDisplay[NMAG SK266=1]:%NAME%%WHITE% 1BladSent%CONTINUE%
+ItemDisplay[NMAG SK257=1]:%NAME%%WHITE% 1BladSent%CONTINUE%
 ItemDisplay[NMAG SK277=1]:%NAME%%WHITE% 1BldShld%CONTINUE%
 ItemDisplay[NMAG SK278=1]:%NAME%%GREEN% 1Venom%CONTINUE%
 ItemDisplay[NMAG SK265=1]:%NAME%%GREEN% 1CobStk%CONTINUE%
@@ -521,14 +521,6 @@ ItemDisplay[NMAG SK106=1]:%NAME%%RED% 1Zeal%CONTINUE%
 ItemDisplay[NMAG SK102=1]:%NAME%%RED% 1HFire%CONTINUE%
 ItemDisplay[SCEPTER NMAG (SK101>0 OR SK121>0 OR SK371>0 OR SK364>0 OR SK125>0 OR SK124>0 OR SK123>0 OR SK122>0 OR SK119>0 OR SK118>0 OR SK117>0 OR SK113>0 OR SK112>0 OR SK111>0 OR SK108>0 OR SK106>0 OR SK102>0)]:%NAME%%DARK_GREEN% ]%CONTINUE%
 
-//ZONSKILLS
-//Zon Bows
-ItemDisplay[NMAG !INF ZON TABSK0=2 CLVL<80]:%NAME% %DARK_GREEN%[%GOLD%2Bow%DARK_GREEN%]%CONTINUE%
-//Zon spear
-ItemDisplay[NMAG !INF ZON TABSK2=3]:%NAME% %DARK_GREEN%[%GOLD%3Jav%DARK_GREEN%]%CONTINUE%
-ItemDisplay[NMAG !INF ELT ZON (SOCK>2 OR SOCK=0) TABSK2=3]:%NAME%
-ItemDisplay[NMAG !INF ZON TABSK2=2 CLVL<80]:%NAME% %DARK_GREEN%[%GOLD%2Jav%DARK_GREEN%]%CONTINUE%
-
 //SORCSKILLS
 //Skills
 ItemDisplay[(STAFF OR CL6) NMAG (SK43>0 OR SK48>0 OR SK49>0 OR SK53>0 OR SK57>0 OR SK58>0 OR SK63>0 OR SK50>0 OR SK64>0 OR SK55>0 OR SK39>0 OR SK40>0 OR SK59>0 OR SK60>0 OR SK65>0 OR SK44>0 OR SK369>0 OR SK36>0 OR SK47>0 OR SK62>0 OR SK56>0 OR SK61>0 OR SK383>0 OR SK376>0)]:%NAME% %DARK_GREEN%[%CONTINUE%
@@ -768,16 +760,16 @@ ItemDisplay[toa]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%> %ORANGE%%NAME% %GOLD%<%BLUE%*
 //Runes
 ItemDisplay[(r01 OR r01s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]%CONTINUE%
 ItemDisplay[(r02 OR r02s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]%CONTINUE%
-ItemDisplay[(r03 OR r03s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]{%BLUE%Hpwr Weapon %NL%%PURPLE%Caster Weapon}%CONTINUE%
+ItemDisplay[(r03 OR r03s)]:%DOT-20%%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]{%BLUE%Hpwr Weapon %NL%%PURPLE%Caster Weapon}%CONTINUE%
 ItemDisplay[(r04 OR r04s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]{%BLUE%Hpwr Chest %GREEN%Saftey Shield%NL%%PURPLE%Caster Helm %RED%Blood Gloves}%CONTINUE%
 ItemDisplay[(r05 OR r05s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]{%BLUE%Hpwr Shield %GREEN%Saftey Chest%NL%%PURPLE%Caster Shield %RED%Blood Boots}%CONTINUE%
 ItemDisplay[(r06 OR r06s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]{%BLUE%Hpwr Helm %GREEN%Saftey Helm%NL%%PURPLE%Caster Belt %RED%Blood Shield}%CONTINUE%
 ItemDisplay[(r07 OR r07s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]{%BLUE%Hpwr Belt %GREEN%Saftey Belt%NL%%PURPLE%Caster Chest %RED%Blood Belt}%CONTINUE%
-ItemDisplay[(r08 OR r08s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]{%BLUE%Hpwr Boots %GREEN%Saftey Gloves%NL%%PURPLE%Caster Amulet %RED%Blood Helm}%CONTINUE%
+ItemDisplay[(r08 OR r08s)]:%DOT-20%%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]{%BLUE%Hpwr Boots %GREEN%Saftey Gloves%NL%%PURPLE%Caster Amulet %RED%Blood Helm}%CONTINUE%
 ItemDisplay[(r09 OR r09s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]{%BLUE%Hpwr Gloves %GREEN%Saftey Boots%NL%%PURPLE%Caster Gloves %RED%Blood Weapon}%CONTINUE%
 ItemDisplay[(r10 OR r10s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]{%BLUE%Hpwr Amulet %GREEN%Saftey Amulet%NL%%PURPLE%Caster Boots %RED%Blood Chest}%CONTINUE%
 ItemDisplay[(r11 OR r11s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]{%BLUE%Hpwr Ring %GREEN%Saftey Ring%NL%%PURPLE%Caster Ring %RED%Blood Amulet}%CONTINUE%
-ItemDisplay[(r12 OR r12s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]{%GREEN%Saftey Weapon%NL%%RED%Blood Ring}%CONTINUE%
+ItemDisplay[(r12 OR r12s)]:%DOT-20%%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]{%GREEN%Saftey Weapon%NL%%RED%Blood Ring}%CONTINUE%
 ItemDisplay[(r13 OR r13s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]%CONTINUE%
 ItemDisplay[(r14 OR r14s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]%CONTINUE%
 ItemDisplay[(r15 OR r15s)]:%ORANGE%%RUNENAME% %DARK_GREEN%[%WHITE%%RUNENUM%%DARK_GREEN%]%CONTINUE%
@@ -804,12 +796,12 @@ ItemDisplay[(gfv OR gfv)]:%DARK_GREEN%flawed%GRAY%[%PURPLE% O %GRAY%]%CONTINUE%
 ItemDisplay[(gsv OR gsv)]:%DARK_GREEN%amethyst%GRAY%[%PURPLE% O %GRAY%]%CONTINUE%
 
 //flawless
-ItemDisplay[(gzv OR gzvs) QTY<2]:%DARK_GREEN%Flawless%GRAY%[%PURPLE% O %GRAY%][%PURPLE% O %GRAY%]%CONTINUE%
+ItemDisplay[(gzv OR gzvs) QTY<2]:%DOT-20%%DARK_GREEN%Flawless%GRAY%[%PURPLE% O %GRAY%][%PURPLE% O %GRAY%]%CONTINUE%
 ItemDisplay[(gzv OR gzvs) QTY>1]:%DARK_GREEN%Flawless %GRAY%[%PURPLE% O %GRAY%][%PURPLE% O %GRAY%]%CONTINUE%
 
 //perf
-ItemDisplay[(gpv OR gpvs) QTY<2]:%DARK_GREEN%perfect%GRAY%[%PURPLE% O %GRAY%][%PURPLE% O %GRAY%][%PURPLE% O %GRAY%]{%TAN%Helm Nef, Boots Thul, Gloves Ort%NL% Belt Ith, Shield Eth, Chest Tal%NL% Amulet Ral, Ring Amn, Weapon Tir%NL%%PURPLE%Caster}
-ItemDisplay[(gpv OR gpvs) QTY>1]:%DARK_GREEN%perfect %GRAY%[%PURPLE% O %GRAY%][%PURPLE% O %GRAY%][%PURPLE% O %GRAY%] %GRAY%x%ORANGE%%QTY%%GRAY%{%TAN%Helm Nef, Boots Thul, Gloves Ort%NL% Belt Ith, Shield Eth, Chest Tal%NL% Amulet Ral, Ring Amn, Weapon Tir%NL%%PURPLE%Caster}
+ItemDisplay[(gpv OR gpvs) QTY<2]:%DOT-20%%DARK_GREEN%perfect%GRAY%[%PURPLE% O %GRAY%][%PURPLE% O %GRAY%][%PURPLE% O %GRAY%]{%TAN%Helm Nef, Boots Thul, Gloves Ort%NL% Belt Ith, Shield Eth, Chest Tal%NL% Amulet Ral, Ring Amn, Weapon Tir%NL%%PURPLE%Caster}
+ItemDisplay[(gpv OR gpvs) QTY>1]:%DOT-20%%DARK_GREEN%perfect %GRAY%[%PURPLE% O %GRAY%][%PURPLE% O %GRAY%][%PURPLE% O %GRAY%] %GRAY%x%ORANGE%%QTY%%GRAY%{%TAN%Helm Nef, Boots Thul, Gloves Ort%NL% Belt Ith, Shield Eth, Chest Tal%NL% Amulet Ral, Ring Amn, Weapon Tir%NL%%PURPLE%Caster}
 
 //Topaz
 //chipped
@@ -874,12 +866,12 @@ ItemDisplay[(gfr OR gfr)]:%DARK_GREEN%flawed%GRAY%[%RED% O %GRAY%]%CONTINUE%
 ItemDisplay[(gsr OR gsr)]:%DARK_GREEN%ruby%GRAY%[%RED% O %GRAY%]%CONTINUE%
 
 //flawless
-ItemDisplay[(glr OR glrs) QTY<2]:%DARK_GREEN%flawless%GRAY%[%RED% O %GRAY%][%RED% O %GRAY%]%CONTINUE%
+ItemDisplay[(glr OR glrs) QTY<2]:%DOT-20%%DARK_GREEN%flawless%GRAY%[%RED% O %GRAY%][%RED% O %GRAY%]%CONTINUE%
 ItemDisplay[(glr OR glrs) QTY>1]:%DARK_GREEN%flawless %GRAY%[%RED% O %GRAY%][%RED% O %GRAY%] %GRAY%x%ORANGE%%QTY%%GRAY%%CONTINUE%
 
 //perf
-ItemDisplay[(gpr OR gprs) QTY<2]:%DARK_GREEN%perfect%GRAY%[%RED% O %GRAY%][%RED% O %GRAY%][%RED% O %GRAY%]{%TAN%Helm Ral, Boots Eth, Gloves Nef%NL%Belt Tal, Shield Ith, Chest Thul%NL%Amulet Amn, Ring Sol, Weap Ort%NL%%RED%Blood}
-ItemDisplay[(gpr OR gprs) QTY>1]:%DARK_GREEN%perfect %GRAY%[%RED% O %GRAY%][%RED% O %GRAY%][%RED% O %GRAY%] %GRAY%x%ORANGE%%QTY%%GRAY%{%TAN%Helm Ral, Boots Eth, Gloves Nef%NL%Belt Tal, Shield Ith, Chest Thul%NL%Amulet Amn, Ring Sol, Weap Ort%NL%%RED%Blood}
+ItemDisplay[(gpr OR gprs) QTY<2]:%DOT-20%%DARK_GREEN%perfect%GRAY%[%RED% O %GRAY%][%RED% O %GRAY%][%RED% O %GRAY%]{%TAN%Helm Ral, Boots Eth, Gloves Nef%NL%Belt Tal, Shield Ith, Chest Thul%NL%Amulet Amn, Ring Sol, Weap Ort%NL%%RED%Blood}
+ItemDisplay[(gpr OR gprs) QTY>1]:%DOT-20%%DARK_GREEN%perfect %GRAY%[%RED% O %GRAY%][%RED% O %GRAY%][%RED% O %GRAY%] %GRAY%x%ORANGE%%QTY%%GRAY%{%TAN%Helm Ral, Boots Eth, Gloves Nef%NL%Belt Tal, Shield Ith, Chest Thul%NL%Amulet Amn, Ring Sol, Weap Ort%NL%%RED%Blood}
 
 // Diamond
 //chipped
