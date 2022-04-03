@@ -11,7 +11,7 @@
 //---------------------------------------------------------------------------------------------------------------------------------------------------
 //Special RACE LEAGE
 ItemDisplay[rvs]:%PURPLE%(%GRAY%juv%PURPLE%)
-
+ItemDisplay[ELT ZON !ID !ETH (MAG OR RARE) CLVL>84]:%NAME%
 
 //GLOBAL HIDE
 ItemDisplay[MAG (BELT OR GLOVES OR BOOTS OR rin) CLVL>90]:
