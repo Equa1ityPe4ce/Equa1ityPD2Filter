@@ -11,7 +11,7 @@
 //---------------------------------------------------------------------------------------------------------------------------------------------------
 //Special RACE LEAGE
 ItemDisplay[rvs]:%PURPLE%(%GRAY%juv%PURPLE%)
-ItemDisplay[ELT ZON !ID !ETH (MAG OR RARE) CLVL>84]:%NAME%
+ItemDisplay[ZON !ID !ETH (MAG OR RARE) CLVL>84]:%NAME%
 
 //GLOBAL HIDE
 // ItemDisplay[MAG !ID (BELT OR GLOVES OR BOOTS OR rin) CLVL>90]:
@@ -3815,15 +3815,15 @@ ItemDisplay[UNI !ID (6lw OR 6sw)]:%BORDER-9B%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED
 ItemDisplay[(6rx OR rxb OR 8rx) !ID !ETH (MAG OR RARE)]:%RED%<%ORANGE%*%RED%> %NAME% %RED%<%ORANGE%*%RED%>
 
 //Normal
-ItemDisplay[NORM XBOW !ID !ETH (MAG OR RARE) CLVL>40 ILVL<85]:
-ItemDisplay[NORM XBOW !ETH (MAG OR RARE) !hxb CLVL>84]:
+ItemDisplay[NORM !ID XBOW !ID !ETH (MAG OR RARE) CLVL>40 ILVL<85]:
+ItemDisplay[NORM !ID XBOW !ETH (MAG OR RARE) !hxb CLVL>84]:
 
 //Exceptional
-ItemDisplay[EXC XBOW !ID !ETH (MAG OR RARE) CLVL>80 ILVL<85]:
-ItemDisplay[EXC XBOW !ID !ETH (MAG OR RARE) !8hx CLVL>84]:
+ItemDisplay[EXC !ID XBOW !ID !ETH (MAG OR RARE) CLVL>80 ILVL<85]:
+ItemDisplay[EXC !ID XBOW !ID !ETH (MAG OR RARE) !8hx CLVL>84]:
 
 //Elite
-ItemDisplay[ELT XBOW !ID !ETH (MAG OR RARE) !6hx CLVL>84]:
+ItemDisplay[ELT !ID XBOW !ID !ETH (MAG OR RARE) !6hx CLVL>84]:
 // ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Light Crossbow, Arbalest, Pellet Bow
