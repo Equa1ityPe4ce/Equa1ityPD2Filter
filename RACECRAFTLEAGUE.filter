@@ -12,8 +12,8 @@
 //Special RACE LEAGE
 ItemDisplay[rvs]:%PURPLE%(%GRAY%juv%PURPLE%)
 ItemDisplay[ZON !ID !ETH (MAG OR RARE) CLVL>84]:%NAME%
-ItemDisplay[jew MAG !ID ILVL<90 CLVL<91]:%DOT-20%%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
-ItemDisplay[jew RARE !ID ILVL<90 CLVL<91]:%DOT-20%%TAN%<%BLUE%*%TAN%> %YELLOW%%NAME% %TAN%<%BLUE%*%TAN%>
+ItemDisplay[jew MAG !ID]:%DOT-20%%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
+ItemDisplay[jew RARE !ID]:%DOT-20%%TAN%<%BLUE%*%TAN%> %YELLOW%%NAME% %TAN%<%BLUE%*%TAN%>
 ItemDisplay[(am5 OR ama OR amf) !ID MAG !ETH CLVL>85]:
 ItemDisplay[(am5 OR ama OR amf) NMAG CLVL>60]:
 
