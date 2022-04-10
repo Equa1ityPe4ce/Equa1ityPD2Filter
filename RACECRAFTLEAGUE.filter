@@ -12,6 +12,10 @@
 //Special RACE LEAGE
 ItemDisplay[rvs]:%PURPLE%(%GRAY%juv%PURPLE%)
 ItemDisplay[ZON !ID !ETH (MAG OR RARE) CLVL>84]:%NAME%
+ItemDisplay[jew MAG !ID ILVL<90 CLVL<91]:%DOT-20%%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
+ItemDisplay[jew RARE !ID ILVL<90 CLVL<91]:%DOT-20%%TAN%<%BLUE%*%TAN%> %YELLOW%%NAME% %TAN%<%BLUE%*%TAN%>
+ItemDisplay[(am5 OR ama OR amf) !ID MAG !ETH CLVL>85]:
+ItemDisplay[(am5 OR ama OR amf) NMAG CLVL>60]:
 
 //GLOBAL HIDE
 // ItemDisplay[MAG !ID (BELT OR GLOVES OR BOOTS OR rin) CLVL>90]:
@@ -3071,7 +3075,7 @@ ItemDisplay[ame NMAG !RW SOCK>1 ED>5]:%DOT-20%%NAME%
 // øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø
 
 //Maiden Javelin, Ceremonial Javelin, Matriarchal Javelin
-ItemDisplay[(am5 OR ama OR amf) MAG !ETH CLVL>85]:
+ItemDisplay[(am5 OR ama OR amf) !ID MAG !ETH CLVL>85]:
 ItemDisplay[(am5 OR ama OR amf) NMAG CLVL>60]:
 
 ItemDisplay[am5 UNI !ID]:%GOLD% True Silver %CONTINUE%
@@ -3611,18 +3615,15 @@ ItemDisplay[UNI ETH !ID (7ga OR 7gi OR 7bt OR 7wa OR 72a OR 7ha OR 9la OR 92a)]:
 ItemDisplay[(6s7 OR 6lw OR lwb OR 8lw OR sbb OR 8s8) !ID !ETH (MAG OR RARE)]:%RED%<%ORANGE%*%RED%> %NAME% %RED%<%ORANGE%*%RED%>
 
 //Normal
-ItemDisplay[NORM BOW !ZON !ID !ETH (MAG OR RARE) CLVL>40 ILVL<85]:
-ItemDisplay[NORM BOW !ZON !ETH (MAG OR RARE) CLVL>84]:
-ItemDisplay[NORM BOW !ZON ETH (MAG OR RARE)]:%WHITE%<%RED%*%WHITE%> %NAME% %WHITE%<%RED%*%WHITE%>
+ItemDisplay[NORM !ID BOW !ZON !ID !ETH (MAG OR RARE) CLVL>40 ILVL<85]:
+ItemDisplay[NORM !ID BOW !ZON !ETH (MAG OR RARE) CLVL>84 ILVL<85]:
 
 //Exceptional
-ItemDisplay[EXC BOW !ZON !ID !ETH (MAG OR RARE) CLVL>80 ILVL<85]:
-ItemDisplay[EXC BOW !ZON !ID !ETH (MAG OR RARE) CLVL>84]:
-ItemDisplay[EXC BOW !ZON !ID ETH (MAG OR RARE)]:%WHITE%<%RED%*%WHITE%> %NAME% %WHITE%<%RED%*%WHITE%>
+ItemDisplay[EXC !ID BOW !ZON !ID !ETH (MAG OR RARE) CLVL>80 ILVL<85]:
+ItemDisplay[EXC !ID BOW !ZON !ETH (MAG OR RARE) CLVL>84 ILVL<85]:
 
 //Elite
-ItemDisplay[ELT BOW !ZON !ID !ETH (MAG OR RARE) CLVL>84]:
-ItemDisplay[ELT BOW !ZON !ID ETH (MAG OR RARE)]:%WHITE%<%RED%*%WHITE%> %NAME% %WHITE%<%RED%*%WHITE%>
+ItemDisplay[ELT !ID BOW !ZON !ID (MAG OR RARE) CLVL>84 ILVL<85]:
 // ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //██████  Normal BOWS ██████
