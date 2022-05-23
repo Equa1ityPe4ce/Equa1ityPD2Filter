@@ -9,11 +9,6 @@
 // Source Control: GitHub
 // Extensions: https://marketplace.visualstudio.com/items?itemName=TommyC90.diablo2-loot-filter-hint (BIG THANKS TO THIS DUDE FOR The GG Linting)
 //---------------------------------------------------------------------------------------------------------------------------------------------------
-//Special RACE LEAGE
-ItemDisplay[rvs]:%PURPLE%(%GRAY%juv%PURPLE%)
-ItemDisplay[ZON !ID !ETH (MAG OR RARE) CLVL>84]:%NAME%
-ItemDisplay[jew MAG !ID]:%DOT-20%%TAN%<%BLUE%*%TAN%> %BLUE%%NAME% %TAN%<%BLUE%*%TAN%>
-ItemDisplay[jew RARE !ID]:%DOT-20%%TAN%<%BLUE%*%TAN%> %YELLOW%%NAME% %TAN%<%BLUE%*%TAN%>
 ItemDisplay[(am5 OR ama OR amf) !ID MAG !ETH CLVL>85]:
 ItemDisplay[(am5 OR ama OR amf) NMAG CLVL>60]:
 
@@ -2719,7 +2714,7 @@ ItemDisplay[dra !RW NMAG SOCK=0 CLVL>5 ED<1]:
 ItemDisplay[dra !RW NMAG SOCK>1 CLVL>80 ED<1]:
 ItemDisplay[dra !RW NMAG (SOCK=0 OR SOCK=3) ED>0]:%NAME%
 
-ItemDisplay[drf UNI !ID]:%GOLD% %NAME% %CONTINUE%
+ItemDisplay[drf UNI !ID]:%GOLD% Ursa's Nightmare %CONTINUE%
 ItemDisplay[drf !ID MAG CLVL>85 ILVL<85]:
 ItemDisplay[drf !ID RARE CLVL>85 ILVL<85]:
 ItemDisplay[drf !RW NMAG SOCK=0 CLVL>5 ED<1]:
