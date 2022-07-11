@@ -9,6 +9,14 @@
 // Source Control: GitHub
 // Extensions: https://marketplace.visualstudio.com/items?itemName=TommyC90.diablo2-loot-filter-hint (BIG THANKS TO THIS DUDE FOR The GG Linting)
 //---------------------------------------------------------------------------------------------------------------------------------------------------
+ItemDisplay[SOR MAG !ID CLVL>85]:
+ItemDisplay[SIN !ETH MAG !ID CLVL>85]:
+ItemDisplay[BAR MAG !ID CLVL>85]:
+ItemDisplay[DIN MAG !ID CLVL>85]:
+ItemDisplay[NEC MAG !ID CLVL>85]:
+ItemDisplay[DRU MAG !ID CLVL>85]:
+ItemDisplay[BOW !(amb OR 6lw OR 8lw OR lwb OR am7 OR amc OR am2) MAG !ID CLVL>85]:
+ItemDisplay[!ID MAG rin CLVL>85]:
 ItemDisplay[(am5 OR ama OR amf) !ID MAG !ETH CLVL>85]:
 ItemDisplay[(am5 OR ama OR amf) NMAG CLVL>60]:
 
@@ -628,7 +636,7 @@ ItemDisplay[(MAG OR RARE) !ID ILVL>90]:%NAME% %GRAY%iLv[%RED%%ILVL%%GRAY%]%CONTI
 // Price
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR CRAFT) ID]:%NAME% %GRAY%(%GOLD%%PRICE%%GRAY%)%CONTINUE%
 
-//ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
+ItemDisplay[CLVL>59 (wms OR yps OR key OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
 //Utilites
 ItemDisplay[tbk]:%BLUE%(%GRAY%TpThome%BLUE%)
 ItemDisplay[ibk]:%RED%(%GRAY%IdThome%RED%)
@@ -749,10 +757,21 @@ ItemDisplay[pk3]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%><%BLUE%*%GOLD%><%BLUE%*%GOLD%>
 ItemDisplay[(dhn OR bey OR mbr)]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%>%ORANGE% ** %NAME% %GRAY%x%DARK_GREEN%%QTY% %ORANGE%** %GOLD%<%BLUE%*%GOLD%>
 
 //Pand Talis
+ItemDisplay[ubtm]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%>%ORANGE% %NAME% %GOLD%<%BLUE%*%GOLD%>
+ItemDisplay[rtma]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%>%ORANGE% Voidstone %GOLD%<%BLUE%*%GOLD%>%ORANGE%{%TAN%accesses Rathma}
+ItemDisplay[rtmv]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%>%ORANGE% Splinter of the Void %GOLD%<%BLUE%*%GOLD%>%ORANGE%{%TAN% Rathma ingredient, from Mendeln map event}
+ItemDisplay[rtmo]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%>%ORANGE% Trang-Oul's Jawbone %GOLD%<%BLUE%*%GOLD%>%ORANGE%{%TAN%Rathma ingredient, from undead}
+ItemDisplay[rtmf]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%>%ORANGE% Ancient Bone Fragments %GOLD%<%BLUE%*%GOLD%>%ORANGE%{%TAN%Trang-Oul's Jawbone ingredient, from undead}
 ItemDisplay[ubtm OR rtma OR rtmv OR rtmo OR rtmf]:%BORDER-62%%GOLD%<%BLUE%*%GOLD%>%ORANGE% %NAME% %GOLD%<%BLUE%*%GOLD%>
 
 //Tokens
 ItemDisplay[toa]: %BORDER-62%%GOLD%<%BLUE%*%GOLD%> %ORANGE%%NAME% %GOLD%<%BLUE%*%GOLD%>
+
+//ancients
+ItemDisplay[ubac]: %DOT-62%%GREEN%<%ORANGE%*%GREEN%> %RED%Sigil of Korlic%TAN%[%ORANGE%T3%TAN%] %GRAY%x%DARK_GREEN%%QTY% %GREEN%<%ORANGE%*%GREEN%>{%TAN%Essence %WHITE%from: %DARK_GREEN%Baal}%CONTINUE%
+ItemDisplay[ubab]: %DOT-62%%GREEN%<%ORANGE%*%GREEN%> %RED%Sigil of Talic%TAN%[%ORANGE%T2%TAN%] %GRAY%x%DARK_GREEN%%QTY% %GREEN%<%ORANGE%*%GREEN%>{%TAN%Essence %WHITE%from: %DARK_GREEN%Baal}%CONTINUE%
+ItemDisplay[ubaa]: %DOT-62%%GREEN%<%ORANGE%*%GREEN%> %RED%Sigil of Madawc%TAN%[%ORANGE%T1%TAN%] %GRAY%x%DARK_GREEN%%QTY% %GREEN%<%ORANGE%*%GREEN%>{%TAN%Essence %WHITE%from: %DARK_GREEN%Baal}%CONTINUE%
+ItemDisplay[uba]: %DOT-62%%GREEN%<%ORANGE%*%GREEN%> %RED%Relic Of Ancients%TAN% %GRAY%x%DARK_GREEN%%QTY% %GREEN%<%ORANGE%*%GREEN%>{%TAN%Essence %WHITE%from: %DARK_GREEN%Baal}%CONTINUE%
 
 // """
 // Index(4)
@@ -1994,7 +2013,7 @@ ItemDisplay[tow !ID RARE CLVL>35 ILVL<85]:
 ItemDisplay[tow !RW NMAG CLVL>25]:
 
 //Pavise
-ItemDisplay[xsh UNI !ID]:%GOLD% Gerke's Sanctuary %CONTINUE%
+ItemDisplay[xow UNI !ID]:%GOLD% Gerke's Sanctuary %CONTINUE%
 ItemDisplay[xow !ID MAG CLVL>45]:
 ItemDisplay[xow !ID RARE CLVL>65 ILVL<85]:
 ItemDisplay[xow !RW NMAG SOCK=0 CLVL>25]:
@@ -2017,7 +2036,7 @@ ItemDisplay[bsh !RW NMAG CLVL>25 !SOCK=2]:
 ItemDisplay[bsh !RW NMAG CLVL>35 SOCK=2]:
 
 //Grim Shield
-ItemDisplay[xow UNI !ID]:%GOLD% Lidless Wall %CONTINUE%
+ItemDisplay[xsh UNI !ID]:%GOLD% Lidless Wall %CONTINUE%
 ItemDisplay[xsh !ID MAG CLVL>65]:
 ItemDisplay[xsh !ID RARE]:%NAME%
 ItemDisplay[xsh !RW NMAG SOCK=0 CLVL>25]:
@@ -5222,7 +5241,7 @@ ItemDisplay[UNI !ID (urn OR urn OR cm2 OR usk OR uhm OR uhl OR ulm OR uap OR xh9
 ItemDisplay[UNI !ID CLVL<80 (hla OR stu OR rng OR scl OR brs OR chn OR spl OR ltp OR fld OR plt OR gth OR ful OR aar OR xui OR xla OR xtu OR xng OR xcl)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
 
 //Mid Uniquess
-ItemDisplay[UNI !ID (qui OR lea OR upl OR utu OR uui OR xpl OR xtp OR xth OR xul OR xar OR xtp)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
+ItemDisplay[UNI !ID (ltp OR qui OR lea OR upl OR utu OR uui OR xpl OR xtp OR xth OR xul OR xar OR xtp)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
 
 //High Uniques
 ItemDisplay[UNI !ID (uar OR uth OR ult OR uld OR utp OR uhn OR uea OR ula OR ung OR ucl OR urs OR xld OR xlt OR xea)]:%BORDER-9B%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%> %ORANGE%*+* %GOLD%%NAME% %ORANGE%*+* %RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>
@@ -5380,7 +5399,7 @@ ItemDisplay[UNI !ID (obf)]:%BORDER-9B%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PUR
 ItemDisplay[UNI !ID CLVL<80 (ktr OR wrb OR 9ha OR ces OR clw OR btl OR skr OR 9wb OR 9xf OR 9cs OR 9lw)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
 
 //Mid UniquessE
-ItemDisplay[UNI !ID (wsd OR 7cs OR 7lw)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
+ItemDisplay[UNI !ID (7cs OR 7lw)]:%BORDER-0E%%GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> %GOLD%%NAME% %GREEN%<%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%> <%ORANGE%*%GREEN%>
 
 //High Uniques
 ItemDisplay[UNI !ID (7qr)]:%BORDER-9B%%RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%> %ORANGE%*+* %GOLD%%NAME% %ORANGE%*+* %RED%<%PURPLE%*%RED%><%PURPLE%*%RED%><%PURPLE%*%RED%>
