@@ -1,4 +1,4 @@
-
+//https://api.github.com/repos/PritchardJasonR/Equa1ityPD2Filter/contents
 ItemDisplay[NMAG (SK229>0 AND SK234>0 OR SK249>0) (SOCK=0 OR SOCK=3)]:%ORANGE%<< %PURPLE%* %ORANGE%>>  %ORANGE%<< %PURPLE%* %ORANGE%>> %GREEN%DOG BASE %ORANGE%<< %PURPLE%* %ORANGE%>>  %ORANGE%<< %PURPLE%* %ORANGE%>>
 //ItemDisplay[NMAG 7wa ETH SOCK=5]:%NAME%
 // Equa1ity's PD2 Loot filter  v4.0
@@ -631,10 +631,10 @@ ItemDisplay[CLVL>80 GOLD<5000]:
 ItemDisplay[NMAG INF]:
 
 //Dark mode engage
-// ItemDisplay[NMAG SOCK=0 !ID]:%WHITE%(%GRAY%%NAME% %WHITE%)%CONTINUE%
-// ItemDisplay[MAG !(rin OR amu OR jew OR cm3 OR cm1) !ID]:%BLUE%(%GRAY%%NAME% %BLUE%)%CONTINUE%
-// ItemDisplay[RARE !(rin OR amu OR jew) !ID]:%YELLOW%(%GRAY%%NAME% %YELLOW%)%CONTINUE%
-// ItemDisplay[NMAG SOCK>0]:%DARK_GREEN%(%GRAY%%NAME% %DARK_GREEN%)%CONTINUE%
+ItemDisplay[NMAG SOCK=0 !ID]:%WHITE%(%GRAY%%NAME% %WHITE%)%CONTINUE%
+ItemDisplay[MAG !(rin OR amu OR jew OR cm3 OR cm1) !ID]:%BLUE%(%GRAY%%NAME% %BLUE%)%CONTINUE%
+ItemDisplay[RARE !(rin OR amu OR jew) !ID]:%YELLOW%(%GRAY%%NAME% %YELLOW%)%CONTINUE%
+ItemDisplay[NMAG SOCK>0]:%DARK_GREEN%(%GRAY%%NAME% %DARK_GREEN%)%CONTINUE%
 
 //Dynamic ILVL for mag and rares
 ItemDisplay[(MAG OR RARE) !ID ILVL<85]:%NAME% %GRAY%iLv[%ILVL%%GRAY%]%CONTINUE%
@@ -949,10 +949,6 @@ ItemDisplay[GEMTYPE=7 GEM=5]:%NAME%{%TAN%Amulet Dol, Ring Hel, Weapon Shael%NL%C
 // INDEX (6)
 // POTIONS
 // """
-//healing
-ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR hp5)]:
-//MANA
-ItemDisplay[(mp1 OR mp2 OR mp3 OR mp4 OR mp5)]:
 //Juvs
 ItemDisplay[rvl]:%PURPLE%Full%GRAY%Juv
 ItemDisplay[rvs CLVL<85]:%PURPLE%(%GRAY%juv%PURPLE%)
