@@ -3,5 +3,4 @@ Season 5 v2
 - this is also a test
 - `and so is` this
 - **bold**
-- _italic_
 ### word up
